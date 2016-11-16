@@ -40,13 +40,10 @@ img {max-width: 100%;}
 .main-area .image-link, .main-area .image-link:hover {border: none;}
 .main-area .image-link img {position: relative; transition: all 0.2s ease-in-out; bottom: 0;}
 .main-area .image-link:hover img {bottom: .3rem;}
-.main-area .button {display: inline-block; transition: none; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; padding-bottom: 1.1rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; font-weight: bold; text-shadow: 1px 1px 0 #983b35;}
+.main-area .button {display: inline-block; transition: none; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; padding-bottom: 1.1rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35;}
 .main-area .button:hover {color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
-.main-area .button i {margin-right: 1.5rem; min-width: 3rem;}
-.main-area .contact-info {margin-left: 5rem;}
-.main-area .contact-info li {margin-bottom: 2rem;}
-.main-area .contact-info i {margin-top: 0.3rem; margin-left: -0.5rem;}
+.main-area .button-arrow {margin-left: 1rem;}
 
 /* Columns */
 .multi-layout {display: flex;}
@@ -55,9 +52,14 @@ img {max-width: 100%;}
 .col-2 {padding-left: 1.5rem;}
 
 /* Projects */
-.project {margin: 3rem auto 5rem;}
+.project {margin: 3rem auto 7rem;}
 .project .project-header {margin-bottom: 1.5rem;}
 .project .project-brief {font-size: 2rem; margin-bottom: 2.5rem;}
+
+/* Contact */
+.main-area .contact-info {margin-left: 5rem;}
+.main-area .contact-info li {margin-bottom: 2rem;}
+.main-area .contact-info i {margin-top: 0.3rem; margin-left: -0.5rem;}
 
 /* Smaller screens */
 @media (max-width: 35.5em) {
