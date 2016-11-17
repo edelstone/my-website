@@ -5,7 +5,7 @@
 html {font-size: 62.5%; line-height: 1.25; font-family: 'Neuton', serif; font-weight: normal;}
 img {max-width: 100%;}
 .full-width {width: 100%;}
-.banner, .header, .button, .main-area h2, .project-header, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
+.banner, .header, .button, .main-area h2, .project-header, .project-link, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .constrain {max-width: 72rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
 .banner {font-size: 1.4rem; text-transform: uppercase; letter-spacing: 1px; text-align: right;}
@@ -40,12 +40,12 @@ img {max-width: 100%;}
 .main-area .image-link, .main-area .image-link:hover {border: none;}
 .main-area .image-link img {position: relative; transition: all 0.2s ease-in-out; bottom: 0;}
 .main-area .image-link:hover img {bottom: .3rem;}
-.main-area .button {display: inline-block; transition: none; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; padding-bottom: 1.1rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35;}
+.main-area .button {display: inline-block; transition: none; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; padding-bottom: 1.1rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
 .main-area .button:hover {color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
 .main-area .button-arrow {margin-left: 1rem; position: relative; left: 0;}
 /* .main-area .button:hover .button-arrow {animation: shimmy 2s .15s;} */
-.main-area hr {margin: 0; margin-top: -0.8rem; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
+.main-area hr {margin: -0.8rem 0 5rem 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
 
 /* Columns */
 .multi-layout {display: flex;}
@@ -57,6 +57,7 @@ img {max-width: 100%;}
 .project {margin: 3rem auto 7rem;}
 .project .project-header {margin-bottom: 1.5rem;}
 .project .project-brief {font-size: 2rem; margin-bottom: 2.5rem;}
+.project .project-link {font-size: 1.6rem;}
 
 /* Contact */
 .main-area .contact-info {margin-left: 5rem;}
