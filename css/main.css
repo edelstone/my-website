@@ -91,7 +91,6 @@ img {max-width: 100%;}
 	.footer-content {padding-bottom: 2.5rem;}
 	.footer .load-time {margin-bottom: 2rem;}
 	.footer-message span {display: block; margin: auto;}
-	.footer .fa-stack {height: 4.5rem; line-height: 4.8rem;}
 }
 @media (max-width: 20em) {
 	html {font-size: 48.5%;}
