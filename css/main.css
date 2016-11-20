@@ -89,9 +89,10 @@ img {max-width: 100%;}
 	.col-1 {padding: 0; margin-bottom: 2rem;}
 	.col-2 {padding: 0;}
 	.footer-content {padding-bottom: 2.5rem;}
-	.footer .load-time {margin-bottom: 2rem;}
-	.footer-message span {display: block; margin: auto;}
+	.footer .view-github {display: block;}
+	.footer .fa-stack {width: 2.5rem; margin-left: 0.8rem;}
 }
+
 @media (max-width: 20em) {
 	html {font-size: 48.5%;}
 }
