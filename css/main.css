@@ -2,17 +2,23 @@
 *, *:before, *:after {box-sizing: border-box;}
 ::selection {background: #f4ccc9;}
 ::-moz-selection {background: #f4ccc9;}
-html {font-size: 62.5%; line-height: 1.25; font-family: 'Neuton', serif; font-weight: normal; height: 100%;}
-body {min-height: 100%; display: flex; flex-direction: column;}
+html {font-size: 62.5%; line-height: 1.25; font-family: 'Neuton', serif; font-weight: normal; height: 100%; background: #e9e7e8;}
+body {min-height: 100%; display: flex; flex-direction: column; background: #fff;}
 img {max-width: 100%;}
 .full-width {width: 100%;}
 .signature, .intro, .footer, .button, .main-area h2, .portfolio-header, .project-header, .project-link, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .constrain {max-width: 72rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
-.signature {font-size: 1.4rem; text-transform: uppercase; letter-spacing: 1px; text-align: right;}
+.signature {font-size: 1.4rem; text-transform: uppercase; text-align: right; letter-spacing: 1px;}
 .signature a {background: #220b17; color: #d7d5d5; text-decoration: none; display: block; padding: 1rem 0; transition: all 0.2s ease-in-out; box-shadow: 0 -1.8rem #1b0912 inset; border-bottom: 1px solid #000;}
 .signature a:hover {background: #7f2a4d; color: #fff; box-shadow: 0 -1.8rem #722645 inset; border-bottom: 1px solid #1b0912;}
-.signature a span {display: block;}
+.signature .my-name {display: block;}
+.sig-letter {-moz-transform: translateZ(0); display: inline-block; position: relative; bottom: 0; transition: background 0.2s ease-in-out, transform 0.08s ease-in, bottom 0.08s ease-in; border-radius: 1px;}
+.signature a:hover .sig-letter {background: #722645;}
+.signature a:hover .sig-letter:nth-child(4n+1) {transform: rotate(-10deg);}
+.signature a:hover .sig-letter:nth-child(4n+2) {bottom: 0.2rem;}
+.signature a:hover .sig-letter:nth-child(4n+3) {transform: rotate(10deg);}
+.signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}	
 .intro {background-image: url(../images/droplets-bw.jpg); background-size: cover; background-position: 50% 30%;}
 .intro-wrapper {background: rgba(64,33,37,0.9); color: #fff; box-shadow: 0 0.4rem #d9554c, 0 0.8rem #c34d44;}
 .intro-content {padding-top: 1.5rem; padding-bottom: 2rem; }
@@ -26,26 +32,16 @@ img {max-width: 100%;}
 .main-area a, .footer a {transition: all 0.2s ease-in-out; color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
 .main-area a:hover, .footer a:hover {color: #c34d44;}
 .main-area p, .main-area ul {margin-top: 0; margin-bottom: 2rem;}
-.main-area ol ul {margin-bottom: 3rem; margin-top: 1.2rem;}
-.main-area ul ul {margin-top: 1.2rem; margin-bottom: 2rem; list-style-type: disc;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.8rem; padding-left: 0;}
 .main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 1.8rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.5rem;}
 .main-area h3 {margin: 0; margin-bottom: 1rem; font-weight: bold; font-size: 2.2rem;}
 .main-area hr {margin: -0.8rem 0 5rem 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
 .main-area .sub-header {margin-top: 0;}
-.main-area figure {margin: 0;}
-.main-area figcaption {text-align: center; font-family: 'Montserrat', sans-serif; font-size: 1.4rem; font-weight: bold; margin-top: 0rem;}
-.main-area aside {position: relative; border-radius: 0.2rem; border: 3px solid #402125; width: 22rem; margin: 0.8rem 3rem 1.5rem 0; float: left;}
-.main-area .photo-credit {color: #fff; font-size: 1rem; position: absolute; bottom: 0; margin: 0; background: rgba(34,11,23,0.25); padding: 0.5rem; padding-bottom: 0.4rem; width: 100%;}
-.main-area aside a {background: none; color: #fff; transition: none;}
-.main-area aside a:hover {color: #fff; animation: none; text-decoration: underline; border: none;}
-.main-area .image-link, .main-area .image-link:hover {border: none;}
-.main-area .image-link img {position: relative; transition: all 0.2s ease-in-out; bottom: 0;}
-.main-area .image-link:hover img {bottom: .3rem;}
+.main-area .portrait {position: relative; border-radius: 0.2rem; border: 3px solid #402125; width: 22rem; margin: 0.8rem 3rem 1.5rem 0; float: left;}
 .main-area .button {display: inline-block; transition: none; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; padding-bottom: 1.1rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
 .main-area .button:hover {color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
-.main-area .button-arrow {margin-left: 1rem; position: relative; left: 0;}
+.main-area .button-arrow {margin-left: 1rem;}
 .footer {margin-top: auto; background: #e9e7e8; border-top: 1px solid #d7d5d5;}
 .footer a {background: linear-gradient(to bottom, transparent 0, transparent 83%, #999 83%, #999 100%);}
 .footer-content {padding-top: 2.2rem; padding-bottom: 1.2rem; text-align: center; font-size: 1.4rem;}
@@ -53,7 +49,7 @@ img {max-width: 100%;}
 .footer-divider .fa-globe {color: #146da9;}
 .footer-divider .fa-circle {color: #75bd59;}
 .footer-divider .fa-circle-2 {color: #0c4165; font-size: 105%;}
-.load-time {height: 1.8rem;}
+.load-time {min-height: 1.7rem;}
 
 /* Columns */
 .multi-layout {display: flex;}
@@ -75,7 +71,8 @@ img {max-width: 100%;}
 /* Contact */
 .main-area .contact-info {margin-left: 5rem;}
 .main-area .contact-info li {margin-bottom: 2rem;}
-.main-area .contact-info i {margin-top: 0.3rem; margin-left: -0.5rem;}
+.main-area .contact-info i {margin-top: 0.3rem; margin-left: -0.5rem; color: #d9554c;}
+.main-area .contact-info .fa-li {text-shadow: 1px 1px #e9e7e8, 2px 2px #e9e7e8, 3px 3px #e9e7e8, 4px 4px #e9e7e8;}
 
 /* Animations */
 @keyframes spin {
@@ -86,7 +83,6 @@ img {max-width: 100%;}
 /* Smaller screens */
 @media (max-width: 35.5em) {
 	html {font-size: 58.5%;}
-	.body-content {min-height: calc(100vh - 14rem);}
 	.signature {font-size: 1.3rem; text-align: left;}
 	.signature a {padding-top: 1.2rem;}
 	.intro {background-image: none;}
@@ -97,7 +93,7 @@ img {max-width: 100%;}
 	.main-area-content {padding-top: 3rem;}
 	.main-area ul, .main-area ol {padding-left: 2rem;}
 	.main-area .contact-info {margin-left: 2.5rem;}
-	.main-area aside {float: none; width: 100%;}
+	.main-area .portrait {float: none; width: 100%;}
 	.multi-layout {display: block;}
 	.col {width: 100%;}
 	.col-1 {padding: 0; margin-bottom: 2rem;}
@@ -111,8 +107,3 @@ img {max-width: 100%;}
 @media (max-width: 20em) {
 	html {font-size: 48.5%;}
 }
-
-/* Still playing with this stuff *//
-.title-area-2 {background-color: #d9554c; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 1px solid #1b0912; border-bottom: 1px solid #983b35;}
-.title-area-content-2 {padding-top: 0.5rem; padding-bottom: 1rem;}
-.title-area-2 .portfolio-header {color: #fff; text-shadow: 2px 1px 0px #983b35; display: inline-block; background: #d9554c; border: 5px solid #c34d44; padding: 0.5rem 1rem;}
