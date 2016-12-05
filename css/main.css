@@ -18,7 +18,7 @@ img {max-width: 100%;}
 .signature a:hover .sig-letter:nth-child(4n+1) {transform: rotate(-10deg);}
 .signature a:hover .sig-letter:nth-child(4n+2) {bottom: 0.2rem;}
 .signature a:hover .sig-letter:nth-child(4n+3) {transform: rotate(10deg);}
-.signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}	
+.signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}
 .intro {background-image: url(../images/droplets-bw.jpg); background-size: cover; background-position: 50% 30%;}
 .intro-wrapper {background: rgba(64,33,37,0.9); color: #fff; box-shadow: 0 0.4rem #d9554c, 0 0.8rem #c34d44;}
 .intro-content {padding-top: 1.5rem; padding-bottom: 2rem; }
@@ -29,7 +29,7 @@ img {max-width: 100%;}
 .intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d7d5d5;}
 .main-area-content {padding-top: 5rem; padding-bottom: 2rem; font-size: 2.8rem;}
 .main-area .content-section {margin-bottom: 4.2rem;}
-.main-area a, .footer a {transition: all 0.2s ease-in-out; color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
+.main-area a, .footer a {transition: all 0.2s ease-in-out; color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 99%, #d9554c 99%, #d9554c 100%); text-decoration: none;}
 .main-area a:hover, .footer a:hover {color: #c34d44;}
 .main-area p, .main-area ul {margin-top: 0; margin-bottom: 2rem;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.8rem; padding-left: 0;}
@@ -43,13 +43,13 @@ img {max-width: 100%;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
 .main-area .button-arrow {margin-left: 1rem;}
 .footer {margin-top: auto; background: #e9e7e8; border-top: 1px solid #d7d5d5;}
-.footer a {background: linear-gradient(to bottom, transparent 0, transparent 83%, #999 83%, #999 100%);}
+.footer a {background: linear-gradient(to bottom, transparent 0, transparent 83%, #999 83%, #999 98%, #222 98%, #222 100%);}
 .footer-content {padding-top: 2.2rem; padding-bottom: 1.2rem; text-align: center; font-size: 1.4rem;}
 .footer-divider {font-size: 2rem; display: inline-block; animation: spin 30s linear infinite;}
 .footer-divider .fa-globe {color: #146da9;}
 .footer-divider .fa-circle {color: #75bd59;}
 .footer-divider .fa-circle-2 {color: #0c4165; font-size: 105%;}
-.load-time {min-height: 1.7rem;}
+.footer .load-time {min-height: 1.7rem;}
 
 /* Columns */
 .multi-layout {display: flex;}
@@ -85,10 +85,9 @@ img {max-width: 100%;}
 	html {font-size: 58.5%;}
 	.signature {font-size: 1.3rem; text-align: left;}
 	.signature a {padding-top: 1.2rem;}
-	.intro {background-image: none;}
 	.intro-wrapper {background: rgba(64,33,37,1);}
 	.intro h1 {font-size: 4.8rem;}
-	.intro nav {margin-left: -0.8em;}
+	.intro nav {margin-left: -0.8rem;}
 	.intro nav a {margin-right: 0.5rem; padding: 0.4rem 0.8rem; font-size: 1.3rem;}
 	.main-area-content {padding-top: 3rem;}
 	.main-area ul, .main-area ol {padding-left: 2rem;}
