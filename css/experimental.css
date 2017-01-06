@@ -4,6 +4,7 @@
 .title-area-2 .portfolio-header {color: #fff; text-shadow: 2px 1px 0px #983b35; display: inline-block; background: #d9554c; border: 5px solid #c34d44; padding: 0.5rem 1rem;}
 
 /* Retired */
+.main-area a, .footer a {transition: all 0.2s ease-in-out; color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 99%, #d9554c 99%, #d9554c 100%); text-decoration: none;}
 .main-area ul ul {margin-top: 1.2rem; margin-bottom: 2rem; list-style-type: disc;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.8rem; padding-left: 0;}
 .main-area figure {margin: 0;}
