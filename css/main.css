@@ -46,7 +46,7 @@ img {max-width: 100%;}
 .main-area .button:hover {color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
 .main-area .button-arrow {margin-left: 1rem;}
-.main-area .text-only h2 {margin-top: 3.5rem; margin-bottom: 1.2rem;}
+.main-area .text-only h2 {margin-top: 3.5rem;}
 .main-area .text-only h3 {margin-top: 3rem;}
 .footer {margin-top: auto; background: #e9e7e8; border-top: 1px solid #d7d5d5;}
 .footer a {background: linear-gradient(to bottom, transparent 0, transparent 83%, #999 83%, #999 100%);}
