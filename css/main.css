@@ -6,7 +6,7 @@ html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-wei
 body {min-height: 100%; display: flex; flex-direction: column; background: #fff;}
 img {max-width: 100%;}
 .full-width {width: 100%;}
-.signature, .intro, .footer, .button, .main-area h2, .text-extended h3, .text-extended h4, .portfolio-header, .project-header, .project-link, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
+.signature, .intro, .footer, .button, h1, h2, h3, h4, .project-link, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .constrain {max-width: 72rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
 .signature {font-size: 1.4rem; text-transform: uppercase; text-align: right; letter-spacing: 1px;}
@@ -27,16 +27,17 @@ img {max-width: 100%;}
 .intro nav a {color: #d7d5d5; margin-right: 1.5rem; font-size: 1.4rem; text-decoration: none; border-radius: 20px; padding: 0.6rem 1.2rem; display: inline-block;}
 .intro nav a:hover {background: #53373b; color: #fff;}
 .intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d7d5d5;}
-.main-area-content {padding-top: 4.5rem; padding-bottom: 2rem; font-size: 2.8rem;}
-.main-area-content.text-only {padding-top: 3rem;}
-.main-area .content-section {margin-bottom: 4.2rem;}
+.main-area-content {padding-top: 4.5rem; padding-bottom: 2rem; font-size: 2.2rem;}
+.main-area-content.text-only {padding-top: 1rem;}
+.main-area-content.feature-text {font-size: 2.8rem;}
+.main-area .content-section {margin-bottom: 4rem;}
 .main-area a, .footer a {color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
 .main-area a:hover, .footer a:hover {color: #c34d44;}
 .main-area p, .main-area ul {margin-top: 0; margin-bottom: 1.4rem;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.5rem; padding-left: 0;}
-.main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 1.8rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.2rem;}
+.main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.2rem;}
 .main-area h3 {margin: 0; margin-bottom: 1rem; font-weight: bold; font-size: 2.2rem;}
-.main-area h4 {font-size: 1.8rem; margin-top: -0.5rem; margin-bottom: 1.5rem;}
+.main-area h4 {font-size: 1.8rem; margin-top: -0.8rem; margin-bottom: 1.5rem;}
 .main-area hr {margin: -0.8rem 0 5rem 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
 .main-area .sub-header {margin-top: 0;}
 .main-area .portrait {position: relative; border-radius: 0.2rem; border: 3px solid #402125; width: 22rem; margin: 1rem 3rem 1.5rem 0; float: left;}
@@ -45,13 +46,11 @@ img {max-width: 100%;}
 .main-area .button:hover {color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
 .main-area .button-arrow {margin-left: 1rem;}
-.main-area .text-intro {margin-top: 2rem; margin-bottom: 4rem;}
-.main-area .text-extended p {font-size: 2.2rem;}
-.main-area .text-extended h2 {margin-top: 4rem; margin-bottom: 1.8rem;}
-.main-area .text-extended h3 {margin-top: 3rem;}
+.main-area .text-only h2 {margin-top: 3.5rem; margin-bottom: 1.2rem;}
+.main-area .text-only h3 {margin-top: 3rem;}
 .footer {margin-top: auto; background: #e9e7e8; border-top: 1px solid #d7d5d5;}
 .footer a {background: linear-gradient(to bottom, transparent 0, transparent 83%, #999 83%, #999 100%);}
-.footer-content {padding-top: 2.2rem; padding-bottom: 1.2rem; text-align: center; font-size: 1.4rem;}
+.footer-content {padding-top: 2.2rem; padding-bottom: 1.5rem; text-align: center; font-size: 1.4rem;}
 .footer-divider {font-size: 2rem; display: inline-block; animation: spin 30s linear infinite;}
 .footer-divider .fa-globe {color: #146da9;}
 .footer-divider .fa-circle {color: #75bd59;}
@@ -104,7 +103,7 @@ img {max-width: 100%;}
 	.col {width: 100%;}
 	.col-1 {padding: 0; margin-bottom: 2rem;}
 	.col-2 {padding: 0;}
-	.footer-content {padding-bottom: 2.5rem;}
+	.footer-content {padding-bottom: 3rem;}
 	.footer .view-github {display: block;}
 	.footer-divider {margin-left: 0.8rem;}
 	.footer .fa-stack {width: 2.5rem;}
