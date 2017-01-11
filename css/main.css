@@ -7,7 +7,7 @@ body {min-height: 100%; display: flex; flex-direction: column; background: #fff;
 img {max-width: 100%;}
 .full-width {width: 100%;}
 .signature, .intro, .footer, .button, h1, h2, h3, h4, .project-link, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
-.constrain {max-width: 72rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
+.constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
 .signature {font-size: 1.4rem; text-transform: uppercase; text-align: right; letter-spacing: 1px;}
 .signature a {background: #220b17; color: #d7d5d5; text-decoration: none; display: block; padding: 0.9rem 0; transition: all 0.2s ease-in-out; box-shadow: 0 -1.8rem #220b17 inset; border-bottom: 1px solid #000;}
