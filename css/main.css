@@ -29,7 +29,7 @@ img {max-width: 100%;}
 .intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d7d5d5;}
 .main-area-content {padding-top: 4.5rem; padding-bottom: 2rem; font-size: 2.2rem;}
 .main-area-content.text-only {padding-top: 1rem;}
-.main-area-content.feature-text {font-size: 2.8rem;}
+.main-area-content.feature-text {font-size: 2.8rem; line-height: 1.375;}
 .main-area .content-section {margin-bottom: 4rem;}
 .main-area a, .footer a {color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
 .main-area a:hover, .footer a:hover {color: #c34d44;}
