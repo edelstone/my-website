@@ -56,7 +56,7 @@ img {max-width: 100%;}
 .footer-divider .fa-globe {color: #146da9;}
 .footer-divider .fa-circle {color: #75bd59;}
 .footer-divider .fa-circle-2 {color: #0c4165; font-size: 105%;}
-.footer .load-time {min-height: 1.7rem;}
+.footer .load-time {min-height: 2rem;}
 
 /* Columns */
 .multi-layout {display: flex;}
@@ -76,10 +76,9 @@ img {max-width: 100%;}
     text-transform: uppercase; letter-spacing: 1px;}
 
 /* Contact */
-.main-area .contact-info {margin-left: 5rem;}
+.main-area .contact-info {margin-left: 4.5rem;}
 .main-area .contact-info li {margin-bottom: 1.5rem;}
-.main-area .contact-info i {margin-top: 0.3rem; margin-left: -0.5rem; color: #d9554c;}
-.main-area .contact-info .fa-li {text-shadow: 1px 1px #e9e7e8, 2px 2px #e9e7e8, 3px 3px #e9e7e8, 4px 4px #e9e7e8;}
+.main-area .contact-info i {margin-top: 0.3rem; color: #d9554c;}
 
 /* Animations */
 @keyframes spin {
