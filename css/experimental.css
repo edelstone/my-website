@@ -13,3 +13,5 @@
 .main-area .photo-credit {color: #fff; font-size: 1rem; position: absolute; bottom: 0; margin: 0; background: rgba(34,11,23,0.25); padding: 0.5rem; padding-bottom: 0.4rem; width: 100%;}
 .main-area aside a {background: none; color: #fff; transition: none;}
 .main-area aside a:hover {color: #fff; animation: none; text-decoration: underline; border: none;}
+
+.signature a {background: #220b17; color: #d7d5d5; text-decoration: none; display: block; padding: 0.9rem 0; transition: all 0.2s ease-in-out; box-shadow: 0 -1.8rem #1b0912 inset; border-bottom: 1px solid #000;}
