@@ -6,7 +6,7 @@ html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-wei
 body {min-height: 100%; display: flex; flex-direction: column; background: #fff;}
 img {max-width: 100%;}
 .full-width {width: 100%;}
-.signature, .intro, .footer, .button, h1, h2, h3, h4, .project-link, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
+.signature, .intro, .footer, .button, h1, h2, h3, h4, .button-light, .tags, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
 .signature {font-size: 1.4rem; text-transform: uppercase; text-align: right; letter-spacing: 1px;}
@@ -21,9 +21,9 @@ img {max-width: 100%;}
 .signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}
 .intro {background-image: url(../images/droplets-bw.jpg); background-size: cover; background-position: 50% 30%;}
 .intro-wrapper {background: rgba(64,33,37,0.9); color: #fff; box-shadow: 0 0.4rem #d9554c, 0 0.8rem #c34d44;}
-.intro-content {padding-top: 1.5rem; padding-bottom: 2.5rem; }
-.intro h1 {font-size: 6.4rem; font-weight: bold; text-shadow: .4rem .4rem #220b17; position: relative; left: 0; margin: 0;}
-.intro nav {margin-top: 0.4rem; margin-left: -1rem;}
+.intro-content {padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.intro h1 {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
+.intro nav {margin-top: 1.2rem; margin-left: -1.1rem;}
 .intro nav a {color: #d7d5d5; margin-right: 1.5rem; font-size: 1.4rem; text-decoration: none; border-radius: 20px; padding: 0.6rem 1.2rem; display: inline-block;}
 .intro nav a:hover {background: #53373b; color: #fff;}
 .intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d7d5d5;}
@@ -46,6 +46,7 @@ img {max-width: 100%;}
 .main-area .button:hover {background: #d9554c; color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
 .main-area .button-arrow {margin-left: 1rem;}
+.main-area .button-light {font-size: 1.6rem;}
 .main-area .text-only h2 {margin-top: 3.5rem;}
 .main-area .text-only h3 {margin-top: 3rem;}
 .footer {background: #220b17; border-top: 1px solid #000; margin-top: auto;}
@@ -68,12 +69,14 @@ img {max-width: 100%;}
 .project {margin: 3rem auto 7.5rem;}
 .project .project-header {margin-bottom: 1.3rem;}
 .project .project-brief {font-size: 2rem; margin-bottom: 2.3rem;}
-.project .project-link {font-size: 1.6rem;}
-.title-area {background: #d9554c url(../images/txst-homepage-banner.png); background-size: cover; background-position: 50%;}
+.title-area {background-color: #d9554c; background-size: cover; background-position: 50%;}
+.title-area-1 {background-image: url(../images/txst-homepage-banner.png);}
 .title-area-wrapper {background-color: rgba(217,85,76,0.9); box-shadow: 0 0.4rem #c34d44;}
 .title-area-content {padding-top: 5rem; padding-bottom: 5rem;}
 .title-area .portfolio-header {font-size: 2.8rem; margin: 0; color: #fff; text-shadow: 2px 2px 0px #983b35; font-weight: bold; display: inline-block;
     text-transform: uppercase; letter-spacing: 1px;}
+.main-area .tags li {display: inline-block; font-size: 1.2rem; border: 2px solid #f4ccc9; color: #c34d44; padding: 0.5rem 0.8rem; margin-right: 0.2rem; border-radius: 1px;}
+.main-area .tags {margin-top: -1rem; padding: 0; list-style-type: none;}
 
 /* Contact */
 .main-area .contact-info {margin-left: 4.5rem;}
@@ -103,12 +106,13 @@ img {max-width: 100%;}
 	.col {width: 100%;}
 	.col-1 {padding: 0; margin-bottom: 2rem;}
 	.col-2 {padding: 0;}
-	.footer-content {padding-bottom: 4rem;}
-	.footer .view-github {display: block;}
+	.footer-content {padding-bottom: 4.5rem;}
+	.footer .view-github {display: block; margin-top: 0.5rem;}
 	.footer-divider {margin-left: 0.8rem;}
 	.footer .fa-stack {width: 2.5rem;}
 }
 
 @media (max-width: 20em) {
 	html {font-size: 48.5%;}
+	.constrain {padding-left: 1.5rem; padding-right: 1.5rem;}
 }
