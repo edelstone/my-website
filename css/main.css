@@ -27,7 +27,7 @@ img {max-width: 100%;}
 .intro nav a {color: #d7d5d5; margin-right: 1.5rem; font-size: 1.4rem; text-decoration: none; border-radius: 20px; padding: 0.6rem 1.2rem; display: inline-block;}
 .intro nav a:hover {background: #53373b; color: #fff;}
 .intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d7d5d5;}
-.main-area-content {padding-top: 4.5rem; padding-bottom: 2rem; font-size: 2.2rem;}
+.main-area-content {padding-top: 4.5rem; padding-bottom: 2rem; font-size: 2rem;}
 .main-area-content.text-only {padding-top: 1rem;}
 .main-area-content.feature-text {font-size: 2.8rem; line-height: 1.375;}
 .main-area .content-section {margin-bottom: 4rem;}
@@ -72,11 +72,11 @@ img {max-width: 100%;}
 .title-area {background-color: #d9554c; background-size: cover; background-position: 50%;}
 .title-area-1 {background-image: url(../images/txst-homepage-banner.png);}
 .title-area-wrapper {background-color: rgba(217,85,76,0.9); box-shadow: 0 0.4rem #c34d44;}
-.title-area-content {padding-top: 5rem; padding-bottom: 5rem;}
+.title-area-content {padding-top: 3rem; padding-bottom: 3rem;}
 .title-area .portfolio-header {font-size: 2.8rem; margin: 0; color: #fff; text-shadow: 2px 2px 0px #983b35; font-weight: bold; display: inline-block;
     text-transform: uppercase; letter-spacing: 1px;}
-.main-area .tags li {display: inline-block; font-size: 1.2rem; border: 2px solid #f4ccc9; color: #c34d44; padding: 0.5rem 0.8rem; margin-right: 0.2rem; border-radius: 1px;}
-.main-area .tags {margin-top: -1rem; padding: 0; list-style-type: none;}
+.main-area .tags li {display: inline-block; font-size: 1.2rem; border: 3px solid #f4ccc9; color: #c34d44; padding: 0.4rem 0.75rem; margin-right: 0.2rem; border-radius: 1px;}
+.main-area .tags {margin-top: -2rem; padding: 0; list-style-type: none;}
 
 /* Contact */
 .main-area .contact-info {margin-left: 4.5rem;}
@@ -102,6 +102,7 @@ img {max-width: 100%;}
 	.main-area ul, .main-area ol {padding-left: 2rem;}
 	.main-area .contact-info {margin-left: 2.5rem;}
 	.main-area .portrait {float: none; width: 100%;}
+	.main-area .tags {margin-top: -1rem;}
 	.multi-layout {display: block;}
 	.col {width: 100%;}
 	.col-1 {padding: 0; margin-bottom: 2rem;}
