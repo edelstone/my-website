@@ -5,8 +5,8 @@
 html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-weight: normal; height: 100%; background: #220b17;}
 body {min-height: 100%; display: flex; flex-direction: column; background: #fff;}
 img {max-width: 100%;}
+h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .full-width {width: 100%;}
-.signature, .intro, .footer, .button, h1, h2, h3, h4, .button-light, .tags, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
 .signature {font-size: 1.4rem; text-transform: uppercase; text-align: right; letter-spacing: 1px;}
@@ -27,7 +27,7 @@ img {max-width: 100%;}
 .intro nav a {color: #d7d5d5; margin-right: 1.5rem; font-size: 1.4rem; text-decoration: none; border-radius: 20px; padding: 0.6rem 1.2rem; display: inline-block;}
 .intro nav a:hover {background: #53373b; color: #fff;}
 .intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d7d5d5;}
-.main-area-content {padding-top: 4.5rem; padding-bottom: 2rem; font-size: 2rem;}
+.main-area-content {padding-top: 4.5rem; padding-bottom: 2rem; font-size: 2.2rem;}
 .main-area-content.text-only {padding-top: 1rem;}
 .main-area-content.feature-text {font-size: 2.8rem; line-height: 1.375;}
 .main-area .content-section {margin-bottom: 4rem;}
@@ -42,7 +42,7 @@ img {max-width: 100%;}
 .main-area .sub-header {margin-top: 0;}
 .main-area .portrait {position: relative; border-radius: 0.2rem; border: 3px solid #402125; width: 22rem; margin: 1rem 3rem 1.5rem 0; float: left;}
 .main-area .fw-image {width: 100%; margin-top: 0; float: none;}
-.main-area .button {display: inline-block; transition: none; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
+.main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
 .main-area .button:hover {background: #d9554c; color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
 .main-area .button-arrow {margin-left: 1rem;}
@@ -70,12 +70,15 @@ img {max-width: 100%;}
 .project .project-header {margin-bottom: 1.3rem;}
 .project .project-brief {font-size: 2rem; margin-bottom: 2.3rem;}
 .title-area {background-color: #d9554c; background-size: cover; background-position: 50%;}
-.title-area-1 {background-image: url(../images/txst-homepage-banner.png);}
-.title-area-wrapper {background-color: rgba(217,85,76,0.9); box-shadow: 0 0.4rem #c34d44;}
-.title-area-content {padding-top: 3rem; padding-bottom: 3rem;}
-.title-area .portfolio-header {font-size: 2.8rem; margin: 0; color: #fff; text-shadow: 2px 2px 0px #983b35; font-weight: bold; display: inline-block;
+.title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
+.title-area-2 {background-image: url(../images/banner-txst-template.png);}
+.title-area-3 {background-image: url(../images/banner-txst-brand.png);}
+.title-area-4 {background-image: url(../images/banner-pcf-website.png);}
+.title-area-wrapper {background-color: rgba(217,85,76,0.75);}
+.title-area-content {padding-top: 3.5rem; padding-bottom: 3.5rem;}
+.title-area .portfolio-header {font-size: 2.6rem; margin: 0; color: #fff; text-shadow: 2px 2px 0px #983b35; font-weight: bold; display: inline-block;
     text-transform: uppercase; letter-spacing: 1px;}
-.main-area .tags li {display: inline-block; font-size: 1.2rem; border: 3px solid #f4ccc9; color: #c34d44; padding: 0.4rem 0.75rem; margin-right: 0.2rem; border-radius: 1px;}
+.main-area .tags li {display: inline-block; font-size: 1.2rem; border: 3px solid #f4ccc9; color: #c34d44; padding: 0.4rem 0.75rem; margin-right: 0.2rem; border-radius: 3px;}
 .main-area .tags {margin-top: -2rem; padding: 0; list-style-type: none;}
 
 /* Contact */
