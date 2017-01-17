@@ -53,15 +53,86 @@
 	
 		<div class="content-section portfolio">
 		
-			<ul class="tags">
-				<li>Brand</li>
-				<li>Content Strategy</li>
-				<li>Data Analysis</li>
-				<li>Front End Development</li>
-				<li>Politics</li>
-				<li>Visual Design</li>
-			</ul>
+			<div class="tags">
+				<ul>
+					<li>Brand</li>
+					<li>Content Strategy</li>
+					<li>Data Analysis</li>
+					<li>Front End Development</li>
+					<li>Politics</li>
+					<li>Visual Design</li>
+				</ul>
+			</div>
+			
+			<div class="project-details much-text">
+			
+				<h2>Summary</h2>
 				
+				<p>I researched, designed, and built the front end of a responsive homepage for Texas State University in the fall of 2015. <a href="http://txstate.edu">It's live on the web.</a></p>
+			
+				<h2>Context</h2>
+				
+				<p>The Texas State homepage hadn't been updated since 2009. It was not optimized for mobile devices, and was designed with an “above the fold” philosophy, with limited opportunities to feature graphic content in a hierarchical, consumable way. Brand elements, color, and typography were not systematic, not present, or unnecessarily wedded to print methodologies.</p>
+				
+				<div class="inline-image">
+					<img src="../images/txst-home-june-2014.jpg" alt="Texas State homepage in June 2014" />
+					<p class="caption">The Texas State homepage in June 2014</p>
+				</div>
+				
+				<h2>Objectives</h2>
+				
+				<p>In early 2015, I began making the case that a new homepage was necessary to keep up with modern device usage, constituent expectations, and competitor recruitment efforts. By September, an ambitious go-live date was set for the end of the year.</p>
+				<p>My objective was to dramatically update the look and feel of the site, respecting the current content strategy while adding new ways to display and organize content in a compelling way. It would be responsive and accessible, highlight social media channels, and be the centerpiece of a comprehensive and purposeful digital brand strategy.</p>
+				
+				<h2>Process</h2>
+				
+				<p>Incidentally, this project closely followed the design and development of the university’s standard template. This was useful, since many of the brand elements (web typography, color) and content component styles (slider, buttons, etc.) had been intensively iterated upon and finalized. Much of the process involved carrying these elements over to the homepage with minor modifications, but also adding additional features central to University Marketing’s recruitment and political efforts.</p>
+				
+				<h3>Wireframes and Mockups</h3>
+				
+				<p>I decided to use Balsamiq Mockups for this project and then proceed directly to an HTML/CSS prototype. This gave me the opportunity to really push the boundaries of Balsamiq as a tool, and create some rather sophisticated mockups that solved about 75% of the visual design decisions. I was able to rapidly build, organize, and discard sections of content, while solidifying things like color and image use in the process – without obsessing over details.</p>
+				
+				<h3>Prototypes</h3>
+				
+				<p>Using the wireframes as a fairly strict guide, the rest of the design emerged in a working demo, built from scratch on a Pure.css grid. Due to the tight timeline, I made choices about animations and hover effects as I built it, and approved it with stakeholders row-by-row. Some unifying modifications were added after the initial demo was complete, and details were iterated upon pretty much right up to the final release. Overall the build took about a month of dedicated work, with 90% of the markup and styles making it into the final product.</p>
+				
+				<h2>Featured Highlights</h2>
+				
+				<p>There are two features that are noteworthy due to their strategic significance, general uniqueness, and success with stakeholders:</p>
+				
+				<h3>Emergency Notifications</h3>
+				
+				<p>We estimated that approximately 20-30% of the Texas State community (with an even larger portion of parents) checked the university homepage to confirm the details of an emergency. I took it upon myself to comprehensively study how competing institutions handled this problem, eventually auditing about 20 different schools. From this research I made a short list of requirements:</p>
+				<ul>
+					<li>Easy to read and interact with on any device</li>
+					<li>Appear at the top of the screen and push regular content down</li>
+					<li>Unique pattern that cannot be confused with marketing objectives</li>
+					<li>Utilize international symbology</li>
+					<li>Accessible and color-blind-friendly</li>
+					<li>Timestamp indicating last update</li>
+				</ul>
+				<p>After testing three different design options we arrived at a unique and trusted visual pattern, achieving consensus between creative staff, university police, and the president’s cabinet.</p>
+				
+				<h3>Social Media</h3>
+				
+				<p>Social media grew dramatically since Texas State’s last homepage update in 2009, so it became a major priority to highlight the school’s primary channels. Since each social network has very different sorts of content and display characteristics, the main challenge was finding a way to unify each one with a common look and feel. We also wanted to minimize the editorial and maintenance burden as much as possible. I devised the following design solutions for these problems:</p>
+				<ul>
+					<li>The lower section of each widget’s layout uses a pattern consisting of a horizontal rule, a timestamp, and a gold icon. This provides consistency and creates a useful visual boundary.</li>
+					<li>Each social widget uses an API, so manual updates are not necessary in the CMS.</li>
+					<li>The Instagram widget uses a hidden caption, allowing the photo to take center stage without sacrificing content (except on mobile).</li>
+					<li>The Twitter widget has a conversational feel, cycling through the 3 most-recent tweets and 3 most-recent faves. This gives the social media coordinator some control over tweets that appear on the homepage.</li>
+					<li>Facebook posts are the most variable of the three networks, so we opted to only pull in text + image posts for predictability.</li>
+				</ul>
+				
+				<h2>Is it perfect?</h2>
+				
+				<p>Nope. But everyone was pretty happy with the results. Our developer did an amazing job of connecting everything and matching the design closely, and our mobile engagement improved markedly. If I could change anything it would be:</p>
+				<ul>
+					<li><b>It’s too “flat”:</b> There is a lack of depth on this site; it could really use some background patterns or gradients in key areas.</li>
+					<li><b>Content strategy is stuck:</b> University websites have slowly been shifting to a dedicated recruitment focus over diplomacy and link dumps. We weren’t able to change any of that this time around, but I think we laid the groundwork for a strategic shift.</li>
+					<li><b>Medium-width device layout is less than optimal:</b> For simplicity everything collapses to a single column at 800px. I think I could’ve played more with multi-column layouts from 480px to 800px, given more time or resources.</li>					
+				</ul>
+							
 		</div> <!-- content-section -->
 				
 	</div> <!-- main-area-content -->
