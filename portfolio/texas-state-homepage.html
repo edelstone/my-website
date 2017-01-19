@@ -30,7 +30,7 @@
 			<div class="intro-content constrain">
 				<h1>Recent Work</h1>
 				<nav>
-					<a href="/">About</a>
+					<a href="/about">About</a>
 					<a href="/portfolio">Recent Work</a>
 					<a href="/contact">Contact</a>
 				</nav>
@@ -67,31 +67,31 @@
 			
 			<div class="project-details much-text">
 			
-				<h2>Summary</h2>
+				<h2 id="summary">Summary</h2>
 				
-				<p>I designed and built the front end of Texas State's first responsive homepage in the fall of 2015. <a href="http://txstate.edu">It's live on the web</a>, and attracts about 1.2 million pageviews each month.</p>
+				<p>I designed and built the front end of Texas State's first responsive homepage in the fall of 2015. <a href="http://txstate.edu">It's live on the web</a>, and attracts about 1.2 million views each month.</p>
 			
-				<h2>Context</h2>
+				<h2 id="context">Context</h2>
 				
-				<p>The Texas State homepage hadn't been updated since 2009. It utilized a condensed, “above the fold” approach and wasn't optimized for mobile devices. Brand elements, color, and typography were dated, not systematic, or not present, and there was a heavy reliance on image snippets to achieve design objectives. Students and younger employees would frequently say a change was overdue.</p>
+				<p>The Texas State homepage hadn't been updated since 2009. It utilized a condensed, “above the fold” approach and wasn't optimized for mobile devices. Brand elements, color, and typography were dated or not systematic, and there was a heavy reliance on image snippets to achieve design objectives. Students and younger employees would frequently say a change was overdue.</p>
 								
 				<div class="image-group">
 					<img class="modal-image" data-featherlight="../images/txst-home-june-2014.jpg" src="../images/txst-home-june-2014.jpg" alt="Texas State homepage in June 2014" />
 					<p class="caption">The Texas State homepage in June 2014</p>
 				</div>
 				
-				<h2>Objectives</h2>
+				<h2 id="objectives">Objectives</h2>
 				
 				<p>In early 2015, I began making the case to leadership that a new homepage was necessary to keep up with modern device patterns, user expectations, and competitor efforts. By September, an ambitious go-live date was set for the end of the year.</p>
-				<p>The team consisted of myself and a back end developer. The new site would be responsive and accessible, respect existing content organization, highlight social media channels, and be the centerpiece of a purposeful digital brand strategy.</p>
+				<p>The new site would be responsive and accessible, respect existing content organization, highlight social media channels, and be the centerpiece of a purposeful digital brand strategy.</p>
 				
-				<h2>The Process</h2>
+				<h2 id="process">Process</h2>
 				
-				<p>This project closely followed the development of the <a href="#nowhere">university’s primary template</a>, in which most brand elements (typography, color) and content patterns (sliders, buttons) had been intensively iterated upon and finalized. Much of the process involved applying these elements to existing items, expanding content blocks to fit a more-scrollable interface, and adding some key features to aid in recruitment and institutional politics.</p>
+				<p>This project closely followed the development of the <a href="texas-state-template.html">university’s primary template</a>, in which most brand elements (typography, color) and content patterns (sliders, buttons) had been intensively iterated upon and finalized. Much of the process involved applying these elements to existing items, expanding content blocks to fit a more-scrollable interface, and adding some key features to aid in recruitment and institutional politics.</p>
 				
-				<h3>Wireframes / Mockups</h3>
+				<h3 id="mockups">Wireframes / Mockups</h3>
 				
-				<p>I decided to use <a href="https://balsamiq.com/">Balsamiq</a> for this project, and then proceed directly to a coded prototype. This gave me the opportunity to really push the boundaries of Balsamiq as a tool, and create some rather sophisticated mockups that resolved a majority of the visual design decisions. I was able to rapidly build, test, and discard sections of content, while solidifying things like color and image use without obsessing over details.</p>
+				<p>I decided to use <a href="https://balsamiq.com/">Balsamiq</a> for this project, and then proceed directly to a <a href="#prototypes">coded prototype</a>. This gave me the opportunity to really push Balsamiq as a tool, and create some rather sophisticated mockups that resolved a majority of the visual design decisions. I was able to rapidly build, test, and discard sections of content, while solidifying things like color and image use without obsessing over details.</p>
 				
 				<div class="image-group">
 					
@@ -102,13 +102,13 @@
 					<p class="caption">Demonstrating an enabled dropdown menu</p>
 					
 					<img class="image-border modal-image" data-featherlight="../images/screenshot-balsamiq-txst-home-social.jpg" src="../images/screenshot-balsamiq-txst-home-social.jpg" alt="Mockup showing homepage social media row" />
-					<p class="caption">Social media row detail</p>
+					<p class="caption">Social media section detail</p>
 					
 				</div>
 				
-				<h3>Prototypes</h3>
+				<h3 id="prototypes">Prototypes</h3>
 				
-				<p>Using the mockups as a fairly strict guide, the rest of the design came to life in <a href="http://edelstone.github.io/gato-homepage/">a working prototype</a> built on a <a href="http://purecss.io/grids/">Pure.css grid</a>. I made choices about animations and hover effects as I built it, and approved it with our leadership team row-by-row. Overall the build took about a month of dedicated work, with 90% of the markup and styles making it into the final product. <a href="https://github.com/edelstone/gato-homepage">The source code is on GitHub</a>.</p>
+				<p>Using the mockups as a fairly strict guide, the rest of the design came to life in <a href="http://edelstone.github.io/gato-homepage/">a high fidelity prototype</a> built on a <a href="http://purecss.io/grids/">Pure.css grid</a>. I made choices about animations and hover effects as I built it, and approved it with stakeholders row-by-row. Overall the build took about a month of dedicated work, with 90% of the markup and styles making it into the final product. <a href="https://github.com/edelstone/gato-homepage">The source code is on GitHub</a>.</p>
 				
 				<div class="image-group">
 				
@@ -120,29 +120,27 @@
 				
 				</div>
 								
-				<h2>Notable Features</h2>
+				<h2 id="features">Noteworthy Features</h2>
 				
-				<p>There are two features that are noteworthy due to their strategic significance and success with stakeholders:</p>
+				<h3 id="alerts">Emergency Alerts</h3>
 				
-				<h3>Emergency Notifications</h3>
-				
-				<p>We estimated that approximately 25-30% of the Texas State community (with an even larger percentage of parents) checked the university homepage to confirm details in an emergency. After comprehensively studying nearly <a href="http://www.ir.txstate.edu/ir-self-service/peer-data/peers">25 peer institutions</a>, and researching the broader issues of designing for stress, it became clear that homepage alerts must:</p>
+				<p>We estimated that approximately 25-30% of the Texas State community (with an even larger percentage of parents) checked the university homepage to confirm details in an emergency. After comprehensively studying <a href="http://www.ir.txstate.edu/ir-self-service/peer-data/peers">nearly 25 peer institutions</a>, and researching the broader issues of designing for stress, it became clear that homepage notifications must:</p>
 				<ul>
 					<li>be easy to read and interact with on any device</li>
-					<li>appear at the top of the screen and push standard content down</li>
-					<li>use a unique pattern that cannot be confused with marketing objectives</li>
+					<li>appear at the top of the screen and push content down</li>
+					<li>use a unique pattern unlikely to be confused with marketing objectives</li>
 					<li>utilize international symbology</li>
 					<li>be accessible and color-blind-friendly</li>
 					<li>have a timestamp indicating last update</li>
 				</ul>
-				<p>After testing several options, a consensus was reached with creative staff, university police, the president’s cabinet, and several informal test groups, arriving at a <a href="http://www.styleguide.txstate.edu/patterns.html#emergency">unique and trusted visual pattern</a>. The <a href="http://edelstone.github.io/gato-homepage/alerts">live demo</a> is on GitHub.</p>
+				<p>After testing several options, a consensus was reached with creative staff, university police, the president’s cabinet, and several informal test groups, arriving at a <a href="http://www.styleguide.txstate.edu/patterns.html#emergency">universally trusted visual pattern</a>. The <a href="http://edelstone.github.io/gato-homepage/alerts">live demo</a> is on GitHub.</p>
 				
 				<div class="image-group">
 					<img class="image-border modal-image" data-featherlight="../images/screenshot-feature-txst-home-emergency.jpg" src="../images/screenshot-feature-txst-home-emergency.jpg" alt="Responsive layout showcasing Texas State emergency messaging" />
-					<p class="caption">Responsive emergency alerts for clarity and safety</p>
+					<p class="caption">Responsive emergency alerts, clear and unmistakable</p>
 				</div>
 				
-				<h3>Social Media</h3>
+				<h3 id="social">Social Media</h3>
 				
 				<p>Texas State's <a href="http://www.txstate.edu/social">social media outreach</a> grew dramatically in recent years, and highlighting those efforts was a major priority. Since each social platform has very different types of content and display characteristics, the main challenge was finding a way to unify each feed with a common look and feel. Here are some of the most notable design choices:</p>
 				<ul>
@@ -157,16 +155,16 @@
 					<p class="caption">Social media feeds, desktop layout</p>
 				</div>
 				
-				<h2>Is it perfect?</h2>
+				<h2 id="retrospect">Is it perfect?</h2>
 				
-				<p>Nope. But everyone was pretty happy with the results. Our developer did an amazing job connecting everything and matching the design closely. If I could change anything it would be:</p>
+				<p>Nope. But everyone was really happy with the results. Our developer did an amazing job connecting everything and templating it for easy editing. If I could change anything it would be:</p>
 				<ul>
 					<li><b>It’s too flat:</b> The site could really use some background patterns, gradients, or overlapping elements to add depth.</li>
 					<li><b>Content strategy is dated:</b> University websites are slowly becoming more recruitment and user focused, favoring data over politics. We weren’t able to change that this time around, but we laid the groundwork for a strategic shift.</li>
 					<li><b>Medium-width device layout is lazy:</b> For simplicity everything collapses to a single column at 800px. I would’ve liked to play more with multi-column layouts from 480px to 800px, given more time or resources.</li>
 				</ul>
-				
-			</div>
+			
+			</div>				
 			
 			<div class="portfolio-options">
 				<a class="button button-fat-guy" href="http://txstate.edu">View live website<span class="button-arrow">&#10142;</span></a>

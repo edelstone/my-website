@@ -34,7 +34,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area p, .main-area ul {margin-top: 0; margin-bottom: 1.4rem;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.5rem; padding-left: 0;}
 .main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.2rem;}
-.main-area h3 {margin: 0; margin-bottom: 1rem; font-size: 2.2rem; color: #7f2a4d;}
+.main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1rem; font-size: 2rem; color: #7f2a4d;}
 .main-area h4 {font-size: 1.8rem; margin-bottom: 1.5rem;}
 .main-area hr {margin: -0.8rem 0 5rem 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
 .main-area .sub-header {margin-top: 0;}
@@ -49,7 +49,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
 .main-area .button:hover {background: #d9554c; color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
-.main-area .button-fat-guy {font-size: 2rem; padding: 2rem; width: 100%; margin-top: 4rem; margin-bottom: 1.5rem; text-align: center;}
+.main-area .button-fat-guy {font-size: 2rem; padding: 2rem; width: 100%; margin: 1.5rem auto; text-align: center;}
 .main-area .button-arrow {margin-left: 1rem;}
 .main-area .button-fat-guy .button-arrow {margin-left: 1.5rem;}
 .main-area .button-light {font-size: 1.6rem;}
@@ -74,7 +74,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 
 /* Projects */
 .project {margin: 3rem auto 7.5rem;}
-.project .project-header {margin-bottom: 1.2rem; font-weight: bold; color: #222;}
+.project .project-header {margin-bottom: 1.2rem; font-size: 2.2rem;}
 .project .project-brief {font-size: 2rem; margin-bottom: 2.3rem;}
 .title-area {background-color: #d9554c; background-size: cover; background-position: 50%;}
 .title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
@@ -87,6 +87,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .tags {margin-top: -2rem; margin-bottom: -2rem;}
 .main-area .tags ul {padding: 0; list-style-type: none;}
 .main-area .tags li {display: inline-block; font-size: 1.3rem; border: 3px solid #f4ccc9; color: #c34d44; padding: 0.4rem 0.75rem; margin-right: 0.2rem; border-radius: 3px;}
+.main-area .project-details {margin-bottom: 4rem;}
 .main-area .portfolio-options {text-align: center;}
 .main-area .live-site-link {display: block; text-align: center; padding: 4rem 2rem; background: #402125; color: #d7d5d5; font-size: 2.8rem; font-family: Montserrat; font-weight: bold; transition: all 0.2s ease-in-out; text-shadow: 1px 1px 0 #983b35;}
 .main-area .live-site-link:hover {background: #d9554c; color: #fff;}
