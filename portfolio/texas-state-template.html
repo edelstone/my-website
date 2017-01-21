@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Recent Work | Texas State Primary Template | Michael Edelstone</title>
-<meta name="description" content="Thanks for looking at my work. I'm very proud of these contributions.">
+<meta name="description" content="Thanks for looking at my work. I'm proud of these contributions.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="apple-touch-icon-precomposed" href="../images/touch.png">
@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../css/normalize.css">
 <link rel="stylesheet" href="../css/boilerplate.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.css" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CNeuton:400,400i,700">
 <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -63,6 +64,129 @@
 					<li>Visual Design</li>
 				</ul>
 			</div>
+			
+			<div class="project-details much-text">
+			
+				<h2 id="summary">Summary</h2>
+				
+				<p>Pretty much every unit at Texas State – from the <a href="http://president.txstate.edu">president</a>, to <a href="http://www.hr.txstate.edu/performance-management.html">human resources</a>, to <a href="http://www.bio.txstate.edu/Undergraduate-Programs.html">educational</a> <a href="http://www.theatreanddance.txstate.edu/dance/">units</a> and major <a href="http://www.meadowscenter.txstate.edu/">research</a> <a href="http://www.thewittliffcollections.txstate.edu/">initiatives</a> – uses the CMS template, brand elements, and content types I designed iteratively during 2015-2016.</p>
+				
+				<h2 id="context">Context</h2>
+				
+				<p>In the mid-2000s nearly every Texas State unit converted to the Magnolia CMS, <a href="http://gato.its.txstate.edu">locally known as Gato</a>. A small team of web generalists deployed and managed a template, content editors got simpler build tools, security pros got secure forms and data. Everyone was happy ... for a little while. Rapid enrollment growth diverted resources from the CMS, devices changed rapidly, and institutional knowledge left with key staff.</p>
+				<p>Like the <a href="texas-state-homepage.html">Texas State homepage</a>, the primary template had not been addressed since 2009. It lacked web typography, colors, and multi-column layouts, and editors struggled to find compelling ways to display imagery. Many units were looking for ways out of the CMS, or were hacking in overrides that were unmaintainable, inconsistent, and non-accessible. Not good.
+				
+				<div class="image-group">
+					<img class="image-modal" data-featherlight="../images/txst-template-november-2014.jpg" src="../images/txst-template-november-2014.jpg" alt="University Marketing homepage in November 2014" />
+					<p class="caption">The standard template, as utilized by University Marketing, in November 2014</p>
+				</div>
+				
+				<h2 id="objectives">Objectives</h2>
+				
+				<p>In early 2015 we were able to form a small, cross-departmental team, which I led from a design and brand perspective. We weren't <i>just</i> aiming to update the template; we wanted to create a design culture that valued the web as our strongest marketing and informational asset. There were many overlapping goals, but here's a quick summary:</p>
+				<ul>
+					<li>Create a multi-column, responsive, and accessible template wrapper</li>
+					<li>Update brand elements systematically</li>
+					<li>Add key graphical content types</li>
+					<li>Deploy beautiful photo assets to campus editors</li>
+					<li>Build customer feedback loops and systems to ensure regular iteration</li>
+					<li>Share design, layout, brand, and HTML/CSS knowledge campus-wide</li>
+				</ul>
+								
+				<h2 id="process">Process</h2>
+				
+				<p>Past digital projects at Texas State were mostly traditional: a designer built Photoshop mockups and these were sliced up by an in-house developer. The complexities of responsive websites would require the design side to have more influence over the front end this time around – to fuss over hover effects and transition times, but also to have opinions on frameworks, plugins, and performance. Our lead developer and I talk about this transition in a <a href="https://responsivewebdesign.com/podcast/texas-state/">recent episode of the RWD Podcast</a>.</p>
+				
+				<h3 id="focus-groups">Focus Groups</h3>
+				
+				<p>Texas State has 400+ websites and nearly 1000 decentralized editors, so there's a lot of variation. To get a firm grasp on the needs of the units, and what editors expected from an updated CMS and template, I led several focus groups in March 2015. I presented several <a href="https://www.bates.edu/">higher</a> <a href="http://www.uchicago.edu/">education</a> <a href="http://www.unr.edu/">sites</a> I planned to use for inspiration, as well as some preliminary mockups to solicit feedback on visual design and front end behavior.</p>
+				
+				<div class="image-group">
+					<img class="image-modal" data-featherlight="../images/focus-group.jpg" src="../images/focus-group.jpg" alt="Focus group participants giving feedback" />
+					<p class="caption">Focus group participants give feedback on preliminary designs</p>
+				</div>
+				
+				<h3 id="mockups">Wireframes / Mockups</h3>
+				
+				<p>Only very basic mockups were produced for this project, favoring instead to  mostly as a proof-of-concept for some of our less technologically I decided to use <a href="https://balsamiq.com/">Balsamiq</a> for this project, and then proceed directly to a <a href="#prototypes">coded prototype</a>. This gave me the opportunity to really push Balsamiq as a tool, and create some rather sophisticated mockups that resolved a majority of the visual design decisions. I was able to rapidly build, test, and discard sections of content, while solidifying things like color and image use without obsessing over details.</p>
+				
+				<div class="image-group">
+					
+					<img class="image-border image-modal" data-featherlight="../images/screenshot-balsamiq-txst-home-mobile.jpg" src="../images/screenshot-balsamiq-txst-home-mobile.jpg" alt="Mockup showing mobile version of the homepage" />
+					<p class="caption">Homepage design mockups, full mobile layout</p>
+					
+					<img class="image-modal" data-featherlight="../images/screenshot-balsamiq-txst-home-nav.jpg" src="../images/screenshot-balsamiq-txst-home-nav.jpg" alt="Mockup showing homepage dropdown menu" />
+					<p class="caption">Demonstrating an enabled dropdown menu</p>
+					
+					<img class="image-border image-modal" data-featherlight="../images/screenshot-balsamiq-txst-home-social.jpg" src="../images/screenshot-balsamiq-txst-home-social.jpg" alt="Mockup showing homepage social media row" />
+					<p class="caption">Social media section detail</p>
+					
+				</div>
+				
+				<h3 id="prototypes">Prototypes</h3>
+				
+				<p>Using the mockups as a fairly strict guide, the rest of the design came to life in <a href="http://edelstone.github.io/gato-homepage/">a high fidelity prototype</a> built on a <a href="http://purecss.io/grids/">Pure.css grid</a>. I made choices about animations and hover effects as I built it, and approved it with stakeholders row-by-row. Overall the build took about a month of dedicated work, with 90% of the markup and styles making it into the final product. <a href="https://github.com/edelstone/gato-homepage">The source code is on GitHub</a>.</p>
+				
+				<div class="image-group">
+				
+					<img class="image-modal" data-featherlight="../images/screenshot-demo-txst-home-desktop.jpg" src="../images/screenshot-demo-txst-home-desktop.jpg" alt="Screenshot of homepage demo in desktop orientation" />
+					<p class="caption">Texas State <a href="http://edelstone.github.io/gato-homepage/">homepage demo</a>, desktop view</p>
+					
+					<img class="image-modal" data-featherlight="../images/screenshot-demo-txst-home-mobile.jpg" src="../images/screenshot-demo-txst-home-mobile.jpg" alt="Various screenshots of homepage mobile layout" />
+					<p class="caption">Various screenshots of homepage demo, mobile layout</p>
+				
+				</div>
+								
+				<h2 id="features">Noteworthy Features</h2>
+				
+				<h3 id="alerts">Emergency Alerts</h3>
+				
+				<p>We estimated that approximately 25-30% of the Texas State community (with an even larger percentage of parents) checked the university homepage to confirm details in an emergency. After comprehensively studying <a href="http://www.ir.txstate.edu/ir-self-service/peer-data/peers">nearly 25 peer institutions</a>, and researching the broader issues of designing for stress, it became clear that homepage notifications must:</p>
+				<ul>
+					<li>be easy to read and interact with on any device</li>
+					<li>appear at the top of the screen and push content down</li>
+					<li>use a unique pattern unlikely to be confused with marketing objectives</li>
+					<li>utilize international symbology</li>
+					<li>be accessible and color-blind-friendly</li>
+					<li>have a timestamp indicating last update</li>
+				</ul>
+				<p>After testing several options, a consensus was reached with creative staff, university police, the president’s cabinet, and several informal test groups, arriving at a <a href="http://www.styleguide.txstate.edu/patterns.html#emergency">universally trusted visual pattern</a>. The <a href="http://edelstone.github.io/gato-homepage/alerts">live demo</a> is on GitHub.</p>
+				
+				<div class="image-group">
+					<img class="image-border image-modal" data-featherlight="../images/screenshot-feature-txst-home-emergency.jpg" src="../images/screenshot-feature-txst-home-emergency.jpg" alt="Responsive layout showcasing Texas State emergency messaging" />
+					<p class="caption">Responsive emergency alerts, clear and unmistakable</p>
+				</div>
+				
+				<h3 id="social">Social Media</h3>
+				
+				<p>Texas State's <a href="http://www.txstate.edu/social">social media outreach</a> grew dramatically in recent years, and highlighting those efforts was a major priority. Since each social platform has very different types of content and display characteristics, the main challenge was finding a way to unify each feed with a common look and feel. Here are some of the most notable design choices:</p>
+				<ul>
+					<li>The lower section of each feed contains a horizontal rule, a timestamp, and a gold icon. This provides consistency and creates a useful visual boundary.</li>
+					<li>Each social widget uses an API, so manual CMS updates are not necessary.</li>
+					<li>The Twitter widget has a conversational feel, cycling through the most recent account tweets <i>and</i> favorited tweets, allowing some curated user-generated content on the homepage.</li>
+					<li>The Facebook feed only pulls in text + image posts for layout predictability.</li>
+				</ul>
+				
+				<div class="image-group">
+					<img class="image-border image-modal" data-featherlight="../images/screenshot-feature-txst-home-social.jpg" src="../images/screenshot-feature-txst-home-social.jpg" alt="Screenshot of social media section of Texas State homepage" />
+					<p class="caption">Social media feeds, desktop layout</p>
+				</div>
+				
+				<h2 id="retrospect">Is it perfect?</h2>
+				
+				<p>Nope. But everyone was really happy with the results. Our developer did an amazing job connecting everything and templating it for easy editing. If I could change anything it would be:</p>
+				<ul>
+					<li><b>It’s too flat:</b> The site could really use some background patterns, gradients, or overlapping elements to add depth.</li>
+					<li><b>Content strategy is dated:</b> University websites are slowly becoming more recruitment and user focused, favoring data over politics. We weren’t able to change that this time around, but we laid the groundwork for a strategic shift.</li>
+					<li><b>Medium-width device layout is lazy:</b> For simplicity everything collapses to a single column at 800px. I would’ve liked to play more with multi-column layouts from 480px to 800px, given more time or resources.</li>
+				</ul>
+
+			</div> <!-- project-details -->
+			
+			<div class="portfolio-options">
+				<a class="button button-fat-guy" href="http://umarketing.txstate.edu">View live example<span class="button-arrow">&#10142;</span></a>
+				<a href="../portfolio" class="button-light">Back to portfolio home</a>
+			</div>
 							
 		</div> <!-- content-section -->
 				
@@ -91,6 +215,7 @@
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.js"></script>
 <script src="../js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

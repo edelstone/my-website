@@ -20,5 +20,5 @@ window.onload = getPageLoadTime;
 
 // Featherlight modal customizations
 $.extend($.featherlight.defaults, {
-   closeOnClick: 'anywhere',
+   closeOnClick: 'anywhere'
 });

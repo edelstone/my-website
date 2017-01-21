@@ -15,3 +15,5 @@
 .main-area aside a:hover {color: #fff; animation: none; text-decoration: underline; border: none;}
 
 .signature a {background: #220b17; color: #d7d5d5; text-decoration: none; display: block; padding: 0.9rem 0; transition: all 0.2s ease-in-out; box-shadow: 0 -1.8rem #1b0912 inset; border-bottom: 1px solid #000;}
+
+.main-area .fw-image {width: 100%; margin-top: 0; float: none;}
