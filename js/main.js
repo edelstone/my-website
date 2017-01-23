@@ -22,3 +22,11 @@ window.onload = getPageLoadTime;
 $.extend($.featherlight.defaults, {
    closeOnClick: 'anywhere'
 });
+
+//Smooth scroll to anchors
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 400);
+    return false;
+});

@@ -5,7 +5,7 @@
 html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-weight: normal; height: 100%; background: #220b17;}
 body {min-height: 100%; display: flex; flex-direction: column; background: #fff;}
 img {max-width: 100%;}
-h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .caption {font-family: 'Montserrat', sans-serif; font-weight: normal;}
+h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .project-image {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .full-width {width: 100%;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
@@ -41,9 +41,9 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .much-text {padding-top: 1.5rem;}
 .main-area .feature-text {font-size: 2.8rem;}
 .main-area .portrait {position: relative; border-radius: 0.2rem; border: 3px solid #402125; width: 22rem; margin: 1rem 3rem 1.5rem 0; float: left;}
-.main-area .image-group {width: 90%; margin: 4rem auto 6rem;}
+.main-area .image-group {width: 90%; margin: 5rem auto 6rem;}
 .main-area .image-border {border: 1px solid #ccc;}
-.main-area .image-modal {cursor: pointer;}
+.main-area .image-modal {cursor: zoom-in;}
 .main-area .caption {font-size: 1.3rem; text-align: center; margin-top: 1rem; margin-bottom: 4rem;}
 .main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
 .main-area .button:hover {background: #d9554c; color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
@@ -96,7 +96,10 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .contact-info i {margin-top: 0.3rem; color: #d9554c;}
 
 /* Modal */
+[data-balloon].font-awesome:after {font-family: FontAwesome, 'Montserrat', sans-serif; background: #c34d44;}
+[data-balloon].project-image:before {display: none;}
 .featherlight .featherlight-close-icon {line-height: 28px; width: 28px; color: #222; font-size: 2rem; outline: none;}
+.featherlight, .featherlight .featherlight-content {cursor: zoom-out;}
 
 /* Animations */
 @keyframes spin {
@@ -123,9 +126,8 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 	.main-area .contact-info {margin-left: 2.5rem;}
 	.main-area .portrait {float: none; width: 100%;}
 	.main-area .tags {margin-top: -1rem;}
-	.main-area .image-group {width: calc(100% + 5rem); margin-left: -2.5rem;}
+	.main-area .image-group {width: calc(100% + 3rem); margin-left: -1.5rem;}
 	.main-area .caption {padding: 0 2.5rem;}
-	.main-area .image-border {border-width: 1px 0;}
 	.multi-layout {display: block;}
 	.col {width: 100%;}
 	.col-1 {padding: 0; margin-bottom: 2rem;}
