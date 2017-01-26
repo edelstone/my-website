@@ -31,7 +31,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .content-section {margin-bottom: 4rem;}
 .main-area a {color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
 .main-area a:hover {color: #c34d44;}
-.main-area p, .main-area ul {margin-top: 0; margin-bottom: 1.4rem;}
+.main-area p, .main-area ul, .main-area ol {margin-top: 0; margin-bottom: 1.4rem;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.5rem; padding-left: 0;}
 .main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.2rem;}
 .main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1rem; font-size: 2rem; color: #7f2a4d;}
