@@ -135,7 +135,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 	.main-area .contact-info {margin-left: 2.5rem;}
 	.main-area .portrait {float: none; width: 100%;}
 	.main-area .tags {margin-top: -1rem;}
-	.main-area .image-group {width: calc(100% + 3rem); margin-left: -1.5rem;}
+	.main-area .image-group {width: 100%;}
 	.main-area .caption {padding: 0 2.5rem;}
 	.multi-layout {display: block;}
 	.col {width: 100%;}
