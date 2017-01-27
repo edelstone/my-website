@@ -30,3 +30,20 @@ $('a').click(function(){
     }, 700);
     return false;
 });
+
+//Accordion
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    this.nextElementSibling.classList.toggle("panel-show");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+  	  panel.style.maxHeight = null;
+    } else {
+  	  panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}

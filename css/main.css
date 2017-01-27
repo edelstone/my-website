@@ -32,6 +32,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area a {color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
 .main-area a:hover {color: #c34d44;}
 .main-area p, .main-area ul, .main-area ol {margin-top: 0; margin-bottom: 1.4rem;}
+.main-area ul ul {padding-left: 3rem; margin-bottom: 0;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.5rem; padding-left: 0;}
 .main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.2rem;}
 .main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1rem; font-size: 2rem; color: #7f2a4d;}
@@ -89,6 +90,14 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .tags li {display: inline-block; font-size: 1.3rem; border: 3px solid #f4ccc9; color: #c34d44; padding: 0.4rem 0.75rem; margin-right: 0.2rem; border-radius: 3px;}
 .main-area .project-details {margin-bottom: 4rem;}
 .main-area .portfolio-options {text-align: center;}
+
+/* Accordion */
+.main-area .accordion {border: none; padding: 0; background: none; outline: none; margin-top: -1.5rem; margin-bottom: -1rem;}
+.main-area .panel {padding-top: 1rem; max-height: 0; overflow: hidden; transition: all 0.2s ease-in-out; opacity: 0;}
+.main-area .panel-show {opacity: 1;}
+.main-area .accordion .fa {margin-left: 1rem; font-size: 75%; position: relative; bottom: 0.2rem;}
+.main-area .accordion h3:after {margin-left: 1rem; content: '\002B';}
+.main-area .accordion.active h3:after {content: "\2212";}
 
 /* Contact */
 .main-area .contact-info {margin-left: 4.5rem;}
