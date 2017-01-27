@@ -131,7 +131,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 	.intro nav {margin-left: -0.8rem;}
 	.intro nav a {margin-right: 0.5rem; padding: 0.4rem 0.8rem; font-size: 1.3rem;}
 	.main-area-content {padding-top: 2.8rem;}
-	.main-area ul, .main-area ol {padding-left: 2.5rem;}
+	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .contact-info {margin-left: 2.5rem;}
 	.main-area .portrait {float: none; width: 100%;}
 	.main-area .tags {margin-top: -1rem;}
