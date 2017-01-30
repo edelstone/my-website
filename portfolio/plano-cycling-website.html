@@ -69,7 +69,7 @@
 			
 				<h2 id="summary">Summary</h2>
 				
-				<p>I managed the <a href="http://planocycling.com">Plano Cycling and Fitness website</a> throughout most of 2013, during which I released a design and content overhaul that introduced mobile shopping, strengthened brand recognition, and multiplied online sales.</p>
+				<p>I managed the <a href="http://planocycling.com">Plano Cycling and Fitness website</a> throughout most of 2013, during which I led a design and content overhaul that introduced mobile shopping, strengthened brand recognition, and multiplied online sales.</p>
 				
 				<button class="accordion">
 					<h3 id="sections">Sections on this page</h3>
@@ -80,13 +80,13 @@
 						<li><a href="#objectives">Objectives</a></li>
 						<li><a href="#process">Process</a></li>
 						<ul>
-							<li><a href="#theory">CMS and Templates</a></li>
-							<li><a href="#implementation">CSS</a></li>
+							<li><a href="#mockups">Mockups</a></li>
+							<li><a href="#css">CSS</a></li>
 						</ul>
 						<li><a href="#features">Noteworthy Features</a></li>
 						<ul>
-							<li><a href="#colors">Colors</a></li>
-							<li><a href="#buttons">Buttons</a></li>
+							<li><a href="#mobile">Mobile</a></li>
+							<li><a href="#graphics">Graphics</a></li>
 						</ul>
 						<li><a href="#retrospect">Is it Perfect?</a></li>
 					</ul>
@@ -94,8 +94,8 @@
 						
 				<h2 id="context">Context</h2>
 				
-				<p>Plano Cycling is the <a href="https://www.yelp.com/biz/plano-cycling-and-fitness-plano">highest-rated bike shop in Texas</a> and one of the first shops in the country to take business online. They use <a href="http://smartetailing.com/">SmartEtailing</a>, the most popular CMS in the outdoor industry, to publish content. Basic templates are easy to set up and manage, but aren't very design-centered, requiring a good bit of front-end customization to achieve a unique look and feel.</p>
-				<p>The website had been using a basic CMS template since its inception in 1998. It was difficult to use on mobile devices and lacked a distinct visual language and voice .</p>
+				<p>Plano Cycling is the <a href="https://www.yelp.com/biz/plano-cycling-and-fitness-plano">highest-rated bike shop in Texas</a> and one of the first shops in the country to take business online. They use <a href="http://smartetailing.com/">SmartEtailing</a>, the most popular CMS in the outdoor industry, to publish content. Basic templates are easy to set up and manage, but they aren't super design focused, requiring a good bit of front-end customization to achieve a unique look and feel.</p>
+				<p>The website utilized a basic template since its inception in 1998. It was rather difficult to use on mobile devices and lacked a distinct visual language and voice.</p>
 				
 				<div class="image-group">
 					<img class="image-modal" data-featherlight="../images/old-pcf-jan-2013.jpg" src="../images/old-pcf-jan-2013.jpg" alt="Screenshot of Plano Cycling homepage in January 2013" />
@@ -104,30 +104,81 @@
 				
 				<h2 id="objectives">Objectives</h2>
 				
-				<p>The in-store shopping experience at Plano Cycling is regularly praised for the team's devotion to customer service and its airy, well-organized spaces. We wanted the digital experience to replicate this as closely as possible. Specifically I set out to:</p>
+				<p>The in-store experience at Plano Cycling is regularly praised for the staff's exceptional customer service ethic and the shop's airy, well-organized spaces. We wanted the digital experience to replicate this as closely as possible. Specifically I set out to:</p>
 				<ul>
-					<li>Deploy a unique and deliberate graphical style</li>
-					<li>Add detailed pages about brick-and-mortar services</li>
-					<li>Make the website mobile-friendly</li>
-					<li>Double online sales in the first month of release</li>
+					<li>Deploy a unique and deliberate <a href="#graphics">graphical style</a></li>
+					<li>Make the website <a href="#mobile">mobile-friendly</a></li>
+					<li>Add informational pages about brick-and-mortar services</li>
+					<li>Improve online sales and product discoverability (adding analytics to track)</li>
 				</ul>
 				
 				<h2 id="process">Process</h2>
-						
+				
+				<p>I chose a template from about two dozen baked-in options, and quickly moved into a design phase that included some <a href="#mockups">Photoshop mockups</a>, lots of content creation, and a <a href="#css">bunch of custom CSS</a>. I'm responsible for just about all of the words, graphics, and visual design on the site; layout and user experience is mostly handled by the template.</p>
+				<p>The process took about 4 months, and the site was published on March 1, 2013.</p>
+				
+				<h3 id="mockups">Mockups</h3>
+				
+				<p>After learning how the template worked and how content was generally laid out, I was able to produce a basic Photoshop mockup highlighting the pages with the heaviest traffic (homepage, main shopping page, contact page, etc.). I had near complete freedom on the design, but this allowed me to share preliminary ideas with leadership and wrap my head around the task.</p>
+				<p>I also created a primary color palette inspired by the Plano Cycling logo, historical print collateral, and the overall environment of the shopping and repair areas.</p>
+				
+				<div class="image-group">
+				
+					<img class="image-border image-modal" data-featherlight="../images/screenshot-photoshop-pcf-desktop.jpg" src="../images/screenshot-photoshop-pcf-desktop.jpg" alt="Screenshot of Plano Cycling homepage mockup" />
+					<p class="caption">Early mockup of the Plano Cycling homepage</p>
+					
+					<img class="image-modal" data-featherlight="../images/screenshot-photoshop-pcf-colors.jpg" src="../images/screenshot-photoshop-pcf-colors.jpg" alt="Plano Cycling color palette" />
+					<p class="caption">Plano Cycling primary color palette</p>
+					
+				</div>
+				
+				<h3 id="css">CSS</h3>
+				
+				<p>My biggest contribution to this project was the addition of <a href="http://planocycling.com/dir/176/css/pcf_custom_styles.css">well-organized</a> <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fplanocycling.com%2Fdir%2F176%2Fcss%2Fpcf_custom_styles.css&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en">standards-compliant CSS file</a> that contained the template overrides and brand elements that make the site stylistically unique. I also added a couple plugins to power various widgets and font icons.</p>
+								
+				<div class="image-group">
+				
+					<img class="image-modal" data-featherlight="../images/screenshot-live-pcf-homepage.jpg" src="../images/screenshot-live-pcf-homepage.jpg" alt="Screenshot of Plano Cycling homepage" />
+					<p class="caption"><a href="http://planocycling.com">Plano Cycling and Fitness</a> homepage</p>
+					
+					<img class="image-modal" data-featherlight="../images/screenshot-live-pcf-collage.jpg" src="../images/screenshot-live-pcf-collage.jpg" alt="Various screenshots of Plano Cycling website" />
+					<p class="caption">Various pages at <a href="http://planocycling.com">planocycling.com</a></p>
+					
+				</div>
+				
+				<h2 id="features">Noteworthy Features</h2>
+				
+				<h3 id="mobile">Mobile</h3>
+				
+				<p>Several months after the desktop site release, SmartEtailing released a mobile-specific template, which we volunteered to beta test. Like the desktop website, the mobile template had a neutral design. It also focused on product pages alone and didn't incorporate content pages. To match the desktop experience, I added some custom CSS and a homepage area to showcase seasonal features and brick-and-mortar services. </p>
+				
+				<div class="image-group">
+					<img class="image-modal" data-featherlight="../images/screenshot-feature-pcf-mobile.jpg" src="../images/screenshot-feature-pcf-mobile.jpg" alt="Screenshots of Plano cycling mobile website" />
+					<p class="caption">Plano Cycling mobile website</p>
+				</div>
+				
+				<h3 id="graphics">Graphics</h3>
+				
+				<p>For simplicity, I went with a common desktop font stack for the HTML on the website, but the slider and hero graphics were open to some experimentation. I favored the Gotham font for a lot of these due to its beauty and flexibility. Plano Cycling's primary red color was always featured in some fashion.</p>
+				
+				<div class="image-group">
+					<img class="image-modal" data-featherlight="../images/screenshot-feature-pcf-graphics.jpg" src="../images/screenshot-feature-pcf-graphics.jpg" alt="Various Plano Cycling graphics" />
+					<p class="caption">Examples of the Plano Cycling graphical style</p>
+				</div>
 						
 				<h2 id="retrospect">Is it perfect?</h2>
 				
-				<p></p>
+				<p>It's been a while since I did this project, and I've grown a lot as a designer. In retrospect I think there are a few things I would do differently.</p>
 				<ul>
-					<li><b>Not confident in fonts:</b> The Univers font wasn't designed for the web. I favored readability over tradition, but it was more politically expedient to stick with established typography.</li>
-					<li><b>Typeset logo would be nice:</b> Many universities are including web typeset logos in their digital identities for flexibility and mobile-friendliness. I didn't have approval or time to pursue this, but would've liked to.</li>
-					<li><b>Needs more texture:</b> Some portions of our digital properties are quite flat due to the lack of background patterns and textures. I see some institutions adding brand textures lately, but I realized this a little too late.</li>
+					<li><b>Didn't use web fonts:</b> This didn't factor into my thinking at the time, but I think web fonts would add readability and character.</li>
+					<li><b>Mobile-friendly, but not responsive:</b> That was out of the realm of what I could accomplish at the time, and the CMS structure wouldn't have been super helpful. I think SmartEtailing may support responsive designs better now.</li>
+					<li><b>HTML instead of embedded text:</b> The homepage slider uses a baked-in CMS component. With a little extra work I could've deployed a more modern slider with HTML text. Not a huge deal because the CMS version is more maintainable.</li>
 				</ul>
 
 			</div> <!-- project-details -->
 			
 			<div class="portfolio-options">
-				<a class="button button-fat-guy" href="http://styleguide.txstate.edu">View live website<span class="button-arrow">&#10142;</span></a>
+				<a class="button button-fat-guy" href="http://planocycling.com">View live website<span class="button-arrow">&#10142;</span></a>
 				<a href="../portfolio" class="button-light">Back to portfolio home</a>
 			</div>
 			

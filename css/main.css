@@ -55,6 +55,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .much-text h2 {margin-top: 3rem;}
 .main-area .much-text h3 {margin-top: 2.2rem;}
 .main-area .lil-snug-guy {margin-top: -0.8rem;}
+.main-area .question {margin-right: 0.4rem;}
 
 /* Footer */
 .footer {background: #220b17; border-top: 1px solid #000; margin-top: auto;}
