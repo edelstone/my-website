@@ -58,6 +58,11 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .lil-snug-guy {margin-top: -0.8rem;}
 .main-area .question {margin-right: 0.4rem;}
 
+/* Skills */
+.main-area .qualities-wrapper {background: #c34d44; width: 100vw; position: relative; left: 50%; right 50%; margin: 5.5rem -50vw; padding: 6rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent); background-size: 3rem 3rem;}
+.main-area .quality img {max-width: 8rem;}
+.main-area .quality h3 {color: #fff; font-weight: 100; margin-top: 1rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem;}
+
 /* Footer */
 .footer {background: #220b17; border-top: 1px solid #000; margin-top: auto;}
 .footer a {text-decoration: none; color: #d7d5d5; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
@@ -70,10 +75,14 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .footer .load-time {min-height: 2rem;}
 
 /* Columns */
-.multi-layout {display: flex;}
-.col {width: 50%;}
-.col-1 {padding-right: 1.5rem;}
-.col-2 {padding-left: 1.5rem;}
+.multi-layout, .multi-layout-2 {display: flex;}
+.multi-layout .col {width: 50%;}
+.multi-layout .col-1 {padding-right: 1.5rem;}
+.multi-layout .col-2 {padding-left: 1.5rem;}
+.multi-layout-2 .col {width: 33.333%; text-align: center;}
+.multi-layout-2 .col-1 {padding-right: 1.5rem;}
+.multi-layout-2 .col-2 {padding-right: 1.5rem; padding-left: 1.5rem;}
+.multi-layout-2 .col-3 {padding-left: 1.5rem;}
 
 /* Projects */
 .project {margin: 3rem auto 8rem;}
@@ -139,10 +148,12 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100%;}
 	.main-area .caption {padding: 0 2.5rem;}
-	.multi-layout {display: block;}
-	.col {width: 100%;}
-	.col-1 {padding: 0; margin-bottom: 2rem;}
-	.col-2 {padding: 0;}
+	.multi-layout, .multi-layout-2 {display: block;}
+	.multi-layout .col, .multi-layout-2 .col {width: 100%;}
+	.multi-layout .col-1 {padding: 0; margin-bottom: 2rem;}
+	.multi-layout .col-2 {padding: 0;}
+	.multi-layout-2 .col-1, .multi-layout-2 .col-2 {padding: 0; margin-bottom: 6rem;}
+	.multi-layout-2 .col-3 {padding: 0;}
 	.footer-content {padding-bottom: 4.5rem;}
 	.footer .view-github {display: block; margin-top: 0.5rem;}
 	.footer-divider {margin-left: 0.8rem;}
