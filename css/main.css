@@ -10,8 +10,8 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
 .signature {font-size: 1.4rem; text-transform: uppercase; text-align: right; letter-spacing: 1px;}
-.signature a {background: #220b17; color: #d7d5d5; text-decoration: none; display: block; padding: 0.9rem 0; transition: all 0.2s ease-in-out; box-shadow: 0 -1.8rem #220b17 inset; border-bottom: 1px solid #000;}
-.signature a:hover {background: #7f2a4d; color: #fff; box-shadow: 0 -1.8rem #722645 inset; border-bottom: 1px solid #1b0912;}
+.signature a {background: #220b17; color: #d7d5d5; text-decoration: none; display: block; padding: 1rem 0 0.9rem; transition: all 0.2s ease-in-out; box-shadow: 0 -1.9rem #220b17 inset; border-bottom: 1px solid #000;}
+.signature a:hover {background: #7f2a4d; color: #fff; box-shadow: 0 -1.9rem #722645 inset; border-bottom: 1px solid #1b0912;}
 .signature .my-name {display: block;}
 .sig-letter {-moz-transform: translateZ(0); display: inline-block; position: relative; bottom: 0; transition: background 0.2s ease-in-out, transform 0.08s ease-in, bottom 0.08s ease-in; border-radius: 1px;}
 .signature a:hover .sig-letter {background: #722645;}
@@ -41,7 +41,8 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .sub-header {margin-top: 0;}
 .main-area .much-text {padding-top: 1.5rem;}
 .main-area .feature-text {font-size: 2.8rem;}
-.main-area .portrait {position: relative; border-radius: 0.2rem; border: 3px solid #402125; width: 22rem; height: 22rem; margin: 1rem 3rem 1.5rem 0; float: left;}
+.main-area .portrait {position: relative; border-radius: 0.2rem; border: 3px solid #402125; width: 22rem; height: 22rem; margin: 1.2rem 3rem 1.5rem 0; float: left;}
+.main-area .portrait img {display: block;}
 .main-area .image-group {width: 90%; margin: 5rem auto 6rem;}
 .main-area .image-border {border: 1px solid #ccc;}
 .main-area .image-modal {cursor: zoom-in;}
@@ -75,9 +76,9 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .col-2 {padding-left: 1.5rem;}
 
 /* Projects */
-.project {margin: 3rem auto 7.5rem;}
+.project {margin: 3rem auto 8rem;}
 .project .project-header {margin-bottom: 1.2rem; font-size: 2.2rem;}
-.project .project-brief {font-size: 2rem; margin-bottom: 2.3rem;}
+.project .project-brief {margin-bottom: 2.4rem; font-size: 2rem;}
 .title-area {background-color: #d9554c; background-size: cover; background-position: 50%;}
 .title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
 .title-area-2 {background-image: url(../images/banner-txst-template.png);}
@@ -130,7 +131,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 	.intro-wrapper {background: rgba(64,33,37,1);}
 	.intro h1 {font-size: 4.8rem;}
 	.intro nav {margin-left: -0.8rem;}
-	.intro nav a {margin-right: 0.5rem; padding: 0.4rem 0.8rem; font-size: 1.3rem;}
+	.intro nav a {margin-right: 0.5rem; padding: 0.4rem 0.8rem; font-size: 1.4rem;}
 	.main-area-content {padding-top: 2.8rem;}
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .contact-info {margin-left: 2.5rem;}
