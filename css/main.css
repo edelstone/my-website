@@ -45,7 +45,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .image-group {width: 90%; margin: 5rem auto 6rem;}
 .main-area .image-border {border: 1px solid #ccc;}
 .main-area .image-modal {cursor: zoom-in;}
-.main-area .caption {font-size: 1.3rem; text-align: center; margin-top: 1rem; margin-bottom: 4rem;}
+.main-area .caption {font-size: 1.3rem; text-align: center; margin-top: 0.3rem; margin-bottom: 4rem;}
 .main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
 .main-area .button:hover {background: #d9554c; color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
@@ -93,7 +93,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .portfolio-options {text-align: center;}
 
 /* Accordion */
-.main-area .accordion {border: none; padding: 0; background: none; outline: none; margin-top: -1.5rem; margin-bottom: -1rem;}
+.main-area .accordion {border: none; padding: 0; background: none; outline: none; margin-top: -1.5rem; margin-bottom: -1rem; cursor: pointer;}
 .main-area .panel {padding-top: 1rem; max-height: 0; overflow: hidden; transition: all 0.2s ease-in-out; opacity: 0;}
 .main-area .panel-show {opacity: 1;}
 .main-area .accordion .fa {margin-left: 1rem; font-size: 75%; position: relative; bottom: 0.2rem;}
