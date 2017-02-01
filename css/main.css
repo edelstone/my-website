@@ -5,7 +5,7 @@
 html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-weight: normal; height: 100%; background: #220b17;}
 body {min-height: 100%; display: flex; flex-direction: column; background: #fff;}
 img {max-width: 100%;}
-h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .project-image {font-family: 'Montserrat', sans-serif; font-weight: normal;}
+h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .caption {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .full-width {width: 100%;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
@@ -45,7 +45,6 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .portrait img {display: block;}
 .main-area .image-group {width: 90%; margin: 5rem auto 6rem;}
 .main-area .image-border {border: 1px solid #ccc;}
-.main-area .image-modal {cursor: zoom-in;}
 .main-area .caption {font-size: 1.3rem; text-align: center; margin-top: 0.3rem; margin-bottom: 4rem;}
 .main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
 .main-area .button:hover {background: #d9554c; color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
@@ -68,7 +67,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .footer-divider .fa-circle-2 {color: #0c4165; font-size: 105%;}
 .footer .load-time {min-height: 2rem;}
 
-/* Icons */
+/* Skills */
 .main-area .icon-set-wrapper {background: #c34d44; width: 100vw; position: relative; left: 50%; right 50%; margin: 5rem -50vw; padding: 6rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 2px solid #983b35; border-bottom: 2px solid #983b35;}
 .main-area .icon {text-align: center;}
 .main-area .icon img {max-width: 8rem;}
@@ -110,15 +109,13 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 
 /* Accordion */
 .main-area .accordion {border: none; padding: 0; background: none; outline: none; margin-top: -2rem; margin-bottom: -1rem; cursor: pointer;}
-.main-area .panel {padding-top: 1rem; max-height: 0; overflow: hidden; transition: all 0.2s ease-in-out; opacity: 0;}
-.main-area .panel-show {opacity: 1;}
-.main-area .accordion .fa {margin-left: 1rem; font-size: 75%; position: relative; bottom: 0.2rem;}
 .main-area .accordion h3:after {margin-left: 1rem; content: '\002B';}
 .main-area .accordion.active h3:after {content: "\2212";}
+.main-area .panel {padding-top: 1rem; max-height: 0; overflow: hidden; transition: all 0.2s ease-in-out; opacity: 0;}
+.main-area .panel-show {opacity: 1;}
 
 /* Modal */
-[data-balloon].font-awesome:after {font-family: FontAwesome, 'Montserrat', sans-serif; background: #c34d44;}
-[data-balloon].project-image:before {display: none;}
+.main-area .image-modal {cursor: zoom-in;}
 .featherlight .featherlight-close-icon {line-height: 28px; width: 28px; color: #222; font-size: 2rem; outline: none;}
 .featherlight, .featherlight .featherlight-content {cursor: zoom-out;}
 
