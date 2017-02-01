@@ -34,9 +34,9 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area p, .main-area ul, .main-area ol {margin-top: 0; margin-bottom: 1.4rem;}
 .main-area ul ul {padding-left: 3rem; margin-bottom: 0;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.5rem; padding-left: 0;}
-.main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.2rem;}
-.main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1rem; font-size: 2rem; color: #7f2a4d;}
-.main-area h4 {font-size: 1.8rem; margin-bottom: 1.5rem;}
+.main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.4rem;}
+.main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1.4rem; font-size: 2rem; color: #7f2a4d;}
+.main-area h4 {font-size: 1.8rem; margin-bottom: 1.4rem;}
 .main-area hr {margin: -0.8rem 0 5rem 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
 .main-area .sub-header {margin-top: 0;}
 .main-area .much-text {padding-top: 1.5rem;}
@@ -53,10 +53,9 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .button-fat-guy {font-size: 2rem; padding: 2rem; width: 100%; margin: 1.5rem auto; text-align: center;}
 .main-area .button-arrow {margin-left: 1rem;}
 .main-area .button-light {font-size: 1.6rem;}
-.main-area .much-text h2 {margin-top: 3rem;}
-.main-area .much-text h3 {margin-top: 2.2rem;}
-.main-area .lil-snug-guy {margin-top: -0.8rem;}
-.main-area .question {margin-right: 0.4rem;}
+.main-area .much-text h2, .main-area .much-text h3 {margin-top: 3rem;}
+.main-area .lil-snug-guy {margin-top: -1rem;}
+.main-area .question {margin-right: 0.5rem;}
 
 /* Footer */
 .footer {background: #220b17; border-top: 1px solid #000; margin-top: auto;}
@@ -93,8 +92,8 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 /* Projects */
 .project {margin: 3rem auto 8rem;}
 .project-last {margin-bottom: 0;}
-.project .project-header {margin-bottom: 1.2rem; font-size: 2.2rem;}
-.project .project-brief {margin-bottom: 2.4rem; font-size: 2rem;}
+.project .project-header {font-size: 2.2rem;}
+.project .project-brief {margin-bottom: 2.5rem; font-size: 2rem;}
 .title-area {background-color: #d9554c; background-size: cover; background-position: 50%;}
 .title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
 .title-area-2 {background-image: url(../images/banner-txst-template.png);}
@@ -110,7 +109,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .portfolio-options {text-align: center;}
 
 /* Accordion */
-.main-area .accordion {border: none; padding: 0; background: none; outline: none; margin-top: -1.5rem; margin-bottom: -1rem; cursor: pointer;}
+.main-area .accordion {border: none; padding: 0; background: none; outline: none; margin-top: -2rem; margin-bottom: -1rem; cursor: pointer;}
 .main-area .panel {padding-top: 1rem; max-height: 0; overflow: hidden; transition: all 0.2s ease-in-out; opacity: 0;}
 .main-area .panel-show {opacity: 1;}
 .main-area .accordion .fa {margin-left: 1rem; font-size: 75%; position: relative; bottom: 0.2rem;}
