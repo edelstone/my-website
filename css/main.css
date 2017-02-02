@@ -19,8 +19,8 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .signature a:hover .sig-letter:nth-child(4n+2) {bottom: 0.2rem;}
 .signature a:hover .sig-letter:nth-child(4n+3) {transform: rotate(10deg);}
 .signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}
-.intro {background-image: url(../images/droplets.jpg); background-size: cover; background-position: 50% 30%;}
-.intro-wrapper {background: rgba(64,33,37,0.9); color: #fff; box-shadow: 0 0.4rem #d9554c, 0 0.8rem #c34d44;}
+.intro {background-image: url(../images/droplets.jpg); background-position: 50% 0%;}
+.intro-wrapper {background: rgba(64,33,37,0.93); color: #fff; box-shadow: 0 0.4rem #d9554c, 0 0.8rem #c34d44;}
 .intro-content {padding-top: 2.5rem; padding-bottom: 2.5rem; }
 .intro h1 {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
 .intro nav {margin-top: 1.2rem; margin-left: -1.1rem;}
