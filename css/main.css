@@ -126,7 +126,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 }
 
 /* Responsive enhancements */
-@media (min-width: 87.5em) {
+@media (min-width: 80em) {
 	html {font-size: 68.5%;}
 	.constrain {max-width: 80rem;}
 }
