@@ -18,11 +18,6 @@ function getPageLoadTime(){
 
 window.onload = getPageLoadTime;
 
-// Featherlight modal customizations
-$.extend($.featherlight.defaults, {
-   closeOnClick: 'anywhere'
-});
-
 //Smooth scroll to anchors
 $('a').click(function(){
     $('html, body').animate({
