@@ -49,7 +49,8 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
 .main-area .button:hover {background: #d9554c; color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
-.main-area .button-fat-guy {font-size: 2rem; padding: 2rem; width: 100%; margin: 1.5rem auto; text-align: center;}
+.main-area .button-fat-guy {font-size: 2rem; padding: 2rem 4rem; margin: 1.5rem auto;}
+.main-area .button-fw {width: 100%; text-align: center;}
 .main-area .button-arrow {padding-left: 1rem;}
 .main-area .button-light {font-size: 1.6rem;}
 .main-area .much-text h2, .main-area .much-text h3 {margin-top: 3rem;}
@@ -153,7 +154,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 	.main-area-content {padding-top: 2.8rem;}
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .contact-info {margin-left: 1rem;}
-	.main-area .portrait {float: none; width: 100vw; height: 100%; left: 50%; right: 50%; margin: -1rem -50vw 2rem; border-width: 0 0 3px 0; border-radius: 0;}
+	.main-area .portrait {float: none; width: 100vw; height: 100%; left: 50%; right: 50%; margin: -0.9rem -50vw 2rem; border-width: 0 0 3px 0; border-radius: 0;}
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;}
 	.main-area .image-border {border-width: 1px 0;}
