@@ -1,7 +1,7 @@
 /* General */
 *, *:before, *:after {box-sizing: border-box;}
 html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-weight: normal; height: 100%; background: #220b17;}
-body {min-height: 100%; display: flex; flex-direction: column; background: #fff;}
+body {min-height: 100%; display: flex; flex-direction: column; background: #fcfcfc;}
 img {max-width: 100%;}
 h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .full-width {width: 100%;}
