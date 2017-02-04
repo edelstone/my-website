@@ -1,11 +1,9 @@
 /* General */
 *, *:before, *:after {box-sizing: border-box;}
-::selection {background: #f4ccc9;}
-::-moz-selection {background: #f4ccc9;}
 html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-weight: normal; height: 100%; background: #220b17;}
 body {min-height: 100%; display: flex; flex-direction: column; background: #fff;}
 img {max-width: 100%;}
-h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
+h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .use-sans {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .full-width {width: 100%;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
@@ -13,7 +11,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .signature a {background: #220b17; color: #d7d5d5; text-decoration: none; display: block; padding: 1rem 0 0.9rem; transition: all 0.2s ease-in-out; box-shadow: 0 -1.9rem #220b17 inset; border-bottom: 1px solid #000;}
 .signature a:hover {background: #7f2a4d; color: #fff; box-shadow: 0 -1.9rem #722645 inset; border-bottom: 1px solid #1b0912;}
 .signature .my-name {display: block;}
-.sig-letter {-moz-transform: translateZ(0); display: inline-block; position: relative; bottom: 0; transition: background 0.2s ease-in-out, transform 0.08s ease-in, bottom 0.08s ease-in; border-radius: 1px;}
+.sig-letter {display: inline-block; position: relative; bottom: 0; transition: background 0.2s ease-in-out, transform 0.08s ease-in, bottom 0.08s ease-in; border-radius: 1px;}
 .signature a:hover .sig-letter {background: #722645;}
 .signature a:hover .sig-letter:nth-child(4n+1) {transform: rotate(-10deg);}
 .signature a:hover .sig-letter:nth-child(4n+2) {bottom: 0.2rem;}
@@ -32,7 +30,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area a {color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
 .main-area a:hover {color: #c34d44;}
 .main-area p, .main-area ul, .main-area ol {margin-top: 0; margin-bottom: 1.4rem;}
-.main-area ul ul {padding-left: 3rem; margin-bottom: 0;}
+.main-area ul ul {padding-left: 3rem; margin-bottom: 0; margin-top: 0.5rem;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.5rem; padding-left: 0;}
 .main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.4rem;}
 .main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1.4rem; font-size: 2rem; color: #7f2a4d;}
@@ -69,7 +67,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .footer .load-time {min-height: 2rem;}
 
 /* Skills */
-.main-area .icon-set-wrapper {background: #d7d5d5; width: 100vw; position: relative; left: 50%; right 50%; margin: 4.5rem -50vw; padding: 6rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 2px solid #53373b; border-bottom: 2px solid #53373b;}
+.main-area .icon-set-wrapper {background: #d7d5d5; width: 100vw; position: relative; left: 50%; right: 50%; margin: 4.5rem -50vw; padding: 6rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 2px solid #53373b; border-bottom: 2px solid #53373b;}
 .main-area .icon {text-align: center;}
 .main-area .icon img {max-width: 8rem;}
 .main-area .icon h3 {font-weight: normal; color: #222; margin-top: 1.2rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem;}
@@ -110,16 +108,19 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .main-area .portfolio-options {text-align: center;}
 
 /* Accordion */
-.main-area .accordion {border: none; padding: 0; background: none; outline: none; margin-top: -2rem; margin-bottom: -1rem; cursor: pointer;}
-.main-area .accordion h3:after {margin-left: 1rem; content: '\002B';}
-.main-area .accordion.active h3:after {content: "\2212";}
-.main-area .panel {padding-top: 1rem; max-height: 0; overflow: hidden; transition: all 0.2s ease-in-out; opacity: 0;}
+.main-area .toc {padding-top: 0.8rem;}
+.main-area .accordion {font-weight: bold; font-size: 1.6rem; color: #7f2a4d; border: 1px solid #d7d5d5; padding: 1.5rem 2rem; background: #eee; outline: none; cursor: pointer; letter-spacing: 1px; text-transform: uppercase;}
+.main-area .accordion span:after {margin-left: 1rem; content: '\002B';}
+.main-area .accordion.active span:after {content: "\2212";}
+.main-area .panel {margin-top: 1.2rem; max-height: 0; overflow: hidden; transition: all 0.2s ease-in-out; opacity: 0;}
 .main-area .panel-show {opacity: 1;}
 
 /* Modal */
 .main-area .image-modal {cursor: zoom-in;}
-.featherlight .featherlight-close-icon {line-height: 28px; width: 28px; color: #222; font-size: 2rem; outline: none;}
+.featherlight .featherlight-close-icon {line-height: 28px; width: 28px; color: #222; font-size: 2rem; outline: none; background: rgba(255,255,255,0.8);}
 .featherlight, .featherlight .featherlight-content {cursor: zoom-out;}
+.featherlight .featherlight-content {border-bottom: none; padding: 0;}
+.featherlight .featherlight-image {padding: 1rem;}
 
 /* Animations */
 @keyframes spin {
@@ -128,7 +129,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 }
 
 /* Style Guide */
-.sg-section {margin: 2rem auto 6rem;}
+.sg-section {margin: 3rem auto 5rem;}
 .sg-component {padding-bottom: 1rem; margin-left: 2rem;}
 .sg-component.no-indent {margin-left: 0;}
 .sg-component * {margin: 0 !important;}
