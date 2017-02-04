@@ -131,6 +131,7 @@ h1, h2, h3, h4, .signature, .intro, .footer, .button, .button-light, .tags, .cap
 .sg-component {padding-bottom: 1rem; margin-left: 2rem;}
 .sg-component.no-indent {margin-left: 0;}
 .sg-component * {margin: 0 !important;}
+.sg-rows {margin-top: 3rem;}
 .sg-color div {height: 8rem;}
 .sg-color p {font-size: 1.4rem; padding-top: 0.5rem;}
 .main-area .sg-header {border-bottom: 1px solid #d7d5d5; padding-bottom: 0.5rem;}
