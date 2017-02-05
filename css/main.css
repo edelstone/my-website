@@ -113,7 +113,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 /* Accordion */
 .main-area .toc {padding-top: 0.8rem;}
-.main-area .accordion {font-weight: bold; font-size: 1.6rem; color: #7f2a4d; border: 1px solid #d7d5d5; padding: 1.5rem 2rem; background: #eee; outline: none; cursor: pointer; letter-spacing: 1px; text-transform: uppercase; border-radius: 2px;}
+.main-area .accordion {font-weight: bold; font-size: 1.6rem; color: #7f2a4d; border: 1px solid #d7d5d5; padding: 1.5rem 2rem; background: #eee; outline: none; cursor: pointer; letter-spacing: 1px; text-transform: uppercase;}
 .main-area .accordion span:after {margin-left: 1rem; content: '\002B';}
 .main-area .accordion.active span:after {content: "\2212";}
 .main-area .panel {margin-top: 1.2rem; max-height: 0; overflow: hidden; transition: all 0.2s ease-in-out; opacity: 0;}
