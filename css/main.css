@@ -56,7 +56,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .question {margin-right: 0.5rem;}
 .main-area .icon {text-align: center;}
 .main-area .icon img {max-width: 8rem;}
-.main-area .fa-li {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
+.main-area .important-updates .fa-li  {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
 
 /* Footer */
 .footer {background: #220b17; border-top: 1px solid #000; margin-top: auto;}
