@@ -54,6 +54,9 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .much-text h2, .main-area .much-text h3 {margin-top: 3rem;}
 .main-area .lil-snug-guy {margin-top: -1rem;}
 .main-area .question {margin-right: 0.5rem;}
+.main-area .icon {text-align: center;}
+.main-area .icon img {max-width: 8rem;}
+.main-area .fa-li {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
 
 /* Footer */
 .footer {background: #220b17; border-top: 1px solid #000; margin-top: auto;}
@@ -66,11 +69,12 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .footer-divider .fa-circle-2 {color: #0c4165; font-size: 105%;}
 .footer .load-time {min-height: 2rem;}
 
-/* Skills */
-.main-area .icon-set-wrapper {background: #d7d5d5; width: 100vw; position: relative; left: 50%; right: 50%; margin: 4.5rem -50vw; padding: 6rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0.05) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 2px solid #53373b; border-bottom: 2px solid #53373b;}
-.main-area .icon {text-align: center;}
-.main-area .icon img {max-width: 8rem;}
-.main-area .icon h3 {font-weight: normal; color: #222; margin-top: 1.2rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem;}
+/* Banding */
+.main-area .overflow-wrapper {background: #d7d5d5; width: 100vw; position: relative; left: 50%; right: 50%; margin: 4.5rem -50vw; padding: 6rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.03) 25%, rgba(0, 0, 0, 0.03) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.03) 75%, rgba(0, 0, 0, 0.03) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.03) 25%, rgba(0, 0, 0, 0.03) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.03) 75%, rgba(0, 0, 0, 0.03) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 1px solid #53373b; border-bottom: 1px solid #53373b;}
+.main-area .overflow-wrapper .overflow-header {margin: 0 auto 4.5rem; text-align: center;}
+.main-area .overflow h3 {font-weight: normal; color: #222; margin-top: 1.2rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem;}
+.main-area .overflow ul li {margin-bottom: 1.5rem;}
+.main-area .overflow-link {margin-top: 3rem; text-align: center;}
 
 /* Contact */
 .main-area .contact-info {margin-left: 4.5rem;}
@@ -120,7 +124,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .featherlight .featherlight-close-icon {line-height: 28px; width: 28px; color: #222; font-size: 2rem; outline: none; background: rgba(255,255,255,0.8);}
 .featherlight, .featherlight .featherlight-content {cursor: zoom-out;}
 .featherlight .featherlight-content {border-bottom: none; padding: 0;}
-.featherlight .featherlight-image {padding: 1rem;}
+.featherlight .featherlight-inner {border: 1rem solid #fff;}
 
 /* Animations */
 @keyframes spin {
@@ -164,8 +168,8 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	.multi-layout .col-1 {padding: 0; margin-bottom: 2rem;}
 	.multi-layout .col-2 {padding: 0;}
 	.multi-layout-2 .col-1, .multi-layout-2 .col-2 {padding: 0; margin-bottom: 6rem;}
-	.multi-layout-2 .stack {margin-bottom: 0;}
 	.multi-layout-2 .col-3 {padding: 0;}
+	.multi-layout .stack, .multi-layout-2 .stack {margin-bottom: 0;}
 	.footer-content {padding-bottom: 4.5rem;}
 	.footer .view-github {display: block; margin-top: 0.5rem;}
 	.footer-divider {margin-left: 0.8rem;}
