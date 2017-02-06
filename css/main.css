@@ -58,9 +58,9 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .icon img {max-width: 8rem;}
 .main-area .important-updates .fa-li  {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
 .main-area .image-link {background: transparent;}
-.main-area .image-link img {position: relative; bottom: 0; transition: all .2s ease-in-out; backface-visibility: hidden;}
-.main-area .image-link.trans-effect-1:hover img {bottom: 5px;}
-.main-area .image-link.trans-effect-2:hover img {transform: scale(1.08);}
+.main-area .image-link img {position: relative; bottom: 0; transition: all .25s cubic-bezier(0.68, -0.55, 0.265, 1.55); backface-visibility: hidden;}
+.main-area .image-link.trans-effect-1:hover img {bottom: 8px;}
+.main-area .image-link.trans-effect-2:hover img {transform: scale(1.1);}
 .main-area .image-link.trans-effect-3:hover img {transform: rotate(15deg);}
 
 /* Footer */
