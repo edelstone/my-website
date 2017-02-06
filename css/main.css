@@ -70,7 +70,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .footer .load-time {min-height: 2rem;}
 
 /* Banding */
-.main-area .overflow-wrapper {background: #d7d5d5; width: 100vw; position: relative; left: 50%; right: 50%; margin: 4.5rem -50vw; padding: 6rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.03) 25%, rgba(0, 0, 0, 0.03) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.03) 75%, rgba(0, 0, 0, 0.03) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.03) 25%, rgba(0, 0, 0, 0.03) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.03) 75%, rgba(0, 0, 0, 0.03) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 1px solid #53373b; border-bottom: 1px solid #53373b;}
+.main-area .overflow-wrapper {background: #d7d5d5; width: 100vw; position: relative; left: 50%; right: 50%; margin: 4.5rem -50vw; padding: 6rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 1px solid #53373b; border-bottom: 1px solid #53373b;}
 .main-area .overflow-wrapper .overflow-header {margin: 0 auto 4.5rem; text-align: center;}
 .main-area .overflow h3 {font-weight: normal; color: #222; margin-top: 1.2rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem;}
 .main-area .overflow ul li {margin-bottom: 1.5rem;}
