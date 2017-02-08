@@ -8,25 +8,26 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
 .signature {font-size: 1.4rem; text-transform: uppercase; text-align: right; letter-spacing: 1px;}
-.signature a {background: #220b17; color: #d7d5d5; text-decoration: none; display: block; padding: 1rem 0 0.9rem; transition: all 0.2s ease-in-out; box-shadow: 0 -1.9rem #220b17 inset; border-bottom: 1px solid #000;}
-.signature a:hover {background: #7f2a4d; color: #fff; box-shadow: 0 -1.9rem #722645 inset; border-bottom: 1px solid #1b0912;}
+.signature a {background: #220b17; color: #d9d3d3; text-decoration: none; display: block; padding: 1.1rem 0 0.9rem; transition: all 0.2s ease-in-out; box-shadow: 0 -1.9rem #220b17 inset; border-bottom: 1px solid #1b0912;}
+.signature a:hover {background: #7f2a4d; color: #fcfcfc; box-shadow: 0 -1.9rem #722645 inset;}
 .signature .my-name {display: block;}
-.sig-letter {display: inline-block; position: relative; bottom: 0; transition: background 0.2s ease-in-out, transform 0.08s ease-in, bottom 0.08s ease-in; border-radius: 1px;}
+.sig-letter {display: inline-block; position: relative; bottom: 0; transition: background .2s ease-in-out, transform 0.08s ease-in, bottom 0.08s ease-in; border-radius: 1px;}
 .signature a:hover .sig-letter {background: #722645;}
 .signature a:hover .sig-letter:nth-child(4n+1) {transform: rotate(-10deg);}
 .signature a:hover .sig-letter:nth-child(4n+2) {bottom: 0.2rem;}
 .signature a:hover .sig-letter:nth-child(4n+3) {transform: rotate(10deg);}
 .signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}
-.intro {background-image: url(../images/droplets.jpg); background-position: 50% 0%;}
-.intro-wrapper {background: rgba(64,33,37,0.93); color: #fff; box-shadow: 0 0.7rem #d9554c;}
-.intro-content {padding-top: 2rem; padding-bottom: 2rem; }
+.intro {background-image: url(../images/droplets.jpg); background-position: 50% 0%; background-size: cover;}
+.intro-wrapper {background: rgba(64,33,37,0.93); color: #fcfcfc; box-shadow: 0 0.7rem #d9554c;}
+.intro-content {padding-top: 2.5rem; padding-bottom: 2.8rem;}
 .intro h1 {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
 .intro nav {margin-top: 1.2rem; margin-left: -1.1rem;}
-.intro nav a {color: #d7d5d5; margin-right: 1.5rem; font-size: 1.4rem; text-decoration: none; border-radius: 20px; padding: 0.6rem 1.2rem; display: inline-block;}
-.intro nav a:hover {background: #53373b; color: #fff;}
-.intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d7d5d5;}
+.intro nav a {color: #d9d3d3; margin-right: 1.5rem; font-size: 1.4rem; text-decoration: none; border-radius: 20px; padding: 0.6rem 1.2rem; display: inline-block;}
+.intro nav a:hover {background: #53373b; color: #fcfcfc;}
+.intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d9d3d3;}
 .main-area-content {padding-top: 4rem; padding-bottom: 2rem; font-size: 2.2rem;}
 .main-area .content-section {margin-bottom: 4rem;}
+.main-area .content-section.tall-section {margin-bottom: 5rem;}
 .main-area a {color: #222; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
 .main-area a:hover {color: #c34d44;}
 .main-area p, .main-area ul, .main-area ol {margin-top: 0; margin-bottom: 1.4rem;}
@@ -44,10 +45,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .portrait img {display: block;}
 .main-area .image-group {width: 90%; margin: 5rem auto 6rem;}
 .main-area .image-group-fw {width: 100%; margin: 0;}
-.main-area .image-border {border: 1px solid #ccc;}
+.main-area .image-border {border: 1px solid #d9d3d3;}
 .main-area .caption {font-size: 1.3rem; text-align: center; margin-top: 0.3rem; margin-bottom: 4rem;}
-.main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fff; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
-.main-area .button:hover {background: #d9554c; color: #fff; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
+.main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fcfcfc; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
+.main-area .button:hover {background: #d9554c; color: #fcfcfc; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
 .main-area .button-fat-guy {font-size: 2rem; padding: 2rem 4rem; margin: 1.5rem auto;}
 .main-area .button-fw {width: 100%; text-align: center;}
@@ -56,36 +57,48 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .much-text h2, .main-area .much-text h3 {margin-top: 3rem;}
 .main-area .lil-snug-guy {margin-top: -1rem;}
 .main-area .question {margin-right: 0.5rem;}
+.main-area .important-updates .fa-li  {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
+
+/* Banded Sections */
+.main-area .stacked-content {padding: 0;}
+.intro .quick-bio {font-family: Neuton, serif; font-size: 4.8rem; color: #ece9e9; padding: 6rem 0 4rem; text-shadow: 1px 1px 0px #1b0912;}
+.intro .quick-bio p {margin: 0 auto 2rem;}
+.intro .quick-bio a {color: #ece9e9; text-decoration: none; background: linear-gradient(to bottom, transparent 0, transparent 90%, #d9554c 90%, #d9554c 100%);}
+.intro .quick-bio a:hover {color: #f4ccc9;}
+.main-area .productivity {background: #d9d3d3; width: 100vw; position: relative; left: 50%; right: 50%; margin: 0 -50vw; padding: 6rem 0; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 1px solid #53373b; border-bottom: 1px solid #53373b;}
+.main-area .productivity .productivity-header {margin: 0 auto 4.5rem; text-align: center;}
+.main-area .productivity h3 {font-weight: normal; color: #222; margin-top: 1.2rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem;}
+.main-area .productivity ul li {margin-bottom: 1.5rem;}
+.main-area .improvements {margin-top: 4.5rem; margin-bottom: 4.5rem;}
+.main-area .homes {padding: 7rem 0 4rem; background: radial-gradient(#7f2a4d, #66223e); color: #ece9e9; text-shadow: 1px 1px 0 #402125;}
+.main-area .homes h2 {margin-top: 0; background: #7f2a4d; display: inline-block; position: relative; padding: 0.3rem 0.8rem; left: -0.8rem;}
+.main-area .homes a {color: #ece9e9; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
+.main-area .homes a:hover {color: #d9554c; text-shadow: none;}
+
+/* Icons */
 .main-area .icon {text-align: center;}
 .main-area .icon img {max-width: 8rem;}
-.main-area .important-updates .fa-li  {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
-.main-area .image-link {background: transparent;}
-.main-area .image-link img {position: relative; bottom: 0; transition: all .25s cubic-bezier(0.68, -0.55, 0.265, 1.55); backface-visibility: hidden;}
-.main-area .image-link.trans-effect-1:hover img {bottom: 8px;}
-.main-area .image-link.trans-effect-2:hover img {transform: scale(1.1);}
-.main-area .image-link.trans-effect-3:hover img {transform: rotate(15deg);}
+.main-area .icon-link {background: transparent;}
+.main-area .icon-link img {position: relative; bottom: 0; transition: all .25s cubic-bezier(0.68, -0.55, 0.265, 1.55); backface-visibility: hidden;}
+.main-area .icon-link.trans-effect-1:hover img {bottom: 8px;}
+.main-area .icon-link.trans-effect-2:hover img {transform: scale(1.1);}
+.main-area .icon-link.trans-effect-3:hover img {transform: rotate(15deg);}
 
 /* Footer */
-.footer {background: #220b17; border-top: 1px solid #000; margin-top: auto;}
-.footer a {text-decoration: none; color: #d7d5d5; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
-.footer a:hover {color: #fff;}
-.footer-content {padding-top: 3.5rem; padding-bottom: 3rem; text-align: center; font-size: 1.4rem; color: #d7d5d5;}
+.footer {background: #220b17; border-top: 1px solid #1b0912; margin-top: auto;}
+.footer a {text-decoration: none; color: #ece9e9; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
+.footer a:hover {color: #fcfcfc;}
+.footer-content {padding-top: 5rem; padding-bottom: 4rem; text-align: center; font-size: 1.4rem; color: #d9d3d3;}
 .footer-divider {font-size: 2rem; display: inline-block; animation: spin 30s linear infinite;}
 .footer-divider .fa-globe {color: #146da9;}
 .footer-divider .fa-circle {color: #75bd59;}
-.footer-divider .fa-circle-2 {color: #0c4165; font-size: 105%;}
-.footer .load-time {min-height: 2rem;}
+.footer-divider .fa-circle-2 {color: #146da9; font-size: 105%;}
+.footer .load-time {min-height: 2rem; margin-bottom: 0.2rem;}
 
 /* Contact */
 .main-area .contact-info {margin-left: 4.5rem;}
 .main-area .contact-info li {margin-bottom: 1.2rem;}
 .main-area .contact-info i {margin-top: 0.4rem; color: #d9554c;}
-
-/* Banding */
-.main-area .overflow-wrapper {background: #d7d5d5; width: 100vw; position: relative; left: 50%; right: 50%; margin: 4.5rem -50vw; padding: 6rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 1px solid #53373b; border-bottom: 1px solid #53373b;}
-.main-area .overflow-wrapper .overflow-header {margin: 0 auto 4.5rem; text-align: center;}
-.main-area .overflow h3 {font-weight: normal; color: #222; margin-top: 1.2rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem;}
-.main-area .overflow ul li {margin-bottom: 1.5rem;}
 
 /* Columns */
 .multi-layout, .multi-layout-2 {display: flex;}
@@ -109,7 +122,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .title-area-4 {background-image: url(../images/banner-pcf-website.png);}
 .title-area-wrapper {background-color: rgba(217,85,76,0.75);}
 .title-area-content {padding-top: 3.5rem; padding-bottom: 3.5rem;}
-.title-area .portfolio-header {font-size: 2.6rem; margin: 0; color: #fff; text-shadow: 2px 2px 0px #983b35; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;}
+.title-area .portfolio-header {font-size: 2.6rem; margin: 0; color: #fcfcfc; text-shadow: 2px 2px 0px #983b35; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;}
 .main-area .tags {margin-top: -2rem; margin-bottom: -2rem;}
 .main-area .tags.kill-margin, .main-area .tags.kill-margin ul {margin: 0;}
 .main-area .tags ul {padding: 0; list-style-type: none;}
@@ -126,11 +139,12 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .sg-color div {height: 8rem;}
 .sg-color p {font-size: 1.4rem; padding-top: 0.5rem;}
 .sg-color p:nth-child(3) {margin-top: -1.8rem;}
-.main-area .sg-header {border-bottom: 1px solid #d7d5d5; padding-bottom: 0.5rem;}
+.sg-color .pop-color {border: 1px solid #d9d3d3;}
+.main-area .sg-header {border-bottom: 1px solid #d9d3d3; padding-bottom: 0.5rem;}
 
 /* Accordion */
 .main-area .toc {padding-top: 0.8rem;}
-.main-area .accordion {font-weight: bold; font-size: 1.6rem; color: #7f2a4d; border: 1px solid #d7d5d5; padding: 1.5rem 2rem; background: #eee; outline: none; cursor: pointer; letter-spacing: 1px; text-transform: uppercase;}
+.main-area .accordion {font-weight: bold; font-size: 1.6rem; color: #7f2a4d; border: 1px solid #d9d3d3; padding: 1.5rem 1.8rem; background: #ece9e9; outline: none; cursor: pointer; letter-spacing: 1px; text-transform: uppercase;}
 .main-area .accordion span:after {margin-left: 1rem; content: '\002B';}
 .main-area .accordion.active span:after {content: "\2212";}
 .main-area .panel {margin: 1.5rem 0 -0.5rem; max-height: 0; overflow: hidden; transition: all 0.2s ease-in-out; opacity: 0;}
@@ -141,7 +155,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .featherlight .featherlight-close-icon {line-height: 28px; width: 28px; color: #222; font-size: 2rem; outline: none; background: rgba(255,255,255,0.8);}
 .featherlight, .featherlight .featherlight-content {cursor: zoom-out;}
 .featherlight .featherlight-content {border-bottom: none; padding: 0;}
-.featherlight .featherlight-inner {border: 1rem solid #fff;}
+.featherlight .featherlight-inner {border: 1rem solid #fcfcfc;}
 
 /* Animations */
 @keyframes spin {
@@ -166,19 +180,19 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	html {font-size: 58.5%;}
 	.signature {font-size: 1.3rem; text-align: left;}
 	.signature a {padding-top: 1.1rem;}
-	.intro-wrapper {background: rgba(64,33,37,1);}
 	.intro h1 {font-size: 4.8rem;}
 	.intro nav {margin-left: -0.8rem;}
 	.intro nav a {margin: -0.2rem 0.5rem -0.2rem -0.5rem; font-size: 1.5rem;}
+	.intro .quick-bio {padding: 5rem 0 2rem; font-size: 3.6rem;}
 	.main-area-content {padding-top: 2.8rem;}
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .contact-info {margin-left: 1rem;}
 	.main-area .portrait {float: none; width: 100vw; height: 100%; left: 50%; right: 50%; margin: -1.5rem -50vw 2rem; border-width: 0 0 4px 0; border-radius: 0;}
-	.main-area .super-feature-text {font-size: 2.8rem;}
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100%;}
 	.main-area .project-brief {font-size: 2.2rem;}
 	.main-area .important-updates {margin-left: 0;}
+	.main-area .homes {padding: 5rem 0 2rem;}
 	.multi-layout, .multi-layout-2 {display: block;}
 	.multi-layout .col, .multi-layout-2 .col {width: 100%;}
 	.multi-layout .col-1 {padding: 0; margin-bottom: 2rem;}
@@ -186,7 +200,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	.multi-layout-2 .col-1, .multi-layout-2 .col-2 {padding: 0; margin-bottom: 6rem;}
 	.multi-layout-2 .col-3 {padding: 0;}
 	.multi-layout .stack, .multi-layout-2 .stack {margin-bottom: 0;}
-	.footer-content {padding-bottom: 4.5rem;}
+	.footer-content {padding-bottom: 5.5rem; line-height: 3rem;}
 	.footer .view-github {display: block; margin-top: 0.5rem;}
 	.footer-divider {margin-left: 0.8rem;}
 	.footer .fa-stack {width: 2.5rem;}
