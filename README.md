@@ -1,6 +1,8 @@
-# ![color logo]: http://michaeledelstone.com/images/touch.png [My Website and Portfolio](http://michaeledelstone.com)
+# ![color logo](http://michaeledelstone.com/images/touch.png) [My Website and Portfolio](http://michaeledelstone.com)
 
-This is the source code for my personal website located at [michaeledelstone.com](http://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best clients and teams around. [There's a style guide, if you're interested](http://michaeledelstone.com/styleguide).
+This is the source code for my personal website located at [michaeledelstone.com](http://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best clients and teams around.
+
+[There's a style guide too, if you're interested](http://michaeledelstone.com/styleguide).
 
 ## Goals
 
