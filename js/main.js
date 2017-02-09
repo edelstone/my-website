@@ -5,6 +5,7 @@ window.addEventListener('load', function() {
 
 // Get and display page load time
 // calculate the time before calling the function in window.onload
+// This snippet modified from the original: https://codepad.co/snippet/585338
 var beforeload = (new Date()).getTime();
 
 function getPageLoadTime(){
@@ -18,7 +19,8 @@ function getPageLoadTime(){
 
 window.onload = getPageLoadTime;
 
-//Smooth scroll to anchors
+// Smooth scroll to anchors
+// This snippet modified from the original at: http://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
 $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
@@ -26,8 +28,8 @@ $('a').click(function(){
     return false;
 });
 
-
-//Accordion
+// Accordion
+// This snippet modified from the original: http://www.w3schools.com/howto/howto_js_accordion.asp
 var acc = document.getElementsByClassName("accordion");
 var i;
 
