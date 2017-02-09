@@ -1,4 +1,4 @@
-# ![color logo](http://michaeledelstone.com/images/touch.png) [My Website and Portfolio](http://michaeledelstone.com)
+# <img src="http://michaeledelstone.com/images/favicon.png" width="25" /> [My Website and Portfolio](http://michaeledelstone.com)
 
 This is the source code for my personal website located at [michaeledelstone.com](http://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best clients and teams around.
 
