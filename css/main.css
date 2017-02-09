@@ -210,6 +210,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	.choices .multi-layout .col {margin: 0;}
 	.choices .about-me {border-top: none; border-bottom: 1px solid #402125;}
 	.choices .about-site {border-top: 1px solid #664d51;}
+	.choices .about-me:hover, .choices .about-site:hover {bottom: 0; box-shadow: none;}
 	.multi-layout, .multi-layout-2 {display: block;}
 	.multi-layout .col, .multi-layout-2 .col {width: 100%;}
 	.multi-layout .col-1 {padding: 0; margin-bottom: 2rem;}
