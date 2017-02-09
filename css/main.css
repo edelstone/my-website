@@ -63,7 +63,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .important-updates .fa-li  {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
 
 /* Footer */
-.footer {background: #220b17; margin-top: auto;}
+.footer {position: relative; background: #220b17; margin-top: auto;}
 .footer a {text-decoration: none; color: #ece9e9; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
 .footer a:hover {color: #fcfcfc;}
 .footer-content {padding-top: 4.5rem; padding-bottom: 3.5rem; text-align: center; font-size: 1.4rem; color: #d9d3d3;}
@@ -72,6 +72,9 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .footer-divider .fa-circle {color: #75bd59;}
 .footer-divider .fa-circle-2 {color: #146da9; font-size: 105%;}
 .footer .load-time {min-height: 2rem; margin-bottom: 0.2rem;}
+.footer .btt {margin-top: 2rem;}
+.footer .btt a {background: transparent; border: 3px solid #53373b; padding: 1.5rem; color: #d9d3d3; transition: all .2s ease-in-out; border-radius: 3px; display: block;}
+.footer .btt a:hover {background: #53373b;}
 
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
@@ -95,7 +98,6 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .choices .about-me:hover {box-shadow: 0 6px #91364e; background: #cf4d6f; text-shadow: 1px 1px 0 #91364e;}
 .choices .about-site:hover {box-shadow: 0 6px #983b35; background: #d9554c; text-shadow: 1px 1px 0 #983b35;}
 .choices a:active {transition: none; bottom: 0; box-shadow: none !important;}
-
 
 /* Icons */
 .main-area .icon {text-align: center;}
@@ -218,10 +220,11 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	.multi-layout-2 .col-1, .multi-layout-2 .col-2 {padding: 0; margin-bottom: 6rem;}
 	.multi-layout-2 .col-3 {padding: 0;}
 	.multi-layout .stack, .multi-layout-2 .stack {margin-bottom: 0;}
-	.footer-content {padding-bottom: 5rem; line-height: 3rem; font-size: 1.5rem;}
-	.footer .view-github {display: block; margin-top: 0.5rem;}
-	.footer-divider {margin-left: 0.8rem;}
+	.footer .footer-content {line-height: 3rem; font-size: 1.5rem;}
+	.footer .source {display: block; margin: 0.5rem auto 3rem;}
+	.footer .footer-divider {margin-left: 0.8rem;}
 	.footer .fa-stack {width: 2.5rem;}
+	.footer .btt {line-height: initial;}
 }
 
 @media (max-width: 20em) {
