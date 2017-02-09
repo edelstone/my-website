@@ -1,8 +1,8 @@
-# <img src="http://michaeledelstone.com/images/favicon.png" width="25" /> [My Website and Portfolio](http://michaeledelstone.com)
+# <img src="http://michaeledelstone.com/images/favicon.png" style="max-width: 25px; margin-right: 10px;" /> [My Website and Portfolio](http://michaeledelstone.com)
 
-This is the source code for my personal website located at [michaeledelstone.com](http://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best clients and teams around.
+This is the source code for [michaeledelstone.com](http://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best clients and teams around.
 
-[There's a style guide too, if you're interested](http://michaeledelstone.com/styleguide).
+**[There's a style guide too, if you're interested](http://michaeledelstone.com/styleguide).**
 
 ## Goals
 
@@ -34,3 +34,16 @@ Many thanks to the digital community for these bad boys:
 * [Featherlight](https://github.com/noelboss/featherlight)
 * [FastClick](https://github.com/ftlabs/fastclick)
 * [Normalize.css](https://github.com/necolas/normalize.css)
+
+## Inspiration
+
+I am thankful to these incredible designers for inspiration and strategic ideas:
+
+* [Oliver Pattison](https://olivermak.es/)
+* [Klare Frank](http://klare.io/)
+* [Tyler Gaw](https://tylergaw.com/)
+* [Jason Santa Maria](http://jasonsantamaria.com/)
+
+## Using my code
+
+Have at it. Please fork, make pull requests, or create issues on this project.
