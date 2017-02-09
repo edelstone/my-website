@@ -26,6 +26,7 @@ $('a').click(function(){
     return false;
 });
 
+
 //Accordion
 var acc = document.getElementsByClassName("accordion");
 var i;
