@@ -218,7 +218,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	.multi-layout-2 .col-1, .multi-layout-2 .col-2 {padding: 0; margin-bottom: 6rem;}
 	.multi-layout-2 .col-3 {padding: 0;}
 	.multi-layout .stack, .multi-layout-2 .stack {margin-bottom: 0;}
-	.footer-content {padding-bottom: 5rem; line-height: 3rem;}
+	.footer-content {padding-bottom: 5rem; line-height: 3rem; font-size: 1.5rem;}
 	.footer .view-github {display: block; margin-top: 0.5rem;}
 	.footer-divider {margin-left: 0.8rem;}
 	.footer .fa-stack {width: 2.5rem;}
