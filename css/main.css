@@ -80,7 +80,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .footer .load-time {min-height: 2rem; margin-bottom: 0.2rem;}
 .footer .btt {position: absolute; right: 2rem; bottom: 2rem;}
 .footer .btt a {background: transparent; border: 3px solid #53373b; padding: 1rem 1.5rem; color: #d9d3d3; transition: all .2s ease-in-out; border-radius: 3px; display: block;}
-.footer .btt a:hover {background: #53373b;}
+.footer .btt a:hover {background: #53373b; color: #fcfcfc;}
 
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
