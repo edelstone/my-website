@@ -1,4 +1,4 @@
-# <img src="http://michaeledelstone.com/images/favicon.png" style="max-width: 25px; margin-right: 10px;" /> [My Website and Portfolio](http://michaeledelstone.com)
+# [<img src="http://michaeledelstone.com/images/favicon.png" width="25px" />](http://michaeledelstone.com) [My Website and Portfolio](http://michaeledelstone.com)
 
 This is the source code for [michaeledelstone.com](http://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best clients and teams around.
 
