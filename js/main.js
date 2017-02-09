@@ -30,8 +30,3 @@ $('a').click(function() {
     });
     return false;
 });
-
-// Accordion
-$(function () {
-   $('.js-accordion').accordion();
-});
