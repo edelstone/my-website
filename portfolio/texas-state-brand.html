@@ -16,6 +16,8 @@
 
 <body>
 
+<a href="#content" class="offscreen">Skip to Content</a>
+
 <header id="top" class="header">
 
 	<div class="signature">
@@ -47,7 +49,7 @@
 	</div>
 </div>
 
-<div class="main-area">
+<div id="content" class="main-area">
 
 	<div class="main-area-content constrain">
 	
@@ -70,11 +72,9 @@
 				
 				<p>The Texas State <a href="texas-state-homepage.html">homepage</a> and <a href="texas-state-template.html">primary template</a>, as well as many other public websites and internal tools, are designed using elements of the digital brand system I conceived. It's documented over at <a href="http://styleguide.txstate.edu">styleguide.txstate.edu</a>.</p>
 				
-				<div class="toc">
-					<button class="accordion">
-						<span id="sections">Sections on this page</span>
-					</button>
-					<div class="panel">
+				<div class="js-accordion" data-accordion-prefix-classes="accordion">
+					<div class="js-accordion__panel">
+						<h2 class="js-accordion__header">Sections on this page</h2>
 						<ul>
 							<li><a href="#context">Context</a></li>
 							<li><a href="#goals">Goals</a></li>
@@ -271,7 +271,7 @@
 			</span>
 		</div>
 		<div class="btt">
-			<a href="#top">Back to top</a>
+			<a href="#top">Back to top<span class="button-arrow">&#10548;</span></a>
 		</div>
 	</div>
 	
@@ -281,6 +281,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.js"></script>
 <script>$.featherlight.defaults.closeOnClick = 'anywhere';</script>
+<script src="../js/accessible-accordion.js"></script>
 <script src="../js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

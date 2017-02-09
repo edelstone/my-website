@@ -13,11 +13,11 @@ This is the source code for [michaeledelstone.com](http://michaeledelstone.com).
 
 ## Primary design considerations
 
-* Responsive and content-driven
-* Unique, fun, and professional
+* Responsive and future-thinking
+* Unique, fun, professional
 * Semantic markup and stylesheets, with minimal scripting
-* Simple, organized, and logical
-* Self-sufficient and personal
+* Universal and accessible design
+* Interesting and honest content
 * Animated feel with thoughtful colors, textures, and type
 
 ## How it's built
@@ -34,6 +34,7 @@ Many thanks to the digital community for these bad boys:
 * [Featherlight](https://github.com/noelboss/featherlight)
 * [FastClick](https://github.com/ftlabs/fastclick)
 * [Normalize.css](https://github.com/necolas/normalize.css)
+* [Accessible Accordion](https://github.com/nico3333fr/jquery-accessible-accordion-aria)
 
 ## Inspiration
 

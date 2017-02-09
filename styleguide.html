@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>Style Guide | Michael Edelstone</title>
-<meta name="description" content="This is a style guide that covers the major elements across my website.">
+<meta name="description" content="I built a handy style guide that documents the colors, patterns, and prevalent styles used across this website.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="apple-touch-icon-precomposed" href="images/touch.png">
@@ -19,6 +19,8 @@
 </head>
 
 <body>
+
+<a href="#content" class="offscreen">Skip to Content</a>
 
 <header id="top" class="header">
 
@@ -43,37 +45,33 @@
 	
 </header>
 
-<div class="main-area">
+<div id="content" class="main-area">
 
 	<div class="main-area-content constrain">
 
-		<div class="content-section">
+		<div class="content-section js-accordion" data-accordion-prefix-classes="accordion">
 			
-			<div class="toc">
-				<button class="accordion">
-					<span id="sections">Sections on this page</span>
-				</button>
-				<div class="panel">
-					<ul>
-						<li><a href="#type">Typography</a></li>
-						<li><a href="#colors">Colors</a>
-							<ul>
-								<li><a href="#primary-colors">Primary</a></li>
-								<li><a href="#supporting-colors">Supporting</a></li>
-								<li><a href="#neutral-colors">Neutral</a></li>
-							</ul>
-						</li>
-						<li><a href="#headers">Headers</a></li>
-						<li><a href="#buttons">Buttons</a></li>
-						<li><a href="#tags">Tags</a></li>
-						<li><a href="#toc">Table of Contents</a></li>
-						<li><a href="#feature-header">Feature Header</a></li>
-						<li><a href="#feature-list">Feature List</a></li>
-						<li><a href="#image-caption">Image + Caption</a></li>
-					</ul>
-				</div>
+			<div class="js-accordion__panel">
+				<h2 class="js-accordion__header">Sections on this page</h2>
+				<ul>
+					<li><a href="#type">Typography</a></li>
+					<li><a href="#colors">Colors</a>
+						<ul>
+							<li><a href="#primary-colors">Primary</a></li>
+							<li><a href="#supporting-colors">Supporting</a></li>
+							<li><a href="#neutral-colors">Neutral</a></li>
+						</ul>
+					</li>
+					<li><a href="#headers">Headers</a></li>
+					<li><a href="#buttons">Buttons</a></li>
+					<li><a href="#tags">Tags</a></li>
+					<li><a href="#toc">Table of Contents</a></li>
+					<li><a href="#feature-header">Feature Header</a></li>
+					<li><a href="#feature-list">Feature List</a></li>
+					<li><a href="#image-caption">Image + Caption</a></li>
+				</ul>
 			</div>
-						
+				
 			<div id="type" class="sg-section">
 				<h3 class="sg-header">Typography</h3>
 				<h4>Sans-serif</h4>
@@ -268,31 +266,27 @@
 				</div>
 			</div>
 			
-			<div id="toc" class="sg-section">
-				<h3 class="sg-header">Table of contents</h3>
-				<div class="toc">
-					<button class="accordion">
-						<span>Sections on this page</span>
-					</button>
-					<div class="panel">
-						<ul>
-							<li><a href="#nowhere">Section One</a></li>
-							<li><a href="#nowhere">Section Two</a></li>
-							<li><a href="#nowhere">Section Three</a>
-								<ul>
-									<li><a href="#nowhere">Subsection One</a></li>
-									<li><a href="#nowhere">Subsection Two</a></li>
-								</ul>
-							</li>
-							<li><a href="#nowhere">Section Four</a></li>
-						</ul>
-					</div>
+			<div class="sg-section">
+				<h3 class="sg-header sg-block">Table of contents</h3>
+				<div class="js-accordion__panel">
+					<h2 class="js-accordion__header">Sections on this page</h2>
+					<ul>
+						<li><a href="#nowhere">Section One</a></li>
+						<li><a href="#nowhere">Section Two</a></li>
+						<li><a href="#nowhere">Section Three</a>
+							<ul>
+								<li><a href="#nowhere">Subsection One</a></li>
+								<li><a href="#nowhere">Subsection Two</a></li>
+							</ul>
+						</li>
+						<li><a href="#nowhere">Section Four</a></li>
+					</ul>
 				</div>
 			</div>
 			
 			<div id="feature-header" class="sg-section">
-				<h3 class="sg-header">Feature header</h3>
-				<div class="title-area" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw;">
+				<h3 class="sg-header sg-block">Feature header</h3>
+				<div class="title-area">
 					<div class="title-area-wrapper">
 						<div class="title-area-content constrain">
 							<h2 class="sub-header portfolio-header">Projects and Things</h2>
@@ -302,8 +296,8 @@
 			</div>
 			
 			<div id="feature-list" class="sg-section">
-				<h3 class="sg-header">Feature list</h3>
-				<div id="considerations" class="productivity">
+				<h3 class="sg-header sg-block">Feature list</h3>
+				<div id="considerations" class="productivity" style="margin: 0; left: 0; right: 0; width: auto; border: 1px solid #53373b;">
 					<h2 class="productivity-header constrain">Amazing Facts About Space</h2>
 					<div class="constrain multi-layout">
 						<div class="col col-1 stack">
@@ -325,7 +319,7 @@
 			</div>
 			
 			<div id="image-caption" class="sg-section">
-				<h3 class="sg-header">Image + caption</h3>
+				<h3 class="sg-header sg-block">Image + caption</h3>
 				<div class="image-group image-group-fw">
 					<img class="image-modal" data-featherlight="images/carina-nebula.jpg" src="images/carina-nebula.jpg" alt="Hubble image of towering hydrogen clouds in the Carina nebula">
 					<p class="caption">Towering molecular clouds on the edge of the Carina nebula (<a href="https://unsplash.com/@nasa?photo=-hI5dX2ObAs">image by NASA</a> via <a href="https://unsplash.com">Unsplash</a>)</p>
@@ -367,7 +361,7 @@
 			</span>
 		</div>
 		<div class="btt">
-			<a href="#top">Back to top</a>
+			<a href="#top">Back to top<span class="button-arrow">&#10548;</span></a>
 		</div>
 	</div>
 	
@@ -377,6 +371,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.js"></script>
 <script>$.featherlight.defaults.closeOnClick = 'anywhere';</script>
+<script src="js/accessible-accordion.js"></script>
 <script src="js/main.js"></script>
 <script>
  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

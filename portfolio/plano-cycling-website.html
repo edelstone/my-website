@@ -16,6 +16,8 @@
 
 <body>
 
+<a href="#content" class="offscreen">Skip to Content</a>
+
 <header id="top" class="header">
 
 	<div class="signature">
@@ -47,7 +49,7 @@
 	</div>
 </div>
 
-<div class="main-area">
+<div id="content" class="main-area">
 
 	<div class="main-area-content constrain">
 	
@@ -70,11 +72,9 @@
 				
 				<p>I managed the <a href="http://planocycling.com">Plano Cycling and Fitness website</a> throughout most of 2013, during which I led a design and content overhaul that introduced mobile shopping, strengthened brand recognition, and multiplied online sales.</p>
 				
-				<div class="toc">
-					<button class="accordion">
-						<span id="sections">Sections on this page</span>
-					</button>
-					<div class="panel">
+				<div class="js-accordion" data-accordion-prefix-classes="accordion">
+					<div class="js-accordion__panel">
+						<h2 class="js-accordion__header">Sections on this page</h2>
 						<ul>
 							<li><a href="#context">Context</a></li>
 							<li><a href="#goals">Goals</a></li>
@@ -94,7 +94,7 @@
 						</ul>
 					</div>
 				</div>
-										
+								
 				<h2 id="context">Context</h2>
 				
 				<p>Plano Cycling is the <a href="https://www.yelp.com/biz/plano-cycling-and-fitness-plano">highest-rated bike shop in Texas</a> and one of the first shops in the country to take business online. They use <a href="http://smartetailing.com/">SmartEtailing</a>, the most popular CMS in the outdoor industry, to publish content. While basic templates are easy to set up and manage, they require a lot of front-end customization to achieve a unique look and feel; the site had utilized one of these since its inception in 1998. It was difficult to interact with on mobile devices and lacked a distinct visual language and voice.</p>
@@ -239,7 +239,7 @@
 			</span>
 		</div>
 		<div class="btt">
-			<a href="#top">Back to top</a>
+			<a href="#top">Back to top<span class="button-arrow">&#10548;</span></a>
 		</div>
 	</div>
 	
@@ -249,6 +249,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.js"></script>
 <script>$.featherlight.defaults.closeOnClick = 'anywhere';</script>
+<script src="../js/accessible-accordion.js"></script>
 <script src="../js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -16,6 +16,8 @@
 
 <body>
 
+<a href="#content" class="offscreen">Skip to Content</a>
+
 <header id="top" class="header">
 
 	<div class="signature">
@@ -47,7 +49,7 @@
 	</div>
 </div>
 
-<div class="main-area">
+<div id="content" class="main-area">
 
 	<div class="main-area-content constrain">
 	
@@ -70,11 +72,9 @@
 				
 				<p>Pretty much every unit at Texas State – from the <a href="http://president.txstate.edu">president</a>, to <a href="http://www.hr.txstate.edu/performance-management.html">human resources</a>, to <a href="http://www.bio.txstate.edu/Undergraduate-Programs.html">academic</a> <a href="http://www.theatreanddance.txstate.edu/dance/">areas</a> and major <a href="http://www.meadowscenter.txstate.edu/">research</a> <a href="http://www.thewittliffcollections.txstate.edu/">initiatives</a> – uses the CMS template, brand elements, and content types I designed iteratively during 2015-2016.</p>
 				
-				<div class="toc">
-					<button class="accordion">
-						<span id="sections">Sections on this page</span>
-					</button>
-					<div class="panel">
+				<div class="js-accordion" data-accordion-prefix-classes="accordion">
+					<div class="js-accordion__panel">
+						<h2 class="js-accordion__header">Sections on this page</h2>
 						<ul>
 							<li><a href="#context">Context</a></li>
 							<li><a href="#goals">Goals</a></li>
@@ -270,7 +270,7 @@
 			</span>
 		</div>
 		<div class="btt">
-			<a href="#top">Back to top</a>
+			<a href="#top">Back to top<span class="button-arrow">&#10548;</span></a>
 		</div>
 	</div>
 	
@@ -280,6 +280,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.js"></script>
 <script>$.featherlight.defaults.closeOnClick = 'anywhere';</script>
+<script src="../js/accessible-accordion.js"></script>
 <script src="../js/main.js"></script>
 <script>
  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

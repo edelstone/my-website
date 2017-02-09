@@ -4,7 +4,6 @@ window.addEventListener('load', function() {
 }, false);
 
 // Get and display page load time
-// calculate the time before calling the function in window.onload
 // This snippet modified from the original: https://codepad.co/snippet/585338
 var beforeload = (new Date()).getTime();
 
@@ -20,28 +19,19 @@ function getPageLoadTime(){
 window.onload = getPageLoadTime;
 
 // Smooth scroll to anchors
-// This snippet modified from the original at: http://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
-$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 750);
+// This snippet modified from the original: http://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
+var $root = $('html, body');
+$('a').click(function() {
+    var href = $.attr(this, 'href');
+    $root.animate({
+        scrollTop: $(href).offset().top
+    }, 600, function () {
+        window.location.hash = href;
+    });
     return false;
 });
 
 // Accordion
-// This snippet modified from the original: http://www.w3schools.com/howto/howto_js_accordion.asp
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle("active");
-    this.nextElementSibling.classList.toggle("panel-show");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-  	  panel.style.maxHeight = null;
-    } else {
-  	  panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  }
-}
+$(function () {
+   $('.js-accordion').accordion();
+});

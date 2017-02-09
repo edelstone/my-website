@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
 <title>About This Website | Michael Edelstone</title>
-<meta name="description" content="I put this website together in the space of a few weeks during December 2016 and January 2017, with iterations continuing regularly.">
+<meta name="description" content="My website is a fun little playground intended to showcase my design abilities and reach the best clients and teams around.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="apple-touch-icon-precomposed" href="images/touch.png">
 <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.css" type="text/css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CNeuton:400,400i,700">
 <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+
+<a href="#content" class="offscreen">Skip to Content</a>
 
 <header id="top" class="header">
 
@@ -39,7 +40,7 @@
 
 </header>
 
-<div class="main-area">
+<div id="content" class="main-area">
 
 	<div class="main-area-content much-text constrain">
 	
@@ -50,11 +51,9 @@
 			<p>I put this website together over the course of a few weeks during the beginning of 2017. It's a fun little playground intended to showcase my design abilities and reach the best clients and teams around.</p>
 			<p>There's a basic <a href="styleguide.html">style guide</a> and the <a href="https://github.com/edelstone/my-website">source code is on GitHub</a>, if that interests you.</p>
 			
-			<div class="toc">
-				<button class="accordion">
-					<span id="sections">Sections on this page</span>
-				</button>
-				<div class="panel">
+			<div class="js-accordion" data-accordion-prefix-classes="accordion">
+ 				<div class="js-accordion__panel">
+   					<h2 class="js-accordion__header">Sections on this page</h2>
 					<ul>
 						<li><a href="#goals">Goals</a></li>
 						<li><a href="#how-its-built">How It's Built</a></li>
@@ -65,7 +64,7 @@
 						<li><a href="#inspiration">Inspiration</a></li>
 						<li><a href="#attribution">Attribution</a></li>
 					</ul>
-				</div>
+ 				</div>
 			</div>
 			
 			<h2 id="basics">Goals</h2>
@@ -90,6 +89,7 @@
 				<li><a href="https://github.com/noelboss/featherlight">Featherlight</a></li>
 				<li><a href="https://github.com/ftlabs/fastclick">FastClick</a></li>
 				<li><a href="https://github.com/necolas/normalize.css">Normalize.css</a></li>
+				<li><a href="https://github.com/nico3333fr/jquery-accessible-accordion-aria">Accessible Accordion</a></li>
 			</ul>
 			
 			<div id="considerations" class="productivity improvements">
@@ -97,15 +97,15 @@
 				<div class="constrain multi-layout">
 					<div class="col col-1 stack">
 						<ul class="important-updates fa-ul">
-							<li><i class="fa-li fa fa-check"></i>Responsive and content-driven</li>
-							<li><i class="fa-li fa fa-check"></i>Unique, fun, and professional</li>
+							<li><i class="fa-li fa fa-check"></i>Responsive and future-thinking</li>
+							<li><i class="fa-li fa fa-check"></i>Unique, fun, professional</li>
 							<li><i class="fa-li fa fa-check"></i>Semantic markup and stylesheets, with minimal scripting</li>
 						</ul>
 					</div>
 					<div class="col col-2">
 						<ul class="important-updates fa-ul">
-							<li><i class="fa-li fa fa-check"></i>Simple, organized, and logical</li>
-							<li><i class="fa-li fa fa-check"></i>Self-sufficient and personal</li>
+							<li><i class="fa-li fa fa-check"></i>Universal and accessible design</li>
+							<li><i class="fa-li fa fa-check"></i>Interesting and honest content</li>
 							<li><i class="fa-li fa fa-check"></i>Animated feel with thoughtful colors, textures, and type</li>
 						</ul>
 					</div>
@@ -138,7 +138,7 @@
 			
 			<p>All of the writing on this website is my original content. It's licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> (CC BY-NC-SA 4.0). Please credit me with a link back to my website, and <a href="contact.html">contact me</a> if you have questions.</p>
 			
-			<p>I designed the site and wrote the source code from scratch (except some of the JavaScript, which I credit inline). And, of course, I use a few open source libraries (<a href="#how-its-built">listed above</a>). All of my code and design is available under the <a href="https://opensource.org/licenses/mit-license.php">MIT license</a> and can be <a href="https://github.com/edelstone/my-website">forked on GitHub</a>. Feel free to improve the site by <a href="https://github.com/edelstone/my-website/pulls">making a pull request</a> or <a href="https://github.com/edelstone/my-website/issues">creating an issue</a>.</p>
+			<p>I designed the site and wrote the source code from scratch (except some of the JavaScript, which I credit inline). And, of course, I use a few open source libraries (<a href="#how-its-built">listed above</a>). All of my code and design can be <a href="https://github.com/edelstone/my-website">forked on GitHub</a>. Feel free to improve the site by <a href="https://github.com/edelstone/my-website/pulls">making a pull request</a> or <a href="https://github.com/edelstone/my-website/issues">creating an issue</a>.</p>
 			
 		</div> <!-- content-section -->
 				
@@ -175,7 +175,7 @@
 			</span>
 		</div>
 		<div class="btt">
-			<a href="#top">Back to top</a>
+			<a href="#top">Back to top<span class="button-arrow">&#10548;</span></a>
 		</div>
 	</div>
 	
@@ -183,8 +183,7 @@
 
 <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.js"></script>
-<script>$.featherlight.defaults.closeOnClick = 'anywhere';</script>
+<script src="js/accessible-accordion.js"></script>
 <script src="js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
