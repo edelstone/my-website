@@ -93,6 +93,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .productivity .productivity-header {margin: 0 auto 4.5rem; text-align: center;}
 .main-area .productivity a {background: #aea9a9; background: linear-gradient(to bottom, transparent 0, transparent 83%, #aea9a9 83%, #aea9a9 100%);}
 .main-area .productivity a:hover {color: #722645;}
+.main-area .productivity.home a {background: transparent;}
 .main-area .productivity ul li {margin-bottom: 1.5rem;}
 .main-area .productivity.home {border: none; padding: 6rem 0;}
 .main-area .improvements, .main-area .skills {margin-top: 4.5rem; margin-bottom: 4.5rem;}
