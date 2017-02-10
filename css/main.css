@@ -9,6 +9,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
 .button-arrow {padding-left: 1rem;}
+.limited-content {margin-bottom: 15rem;}
 .signature {font-size: 1.4rem; text-transform: uppercase; text-align: right; letter-spacing: 1px;}
 .signature a {background: #220b17; color: #d9d3d3; text-decoration: none; display: block; padding: 1.1rem 0 0.9rem; transition: all 0.2s ease-in-out; box-shadow: 0 -1.9rem #220b17 inset; border-bottom: 1px solid #1b0912;}
 .signature a:hover {background: #7f2a4d; color: #fcfcfc; box-shadow: 0 -1.9rem #722645 inset;}
@@ -208,6 +209,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 }
 
 @media (max-width: 48em) {
+	.main-area .button {margin-right: 0.5rem;}
 	.footer .btt {position: relative; right: 0; bottom: 0; line-height: initial; margin-top: 2rem;}
 	.footer .btt a {padding: 1.5rem 1.5rem 1.8rem;}
 }
