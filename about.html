@@ -67,12 +67,31 @@
 				<p>And if you're not into the whole brevity thing, read on.</p>
 				
 			</div>
+			
+			<div class="js-accordion" data-accordion-prefix-classes="accordion">
+				<div class="js-accordion__panel">
+					<h2 class="js-accordion__header">Sections on this page</h2>
+					<ul>
+						<li><a href="#why">Why I Made This</a></li>
+						<li><a href="#pursuits">Career Pursuits</a></li>
+						<li><a href="#accomplishments">Recent Employers</a>
+							<ul>
+								<li><a href="#texas-state">Texas State University</a></li>
+								<li><a href="#plano-cycling">Plano Cycling and Fitness</a></li>								
+							</ul>
+						</li>
+						<li><a href="#im-human">I'm Human Too</a></li>
+						<li><a href="#whats-next">So, What's Next</a></li>
+						<li><a href="#lets-work">Let's Work Together</a></li>
+					</ul>
+				</div>
+			</div>
 						
 			<div class="text-extended">
 			
 				<h2 id="why">Why I Made This</h2>
 				
-				<p>I'm actively looking for my next full-time opportunity. I think this narrative resume will be useful for the sorts of teams and organizations I really want to be a part of.</p>
+				<p><a href="#im-human">I'm a human</a> who likes working with other humans. Traditional résumés are very mechanical, and I think this narrative will be useful for the sorts of <a href="#whats-next">teams and organizations I really want to be a part of</a>.</p>
 
 				<h2 id="pursuits">Career Pursuits</h2>
 
@@ -80,7 +99,7 @@
 			
 				<p><span class="question"><b>What problems do I solve?</b></span> I’m most energized working at the intersection of content and design. Building modular components, <a href="portfolio/texas-state-brand.html">creating style guides</a>, and writing clever web copy are areas I’ve enjoyed owning in the past. I like being able to build my ideas, so I’m fluent in a lot of the front-end toolset and have been designing in the browser since 2009. I am constantly learning new things to enrich my personal life and craft; currently I’m getting deeper into Sketch, Jekyll, and flexbox.</p>
 
-				<p><span class="question"><b>How did I get here?</b></span> My social science education introduced me to the writing process and the importance of content organization. Years as a professional bicycle mechanic taught me about creative problem solving and fostering long-term customer relationships. Now I use these talents to design and build interfaces that are equal parts useful and beautiful. I keep humans at the center of my projects, and make decisions with a reasonable amount of real-world evidence and a strong, mature bias to action.</p>
+				<p><span class="question"><b>How did I get here?</b></span> My social science education introduced me to the writing process and the importance of content organization. Years as a professional bicycle mechanic taught me about creative problem solving and fostering long-term customer relationships. Now I use these talents to design and build interfaces that are equal parts useful and beautiful. I keep humans at the center of <a href="portfolio">my projects</a>, and make decisions with a reasonable amount of real-world evidence and a strong, mature bias to action.</p>
 
 				<p>Lately I’ve worked for some stellar organizations that shared these principles, and helped me build an effective design process around them. For example:</p>
 				
@@ -173,6 +192,10 @@
 	
 <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script src="js/accessible-accordion.js"></script>
+<script>
+	$('.js-accordion').accordion();
+</script>
 <script src="js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

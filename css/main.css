@@ -1,7 +1,7 @@
 /* General */
 *, *:before, *:after {box-sizing: border-box;}
 html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-weight: normal; height: 100%; background: #220b17;}
-body {min-height: 100%; display: flex; flex-direction: column; background: #fcfcfc;}
+body {min-height: 100%; display: flex; flex-direction: column; background: #fcfcfc; color: #111;}
 img {max-width: 100%;}
 a:focus {transition: none !important;}
 h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen {font-family: 'Montserrat', sans-serif; font-weight: normal;}
@@ -33,7 +33,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area-content {padding-top: 4rem; padding-bottom: 2rem; font-size: 2.2rem;}
 .main-area .content-section {margin-bottom: 4rem;}
 .main-area .content-section.tall-section {margin-bottom: 5rem;}
-.main-area a {color: #222; background: #f4ccc9; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
+.main-area a {color: #111; background: #f4ccc9; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f4ccc9 83%, #f4ccc9 100%); text-decoration: none;}
 .main-area a:hover {color: #c34d44;}
 .main-area p, .main-area ul, .main-area ol {margin-top: 0; margin-bottom: 1.4rem;}
 .main-area ul ul {padding-left: 3rem; margin-bottom: 0; margin-top: 0.5rem;}
@@ -60,7 +60,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .button-light {font-size: 1.6rem;}
 .main-area .much-text h2, .main-area .much-text h3 {margin-top: 3rem;}
 .main-area .lil-snug-guy {margin-top: -1rem;}
-.main-area .question {margin-right: 0.5rem;}
+.main-area .question {margin-right: 0.8rem;}
 .main-area .important-updates {margin-left: 3rem;}
 .main-area .important-updates .fa-li  {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
 
@@ -78,7 +78,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .footer-divider .fa-circle {color: #75bd59;}
 .footer-divider .fa-circle-2 {color: #146da9; font-size: 105%;}
 .footer .load-time {min-height: 2rem; margin-bottom: 0.2rem;}
-.footer .btt {position: absolute; right: 2rem; bottom: 2rem;}
+.footer .btt {position: absolute; right: 2rem; bottom: 2rem; text-shadow: 1px 1px 0 #220b17;}
 .footer .btt a {background: transparent; border: 3px solid #53373b; padding: 1rem 1.5rem; color: #d9d3d3; transition: all .2s ease-in-out; border-radius: 3px; display: block;}
 .footer .btt a:hover {background: #53373b; color: #fcfcfc;}
 
@@ -108,7 +108,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 /* Icons */
 .main-area .icon {text-align: center;}
 .main-area .icon img {max-width: 8rem;}
-.main-area .icon h3 {color: #222; margin-top: 1.8rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem; font-weight: normal;}
+.main-area .icon h3 {color: #111; margin-top: 1.8rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem; font-weight: normal;}
 .main-area .icon-link {background: transparent;}
 .main-area .icon-link img {position: relative; bottom: 0; transition: all .25s cubic-bezier(0.68, -0.55, 0.265, 1.55); backface-visibility: hidden;}
 .main-area .icon-link.trans-effect-1:hover img {bottom: 8px;}
@@ -178,7 +178,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Modal */
 .main-area .image-modal {cursor: zoom-in;}
-.featherlight .featherlight-close-icon {line-height: 28px; width: 28px; color: #222; font-size: 2rem; outline: none; background: rgba(255, 255, 255, 0.8);}
+.featherlight .featherlight-close-icon {line-height: 28px; width: 28px; color: #111; font-size: 2rem; outline: none; background: rgba(255, 255, 255, 0.8);}
 .featherlight, .featherlight .featherlight-content {cursor: zoom-out;}
 .featherlight .featherlight-content {border-bottom: none; padding: 0;}
 .featherlight .featherlight-inner {border: 1rem solid #fcfcfc;}
@@ -218,6 +218,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.intro .quick-bio {padding: 5rem 0 2rem; font-size: 3.6rem;}
 	.main-area-content {padding-top: 2.8rem;}
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
+	.main-area .button {font-size: 1.8rem;}
 	.main-area .contact-info {margin-left: 1rem;}
 	.main-area .portrait {float: none; width: 100vw; height: 100%; left: 50%; right: 50%; margin: -1.5rem -50vw 2rem; border-width: 0 0 4px 0; border-radius: 0;}
 	.main-area .tags {margin-top: -1rem;}
