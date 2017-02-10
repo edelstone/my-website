@@ -4,7 +4,7 @@ html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-wei
 body {min-height: 100%; display: flex; flex-direction: column; background: #fcfcfc; color: #111;}
 img {max-width: 100%;}
 a:focus {transition: none !important;}
-h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen {font-family: 'Montserrat', sans-serif; font-weight: normal;}
+h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .full-width {width: 100%;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .heavy {font-weight: bold;}
@@ -109,6 +109,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .choices .about-me:hover {box-shadow: 0px 6px #91364e, -6px 0 #cf4d64, -6px 6px #91364e; background: #cf4d6f; text-shadow: 1px 1px 0 #91364e; left: 6px;}
 .choices .about-site:hover {box-shadow: 0 6px #983b35, 6px 0 #d9554c, 6px 6px #983b35; background: #d9554c; text-shadow: 1px 1px 0 #983b35; left: -6px;}
 .choices a:active {transition: none; bottom: 0 !important; left: 0 !important; right: 0 !important; box-shadow: none !important;}
+
+/* Writing */
+.main-area .writing-title {font-size: 3.2rem; text-transform: none; letter-spacing: 0; font-weight: normal; color: #c34d44;}
+.main-area .writing-sub {font-size: 1.4rem; margin-top: -1rem; margin-bottom: 2.5rem;}
+.writing-intro {margin-bottom: 5rem;}
 
 /* Icons */
 .main-area .icon {text-align: center;}
