@@ -103,11 +103,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .homes a:hover {color: #d9554c; text-shadow: none;}
 .choices {font-size: 2.2rem; background: #53373b;}
 .choices .multi-layout .col {padding: 0;}
-.choices a {position: relative; bottom: 0; text-decoration: none; transition: all .1s ease-in-out; color: #d9d3d3; padding: 2rem; display: block; text-align: center; background: #53373b;}
-.choices a:hover {color: #fcfcfc; bottom: 6px;}
-.choices .about-me:hover {box-shadow: 0 6px #91364e; background: #cf4d6f; text-shadow: 1px 1px 0 #91364e;}
-.choices .about-site:hover {box-shadow: 0 6px #983b35; background: #d9554c; text-shadow: 1px 1px 0 #983b35;}
-.choices a:active {transition: none; bottom: 0; box-shadow: none !important;}
+.choices a {position: relative; bottom: 0; text-decoration: none; transition: all .1s ease-in-out; color: #d9d3d3; padding: 2rem; display: block; text-align: center; background: #53373b; z-index: 1; left: 0; right: 0;}
+.choices a:hover {color: #fcfcfc; bottom: 6px; z-index: 2;}
+.choices .about-me:hover {box-shadow: 0px 6px #91364e, -6px 0 #cf4d64, -6px 6px #91364e; background: #cf4d6f; text-shadow: 1px 1px 0 #91364e; left: 6px;}
+.choices .about-site:hover {box-shadow: 0 6px #983b35, 6px 0 #d9554c, 6px 6px #983b35; background: #d9554c; text-shadow: 1px 1px 0 #983b35; left: -6px;}
+.choices a:active {transition: none; bottom: 0 !important; left: 0 !important; right: 0 !important; box-shadow: none !important;}
 
 /* Icons */
 .main-area .icon {text-align: center;}
@@ -233,7 +233,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.choices .multi-layout .col {margin: 0;}
 	.choices .about-me {border-top: none; border-bottom: 1px solid #402125;}
 	.choices .about-site {border-top: 1px solid #664d51;}
-	.choices .about-me:hover, .choices .about-site:hover {bottom: 0; box-shadow: none;}
+	.choices .about-me:hover, .choices .about-site:hover {bottom: 0; left: 0; right: 0; box-shadow: none;}
 	.multi-layout, .multi-layout-2 {display: block;}
 	.multi-layout .col, .multi-layout-2 .col {width: 100%;}
 	.multi-layout .col-1 {padding: 0; margin-bottom: 2rem;}
