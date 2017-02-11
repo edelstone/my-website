@@ -26,7 +26,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .intro-wrapper {background: rgba(64,33,37,0.93); color: #fcfcfc; box-shadow: 0 0.7rem #d9554c;}
 .intro.home .intro-wrapper {box-shadow: none;}
 .intro-content {padding-top: 2.5rem; padding-bottom: 2.5rem;}
-.intro h1 {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
+.intro h1, .writing-header {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
 .intro nav {margin-top: 1.2rem; margin-left: -1.1rem;}
 .intro nav a {color: #d9d3d3; margin-right: 1.5rem; font-size: 1.4rem; text-decoration: none; border-radius: 20px; padding: 0.6rem 1.2rem; display: inline-block;}
 .intro nav a:hover {background: #53373b; color: #fcfcfc;}
@@ -72,7 +72,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Footer */
 .footer {position: relative; background: #220b17; margin-top: auto;}
-.footer a {text-decoration: none; color: #ece9e9; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
+.footer a {text-decoration: none; color: #d9d3d3; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
 .footer a:hover {color: #fcfcfc;}
 .footer-content {padding-top: 4.5rem; padding-bottom: 3.5rem; text-align: center; font-size: 1.4rem; color: #d9d3d3;}
 .footer-divider {font-size: 2rem; display: inline-block; animation: spin 30s linear infinite;}
@@ -81,7 +81,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .footer-divider .fa-circle-2 {color: #146da9; font-size: 105%;}
 .footer .load-time {min-height: 2rem; margin-bottom: 0.2rem;}
 .footer .btt {position: absolute; right: 2rem; bottom: 2rem; text-shadow: 1px 1px 0 #220b17;}
-.footer .btt a {background: transparent; border: 3px solid #53373b; padding: 1rem 1.5rem; color: #d9d3d3; transition: all .2s ease-in-out; border-radius: 3px; display: block;}
+.footer .btt a {background: transparent; border: 3px solid #53373b; padding: 1rem 1.5rem; transition: all .2s ease-in-out; border-radius: 3px; display: block;}
 .footer .btt a:hover {background: #53373b; color: #fcfcfc;}
 
 /* Banded Sections */
@@ -111,7 +111,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .choices a:active {transition: none; bottom: 0 !important; left: 0 !important; right: 0 !important; box-shadow: none !important;}
 
 /* Writing */
-.main-area .writing-title {font-size: 3.2rem; text-transform: none; letter-spacing: 0; font-weight: normal; color: #c34d44; line-height: 1.25; margin-bottom: 0;}
+.main-area .writing-title {font-size: 3.2rem; text-transform: none; letter-spacing: 0; font-weight: normal; color: #c34d44; line-height: 1.25; margin: 3rem 0 0;}
 .main-area .writing-sub {font-size: 1.4rem; margin-top: 0.5rem;}
 .writing-intro {margin-bottom: 4rem;}
 .writing img {margin: 1rem 0 0;}
@@ -178,7 +178,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Accordion */
 .accordion {padding-top: 1rem;}
-.content-section.accordion {padding-top: 0;}
 .accordion button {font-weight: bold; font-size: 1.6rem; color: #7f2a4d; border: 1px solid #d9d3d3; padding: 1.5rem 1.8rem; background: #ece9e9; cursor: pointer; letter-spacing: 1px; text-transform: uppercase;}
 .accordion button:focus {outline: 2px solid #7f2a4d;}
 .accordion__panel {margin: 1.5rem 0 -0.5rem; display: block; overflow: hidden; opacity: 1; transition: visibility 0s ease, max-height 1s ease, opacity 0.3s ease; max-height: 100em; visibility: visible; transition-delay: 0s;}
@@ -225,8 +224,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 @media (max-width: 35.5em) {
 	html {font-size: 58.5%;}
 	.signature {font-size: 1.3rem; text-align: left;}
-	.signature a {padding-top: 1.1rem;}
-	.intro h1 {font-size: 4.8rem; font-size: 11vw;}
+	.intro h1, .writing-header {font-size: 4.8rem; font-size: 11vw;}
 	.intro nav {margin-left: -0.8rem;}
 	.intro nav a {margin: -0.2rem 0.5rem -0.2rem -0.5rem; font-size: 1.5rem;}
 	.intro .quick-bio {padding: 5rem 0 2rem; font-size: 3.6rem;}
