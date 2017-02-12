@@ -194,6 +194,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .featherlight, .featherlight .featherlight-content {cursor: zoom-out;}
 .featherlight .featherlight-content {border-bottom: none; padding: 0;}
 .featherlight .featherlight-inner {border: 1rem solid #fcfcfc;}
+.featherlight .featherlight-inner#color-10 {border: 10px solid #ece9e9;}
 
 /* Animations */
 @keyframes spin {
