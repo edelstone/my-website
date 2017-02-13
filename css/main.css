@@ -6,6 +6,7 @@ img {max-width: 100%;}
 a:focus {transition: none !important;}
 h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .full-width {width: 100%;}
+.clearfix {clear: both;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
 .button-arrow {padding-left: 1rem;}
 .limited-content {margin-bottom: 12rem;}
