@@ -46,7 +46,6 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .stack {margin-bottom: 0 !important;}
 .main-area .much-text {padding-top: 1rem;}
 .main-area .feature-text {font-size: 2.8rem;}
-.main-area .super-feature-text {font-size: 3.6rem;}
 .main-area .portrait {background: #d9554c; animation: color-cycle 45s alternate 2; position: relative; border-radius: 0.3rem; border: 4px solid #402125; width: 22.5rem; height: 22.5rem; margin: 0.6rem 2.8rem 1.5rem 0; float: left;}
 .main-area .portrait img {display: block;}
 .main-area .image-group {width: 90%; margin: 5rem auto 6rem;}
@@ -95,6 +94,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .multi-layout-2 .col-3 {margin-left: 1.5rem;}
 .collapse .col {margin: 0 !important;}
 .col.orphan {margin: 0 !important; flex-grow: 1;}
+
+/* Contact */
+.main-area .contact-info {margin-left: 4.5rem;}
+.main-area .contact-info li {margin-bottom: 1.5rem;}
+.main-area .contact-info i {margin-top: 0.4rem; color: #d9554c;}
 
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
@@ -230,6 +234,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .button, .main-area .button-light {font-size: 1.7rem;}
 	.main-area .button {margin-right: 1rem;}
+	.main-area .contact-info {margin-left: 1rem;}
 	.main-area .portrait {float: none; width: 100vw; height: 100%; left: 50%; right: 50%; margin: -1.5rem -50vw 2rem; border-width: 0 0 4px 0; border-radius: 0;}
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100%;}
