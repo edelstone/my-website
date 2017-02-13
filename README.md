@@ -27,7 +27,6 @@ I developed the site without frameworks, templates, or a content management syst
 Many thanks to the digital community for these bad boys:
 
 * [Unsplash](https://unsplash.com/)
-* [Freebiesbug](http://freebiesbug.com/)
 * [Google Fonts](https://github.com/google/fonts)
 * [jQuery](https://github.com/jquery/jquery)
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
