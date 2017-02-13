@@ -82,7 +82,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .footer .load-time {min-height: 2rem; margin-bottom: 0.2rem;}
 .footer .btt {position: absolute; right: 2rem; bottom: 2rem; text-shadow: 1px 1px 0 #220b17;}
 .footer .btt a {background: transparent; border: 3px solid #53373b; padding: 1rem 1.5rem; transition: all .2s ease-in-out; border-radius: 3px; display: block;}
-.footer .btt a:hover {background: #53373b; color: #fcfcfc;}
+.footer .btt a:hover {background: #53373b; color: #fcfcfc; border-color: #402125;}
 
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
@@ -126,11 +126,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .icon-link.trans-effect-1:hover img {bottom: 8px;}
 .main-area .icon-link.trans-effect-2:hover img {transform: rotate(-20deg);}
 .main-area .icon-link.trans-effect-3:hover img {transform: scale(1.1);}
-
-/* Contact */
-.main-area .contact-info {margin-left: 4.5rem;}
-.main-area .contact-info li {margin-bottom: 1.5rem;}
-.main-area .contact-info i {margin-top: 0.4rem; color: #d9554c;}
 
 /* Columns */
 .multi-layout, .multi-layout-2 {display: flex;}
@@ -233,7 +228,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .button, .main-area .button-light {font-size: 1.7rem;}
 	.main-area .button {margin-right: 1rem;}
-	.main-area .contact-info {margin-left: 1rem;}
 	.main-area .portrait {float: none; width: 100vw; height: 100%; left: 50%; right: 50%; margin: -1.5rem -50vw 2rem; border-width: 0 0 4px 0; border-radius: 0;}
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100%;}
