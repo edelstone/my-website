@@ -66,7 +66,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .important-updates .fa-li  {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
 .main-area .fa-inline {font-size: 1.8rem; margin: -0.7rem; bottom: 0.1rem}
 
-/* Skip to Main Content */
+/* Accessibility */
 a.offscreen {position: absolute; left: -1000px; top: -1000px; width: 1px; height: 1px; text-align: left; overflow: hidden;}
 a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; left: 0; top: 0; width: 100%; height: auto; overflow: visible; color: #402125; text-decoration: none; background-color: #f7b239; text-align: center; padding: 1.5rem; font-size: 1.8rem; font-weight: bold; z-index: 1;}
 
@@ -152,7 +152,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .title-area-2 {background-image: url(../images/banner-txst-template.png);}
 .title-area-3 {background-image: url(../images/banner-txst-brand.png);}
 .title-area-4 {background-image: url(../images/banner-pcf-website.png);}
-.title-area-wrapper {background-color: rgba(217,85,76,0.75);}
+.title-area-wrapper {background-color: rgba(217,85,76,0.5);}
 .title-area-content {padding-top: 3.5rem; padding-bottom: 3.5rem;}
 .title-area .portfolio-header {font-size: 2.6rem; margin: 0; color: #fcfcfc; text-shadow: 2px 2px 0px #983b35; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;}
 .title-area .url {text-transform: lowercase;}
