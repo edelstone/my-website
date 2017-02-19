@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CNeuton:400,400i,700">
+<link rel="stylesheet" href="css/tooltipster.bundle.min.css">
 <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -79,18 +80,64 @@
 				</div>
 			</div>
 		</div>
-
+		
 		<div class="homes">
 			<div class="content-section tall-section constrain feature-text">
 				<h2>Other Internet Homes</h2>
 				<ul class="homes-list">
-					<li>I publish code to <a href="https://github.com/edelstone/" data-hover="GitHub">GitHub</a>.</li>
-					<li>I read and <a href="https://pinboard.in/u:tsanzer">bookmark</a> a lot.</li>
-					<li>I try to listen to <a href="http://last.fm/user/tsanzer">new music</a> every day.</li>
-					<li>I <a href="https://twitter.com/medelstone">tweet</a> sometimes, but hate myself afterwards.</li>
+					<li>My code <a href="https://github.com/edelstone" class="tooltip" data-tooltip-content="#tooltip-github">is public</a>.</li>
+					<li>I read and <a href="https://pinboard.in/u:tsanzer" class="tooltip" data-tooltip-content="#tooltip-pinboard">bookmark</a> a lot.</li>
+					<li>I try to listen to <a href="https://www.last.fm/user/tsanzer" class="tooltip" data-tooltip-content="#tooltip-lastfm">new music</a> every day.</li>
+					<li>I <a href="https://twitter.com/medelstone" class="tooltip" data-tooltip-content="#tooltip-twitter">tweet</a> sometimes, but hate myself afterwards.</li>
 				</ul>
+				<div class="tooltip-content">
+					<div id="tooltip-github">
+						<a href="https://github.com/edelstone">
+							<div class="tt-thumb">
+								<i class="fa fa-github-alt" aria-hidden="true"></i>
+							</div>
+							<div class="tt-content">
+								<p class="tt-handle">github.com/edelstone</p>
+								<p class="tt-info">20+ repositories</p>
+							</div>
+						</a>
+					</div>
+					<div id="tooltip-pinboard">
+						<a href="https://pinboard.in/u:tsanzer">
+							<div class="tt-thumb">
+								<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+							</div>
+							<div class="tt-content">
+								<p class="tt-handle">pinboard.in/u:tsanzer</p>
+								<p class="tt-info">4500+ bookmarks</p>
+							</div>
+						</a>
+					</div>
+					<div id="tooltip-lastfm">
+						<a href="https://www.last.fm/user/tsanzer">
+							<div class="tt-thumb">
+								<i class="fa fa-lastfm" aria-hidden="true"></i>
+							</div>
+							<div class="tt-content">
+								<p class="tt-handle">last.fm/user/tsanzer</p>
+								<p class="tt-info">64k scrobbles</p>
+							</div>
+						</a>
+					</div>
+					<div id="tooltip-twitter">
+						<a href="https://twitter.com/medelstone">
+							<div class="tt-thumb">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</div>
+							<div class="tt-content">
+								<p class="tt-handle">twitter.com/medelstone</p>
+								<p class="tt-info">450+ tweets</p>
+							</div>
+						</a>
+					</div>
+				</div>	
 			</div>
-		
+			
 			<div class="content-section constrain feature-text">
 				<h2>Thank You Kindly</h2>
 				<p><a href="http://www.stephanieschulzphoto.com/">Stephanie Schulz</a> took my <a href="about.html">delightful photo</a>. Jill Carpenter, Dyhanara Rios, and Cynthia Fogard gave some great feedback on <a href="about-this-site.html">this site</a>.</p>
@@ -124,8 +171,20 @@
 </footer>
 
 <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+<script src="js/tooltipster.bundle.min.js"></script>
+<script>
+$('.tooltip').tooltipster({
+	animation: 'fade',
+	animationDuration: [300, 150],
+	delay: [100, 50],
+	distance: 0,
+	interactive: true,
+	arrow: false
+});
+</script>
 <script src="js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

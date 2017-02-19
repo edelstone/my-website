@@ -117,8 +117,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .improvements, .main-area .skills {margin-top: 4.5rem; margin-bottom: 4.5rem;}
 .main-area .homes {padding: 7rem 0 4rem; background: #7f2a4d; background: radial-gradient(#7f2a4d, #66223e); color: #ece9e9; text-shadow: 1px 1px 0 #402125;}
 .main-area .homes h2 {margin-top: 0; background: #7f2a4d; display: inline-block; position: relative; padding: 0.3rem 0.8rem; left: -0.8rem;}
-.main-area .homes a {color: #ece9e9; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
-.main-area .homes a:hover {color: #d9554c; text-shadow: none;}
+.main-area .homes a, .main-area .homes .tooltip {cursor: pointer; color: #ece9e9; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
+.main-area .homes a:hover, .main-area .homes .tooltip:hover {color: #d9554c; text-shadow: none;}
 .choices {font-size: 2.2rem; background: #53373b;}
 .choices a {position: relative; bottom: 0; text-decoration: none; transition: all .1s ease-in-out; color: #d9d3d3; padding: 2rem; display: block; text-align: center; background: #53373b; z-index: 0; left: 0; right: 0;}
 .choices a:hover {color: #fcfcfc; bottom: 6px; z-index: 9999;}
@@ -195,6 +195,22 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .featherlight .featherlight-content {border-bottom: none; padding: 0;}
 .featherlight .featherlight-inner {border: 1rem solid #fcfcfc;}
 .featherlight .featherlight-inner#color-10 {border: 10px solid #ece9e9;}
+
+/* Tooltips */
+.tooltip-content {display: none;}
+.tt-thumb {font-size: 4.2rem; display: inline-block; margin-right: 1rem;}
+.tt-thumb .fa-bookmark-o {font-size: 3.8rem;}
+.tt-content {display: inline-block;}
+.tt-handle {margin: 0 0 0.2rem; border-bottom: 2px solid transparent; transition: all .2s ease;}
+.tt-info {margin: 0;}
+.tooltipster-sidetip .tooltipster-box {font-family: Montserrat, sans-serif; border: none; background: transparent;}
+.tooltipster-sidetip .tooltipster-content {color: #fff; padding: 0; font-size: 1.2rem;}
+.tooltipster-sidetip .tooltipster-content a {border-radius: 15px; box-shadow: inset 0 0 0 4px #111; color: #fff; text-decoration: none; display: block; padding: 1.5rem 2.5rem;}
+.tooltipster-sidetip .tooltipster-content a:hover .tt-handle {border-bottom-color: rgba(255, 255, 255, 0.5);}
+#tooltip-github a {background: #333;}
+#tooltip-pinboard a {background: #0000e6;}
+#tooltip-lastfm a {background: #d51007;}
+#tooltip-twitter a {background: #1da1f2;}
 
 /* Animations */
 @keyframes spin {
