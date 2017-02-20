@@ -198,7 +198,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Tooltips */
 .tooltip-content {display: none;}
-.tt-thumb {font-size: 4.2rem; display: inline-block; margin-right: 1.5rem;}
+.tt-thumb {font-size: 4.2rem; display: inline-block; margin-right: 1.3rem;}
 .tt-thumb .fa-bookmark {font-size: 3.6rem;}
 .tt-content {display: inline-block;}
 .tt-handle {margin: 0 0 0.2rem; border-bottom: 2px solid transparent; transition: all .2s ease;}
