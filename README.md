@@ -34,6 +34,7 @@ Many thanks to the digital community for these bad boys:
 * [FastClick](https://github.com/ftlabs/fastclick)
 * [Normalize.css](https://github.com/necolas/normalize.css)
 * [Accessible Accordion](https://github.com/nico3333fr/jquery-accessible-accordion-aria)
+* [Tooltipster](https://github.com/iamceege/tooltipster)
 
 ## Inspiration
 
