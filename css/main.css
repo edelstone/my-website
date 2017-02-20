@@ -4,7 +4,7 @@ html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-wei
 body {min-height: 100%; display: flex; flex-direction: column; background: #fcfcfc; color: #111;}
 img {max-width: 100%;}
 a:focus {transition: none !important;}
-h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub {font-family: 'Montserrat', sans-serif; font-weight: normal;}
+h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .full-width {width: 100%;}
 .clearfix {clear: both;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
@@ -198,19 +198,27 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Tooltips */
 .tooltip-content {display: none;}
-.tt-thumb {font-size: 4.2rem; display: inline-block; margin-right: 1rem;}
-.tt-thumb .fa-bookmark-o {font-size: 3.8rem;}
+.tt-thumb {font-size: 4.2rem; display: inline-block; margin-right: 1.5rem;}
+.tt-thumb .fa-bookmark {font-size: 3.6rem;}
 .tt-content {display: inline-block;}
 .tt-handle {margin: 0 0 0.2rem; border-bottom: 2px solid transparent; transition: all .2s ease;}
 .tt-info {margin: 0;}
-.tooltipster-sidetip .tooltipster-box {font-family: Montserrat, sans-serif; border: none; background: transparent;}
-.tooltipster-sidetip .tooltipster-content {color: #fff; padding: 0; font-size: 1.2rem;}
-.tooltipster-sidetip .tooltipster-content a {border-radius: 15px; box-shadow: inset 0 0 0 4px #111; color: #fff; text-decoration: none; display: block; padding: 1.5rem 2.5rem;}
-.tooltipster-sidetip .tooltipster-content a:hover .tt-handle {border-bottom-color: rgba(255, 255, 255, 0.5);}
-#tooltip-github a {background: #333;}
-#tooltip-pinboard a {background: #0000e6;}
-#tooltip-lastfm a {background: #d51007;}
-#tooltip-twitter a {background: #1da1f2;}
+.tooltipster-sidetip .tooltipster-box {border: none; background: transparent; box-shadow: 0 0 20px -5px #402125; border-radius: 0;}
+.tooltipster-sidetip .tooltipster-content {color: #111; padding: 0; font-size: 1.2rem;}
+.tooltipster-sidetip .tooltipster-content a {background: #fcfcfc; color: #111; text-decoration: none; display: block; padding: 1.5rem 2rem 1.5rem 2.8rem;}
+.tooltipster-sidetip .tooltipster-content a:hover .tt-handle {border-bottom-color: #111;}
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {border-top-color: #fff;}
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {border-right-color: transparent;}
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {border-bottom-color: #fff;}
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {border-left-color: #fff;}
+#tooltip-github a {box-shadow: inset 12px 0 #333;}
+#tooltip-pinboard a {box-shadow: inset 12px 0 #0000e6;}
+#tooltip-lastfm a {box-shadow: inset 12px 0 #d51007;}
+#tooltip-twitter a {box-shadow: inset 12px 0 #1da1f2;}
+#tooltip-github i {color: #333;}
+#tooltip-pinboard i {color: #0000e6;}
+#tooltip-lastfm i {color: #d51007;}
+#tooltip-twitter i {color: #1da1f2;}
 
 /* Animations */
 @keyframes spin {
