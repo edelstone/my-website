@@ -116,7 +116,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .productivity.home {border: none; padding: 6rem 0;}
 .main-area .improvements, .main-area .skills {margin-top: 4.5rem; margin-bottom: 4.5rem;}
 .main-area .homes, .main-area .thanks {padding: 6.5rem 0 3.5rem; background: #7f2a4d; background: radial-gradient(#7f2a4d, #66223e); color: #ece9e9; text-shadow: 1px 1px 0 #402125;}
-.main-area .thanks {background: #4C1930; background: url(../images/mountains.png), linear-gradient(#4C1930 70%, #351222); background-position: 50% 100%; background-size: contain; background-repeat: no-repeat; padding-bottom: 12rem;}
+.main-area .thanks {background: #4C1930; background: url(../images/mountains.svg), linear-gradient(#4C1930 70%, #351222); background-position: 50% 100%; background-size: contain; background-repeat: no-repeat; padding-bottom: 12rem;}
 .main-area .homes h2, .main-area .thanks h2 {margin-top: 0; background: #7f2a4d; display: inline-block; position: relative; padding: 0.3rem 0.8rem; left: -0.8rem;}
 .main-area .thanks h2 {background: #4C1930;}
 .main-area .homes a, .main-area .thanks a, .main-area .homes .tooltip {cursor: pointer; color: #ece9e9; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
