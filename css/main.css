@@ -115,10 +115,12 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .productivity ul li {margin-bottom: 1.5rem;}
 .main-area .productivity.home {border: none; padding: 6rem 0;}
 .main-area .improvements, .main-area .skills {margin-top: 4.5rem; margin-bottom: 4.5rem;}
-.main-area .homes {padding: 7rem 0 4rem; background: #7f2a4d; background: radial-gradient(#7f2a4d, #66223e); color: #ece9e9; text-shadow: 1px 1px 0 #402125;}
-.main-area .homes h2 {margin-top: 0; background: #7f2a4d; display: inline-block; position: relative; padding: 0.3rem 0.8rem; left: -0.8rem;}
-.main-area .homes a, .main-area .homes .tooltip {cursor: pointer; color: #ece9e9; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
-.main-area .homes a:hover, .main-area .homes .tooltip:hover {color: #d9554c; text-shadow: none;}
+.main-area .homes, .main-area .thanks {padding: 6.5rem 0 3.5rem; background: #7f2a4d; background: radial-gradient(#7f2a4d, #66223e); color: #ece9e9; text-shadow: 1px 1px 0 #402125;}
+.main-area .thanks {background: #4C1930; background: radial-gradient(#4C1930, #3d1426);}
+.main-area .homes h2, .main-area .thanks h2 {margin-top: 0; background: #7f2a4d; display: inline-block; position: relative; padding: 0.3rem 0.8rem; left: -0.8rem;}
+.main-area .thanks h2 {background: #4C1930;}
+.main-area .homes a, .main-area .thanks a, .main-area .homes .tooltip {cursor: pointer; color: #ece9e9; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
+.main-area .homes a:hover, .main-area .thanks a:hover {color: #d9554c; text-shadow: none;}
 .choices {font-size: 2.2rem; background: #53373b;}
 .choices a {position: relative; bottom: 0; text-decoration: none; transition: all .1s ease-in-out; color: #d9d3d3; padding: 2rem; display: block; text-align: center; background: #53373b; z-index: 0; left: 0; right: 0;}
 .choices a:hover {color: #fcfcfc; bottom: 6px; z-index: 9999;}
@@ -200,21 +202,21 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .tooltip-content {display: none;}
 .tt-thumb {position: relative; right: 0; font-size: 4.2rem; display: inline-block; margin-right: 1.3rem;}
 .tt-content {display: inline-block;}
-.tt-handle {margin: 0 0 0.4rem;}
+.tt-handle {margin: 0 0 0.3rem;}
 .tt-info {margin: 0;}
 .tt-thumb i {position: relative; right: 0; transition: all .2s ease; text-align: center; width: 4rem;}
 .tooltipster-sidetip .tooltipster-box {border: none; background: transparent; box-shadow: 0 0 20px -5px #402125; border-radius: 0;}
 .tooltipster-sidetip .tooltipster-content {color: #111; padding: 0; font-size: 1.2rem;}
-.tooltipster-sidetip .tooltipster-content a {transition: all .2s ease; background: #fcfcfc; color: #111; text-decoration: none; display: block; padding: 1.5rem 2rem 1.5rem 2.8rem;}
-.tooltipster-sidetip .tooltipster-content a:hover i {color: #fff !important; right: 1.3rem;}
-.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {border-top-color: #fff;}
+.tooltipster-sidetip .tooltipster-content a {transition: all .2s ease; background: #ece9e9; color: #111; text-decoration: none; display: block; padding: 1.5rem 2rem 1.5rem 2.8rem;}
+.tooltipster-sidetip .tooltipster-content a:hover i {color: #ece9e9 !important; right: 1.3rem;}
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {border-top-color: #ece9e9;}
 .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {border-right-color: transparent;}
-.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {border-bottom-color: #fff;}
-.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {border-left-color: #fff;}
-#tooltip-github a {box-shadow: inset 1.3rem 0 #333;}
-#tooltip-pinboard a {box-shadow: inset 1.3rem 0 #0000e6;}
-#tooltip-lastfm a {box-shadow: inset 1.3rem 0 #d51007;}
-#tooltip-twitter a {box-shadow: inset 1.3rem 0 #1da1f2;}
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {border-bottom-color: #ece9e9;}
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {border-left-color: #ece9e9;}
+#tooltip-github a {box-shadow: inset 1.2rem 0 #333;}
+#tooltip-pinboard a {box-shadow: inset 1.2rem 0 #0000e6;}
+#tooltip-lastfm a {box-shadow: inset 1.2rem 0 #d51007;}
+#tooltip-twitter a {box-shadow: inset 1.2rem 0 #1da1f2;}
 #tooltip-github a:hover {box-shadow: inset 7rem 0 #333;}
 #tooltip-pinboard a:hover {box-shadow: inset 7rem 0 #0000e6;}
 #tooltip-lastfm a:hover {box-shadow: inset 7rem 0 #d51007;}
@@ -269,7 +271,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.main-area .project-brief {font-size: 2.2rem;}
 	.main-area .important-updates {margin-left: 0;}
 	.main-area .productivity {padding-bottom: 4rem;}
-	.main-area .homes {padding: 5rem 0 2rem;}
+	.main-area .homes, .main-area .thanks {padding: 5rem 0 2rem;}
 	.main-area .icon {margin-bottom: 6rem;}
 	.choices .about-me {border-top: none; border-bottom: 1px solid #402125;}
 	.choices .about-site {border-top: 1px solid #664d51;}
