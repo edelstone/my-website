@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.css" type="text/css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CNeuton:400,400i,700">
+<link rel="stylesheet" href="css/tooltipster.bundle.min.css">
 <link rel="stylesheet" href="css/main.css">
 <style>
 .color-modal .featherlight-content {height: 75%; min-width: 90%;}
@@ -67,6 +68,7 @@
 					<li><a href="#buttons">Buttons</a></li>
 					<li><a href="#tags">Tags</a></li>
 					<li><a href="#toc">Table of Contents</a></li>
+					<li><a href="#tooltips">Tooltips</a></li>
 					<li><a href="#article-title">Article Title</a></li>
 					<li><a href="#feature-title">Feature Title</a></li>
 					<li><a href="#feature-list">Feature List</a></li>
@@ -316,6 +318,24 @@
 				</div>
 			</div>
 			
+			<div id="tooltips" class="sg-section">
+				<h3 class="sg-header sg-block">Tooltips</h3>
+				<p><a href="#nowhere" class="tooltip" data-tooltip-content="#tooltip-twitter">I reveal a tooltip</a>.</a></p>
+				<div class="tooltip-content">
+					<div id="tooltip-twitter">
+						<a href="https://twitter.com/medelstone">
+							<div class="tt-thumb">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</div>
+							<div class="tt-content">
+								<p class="tt-handle">twitter.com/medelstone</p>
+								<p class="tt-info">450+ tweets</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			
 			<div id="article-title" class="sg-section">
 				<h3 class="sg-header">Article title</h3>
 				<div class="writing-intro">
@@ -414,6 +434,15 @@
 <script>
 	$.featherlight.defaults.closeOnClick = 'anywhere';
 	$('.js-accordion').accordion();
+</script>
+<script src="js/tooltipster.bundle.min.js"></script>
+<script>
+$('.tooltip').tooltipster({
+	animationDuration: [250, 100],
+	delay: 50,
+	distance: 0,
+	interactive: true
+});
 </script>
 <script src="js/main.js"></script>
 <script>
