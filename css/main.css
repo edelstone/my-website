@@ -208,12 +208,12 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .tt-thumb i.fa-bookmark-o {top: 0.2rem;}
 .tooltipster-sidetip .tooltipster-box {border: none; background: transparent; border-radius: 0;}
 .tooltipster-sidetip .tooltipster-content {color: #111; padding: 0; font-size: 1.2rem;}
-.tooltipster-sidetip .tooltipster-content a {transition: all .2s ease; background: #ece9e9; color: #111; text-decoration: none; display: block; padding: 1.5rem 2rem 1.5rem 2.8rem;}
-.tooltipster-sidetip .tooltipster-content a:hover i {color: #ece9e9 !important; right: 1.3rem;}
-.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {border-top-color: #ece9e9;}
+.tooltipster-sidetip .tooltipster-content a {transition: all .2s ease; background: #fcfcfc; color: #111; text-decoration: none; display: block; padding: 1.5rem 2rem 1.5rem 2.8rem;}
+.tooltipster-sidetip .tooltipster-content a:hover i {color: #fcfcfc !important; right: 1.3rem;}
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {border-top-color: #fcfcfc;}
 .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {border-right-color: transparent;}
-.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {border-bottom-color: #ece9e9;}
-.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {border-left-color: #ece9e9;}
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {border-bottom-color: #fcfcfc;}
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {border-left-color: #fcfcfc;}
 #tooltip-github a {box-shadow: inset 1.2rem 0 #333;}
 #tooltip-pinboard a {box-shadow: inset 1.2rem 0 #0000e6;}
 #tooltip-lastfm a {box-shadow: inset 1.2rem 0 #d51007;}
@@ -259,7 +259,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .button {margin-right: 1rem;}
 	.main-area .contact-info {margin-left: 1rem;}
-	.main-area .portrait {position: relative; width: 100vw; left: 50%; right: 50%; margin-top: -0.4rem; margin-left: -50vw;}
+	.main-area .portrait {position: relative; width: 100vw; left: 50%; right: 50%; margin-top: -1rem; margin-left: -50vw;}
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100%;}
 	.main-area .project-brief {font-size: 2.2rem;}
