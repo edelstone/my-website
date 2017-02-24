@@ -259,7 +259,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .button {margin-right: 1rem;}
 	.main-area .contact-info {margin-left: 1rem;}
-	.main-area .portrait {float: none; width: 100vw; height: 100%; left: 50%; right: 50%; margin: -1rem -50vw 2rem; border-width: 0 0 4px 0; border-radius: 0;}
+	.main-area .portrait {position: relative; width: 100vw; left: 50%; right: 50%; margin-top: -0.3rem; margin-left: -50vw;}
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100%;}
 	.main-area .project-brief {font-size: 2.2rem;}
