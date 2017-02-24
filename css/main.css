@@ -47,7 +47,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .stack {margin-bottom: 0 !important;}
 .main-area .much-text {padding-top: 1rem;}
 .main-area .feature-text {font-size: 2.8rem;}
-.main-area .portrait {background: #d9554c; animation: color-cycle 45s alternate 2; position: relative; border-radius: 0.3rem; border: 4px solid #402125; width: 22.5rem; height: 22.5rem; margin: 0.6rem 2.8rem 1.5rem 0; float: left;}
+.main-area .portrait {margin: 3rem 0 0;}
 .main-area .portrait img {display: block;}
 .main-area .image-group {width: 90%; margin: 5rem auto 6rem;}
 .main-area .image-group-fw {width: 100%; margin: 0;}
@@ -231,13 +231,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 @keyframes spin {
 	from {transform: rotate(0deg);}
 	to   {transform: rotate(360deg);}
-}
-
-@keyframes color-cycle {
-    25%   {background: #d9554c;}
-    50%  {background: #cf4d6f;}
-    75%  {background: #7f2a4d;}
-    100%  {background: #53373b;}
 }
 
 /* Responsive enhancements */
