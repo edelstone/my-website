@@ -161,6 +161,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .tags {margin-top: -2rem; margin-bottom: -2rem;}
 .main-area .tags ul {padding: 0; list-style-type: none;}
 .main-area .tags li {display: inline-block; font-size: 1.3rem; border: 3px solid #f4ccc9; color: #c34d44; padding: 0.4rem 0.75rem; margin-right: 0.2rem; border-radius: 3px;}
+.multi-layout-2.portfolio-multi-layout {margin: 5rem auto -1rem;}
 .main-area .project-details {margin-bottom: 4rem;}
 .main-area .portfolio-options {text-align: center;}
 
