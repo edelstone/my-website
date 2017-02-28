@@ -65,6 +65,12 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .important-updates {margin-left: 3rem;}
 .main-area .important-updates .fa-li  {font-size: 1.8rem; top: 0.8rem; left: -4rem; color: #7f2a4d;}
 .main-area .fa-inline {font-size: 1.8rem; margin: -0.7rem; bottom: 0.1rem}
+.main-area .more-homes {margin-top: 3.5rem;}
+.more-homes ul {list-style-type: none; padding: 0 !important;}
+.more-homes li {display: inline; margin-right: 0.5rem;}
+.more-homes a {display: inline-block; background: none; transition: all .2s ease;}
+.more-homes a:hover {transform: rotate(10deg); color: #cf4d6f;}
+.more-homes .fa-inner {color: #fcfcfc;}
 
 /* Accessibility */
 a.offscreen {position: absolute; left: -1000px; top: -1000px; width: 1px; height: 1px; text-align: left; overflow: hidden;}
@@ -95,11 +101,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .multi-layout-2 .col-3 {margin-left: 1.5rem;}
 .collapse .col {margin: 0 !important;}
 .col.orphan {margin: 0 !important; flex-grow: 1;}
-
-/* Contact */
-.main-area .contact-info {margin-left: 4.5rem;}
-.main-area .contact-info li {margin-bottom: 1.5rem;}
-.main-area .contact-info i {margin-top: 0.4rem; color: #d9554c;}
 
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
@@ -268,6 +269,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.main-area .productivity {padding-bottom: 4rem;}
 	.main-area .homes, .main-area .thanks {padding: 5rem 0 2rem;}
 	.main-area .icon {margin-bottom: 6rem;}
+	.main-area.contact-info .contact-group {margin-bottom: 4rem;}
 	.choices .about-me {border-top: none; border-bottom: 1px solid #402125;}
 	.choices .about-site {border-top: 1px solid #664d51;}
 	.choices .about-me:hover, .choices .about-site:hover {bottom: 0; left: 0; right: 0; box-shadow: none;}
