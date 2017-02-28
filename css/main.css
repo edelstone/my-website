@@ -42,7 +42,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.4rem;}
 .main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1.4rem; font-size: 2rem; color: #7f2a4d;}
 .main-area h4 {font-size: 1.8rem; margin-bottom: 1.4rem;}
-.main-area hr {margin: -0.8rem 0 5rem 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
+.main-area hr {margin: -0.8rem 0 3rem 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
 .main-area .sub-header {margin-top: 0;}
 .main-area .stack {margin-bottom: 0 !important;}
 .main-area .much-text {padding-top: 1rem;}
@@ -53,12 +53,12 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .image-group-fw {width: 100%; margin: 0;}
 .main-area .image-border {border: 1px solid #d9d3d3;}
 .main-area .caption {font-size: 1.3rem; text-align: center; margin-top: 0.3rem; margin-bottom: 4rem;}
-.main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fcfcfc; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin-right: 1rem;}
+.main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fcfcfc; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin: 0 1rem 1rem 0;}
 .main-area .button:hover {background: #d9554c; color: #fcfcfc; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
 .main-area .button:active {background: #c34d44; background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
 .main-area .button-fat-guy {font-size: 2rem; padding: 2rem 4rem; margin: 1.5rem auto;}
 .main-area .button-fw {width: 100%; text-align: center;}
-.main-area .button-light {font-size: 1.6rem;}
+.main-area .button-light {font-size: 1.6rem; display: inline-block;}
 .main-area .much-text h2, .main-area .much-text h3 {margin-top: 3rem;}
 .main-area .lil-snug-guy {margin-top: -1rem;}
 .main-area .inline-header {margin-right: 0.5rem; font-weight: bold;}
@@ -68,9 +68,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .more-homes {margin-top: 3.5rem;}
 .more-homes ul {list-style-type: none; padding: 0 !important;}
 .more-homes li {display: inline; margin-right: 0.5rem;}
-.more-homes a {display: inline-block; background: none; transition: all .2s ease;}
-.more-homes a:hover {transform: rotate(10deg); color: #cf4d6f;}
-.more-homes .fa-inner {color: #fcfcfc;}
+.more-homes a {display: inline-block; background: none;}
+.more-homes .fa-inner {color: #fcfcfc; transition: all .2s ease;}
+.more-homes .fa-outer {transition: all .1s ease-in-out;}
+.more-homes a:hover .fa-outer {transform: scale(1.1); color: #cf4d6f;}
 
 /* Accessibility */
 a.offscreen {position: absolute; left: -1000px; top: -1000px; width: 1px; height: 1px; text-align: left; overflow: hidden;}
@@ -112,7 +113,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .productivity .productivity-header {margin: 0 auto 4.5rem; text-align: center;}
 .main-area .productivity a {background: #c3bebe; background: linear-gradient(to bottom, transparent 0, transparent 83%, #c3bebe 83%, #c3bebe 100%);}
 .main-area .productivity a:hover {color: #722645;}
-.main-area .productivity.home a {background: transparent;}
 .main-area .productivity ul li {margin-bottom: 1.5rem;}
 .main-area .productivity.home {border: none; padding: 6rem 0;}
 .main-area .improvements, .main-area .skills {margin-top: 4.5rem; margin-bottom: 4.5rem;}
@@ -140,14 +140,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .icon {text-align: center;}
 .main-area .icon img {max-width: 8rem;}
 .main-area .icon h3 {color: #111; margin-top: 1.8rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem; font-weight: normal;}
-.main-area .icon-link {background: transparent;}
-.main-area .icon-link img {position: relative; bottom: 0; transition: all .25s cubic-bezier(0.68, -0.55, 0.265, 1.55); backface-visibility: hidden;}
-.main-area .icon-link.trans-effect-1:hover img {bottom: 8px;}
-.main-area .icon-link.trans-effect-2:hover img {transform: rotate(-20deg);}
-.main-area .icon-link.trans-effect-3:hover img {transform: scale(1.1);}
 
 /* Projects */
-.project {margin: 3rem auto 8rem;}
+.project {margin-bottom: 3rem; background: #F6F5F5; padding: 4rem 2rem; border-bottom: 6px solid #ece9e9;}
 .project .project-header {font-size: 2.2rem;}
 .project .project-brief {margin-bottom: 2.5rem; font-size: 2rem;}
 .title-area {background-color: #d9554c; background-size: cover; background-position: 50%;}
@@ -243,7 +238,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 }
 
 @media (max-width: 48em) {
-	.main-area .button {margin-right: 0.5rem;}
 	.footer .btt {position: relative; right: 0; bottom: 0; line-height: initial; margin-top: 2rem;}
 	.footer .btt a {padding: 1.5rem 1.5rem 1.8rem;}
 }
@@ -259,11 +253,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.intro .quick-bio {padding: 5rem 0 2rem; font-size: 3.6rem;}
 	.main-area-content {padding-top: 2.8rem;}
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
-	.main-area .button {margin-right: 1rem;}
 	.main-area .contact-info {margin-left: 1rem;}
 	.main-area .portrait {position: relative; width: 100vw; left: 50%; right: 50%; margin-top: -0.4rem; margin-left: -50vw;}
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100%;}
+	.main-area .project {padding: 3rem 2rem 1rem;}
 	.main-area .project-brief {font-size: 2.2rem;}
 	.main-area .important-updates {margin-left: 0;}
 	.main-area .productivity {padding-bottom: 4rem;}
