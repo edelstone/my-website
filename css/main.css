@@ -4,7 +4,7 @@ html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-wei
 body {min-height: 100%; display: flex; flex-direction: column; background: #fcfcfc; color: #111;}
 img {max-width: 100%;}
 a:focus {transition: none !important;}
-h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content {font-family: 'Montserrat', sans-serif; font-weight: normal;}
+h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content, .results {font-family: 'Montserrat', sans-serif; font-weight: normal;}
 .full-width {width: 100%;}
 .clearfix {clear: both;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
@@ -42,7 +42,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.4rem;}
 .main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1.4rem; font-size: 2rem; color: #7f2a4d;}
 .main-area h4 {font-size: 1.8rem; margin-bottom: 1.4rem;}
-.main-area hr {margin: -0.8rem 0 3rem 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
+.main-area hr {margin: -0.8rem 0 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
 .main-area .sub-header {margin-top: 0;}
 .main-area .stack {margin-bottom: 0 !important;}
 .main-area .much-text {padding-top: 1rem;}
@@ -118,7 +118,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .productivity.home {border: none; padding: 6rem 0;}
 .main-area .improvements, .main-area .skills {margin-top: 4.5rem; margin-bottom: 4.5rem;}
 .main-area .homes, .main-area .thanks {padding: 6.5rem 0 3.5rem; background: #7f2a4d; background: radial-gradient(#7f2a4d, #66223e); color: #ece9e9; text-shadow: 1px 1px 0 #402125;}
-.main-area .thanks {background: #4C1930; background: radial-gradient(#4C1930, #351222); /* background: url(../images/mountains.svg), linear-gradient(#4C1930 70%, #351222); background-position: 50% 100%; background-size: contain; background-repeat: no-repeat; padding-bottom: 12rem; */}
+.main-area .thanks {background: #4C1930; background: radial-gradient(#4C1930, #351222);}
 .main-area .homes h2, .main-area .thanks h2 {margin-top: 0; background: #7f2a4d; display: inline-block; position: relative; padding: 0.3rem 0.8rem; left: -0.8rem;}
 .main-area .thanks h2 {background: #581d36; background: #4C1930;}
 .main-area .homes a, .main-area .thanks a, .main-area .homes .tooltip {cursor: pointer; color: #ece9e9; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
@@ -143,23 +143,29 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .icon h3 {color: #111; margin-top: 1.8rem; letter-spacing: 1px; text-transform: uppercase; font-size: 1.6rem; font-weight: normal;}
 
 /* Projects */
-.project {margin-bottom: 3rem; background: #F6F5F5; padding: 4rem 2rem; border: 1px solid #ece9e9;}
+.main-area .project-page {padding-top: 0;}
+.project {margin: 4rem auto 5rem;}
 .project .project-header {font-size: 2.2rem;}
 .project .project-brief {margin-bottom: 2.5rem; font-size: 2rem;}
+.project img {display: block; padding: 2rem; background: #f6f5f5; border: 1px solid #ece9e9;}
 .title-area {background-color: #d9554c; background-size: cover; background-position: 50%;}
 .title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
 .title-area-2 {background-image: url(../images/banner-txst-template.png);}
 .title-area-3 {background-image: url(../images/banner-txst-brand.png);}
 .title-area-4 {background-image: url(../images/banner-pcf-website.png);}
 .title-area-wrapper {background-color: rgba(217,85,76,0.5);}
-.title-area-content {padding-top: 3.5rem; padding-bottom: 3.5rem;}
+.title-area-content {padding-top: 4rem; padding-bottom: 4rem;}
 .title-area .portfolio-header {font-size: 2.6rem; margin: 0; color: #fcfcfc; text-shadow: 2px 2px 0px #983b35; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;}
 .title-area .url {text-transform: lowercase;}
-.main-area .tags {margin-top: -2rem; margin-bottom: -2rem;}
+.main-area .summary {background: #f6f5f5; padding: 5.5rem 0 4.5rem; border-bottom: 1px solid #ece9e9; width: 100vw; margin-left: -50vw; left: 50%; position: relative;}
+.main-area .summary h2 {margin-top: 0;}
+.main-area .summary-text a {background: #c3bebe; background: linear-gradient(to bottom, transparent 0, transparent 83%, #c3bebe 83%, #c3bebe 100%);}
+.main-area .tags {margin-bottom: 2.5rem;}
 .main-area .tags ul {padding: 0; list-style-type: none;}
-.main-area .tags li {display: inline-block; font-size: 1.3rem; border: 3px solid #f4ccc9; color: #c34d44; padding: 0.4rem 0.75rem; margin-right: 0.2rem; border-radius: 3px;}
+.main-area .tags li {color: #7f2a4d; background: #ece9e9; display: inline-block; font-size: 1.3rem; border: 1px solid #d9d3d3; ; padding: 0.4rem 0.8rem; margin-right: 0.4rem;}
 .multi-layout-2.portfolio-multi-layout {margin: 5rem auto -1rem;}
-.main-area .project-details {margin-bottom: 4rem;}
+.main-area .project-details {margin-bottom: 4rem; padding-top: 0;}
+.main-area .project-details .accordion {margin: -1rem 0;}
 .main-area .portfolio-options {text-align: center;}
 
 /* Style Guide */
@@ -179,7 +185,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 /* Accordion */
 .accordion {padding-top: 1rem;}
 .accordion button {font-weight: bold; font-size: 1.6rem; color: #7f2a4d; border: 1px solid #d9d3d3; padding: 1.5rem 1.8rem; background: #ece9e9; cursor: pointer; letter-spacing: 1px; text-transform: uppercase;}
-.accordion button:focus {outline: 2px solid #7f2a4d;}
+.accordion button:focus {outline: 1px solid #7f2a4d; border-color: #7f2a4d;}
 .accordion__panel {margin: 1.5rem 0 -0.5rem; display: block; overflow: hidden; opacity: 1; transition: visibility 0s ease, max-height 1s ease, opacity 0.3s ease; max-height: 100em; visibility: visible; transition-delay: 0s;}
 .accordion__panel[aria-hidden=true] {max-height: 0; opacity: 0; visibility: hidden; transition: visibility 1s ease, max-height 0.6s ease -0.3s, opacity 0.3s ease;}
 .accordion__header {display: inline-block;}
@@ -252,14 +258,16 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.intro nav {margin-left: -0.8rem;}
 	.intro nav a {margin: -0.2rem 0.5rem -0.2rem -0.5rem; font-size: 1.5rem;}
 	.intro .quick-bio {padding: 5rem 0 2rem; font-size: 3.6rem;}
+	.title-area-content {padding-top: 3.5rem; padding-bottom: 3.5rem;}
 	.main-area-content {padding-top: 2.8rem;}
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .contact-info {margin-left: 1rem;}
 	.main-area .portrait {position: relative; width: 100vw; left: 50%; right: 50%; margin-top: -0.4rem; margin-left: -50vw;}
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100%;}
-	.main-area .project {padding: 3rem 2rem 1rem;}
 	.main-area .project-brief {font-size: 2.2rem;}
+	.main-area .summary {padding: 4rem 0 1.5rem;}
+	.main-area .summary h2 {margin-top: 3rem;}
 	.main-area .important-updates {margin-left: 0;}
 	.main-area .productivity {padding-bottom: 4rem;}
 	.main-area .homes, .main-area .thanks {padding: 5rem 0 2rem;}
