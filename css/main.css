@@ -144,10 +144,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Projects */
 .main-area .project-page {padding-top: 0;}
-.project {margin: 4rem auto 5rem;}
+.project {margin: 4rem auto 6rem;}
 .project .project-header {font-size: 2.2rem;}
 .project .project-brief {margin-bottom: 2.5rem; font-size: 2rem;}
-.project img {display: block; padding: 2rem; background: #f6f5f5; border: 1px solid #ece9e9;}
 .title-area {background-color: #d9554c; background-size: cover; background-position: 50%;}
 .title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
 .title-area-2 {background-image: url(../images/banner-txst-template.png);}
