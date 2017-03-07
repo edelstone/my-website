@@ -206,7 +206,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .tt-handle {margin: 0 0 0.3rem;}
 .tt-info {margin: 0;}
 .tt-thumb i {position: relative; right: 0; transition: all .2s ease; text-align: center; width: 4rem;}
-.tt-thumb i.fa-bookmark-o {top: 0.2rem;}
 .tooltipster-sidetip .tooltipster-box {border: none; background: transparent; border-radius: 0;}
 .tooltipster-sidetip .tooltipster-content {color: #111; padding: 0; font-size: 1.2rem;}
 .tooltipster-sidetip .tooltipster-content a {transition: all .2s ease; background: #fcfcfc; color: #111; text-decoration: none; display: block; padding: 1.5rem 2rem 1.5rem 2.8rem;}
