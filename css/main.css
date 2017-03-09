@@ -21,7 +21,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .signature a:hover .sig-letter:nth-child(4n+3) {transform: rotate(10deg);}
 .signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}
 .intro {background-size: cover; background-image: url(../images/droplets.jpg); background-position: 50% 0%;}
-.intro-wrapper {background: #402125; color: #fcfcfc; box-shadow: 0 0.7rem #d9554c; opacity: 1; transition: opacity 0.8s;}
+.intro-wrapper {background: #402125; color: #fcfcfc; box-shadow: 0 0.7rem #d9554c; opacity: 1; transition: opacity 0.5s;}
 .intro-opaque {opacity: .94; transform: translateZ(0);}
 .intro.home .intro-wrapper {box-shadow: none;}
 .intro-content {padding-top: 2.5rem; padding-bottom: 2.5rem;}
@@ -249,6 +249,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 @media (max-width: 48em) {
 	.footer .btt {position: relative; right: 0; bottom: 0; line-height: initial; margin-top: 2rem;}
 	.footer .btt a {padding: 1.5rem 1.5rem 1.8rem;}
+	.intro {background-image: none;}
+	.intro-opaque {opacity: 1; transition: none;}
 }
 
 @media (max-width: 35.5em) {
