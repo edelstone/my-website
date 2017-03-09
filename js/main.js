@@ -36,4 +36,4 @@ var img = new Image();
 img.onload = function() {
   document.getElementsByClassName('intro-wrapper')[0].classList.add('intro-opaque');
 }
-img.src = 'images/droplets.jpg';
+img.src = 'http://michaeledelstone.com/images/droplets.jpg';
