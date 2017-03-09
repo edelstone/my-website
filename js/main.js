@@ -30,3 +30,10 @@ $('a').click(function() {
     });
     return false;
 });
+
+// Add opacity class after loading banner background image
+var img = new Image();
+img.onload = function() {
+  document.getElementsByClassName('intro-wrapper')[0].classList.add('intro-opaque');
+}
+img.src = 'images/droplets.jpg';
