@@ -22,7 +22,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}
 .intro * {position: relative;}
 .intro {background-image: url(../images/droplets.jpg); background-size: cover; background-position: 50% 0%; position: relative;}
-.intro::before {content: ''; position: absolute; width: 100%; height: 100%; background: #402125; opacity: 1; transition: opacity 1s;}
+.intro::before {content: ''; position: absolute; width: 100%; height: 100%; background: #402125; opacity: 1; transition: opacity 1s; display: block;}
 .intro.loaded::before {opacity: 0.94; transform: translateZ(0);}
 .intro-wrapper {color: #fcfcfc; box-shadow: 0 0.7rem #d9554c;}
 .intro.home .intro-wrapper {box-shadow: none;}
@@ -151,7 +151,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .project .project-brief {margin-bottom: 2.5rem; font-size: 2rem;}
 .title-area * {position: relative;}
 .title-area {background-color: #d9554c; background-size: cover; background-position: 50%; position: relative;}
-.title-area::before {content: ''; position: absolute; width: 100%; height: 100%; background: #d9554c; opacity: 1; transition: opacity 0.5s;}
+.title-area::before {display: block; content: ''; position: absolute; width: 100%; height: 100%; background: #d9554c; opacity: 1; transition: opacity 0.5s;}
 .title-area.loaded::before {opacity: 0.5; transform: translateZ(0);}
 .title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
 .title-area-2 {background-image: url(../images/banner-txst-template.png);}
