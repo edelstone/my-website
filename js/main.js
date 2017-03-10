@@ -32,8 +32,12 @@ $('a').click(function() {
 });
 
 // Add opacity class after loading banner background image
-var img = new Image();
-img.onload = function() {
-  document.getElementsByClassName('intro-wrapper')[0].classList.add('intro-opaque');
-}
-img.src = 'http://michaeledelstone.com/images/droplets.jpg';
+(function(el){
+  el.forEach(function(e) {
+    var style = e.currentStyle || window.getComputedStyle(e, false),
+    bi = style.backgroundImage.slice(5, -2);
+    var img = new Image();
+    img.onload = function() { e.classList.add('loaded'); }
+    img.src = bi;  
+  });
+})(document.querySelectorAll('.intro, .title-area'));
