@@ -32,12 +32,13 @@ $('a').click(function() {
 });
 
 // Add opacity class after loading banner background image
+// Thanks to LGSon on Stack Overflow for this bad boy: http://stackoverflow.com/questions/42706152/delay-background-color-opacity-until-background-image-loads
 (function(el){
   el.forEach(function(e) {
     var style = e.currentStyle || window.getComputedStyle(e, false),
-    bi = style.backgroundImage.slice(5, -2);
+    bi = style.backgroundImage.slice(4, -1).replace(/["|']/g, "");
     var img = new Image();
     img.onload = function() { e.classList.add('loaded'); }
     img.src = bi;  
   });
-})(document.querySelectorAll('.intro, .title-area'));
+})(document.querySelectorAll('.intro, .title-area-1'));
