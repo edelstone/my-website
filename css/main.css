@@ -22,7 +22,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}
 .intro * {position: relative;}
 .intro {background-image: url(../images/droplets.jpg); background-size: cover; background-position: 50% 0%; position: relative;}
-.intro::before {content: ''; position: absolute; width: 100%; height: 100%; background: #402125; opacity: 1; transition: opacity 1s; display: block;}
+.intro::before {content: ''; position: absolute; width: 100%; height: 100%; background: #402125; opacity: 1; transition: opacity 1s; display: block; top: 0; left: 0;}
 .intro.loaded::before {opacity: 0.94; transform: translateZ(0);}
 .intro-wrapper {color: #fcfcfc; box-shadow: 0 0.7rem #d9554c;}
 .intro.home .intro-wrapper {box-shadow: none;}
