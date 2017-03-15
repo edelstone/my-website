@@ -95,7 +95,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .footer-divider .fa-circle {color: #75bd59;}
 .footer-divider .fa-circle-2 {color: #146da9; font-size: 105%;}
 .footer .load-time {min-height: 2rem; margin-bottom: 0.2rem;}
-.footer .btt {position: absolute; right: 2rem; bottom: 2rem; text-shadow: 1px 1px 0 #220b17;}
+.footer .btt {position: absolute; right: 2rem; bottom: 2rem;}
 .footer .btt a {background: #53373b; padding: 1.2rem 1.75rem; transition: all .2s ease-in-out; border-radius: 3px; display: block;}
 .footer .btt a:hover {color: #fcfcfc;}
 
