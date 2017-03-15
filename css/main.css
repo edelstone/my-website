@@ -22,13 +22,13 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}
 .intro * {position: relative;}
 .intro {background-image: url(../images/droplets.jpg); background-size: cover; background-position: 50% 0%; position: relative;}
-.intro::before {content: ''; position: absolute; width: 100%; height: 100%; background: #402125; opacity: 1; transition: opacity 1s;}
+.intro::before {content: ''; position: absolute; width: 100%; height: 100%; background: #402125; opacity: 1; transition: opacity 0.5s;}
 .intro.loaded::before {opacity: 0.94; transform: translateZ(0);}
 .intro-wrapper {color: #fcfcfc; box-shadow: 0 0.7rem #53373b;}
 .intro.home .intro-wrapper {box-shadow: none;}
 .intro-content {padding-top: 2.5rem; padding-bottom: 2.5rem;}
 .intro h1, .writing-header {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; text-shadow: none; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
-.intro nav {margin-top: 1.2rem; margin-left: -1.2rem;}
+.intro nav {z-index: 999; margin-top: 1.2rem; margin-left: -1.2rem;}
 .intro nav a {margin: 0.6rem 2.2rem 0 1.2rem; color: #d9d3d3; border-bottom: 5px solid transparent; font-size: 1.4rem; text-decoration: none; display: inline-block;}
 .intro nav a:hover {border-color: #d9554c; color: #fcfcfc;}
 .main-area-content {padding-top: 4rem; padding-bottom: 2rem; font-size: 2.2rem;}
@@ -153,9 +153,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .project .project-header {font-size: 2.2rem;}
 .project .project-brief {margin-bottom: 2.5rem; font-size: 2rem;}
 .title-area * {position: relative;}
-.title-area {background-color: #53373b; background-size: cover; background-position: 50%; position: relative;}
-.title-area::before {content: ''; position: absolute; width: 100%; height: 100%; background: #53373b; opacity: 1; transition: opacity 0.5s;}
-.title-area.loaded::before {opacity: 0.5; transform: translateZ(0);}
+.bg-overlap {background-color: #53373b;}
+.title-area {background-size: cover; background-position: 50%; position: relative; padding-top: 0; margin-top: 0;}
+.title-area::before {content: ''; position: absolute; width: 100%; height: 100%; background: #53373b; opacity: 0.5;}
 .title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
 .title-area-2 {background-image: url(../images/banner-txst-template.png);}
 .title-area-3 {background-image: url(../images/banner-txst-brand.png);}
@@ -244,6 +244,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	html {font-size: 68.5%;}
 	.constrain {max-width: 80rem;}
 	.intro .quick-bio {font-size: 4.8rem;}
+	.title-area {padding-top: 8rem; margin-top: -8rem;}
+	.title-area::before {opacity: 0;}
 }
 
 @media (max-width: 48em) {

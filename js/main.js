@@ -41,4 +41,4 @@ $('a').click(function() {
     img.onload = function() { e.classList.add('loaded'); }
     img.src = bi;  
   });
-})(document.querySelectorAll('.intro, .title-area'));
+})(document.querySelectorAll('.intro'));
