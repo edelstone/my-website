@@ -24,25 +24,24 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .intro {background-image: url(../images/droplets.jpg); background-size: cover; background-position: 50% 0%; position: relative;}
 .intro::before {content: ''; position: absolute; width: 100%; height: 100%; background: #402125; opacity: 1; transition: opacity 1s;}
 .intro.loaded::before {opacity: 0.94; transform: translateZ(0);}
-.intro-wrapper {color: #fcfcfc; box-shadow: 0 0.7rem #d9554c;}
+.intro-wrapper {color: #fcfcfc; box-shadow: 0 0.7rem #53373b;}
 .intro.home .intro-wrapper {box-shadow: none;}
 .intro-content {padding-top: 2.5rem; padding-bottom: 2.5rem;}
-.intro h1, .writing-header {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
+.intro h1, .writing-header {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; text-shadow: none; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
 .intro nav {margin-top: 1.2rem; margin-left: -1.2rem;}
-.intro nav a {color: #d9d3d3; margin-right: 1rem; font-size: 1.4rem; text-decoration: none; border-radius: 20px; padding: 0.6rem 1.2rem; display: inline-block;}
-.intro nav a:hover {background: #53373b; color: #fcfcfc;}
-.intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d9d3d3;}
+.intro nav a {margin: 0.6rem 2.2rem 0 1.2rem; color: #d9d3d3; border-bottom: 5px solid transparent; font-size: 1.4rem; text-decoration: none; display: inline-block;}
+.intro nav a:hover {border-color: #d9554c; color: #fcfcfc;}
 .main-area-content {padding-top: 4rem; padding-bottom: 2rem; font-size: 2.2rem;}
 .main-area .content-section {margin-bottom: 4rem;}
 .main-area .content-section.tall-section {margin-bottom: 5rem;}
 .main-area a {color: #111; background: #f0bbb7; background: linear-gradient(to bottom, transparent 0, transparent 83%, #f0bbb7 83%, #f0bbb7 100%); text-decoration: none;}
 .main-area a:hover {color: #c34d44;}
-.main-area p, .main-area ul, .main-area ol {margin-top: 0; margin-bottom: 1.4rem;}
+.main-area p, .main-area ul, .main-area ol {margin-top: 0; margin-bottom: 1.5rem;}
 .main-area ul ul {padding-left: 3rem; margin-bottom: 0; margin-top: 0.5rem;}
 .main-area ul li, .main-area ol li {margin-bottom: 0.5rem; padding-left: 0;}
-.main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.4rem;}
-.main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1.4rem; font-size: 2rem; color: #7f2a4d;}
-.main-area h4 {font-size: 1.8rem; margin-bottom: 1.4rem;}
+.main-area h2 {font-weight: bold; text-transform: uppercase; font-size: 2rem; letter-spacing: 1px; margin-top: 2rem; margin-bottom: 1.5rem;}
+.main-area h3 {margin: 0; font-weight: bold; margin-bottom: 1.5rem; font-size: 2rem; color: #7f2a4d;}
+.main-area h4 {font-size: 1.8rem; margin-bottom: 1.5rem;}
 .main-area hr {margin: -0.8rem 0 0; border: none; background: #cf4d6f; height: 5px; max-width: 5rem;}
 .main-area .sub-header {margin-top: 0;}
 .main-area .stack {margin-bottom: 0 !important;}
@@ -56,12 +55,12 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .caption {font-size: 1.3rem; text-align: center; margin-top: 0.3rem; margin-bottom: 4rem;}
 .main-area .has-summary  {padding-top: 0.7rem;}
 .main-area .contact-group p {margin-top: -0.5rem;}
-.main-area .button {display: inline-block; border: 1px solid #c34d44; border-bottom: none; position: relative; text-decoration: none; padding: 1rem 2rem; background: #d9554c; color: #fcfcfc; box-shadow: 0 4px #983b35; font-size: 1.6rem; border-radius: 4px; text-shadow: 1px 1px 0 #983b35; margin: 0 1.5rem 1rem 0;}
-.main-area .button:hover {background: #d9554c; color: #fcfcfc; border-color: #c34d44; box-shadow: 0 4px #983b35, 0 7px 10px -5px #422c2f;}
-.main-area .button:active {background: #c34d44; background: linear-gradient(to bottom right, #c34d44, #d9554c); top: 4px; box-shadow: none;}
+.main-area .button {display: inline-block; position: relative; text-decoration: none; padding: 1.1rem 2.1rem 1rem; background: #d9554c; color: #fcfcfc; box-shadow: 0 5px #983b35; font-size: 1.6rem; border-radius: 3px; text-shadow: 1px 1px 0 #983b35; margin: 0 1.5rem 1rem 0;}
+.main-area .button:hover {background: #d9554c; color: #fcfcfc; border-color: #c34d44; box-shadow: 0 5px #983b35, 0 8px 10px -5px #422c2f;}
+.main-area .button:active {background: #c34d44; background: linear-gradient(to bottom right, #c34d44, #d9554c);}
 .main-area .button-fat-guy {font-size: 2rem; padding: 2rem 4rem; margin: 1.5rem auto;}
 .main-area .button-fw {width: 100%; text-align: center;}
-.main-area .button-light {font-size: 1.6rem; display: inline-block;}
+.main-area .button-light {font-size: 1.6rem; display: inline-block; background: linear-gradient(to bottom, transparent 0, transparent 80%, #f0bbb7 80%, #f0bbb7 100%);}
 .main-area .much-text h2, .main-area .much-text h3 {margin-top: 3rem;}
 .main-area .lil-snug-guy {margin-top: -1rem;}
 .main-area .inline-header {margin-right: 0.5rem; font-weight: bold;}
@@ -97,8 +96,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .footer-divider .fa-circle-2 {color: #146da9; font-size: 105%;}
 .footer .load-time {min-height: 2rem; margin-bottom: 0.2rem;}
 .footer .btt {position: absolute; right: 2rem; bottom: 2rem; text-shadow: 1px 1px 0 #220b17;}
-.footer .btt a {background: transparent; border: 3px solid #53373b; padding: 1rem 1.5rem; transition: all .2s ease-in-out; border-radius: 3px; display: block;}
-.footer .btt a:hover {background: #53373b; color: #fcfcfc;}
+.footer .btt a {background: #53373b; padding: 1.2rem 1.75rem; transition: all .2s ease-in-out; border-radius: 3px; display: block;}
+.footer .btt a:hover {color: #fcfcfc;}
 
 /* Columns */
 .multi-layout, .multi-layout-2 {display: flex;}
@@ -114,7 +113,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
-.intro .quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: #ece9e9; padding: 6rem 0 4rem; text-shadow: 1px 1px 0px #1b0912; line-height: 1.35;}
+.intro .quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: #ece9e9; padding: 5.5rem 0 3.5rem; text-shadow: 1px 1px 0px #1b0912; line-height: 1.35;}
 .intro .quick-bio p {margin: 0 auto 2rem;}
 .intro .quick-bio a {color: #ece9e9; text-decoration: none; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 90%, #d9554c 90%, #d9554c 100%);}
 .main-area .productivity {background: #ece9e9; width: 100vw; position: relative; left: 50%; right: 50%; margin: 0 -50vw; padding: 5.5rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 1px solid #c3bebe; border-bottom: 1px solid #c3bebe;}
@@ -154,21 +153,21 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .project .project-header {font-size: 2.2rem;}
 .project .project-brief {margin-bottom: 2.5rem; font-size: 2rem;}
 .title-area * {position: relative;}
-.title-area {background-color: #d9554c; background-size: cover; background-position: 50%; position: relative;}
-.title-area::before {content: ''; position: absolute; width: 100%; height: 100%; background: #d9554c; opacity: 1; transition: opacity 0.5s;}
-.title-area.loaded::before {opacity: 0.5; transform: translateZ(0);}
+.title-area {background-color: #53373b; background-size: cover; background-position: 50%; position: relative;}
+.title-area::before {content: ''; position: absolute; width: 100%; height: 100%; background: #53373b; opacity: 1; transition: opacity 0.5s;}
+.title-area.loaded::before {opacity: 0.4; transform: translateZ(0);}
 .title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
 .title-area-2 {background-image: url(../images/banner-txst-template.png);}
 .title-area-3 {background-image: url(../images/banner-txst-brand.png);}
 .title-area-4 {background-image: url(../images/banner-pcf-website.png);}
 .title-area-content {padding-top: 4rem; padding-bottom: 4rem;}
-.title-area .portfolio-header {font-size: 2.6rem; margin: 0; color: #fcfcfc; text-shadow: 2px 2px 0px #983b35; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;}
+.title-area .portfolio-header {font-size: 2.6rem; margin: 0; color: #d9d3d3; text-shadow: 2px 2px 0px #53373b; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;}
 .title-area .url {text-transform: lowercase;}
-.main-area .summary {background: #f6f5f5; padding: 5.5rem 0 4.5rem; width: 100vw; margin-left: -50vw; left: 50%; position: relative; border-bottom: 1px solid #ece9e9;}
+.main-area .summary {background: #f6f5f5; padding: 5rem 0 4rem; width: 100vw; margin-left: -50vw; left: 50%; position: relative;}
 .main-area .summary h2 {margin-top: 0;}
-.main-area .tags {margin-bottom: 2.5rem;}
+.main-area .tags {margin-bottom: 2.8rem;}
 .main-area .tags ul {padding: 0; list-style-type: none;}
-.main-area .tags li {background: #ece9e9; display: inline-block; font-size: 1.3rem; padding: 0.5rem 0.8rem; margin-right: 0.5rem;}
+.main-area .tags li {background: #ece9e9; display: inline-block; font-size: 1.3rem; padding: 0.5rem 0.8rem; margin-right: 0.5rem; margin-bottom: 0.5rem;}
 .multi-layout-2.portfolio-multi-layout {margin: 5rem auto -1rem;}
 .main-area .project-details {margin-bottom: 4rem; padding-top: 0;}
 .main-area .portfolio-options {text-align: center;}
@@ -188,17 +187,15 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .sg-section.grid .col {background: #d9d3d3; border: 1px solid #aea9a9; height: 8rem;}
 
 /* Accordion */
-.accordion {padding-top: 1rem;}
-.accordion button {font-weight: bold; font-size: 1.6rem; color: #7f2a4d; border: 1px solid #d9d3d3; padding: 1.5rem 1.8rem; background: #ece9e9; cursor: pointer; letter-spacing: 1px; text-transform: uppercase;}
-.accordion button:focus {outline: 1px solid #7f2a4d; border-color: #7f2a4d;}
-.accordion__panel {margin: 1.5rem 0 -0.5rem; display: block; overflow: hidden; opacity: 1; transition: visibility 0s ease, max-height 1s ease, opacity 0.3s ease; max-height: 100em; visibility: visible; transition-delay: 0s;}
+.accordion button {border: none; font-weight: bold; font-size: 2rem; line-height: 1.4; color: #7f2a4d; padding: 0; background: transparent; cursor: pointer;}
+.accordion__panel {margin-top: 1.2rem; display: block; overflow: hidden; opacity: 1; transition: visibility 0s ease, max-height 1s ease, opacity 0.3s ease; max-height: 100em; visibility: visible; transition-delay: 0s;}
 .accordion__panel[aria-hidden=true] {max-height: 0; opacity: 0; visibility: hidden; transition: visibility 1s ease, max-height 0.6s ease -0.3s, opacity 0.3s ease;}
 .accordion__header {display: inline-block;}
 .accordion__title {display: none;}
 .accordion__header:after {margin-left: 1rem;} 
 .accordion__header[aria-expanded="true"]:after {content: '\2212';}
 .accordion__header[aria-expanded="false"]:after {content: '\002B';}
-.has-summary .accordion {margin: -1rem 0;}
+.has-summary .accordion {margin-bottom: -1rem;}
 
 /* Modal */
 .main-area .image-modal {cursor: zoom-in;}
@@ -263,7 +260,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.signature {font-size: 1.3rem; text-align: left;}
 	.intro h1, .writing-header {font-size: 4.8rem; font-size: 11vw;}
 	.intro nav {margin-left: -0.8rem;}
-	.intro nav a {margin: -0.2rem 0.5rem -0.2rem -0.5rem; font-size: 1.5rem;}
+	.intro nav a {margin: 0.4rem 1.4rem 0 0.8rem; font-size: 1.5rem;}
 	.intro .quick-bio {padding: 5rem 0 2rem; font-size: 3.6rem;}
 	.title-area-content {padding-top: 3.5rem; padding-bottom: 3.5rem;}
 	.main-area-content {padding-top: 2.8rem;}
