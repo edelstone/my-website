@@ -42,3 +42,13 @@ $('a').click(function() {
     img.src = bi;  
   });
 })(document.querySelectorAll('.intro'));
+
+(function(el){
+  el.forEach(function(e) {
+    var style = e.currentStyle || window.getComputedStyle(e, false),
+    bi = style.backgroundImage.slice(4, -1).replace(/["|']/g, "");
+    var img = new Image();
+    img.onload = function() { e.classList.add('float-up'); }
+    img.src = bi;  
+  });
+})(document.querySelectorAll('.title-area'));
