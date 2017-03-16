@@ -154,7 +154,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .project .project-brief {margin-bottom: 2.5rem; font-size: 2rem;}
 .title-area * {position: relative;}
 .bg-overlap {background-color: #53373b;}
-.title-area {background-size: cover; background-position: 50%; position: relative; padding-top: 0; margin-top: 0;}
+.title-area {animation: bg-appear 0.8s ease-out; background-size: cover; background-repeat: no-repeat; background-position: 50%; position: relative; padding-top: 0; margin-top: 0;}
 .title-area::before {content: ''; position: absolute; width: 100%; height: 100%; background: #53373b; opacity: 0.5;}
 .title-area-1 {background-image: url(../images/banner-txst-homepage.png);}
 .title-area-2 {background-image: url(../images/banner-txst-template.png);}
@@ -237,6 +237,10 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 @keyframes spin {
 	from {transform: rotate(0deg);}
 	to   {transform: rotate(360deg);}
+}
+@keyframes bg-appear {
+	from {transform: translateY(3rem); opacity: 0;}
+	to {transform: translateY(0) opacity: 1;}
 }
 
 /* Responsive enhancements */
