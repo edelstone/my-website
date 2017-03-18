@@ -78,7 +78,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .more-homes a:hover .fa-outer {transform: scale(1.1); color: #cf4d6f;}
 .main-area .job {padding-left: 1.8rem; border-left: 1rem solid #ece9e9;}
 .main-area .hire-me {padding-bottom: 4rem;}
-.main-area .hire-me p {margin-bottom: 2rem;}
+.main-area .hire-me p, .main-area .hire-me img {margin-bottom: 2rem;}
 .main-area .larger-text-header {font-size: 2.4rem;}
 .hire-me hr {margin: 3.5rem 0 3rem 0;}
 
