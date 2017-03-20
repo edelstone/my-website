@@ -14,7 +14,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .signature a {background: #220b17; color: #d9d3d3; text-decoration: none; display: block; padding: 1.1rem 0 0.9rem; transition: all 0.2s ease-out; box-shadow: 0 -1.9rem #220b17 inset; border-bottom: 1px solid #1b0912;}
 .signature a:hover {background: #7f2a4d; color: #fcfcfc; box-shadow: 0 -1.9rem #722645 inset;}
 .signature .my-name {display: block;}
-.sig-letter {display: inline-block; position: relative; bottom: 0; transition: background .2s ease-out, transform 0.08s ease-in, bottom 0.08s ease-out; border-radius: 1px;}
+.sig-letter {display: inline-block; position: relative; bottom: 0; transition: background .2.5s ease-out, transform 0.08s ease-out, bottom 0.08s ease-out; border-radius: 1px;}
 .signature a:hover .sig-letter {background: #722645;}
 .signature a:hover .sig-letter:nth-child(4n+1) {transform: rotate(-10deg);}
 .signature a:hover .sig-letter:nth-child(4n+2) {bottom: 0.2rem;}
@@ -58,7 +58,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .contact-group p {margin-top: -0.5rem;}
 .main-area .button {display: inline-block; position: relative; text-decoration: none; padding: 1.1rem 2.1rem 1rem; background: #d9554c; color: #fcfcfc; box-shadow: 0 5px #983b35; font-size: 1.6rem; border-radius: 3px; text-shadow: 1px 1px 0 #983b35; margin: 0 1.5rem 1rem 0;}
 .main-area .button:hover {background: #d9554c; color: #fcfcfc; border-color: #c34d44; box-shadow: 0 5px #983b35, 0 8px 10px -5px #422c2f;}
-.main-area .button:active {background: #c34d44; background: linear-gradient(to bottom right, #c34d44, #d9554c);}
+.main-area .button:active {box-shadow: 0 5px #983b35; background: #c34d44; background: linear-gradient(to bottom right, #c34d44, #d9554c);}
 .main-area .button-fat-guy {font-size: 2rem; padding: 2rem 4rem; margin: 1.5rem auto;}
 .main-area .button-fw {width: 100%; text-align: center;}
 .main-area .button-light {font-size: 1.6rem; display: inline-block; background: linear-gradient(to bottom, transparent 0, transparent 80%, #f0bbb7 80%, #f0bbb7 100%);}
