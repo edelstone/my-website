@@ -58,7 +58,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .contact-group p {margin-top: -0.5rem;}
 .main-area .button {display: inline-block; position: relative; text-decoration: none; padding: 1.1rem 2.1rem 1rem; background: #d9554c; color: #fcfcfc; box-shadow: 0 5px #983b35; font-size: 1.6rem; border-radius: 3px; text-shadow: 1px 1px 0 #983b35; margin: 0 1.5rem 1rem 0;}
 .main-area .button:hover {background: #d9554c; color: #fcfcfc; border-color: #c34d44; box-shadow: 0 5px #983b35, 0 8px 10px -5px #422c2f;}
-.main-area .button:active {box-shadow: 0 4px #983b35; background: #c34d44; background: linear-gradient(to bottom right, #c34d44, #d9554c); padding-top: calc(1.1rem + 1px);}
+.main-area .button:active {box-shadow: 0 5px #983b35; background: #c34d44; background: linear-gradient(to bottom right, #c34d44, #d9554c);}
 .main-area .button-fat-guy {font-size: 2rem; padding: 2rem 4rem; margin: 1.5rem auto;}
 .main-area .button-fw {width: 100%; text-align: center;}
 .main-area .button-light {font-size: 1.6rem; display: inline-block; background: linear-gradient(to bottom, transparent 0, transparent 80%, #f0bbb7 80%, #f0bbb7 100%);}
