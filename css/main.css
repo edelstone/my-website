@@ -125,7 +125,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .homes {padding: 6.5rem 0 3.5rem; background: #7f2a4d; background: radial-gradient(#7f2a4d, #66223e); color: #ece9e9; text-shadow: 1px 1px 0 #402125;}
 .main-area .homes h2 {margin-top: 0; background: #7f2a4d; display: inline-block; position: relative; padding: 0.3rem 0.8rem; left: -0.8rem;}
 .main-area .homes a {cursor: pointer; color: #ece9e9; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
-.main-area .homes a:hover {color: #d9554c; text-shadow: none;}
 .main-area .thanks {margin-top: 5rem;}
 .choices {font-size: 2.2rem; background: #53373b;}
 .choices a {position: relative; bottom: 0; text-decoration: none; transition: all .1s ease-out; color: #d9d3d3; padding: 2rem; display: block; text-align: center; background: #53373b; z-index: 0; left: 0; right: 0;}
