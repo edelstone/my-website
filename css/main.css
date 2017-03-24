@@ -256,7 +256,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.footer .btt {position: relative; right: 0; bottom: 0; line-height: initial; margin-top: 2rem;}
 	.footer .btt a {padding: 1.5rem 1.5rem 1.8rem;}
 	.intro {background-image: none;}
-	.intro.loaded::before {opacity: 1; transition: none;}
 }
 
 @media (max-width: 35.5em) {
