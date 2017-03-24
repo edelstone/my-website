@@ -20,11 +20,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .signature a:hover .sig-letter:nth-child(4n+2) {bottom: 0.2rem;}
 .signature a:hover .sig-letter:nth-child(4n+3) {transform: rotate(10deg);}
 .signature a:hover .sig-letter:nth-child(4n+4) {bottom: -0.2rem;}
-.intro * {position: relative;}
-.intro {background-image: url(../images/droplets.jpg); background-size: cover; background-position: 50% 0%; position: relative;}
-.intro::before {content: ''; position: absolute; width: 100%; height: 100%; background: #402125; opacity: 1; transition: opacity 0.5s;}
-.intro.loaded::before {opacity: 0.94; transform: translateZ(0);}
-.intro-wrapper {color: #fcfcfc; box-shadow: 0 0.7rem #53373b;}
+.intro-wrapper {background: #402125; color: #fcfcfc; box-shadow: 0 0.7rem #53373b;}
 .intro.home .intro-wrapper {box-shadow: none;}
 .intro-content {padding-top: 2.5rem; padding-bottom: 2.5rem;}
 .intro h1, .writing-header {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; text-shadow: none; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
@@ -114,9 +110,10 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
-.intro .quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: #ece9e9; padding: 5.8rem 0 3.8rem; text-shadow: 1px 1px 0px #1b0912; line-height: 1.35;}
+.intro .quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: #ece9e9; padding: 5.8rem 0 3.5rem; text-shadow: 1px 1px 0px #1b0912; line-height: 1.35;}
 .intro .quick-bio p {margin: 0 auto 2rem;}
 .intro .quick-bio a {color: #ece9e9; text-decoration: none; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 90%, #d9554c 90%, #d9554c 100%);}
+.intro .quick-bio a:hover {color: #cf4d6f; text-shadow: 1px 1px 0 #146da9, 2px 2px 0 #146da9, 3px 3px 0 #146da9;}
 .main-area .productivity {background: #ece9e9; width: 100vw; position: relative; left: 50%; right: 50%; margin: 0 -50vw; padding: 5.5rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 1px solid #c3bebe; border-bottom: 1px solid #c3bebe;}
 .main-area .productivity .productivity-header {margin: 0 auto 4.5rem; text-align: center;}
 .main-area .productivity a {background: #c3bebe; background: linear-gradient(to bottom, transparent 0, transparent 83%, #c3bebe 83%, #c3bebe 100%);}
@@ -128,6 +125,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .homes {padding: 6.5rem 0 3.5rem; background: #7f2a4d; background: radial-gradient(#7f2a4d, #66223e); color: #ece9e9; text-shadow: 1px 1px 0 #402125;}
 .main-area .homes h2 {margin-top: 0; background: #7f2a4d; display: inline-block; position: relative; padding: 0.3rem 0.8rem; left: -0.8rem;}
 .main-area .homes a {cursor: pointer; color: #ece9e9; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 83%, #d9554c 83%, #d9554c 100%);}
+.main-area .homes a:hover {color: #d9554c; text-shadow: none;}
 .main-area .thanks {margin-top: 5rem;}
 .choices {font-size: 2.2rem; background: #53373b;}
 .choices a {position: relative; bottom: 0; text-decoration: none; transition: all .1s ease-out; color: #d9d3d3; padding: 2rem; display: block; text-align: center; background: #53373b; z-index: 0; left: 0; right: 0;}
