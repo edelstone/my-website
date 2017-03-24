@@ -24,7 +24,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .intro.home .intro-wrapper {box-shadow: none;}
 .intro-content {padding-top: 2.5rem; padding-bottom: 2.5rem;}
 .intro h1, .writing-header {font-size: 6.4rem; line-height: 1.1; font-weight: bold; text-shadow: .4rem .4rem #220b17; text-shadow: none; position: relative; left: 0; margin: 0; margin-left: -0.3rem;}
-.intro nav {z-index: 999; margin-top: 1.2rem; margin-left: -1.2rem;}
+.intro nav {position: relative; z-index: 999; margin-top: 1.2rem; margin-left: -1.2rem;}
 .intro nav a {color: #d9d3d3; margin-right: 1rem; font-size: 1.4rem; text-decoration: none; border-radius: 20px; padding: 0.6rem 1.2rem; display: inline-block;}
 .intro nav a:hover {background: #53373b; color: #fcfcfc;}
 .intro nav a:active {transition: none; bottom: 0; right: 0; box-shadow: inset 2px 2px 8px #1b0912, 0px 1px #422c2f; background: #422c2f; color: #d9d3d3;}
