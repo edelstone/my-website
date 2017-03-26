@@ -110,7 +110,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
-.intro .quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: #ece9e9; padding: 5.8rem 0 3.5rem; text-shadow: 1px 1px 0px #1b0912; text-shadow: none; line-height: 1.35;}
+.intro .quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: #ece9e9; padding: 5.8rem 0 3.5rem; text-shadow: none; line-height: 1.35;}
 .intro .quick-bio p {margin: 0 auto 2rem;}
 .intro .quick-bio a {color: #ece9e9; text-decoration: none; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 90%, #d9554c 90%, #d9554c 100%); transition: all .2s ease; text-shadow: 2px 2px 0 #402125, -2px -2px 0 #402125, 2px -2px 0 #402125, -2px 2px 0 #402125, -2px 0 0 #402125, 2px 0 0 #402125;}
 .intro .quick-bio a:hover {color: #cf4d6f;}
@@ -255,6 +255,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.footer .btt {position: relative; right: 0; bottom: 0; line-height: initial; margin-top: 2rem;}
 	.footer .btt a {padding: 1.5rem 1.5rem 1.8rem;}
 	.intro {background-image: none;}
+	.intro .quick-bio {text-shadow: 1px 1px 0px #1b0912;}
+	.intro .quick-bio a {text-shadow: inherit;}
 }
 
 @media (max-width: 35.5em) {
