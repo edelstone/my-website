@@ -110,9 +110,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
-.intro .quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: #ece9e9; padding: 5.8rem 0 3.5rem; text-shadow: 1px 1px 0px #1b0912; line-height: 1.35;}
+.intro .quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: #ece9e9; padding: 5.8rem 0 3.5rem; text-shadow: 1px 1px 0px #1b0912; text-shadow: none; line-height: 1.35;}
 .intro .quick-bio p {margin: 0 auto 2rem;}
-.intro .quick-bio a {color: #ece9e9; text-decoration: none; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 90%, #d9554c 90%, #d9554c 100%); transition: all .2s ease;}
+.intro .quick-bio a {color: #ece9e9; text-decoration: none; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 90%, #d9554c 90%, #d9554c 100%); transition: all .2s ease; text-shadow: 2px 2px 0 #402125, -2px -2px 0 #402125, 2px -2px 0 #402125, -2px 2px 0 #402125, -2px 0 0 #402125, 2px 0 0 #402125;}
 .intro .quick-bio a:hover {color: #cf4d6f;}
 .main-area .productivity {background: #ece9e9; width: 100vw; position: relative; left: 50%; right: 50%; margin: 0 -50vw; padding: 5.5rem 0 5rem; background-image: linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, 0.04) 25%, rgba(0, 0, 0, 0.04) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, 0.04) 75%, rgba(0, 0, 0, 0.04) 76%, transparent 77%, transparent); background-size: 3rem 3rem; border-top: 1px solid #c3bebe; border-bottom: 1px solid #c3bebe;}
 .main-area .productivity .productivity-header {margin: 0 auto 4.5rem; text-align: center;}
