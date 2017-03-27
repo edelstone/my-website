@@ -1,5 +1,7 @@
 /* General */
 *, *:before, *:after {box-sizing: border-box;}
+::-moz-selection {text-shadow: none; background: #f0bbb7;}
+::selection {text-shadow: none; background: #f0bbb7;}
 html {font-size: 62.5%; line-height: 1.4; font-family: 'Neuton', serif; font-weight: normal; height: 100%; background: #220b17;}
 body {min-height: 100%; display: flex; flex-direction: column; background: #fcfcfc; color: #111;}
 img {max-width: 100%;}
