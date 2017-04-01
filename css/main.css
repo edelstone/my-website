@@ -133,9 +133,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .thanks {margin-top: 5rem;}
 .choices {font-size: 2.2rem; background: #53373b;}
 .choices a {position: relative; bottom: 0; text-decoration: none; transition: all .1s ease-out; color: #d9d3d3; padding: 2rem; display: block; text-align: center; background: #53373b; z-index: 0; left: 0; right: 0;}
-.choices a:hover {color: #fcfcfc; bottom: 6px; z-index: 9999;}
-.choices .about-me:hover {box-shadow: 0px 6px #91364e, -6px 0 #cf4d64, -6px 6px #91364e; background: #cf4d6f; text-shadow: 1px 1px 0 #91364e; left: 6px;}
-.choices .recent-work:hover {box-shadow: 0 6px #983b35, 6px 0 #d9554c, 6px 6px #983b35; background: #d9554c; text-shadow: 1px 1px 0 #983b35; left: -6px;}
+.choices a:hover {color: #fcfcfc; bottom: 7px; z-index: 9999;}
+.choices .about-me:hover {box-shadow: 0px 7px #91364e; background: #cf4d6f; text-shadow: 1px 1px 0 #91364e;}
+.choices .recent-work:hover {box-shadow: 0 7px #983b35; background: #d9554c; text-shadow: 1px 1px 0 #983b35;}
 .choices a:active {transition: none; bottom: 0 !important; left: 0 !important; right: 0 !important; box-shadow: none !important;}
 
 /* Writing */
