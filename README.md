@@ -9,7 +9,6 @@ This is the source code for [michaeledelstone.com](http://michaeledelstone.com).
 * Explain who I am and what I'm all about, humbly and transparently
 * Demonstrate my most recent work for future clients and employers, as well as the design and tech communities
 * Experiment with design techniques, color, typography, and CSS
-* Start writing and posting articles and insights with some regularity
 
 ## Primary design considerations
 
