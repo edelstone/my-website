@@ -124,23 +124,23 @@
 				
 				<h2 id="goals">Goals</h2>
 				
-				<p>In early 2015, I began making the case to leadership that a new homepage was necessary to keep up with modern device patterns, user expectations, and competitor efforts. By September, an ambitious go-live date was set for the end of the year.</p>
-				<p>The new site would:</p>
+				<!-- <p>In early 2015, I began making the case to leadership that a new homepage was necessary to keep up with modern device patterns, user expectations, and competitor efforts. By September, an ambitious go-live date was set for the end of the year.</p>
+				<p>The new site would:</p> -->
 				<ul>
-					<li><a href="#prototypes">Be responsive</a> and accessible</li>
+					<li><a href="#prototypes">Responsive</a> and accessible</li>
 					<li>Respect existing information architecture</li>
 					<li>Handle <a href="#alerts">emergency messaging</a> in a clear, sensible way</li>
-					<li><a href="#social">Highlight social media channels</a></li>
+					<li>Highlight social media channels</li>
 					<li>Be the centerpiece of a <a href="texas-state-brand.html">new, purposeful digital brand strategy</a></li>
 				</ul>
 								
 				<h2 id="process">Process</h2>
 				
-				<p>This project closely followed the development of the university’s <a href="texas-state-template.html">primary template</a> and <a href="texas-state-brand.html">style guide</a>, in which most brand elements (<a href="http://styleguide.txstate.edu/fonts">typography</a>, <a href="http://styleguide.txstate.edu/colors">color</a>) and content patterns (<a href="http://styleguide.txstate.edu/patterns#slider">sliders</a>, <a href="http://styleguide.txstate.edu/patterns#buttons">buttons</a>) were intensively iterated upon and finalized. Much of the process involved applying these patterns to existing items, adapting content to a more-scrollable interface, and adding some key features to aid in recruitment and institutional politics.</p>
+				<p>This project closely followed the development of the university’s <a href="texas-state-template.html">primary template</a> and <a href="texas-state-brand.html">style guide</a>, in which most brand elements and content patterns were intensively iterated upon and finalized. Much of the process involved applying these patterns to existing items, adapting content to a more-scrollable interface, and adding some key features to aid in recruitment and institutional politics.</p>
 				
 				<h3 id="mockups">Mockups</h3>
 				
-				<p>I decided to use <a href="https://balsamiq.com/">Balsamiq</a> for this project, and then proceed directly to a <a href="#prototypes">coded prototype</a>. This gave me the opportunity to really push Balsamiq as a tool, and create some rather sophisticated mockups that resolved a majority of the visual design decisions. I was able to rapidly build, test, and discard sections of content, while solidifying things like color and image use without obsessing over details.</p>
+				<p>Using Balsamiq gave me the opportunity to really push its limits as a tool, and to create some sophisticated mockups that resolved a majority of the design decisions quickly.</p>
 				
 				<div class="image-group">
 					
@@ -165,11 +165,11 @@
 				
 				<h3 id="prototypes">Prototypes</h3>
 				
-				<p>Using the mockups as a fairly strict guide, the rest of the design came to life in <a href="http://edelstone.github.io/txst-homepage/">a high fidelity, responsive prototype</a> built on a <a href="http://purecss.io/grids/">Pure.css grid</a>. I made choices about animations and hover effects as I built it, and approved it with stakeholders row-by-row. Overall the build took about a month of dedicated work, with 90% of the markup and styles making it into the final product. <a href="https://github.com/edelstone/txst-homepage">The source code is on GitHub</a>.</p>
+				<p>With the mockups as a fairly strict guide, the rest of the design came to life in <a href="http://edelstone.github.io/txst-homepage/">a high fidelity, responsive prototype</a> built on a <a href="http://purecss.io/grids/">Pure.css grid</a>. I made choices about interactive effects as I built it, and approved it with stakeholders row-by-row. Overall the build took about a month of dedicated work, with 90% of the markup and styles making it into the final product. <a href="https://github.com/edelstone/txst-homepage">The source code is on GitHub</a>.</p>
 				
 				<h3 id="going-live">Going live</h3>
 				
-				<p>We turned on the new site at the beginning of 2016, making some key improvements to site search and performance enhancements in subsequent iterations.</p>
+				<p>We turned on the new site at the beginning of 2016, making some key improvements to site search and adding various performance enhancements in subsequent iterations.</p>
 				
 				<div class="image-overflow">
 					<div class="image-group">
@@ -183,7 +183,7 @@
 					<p class="caption"><a href="txstate.edu">Texas State homepage</a>, mobile view</p>
 					
 					<img class="image-border image-modal" data-featherlight="../images/full-page-txst-home.jpg" src="../images/full-page-txst-home.jpg" alt="Full page layout of Texas State homepage" />
-					<p class="caption"><a href="http://txstate.edu">Texas State homepage</a> in January 2017; compare with <a href="http://edelstone.github.io/txst-homepage/">the original demo</a></p>
+					<p class="caption">Full layout of the <a href="http://txstate.edu">Texas State homepage</a> in January 2017</p>
 				
 				</div>
 				
@@ -200,7 +200,7 @@
 						<div class="col col-2">
 							<ul class="important-updates fa-ul">
 								<li><i class="fa-li fa fa-check"></i>Modern, scrollable interface</li>
-								<li><i class="fa-li fa fa-check"></i>Graphical news, research, and <a href="#social">social media</a> features</li>
+								<li><i class="fa-li fa fa-check"></i>Graphical news, research, and social media features</li>
 								<li><i class="fa-li fa fa-check"></i>Ability to schedule content features</li>
 							</ul>
 						</div>
@@ -211,16 +211,16 @@
 				
 				<h3 id="alerts">Emergency alerts</h3>
 				
-				<p>We estimated that approximately 35-40% of the Texas State community (with an even larger percentage of parents) checked the university homepage to confirm details in an emergency. After comprehensively studying <a href="http://www.ir.txstate.edu/ir-self-service/peer-data/peers">nearly 25 peer institutions</a>, and researching the broader issues of designing for stress, it became clear that homepage notifications must:</p>
+				<p>Surveys indicated that approximately 35% of the Texas State community checked the university homepage to confirm details in an emergency. After comprehensively studying a couple dozen peer institutions, and researching the broader issues of designing for stress, I identified the following must-haves:</p>
 				<ul>
-					<li>be easy to read and interact with on any device</li>
-					<li>appear at the top of the screen and push content down</li>
-					<li>use a unique pattern unlikely to be confused with marketing objectives</li>
-					<li>utilize international symbology</li>
-					<li>be accessible and color blind-friendly</li>
-					<li>have a timestamp indicating last update</li>
+					<li>easy to read, click, or tap on any device</li>
+					<li>located at the top of the screen; push all content down</li>
+					<li>unique pattern unlikely to be confused with marketing objectives</li>
+					<li>international symbology</li>
+					<li>accessible and color blind-friendly</li>
+					<li>timestamp indicating last update</li>
 				</ul>
-				<p>After testing several options, a consensus was reached with creative staff, university police, the president’s cabinet, and several informal test groups, arriving at a <a href="http://www.styleguide.txstate.edu/patterns.html#emergency">universally trusted visual pattern</a>. The <a href="http://edelstone.github.io/txst-homepage/alerts">live demo</a> is on GitHub.</p>
+				<p>After testing several options, a consensus was reached with university police, the president’s cabinet, and several informal test groups. The <a href="http://edelstone.github.io/txst-homepage/alerts">live demo is on GitHub</a> and it&#8217;s part of the <a href="http://www.styleguide.txstate.edu/patterns.html#emergency">official brand guidelines too</a>.</p>
 				
 				<div class="image-group">
 				
@@ -252,11 +252,11 @@
 				
 				<h2 id="retrospect">Is it perfect?</h2>
 				
-				<p>Nope. But everyone was really happy with the results. Our developer did an amazing job connecting everything and templating it for easy editing. If I could change anything it would be:</p>
+				<p>Nope. But everyone was really happy with the results. If I could change anything it would be:</p>
 				<ul>
 					<li><b>It’s too flat:</b> The site could really use some background patterns, gradients, or overlapping elements to add depth.</li>
 					<li><b>Content strategy is dated:</b> University websites are slowly becoming more recruitment and user focused, favoring data over politics. We weren’t able to change that this time around, but we laid the groundwork for a strategic shift.</li>
-					<li><b>Medium-width device layout is lazy:</b> For simplicity everything collapses to a single column at 800px. I would’ve liked to play more with multi-column layouts from 480px to 800px, given more time or resources.</li>
+					<li><b>Medium-width device layout is lazy:</b> For simplicity everything collapses to a single column at 800px. Given more time, I would’ve liked to play more with multi-column layouts from 480px to 800px.</li>
 				</ul>
 			
 			</div> <!-- project-details -->				
