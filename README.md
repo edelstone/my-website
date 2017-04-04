@@ -33,7 +33,6 @@ Many thanks to the digital community for these bad boys:
 * [jQuery](https://jquery.com/)
 * [Normalize.css](https://necolas.github.io/normalize.css/)
 * [Tooltipster](http://iamceege.github.io/tooltipster/)
-* [Unsplash](https://unsplash.com/)
 
 ## Inspiration
 
