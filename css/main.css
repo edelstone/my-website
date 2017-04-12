@@ -274,6 +274,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.intro nav a {margin: -0.2rem 0.5rem -0.2rem -0.5rem; font-size: 1.5rem;}
 	.intro .quick-bio {padding: 5rem 0 2rem; font-size: 3.6rem;}
 	.title-area-content {padding-top: 3.5rem; padding-bottom: 3.5rem;}
+	.project .project-brief {margin-bottom: 3rem;}
 	.main-area-content {padding-top: 2.8rem;}
 	.main-area ul, .main-area ol {padding-left: 3.5rem;}
 	.main-area .contact-info {margin-left: 1rem;}
