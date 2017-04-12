@@ -290,9 +290,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.main-area .homes {padding: 5rem 0 2rem;}
 	.main-area .icon {margin-bottom: 6rem;}
 	.main-area.contact-info .contact-group {margin-bottom: 4rem;}
-	.choices .about-me {border-top: none; border-bottom: 1px solid #402125;}
-	.choices .recent-work {border-top: 1px solid #664d51;}
-	.choices .about-me:hover, .choices .recent-work:hover {bottom: 0; left: 0; right: 0; box-shadow: none;}
+	.choices .about-me, .choices .button-prev {border-top: none; border-bottom: 1px solid #402125;}
+	.choices .recent-work, .choices .button-next {border-top: 1px solid #664d51;}
+	.choices .about-me:hover, .choices .recent-work:hover, .choices .button-prev:hover, .choices .button-next:hover {bottom: 0; left: 0; right: 0; box-shadow: none;}
 	.footer .footer-content {font-size: 1.6rem; padding-bottom: 5rem; line-height: 3rem;}
 	.footer .about-site {display: block; margin: 0.2rem auto 3.5rem;}
 	.footer .footer-divider {margin-left: 0.8rem;}
