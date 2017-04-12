@@ -167,7 +167,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .title-area-content {padding-top: 4rem; padding-bottom: 4rem;}
 .title-area .portfolio-header {font-size: 2.6rem; margin: 0; color: #d9d3d3; text-shadow: 2px 2px 0px #53373b; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;}
 .title-area .url {text-transform: lowercase;}
-.main-area .summary {background: #f6f5f5; padding: 5rem 0 4rem; width: 100vw; margin-left: -50vw; left: 50%; position: relative; border-bottom: 1px solid #ece9e9;}
+.main-area .summary {background: #f6f5f5; padding: 5rem 0 4.25rem; width: 100vw; margin-left: -50vw; left: 50%; position: relative; border-bottom: 1px solid #ece9e9;}
 .main-area .summary h2 {margin-top: 0;}
 .main-area .tags {margin-bottom: 2.8rem;}
 .main-area .tags ul {padding: 0; list-style-type: none;}
