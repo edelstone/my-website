@@ -154,7 +154,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .main-area .project-page {padding-top: 0; padding-bottom: 3rem;}
 .project {margin: 4rem auto 7rem;}
 .project .project-header {font-size: 2.2rem;}
-.project .project-brief {margin-bottom: 2.5rem; font-size: 2rem;}
+.project .project-brief {margin-bottom: 2.5rem;}
 .title-area * {position: relative;}
 .bg-overlap {background-color: #53373b;}
 .title-area {background-size: cover; background-repeat: no-repeat; background-position: 50%; position: relative; padding-top: 0; margin-top: 0; opacity: 0;}
