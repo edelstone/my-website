@@ -282,7 +282,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 	.main-area .portrait {position: relative; width: 100vw; left: 50%; right: 50%; margin-top: -0.4rem; margin-left: -50vw;}
 	.main-area .tags {margin-top: -1rem;}
 	.main-area .image-group {width: 100%;}
-	.main-area .project-brief {font-size: 2.2rem;}
 	.main-area .summary {padding: 4rem 0 1.5rem;}
 	.main-area .summary h2 {margin-top: 3rem;}
 	.main-area .much-text .summary {padding: 1.5rem 0 3.5rem;}
