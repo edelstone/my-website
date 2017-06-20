@@ -45,4 +45,4 @@ I am thankful to these incredible designers for inspiration and strategic ideas:
 
 ## Using my code
 
-Have at it. Please fork, make pull requests, or create issues on this project.
+Have at it. Please clone and use for any purpose, or create an issue/pull request if you'd like to contribute.
