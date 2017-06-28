@@ -197,7 +197,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 .accordion__panel[aria-hidden=true] {max-height: 0; opacity: 0; visibility: hidden; transition: visibility 1s ease, max-height 0.6s ease -0.3s, opacity 0.3s ease;}
 .accordion__header {display: inline-block;}
 .accordion__title {display: none;}
-.accordion__header:after {margin-left: 1rem;} 
+.accordion__header:after {margin-left: 1rem;}
 .accordion__header[aria-expanded="true"]:after {content: '\2212';}
 .accordion__header[aria-expanded="false"]:after {content: '\002B';}
 .has-summary .accordion {margin-bottom: -1rem;}
