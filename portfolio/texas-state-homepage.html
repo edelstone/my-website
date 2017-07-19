@@ -1,0 +1,234 @@
+---
+layout: default
+title: Texas State Homepage | Recent Work
+header: Recent Work
+title-area-class: title-area-1
+portfolio-title: Texas State homepage
+button-prev-text: <span class="button-arrow button-arrow-reverse">&#10142;</span>Portfolio home
+button-prev-link: /portfolio
+button-next-text: Next&#58; Texas State CMS<span class="button-arrow">&#10142;</span>
+button-next-link: /portfolio/texas-state-template
+---
+
+<div class="main-area-content constrain project-page has-summary">
+
+	<div class="content-section">
+
+		<div class="summary">
+			<div class="multi-layout constrain">
+				<div class="col col-1">
+					<div class="tags">
+						<ul>
+							<li>Brand</li>
+							<li>Content Strategy</li>
+							<li>Data Analysis</li>
+							<li>Front-end Development</li>
+							<li>Motion Design</li>
+							<li>Politics</li>
+							<li>Visual Design</li>
+						</ul>
+					</div>
+					<div class="live-site"><a href="http://txstate.edu" class="button">View live website<span class="button-arrow">&#10142;</span></a>
+					</div>
+				</div>
+				<div class="col col-2">
+					<div class="summary-text">
+						<h2>Overview</h2>
+						<p>I designed and built the front end of Texas State&#8217;s first responsive homepage in the fall of 2015. <a href="http://txstate.edu">It&#8217;s live on the web</a>, and attracts about 1.2 million views each month.</p>
+					</div>
+				</div>
+			</div>
+		</div> <!-- summary -->
+
+	</div> <!-- content-section -->
+
+	<div class="content-section">
+
+		<div class="project-details much-text">
+
+			<div class="js-accordion" data-accordion-prefix-classes="accordion">
+				<div class="js-accordion__panel">
+					<h2 class="js-accordion__header">Sections on this page</h2>
+					<ul>
+						<li><a href="#context">Context</a></li>
+						<li><a href="#goals">Goals</a></li>
+						<li><a href="#process">Process</a>
+							<ul>
+								<li><a href="#mockups">Mockups</a></li>
+								<li><a href="#prototypes">Prototypes</a></li>
+								<li><a href="#going-live">Going live</a></li>
+							</ul>
+						</li>
+						<li><a href="#improvements">Major improvements</a></li>
+						<li><a href="#features">Noteworthy features</a>
+							<ul>
+								<li><a href="#alerts">Emergency alerts</a></li>
+							</ul>
+						</li>
+						<li><a href="#retrospect">Is it perfect?</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<h2 id="context">Context</h2>
+
+			<p>The Texas State homepage hadn&#8217;t been updated since 2009. It utilized a condensed, “above the fold” approach and wasn&#8217;t optimized for mobile devices. Brand elements, color, and typography were dated or not systematic, and there was a heavy reliance on image snippets to achieve design objectives. Students and younger employees would frequently say a change was overdue.</p>
+
+			<div class="image-group">
+				<img class="image-modal" data-featherlight="../images/old-txst-home-june-2014.jpg" src="../images/old-txst-home-june-2014.jpg" alt="Texas State homepage in June 2014" />
+				<p class="caption"><b>Before:</b> The Texas State homepage in June 2014</p>
+			</div>
+
+			<h2 id="goals">Goals</h2>
+
+			<!-- <p>In early 2015, I began making the case to leadership that a new homepage was necessary to keep up with modern device patterns, user expectations, and competitor efforts. By September, an ambitious go-live date was set for the end of the year.</p>
+			<p>The new site would:</p> -->
+			<ul>
+				<li><a href="#prototypes">Responsive</a> and accessible</li>
+				<li>Respect existing information architecture</li>
+				<li>Handle <a href="#alerts">emergency messaging</a> in a clear, sensible way</li>
+				<li>Highlight social media channels</li>
+				<li>Be the centerpiece of a <a href="texas-state-brand.html">new, purposeful digital brand strategy</a></li>
+			</ul>
+
+			<h2 id="process">Process</h2>
+
+			<p>This project closely followed the development of the university’s <a href="texas-state-template.html">primary template</a> and <a href="texas-state-brand.html">style guide</a>, in which most brand elements and content patterns were intensively iterated upon and finalized. Much of the process involved applying these patterns to existing items, adapting content to a more-scrollable interface, and adding some key features to aid in recruitment and institutional politics.</p>
+
+			<h3 id="mockups">Mockups</h3>
+
+			<p>Using Balsamiq gave me the opportunity to really push its limits as a tool, and to create some sophisticated mockups that resolved a majority of the design decisions quickly.</p>
+
+			<div class="image-group">
+
+				<div class="multi-layout portfolio-multi-layout">
+					<div class="col col-1">
+						<img class="image-modal" data-featherlight="../images/screenshot-balsamiq-txst-home-bw.jpg" src="../images/screenshot-balsamiq-txst-home-bw.jpg" alt="Homepage wireframe without color or images" />
+						<p class="caption">Initial template wireframe</p>
+					</div>
+					<div class="col col-2">
+						<img class="image-modal" data-featherlight="../images/screenshot-balsamiq-txst-home-color.jpg" src="../images/screenshot-balsamiq-txst-home-color.jpg" alt="Homepage wireframe with color and images" />
+						<p class="caption">Wireframe with color and images added</p>
+					</div>
+				</div>
+
+				<img class="image-border image-modal" data-featherlight="../images/screenshot-balsamiq-txst-home-mobile.jpg" src="../images/screenshot-balsamiq-txst-home-mobile.jpg" alt="Mockup showing mobile version of the homepage" />
+				<p class="caption">Mobile layout with full color in Balsamiq</p>
+
+				<img class="image-modal" data-featherlight="../images/screenshot-balsamiq-txst-home-nav.jpg" src="../images/screenshot-balsamiq-txst-home-nav.jpg" alt="Mockup showing homepage dropdown menu" />
+				<p class="caption">Demonstrating an enabled dropdown menu</p>
+
+			</div>
+
+			<h3 id="prototypes">Prototypes</h3>
+
+			<p>With the mockups as a fairly strict guide, the rest of the design came to life in <a href="http://edelstone.github.io/txst-homepage/">a high fidelity, responsive prototype</a> built on a <a href="http://purecss.io/grids/">Pure.css grid</a>. I made choices about interactive effects as I built it, and approved it with stakeholders row-by-row. Overall the build took about a month of dedicated work, with 90% of the markup and styles making it into the final product. <a href="https://github.com/edelstone/txst-homepage">The source code is on GitHub</a>.</p>
+
+			<h3 id="going-live">Going live</h3>
+
+			<p>We turned on the new site at the beginning of 2016, making some key improvements to site search and adding various performance enhancements in subsequent iterations.</p>
+
+			<div class="image-overflow">
+				<div class="image-group">
+					<img src="../images/screenshot-live-txst-home-full-mocks.png" alt="Layout of Texas State homepage and primary subpages" />
+				</div>
+			</div>
+
+			<div class="image-group">
+
+				<img class="image-modal" data-featherlight="../images/screenshot-live-txst-home-mobile.jpg" src="../images/screenshot-live-txst-home-mobile.jpg" alt="Various screenshots of homepage mobile layout" />
+				<p class="caption"><a href="txstate.edu">Texas State homepage</a>, mobile view</p>
+
+				<img class="image-border image-modal" data-featherlight="../images/full-page-txst-home.jpg" src="../images/full-page-txst-home.jpg" alt="Full page layout of Texas State homepage" />
+				<p class="caption">Full layout of the <a href="http://txstate.edu">Texas State homepage</a> in January 2017</p>
+
+			</div>
+
+			<div id="improvements" class="productivity improvements">
+				<h2 class="productivity-header constrain">Major improvements over previous design</h2>
+				<div class="constrain multi-layout">
+					<div class="col col-1 stack">
+						<ul class="important-updates fa-ul">
+							<li><i class="fa-li fa fa-check"></i>Responsive design</li>
+							<li><i class="fa-li fa fa-check"></i>AAA accessible color contrast and keyboard navigation</li>
+							<li><i class="fa-li fa fa-check"></i>Brand and <a href="texas-state-brand.html">style guide</a> adherence</li>
+						</ul>
+					</div>
+					<div class="col col-2">
+						<ul class="important-updates fa-ul">
+							<li><i class="fa-li fa fa-check"></i>Modern, scrollable interface</li>
+							<li><i class="fa-li fa fa-check"></i>Graphical news, research, and social media features</li>
+							<li><i class="fa-li fa fa-check"></i>Ability to schedule content features</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<h2 id="features">Noteworthy features</h2>
+
+			<h3 id="alerts">Emergency alerts</h3>
+
+			<p>Surveys indicated that approximately 35% of the Texas State community checked the university homepage to confirm details in an emergency. After comprehensively studying a couple dozen peer institutions, and researching the broader issues of designing for stress, I identified the following must-haves:</p>
+			<ul>
+				<li>easy to read, click, or tap on any device</li>
+				<li>located at the top of the screen; push all content down</li>
+				<li>unique pattern unlikely to be confused with marketing objectives</li>
+				<li>international symbology</li>
+				<li>accessible and color blind-friendly</li>
+				<li>timestamp indicating last update</li>
+			</ul>
+			<p>After testing several options, a consensus was reached with university police, the president’s cabinet, and several informal test groups. The <a href="http://edelstone.github.io/txst-homepage/alerts">live demo is on GitHub</a> and it&#8217;s part of the <a href="http://www.styleguide.txstate.edu/patterns.html#emergency">official brand guidelines too</a>.</p>
+
+			<div class="image-group">
+
+				<img class="image-border image-modal" data-featherlight="../images/screenshot-balsamiq-txst-home-emergency.jpg" src="../images/screenshot-balsamiq-txst-home-emergency.jpg" alt="Initial mockup of emergency alerts" />
+				<p class="caption">Initial mockup of responsive alerts using Balsamiq</p>
+
+				<!-- <img class="image-modal" data-featherlight="../images/screenshot-feature-txst-home-emergency.jpg" src="../images/screenshot-feature-txst-home-emergency.jpg" alt="Responsive layout showcasing Texas State emergency messaging" />
+				<p class="caption"><a href="http://edelstone.github.io/txst-homepage/alerts">Live demo</a> – new alerts are responsive and unmistakable</p> -->
+
+				<img class="image-modal" data-featherlight="../images/screenshot-feature-color-blind.jpg" src="../images/screenshot-feature-color-blind.jpg" alt="Various color blind versions of the alerts" />
+				<p class="caption">Background striping is retained for the color blind (monochrome, red-blind, blue cone, red-weak)</p>
+
+			</div>
+
+			<div class="image-overflow">
+				<div class="image-group">
+					<img src="../images/screenshot-live-txst-emergency-full-mocks.png" alt="Layout of Texas State homepage emergency alerts" />
+				</div>
+			</div>
+
+			<!-- <h3 id="social">Social media</h3>
+
+			<p>Texas State&#8217;s <a href="http://www.txstate.edu/social">social media outreach</a> grew dramatically in recent years, and highlighting those efforts was a major priority. Since each social platform has very different types of content and display characteristics, the main challenge was finding a way to unify each feed with a common look and feel. Here are some of the most notable design choices:</p>
+			<ul>
+				<li>The lower section of each feed contains a horizontal rule, a timestamp, and a gold icon. This provides consistency and creates a useful visual boundary.</li>
+				<li>Each social widget uses an API, so manual CMS updates are not necessary.</li>
+				<li>The Twitter widget has a conversational feel, cycling through the most recent account tweets <i>and</i> favorited tweets, allowing some curated user-generated content on the homepage.</li>
+				<li>The Facebook feed only pulls in text + image posts for layout predictability.</li>
+			</ul>
+
+			<div class="image-group">
+				<img class="image-border image-modal" data-featherlight="../images/screenshot-feature-txst-home-social.jpg" src="../images/screenshot-feature-txst-home-social.jpg" alt="Screenshot of social media section of Texas State homepage" />
+				<p class="caption"><a href="http://www.txstate.edu/#social">Homepage social media feeds</a>, desktop layout</p>
+			</div> -->
+
+			<h2 id="retrospect">Is it perfect?</h2>
+
+			<p>Nope. But everyone was really happy with the results. If I could change anything it would be:</p>
+			<ul>
+				<li><b>It’s too flat:</b> The site could really use some background patterns, gradients, or overlapping elements to add depth.</li>
+				<li><b>Content strategy is dated:</b> University websites are slowly becoming more recruitment and user focused, favoring data over politics. We weren’t able to change that this time around, but we laid the groundwork for a strategic shift.</li>
+				<li><b>Medium-width device layout is lazy:</b> For simplicity everything collapses to a single column at 800px. Given more time, I would’ve liked to play more with multi-column layouts from 480px to 800px.</li>
+			</ul>
+
+		</div> <!-- project-details -->
+
+		<!-- <div class="portfolio-options">
+			<a class="button button-fat-guy button-fw" href="http://txstate.edu">View live website<span class="button-arrow">&#10142;</span></a>
+			<a href="../portfolio" class="button-light">Back to portfolio home</a>
+		</div> -->
+
+	</div> <!-- content-section -->
+
+</div> <!-- main-area-content -->

@@ -1,0 +1,335 @@
+---
+layout: default
+title: Style Guide
+header: Style Guide
+portfolio-header: display-none
+button-prev-text: About me
+button-prev-link: /about
+button-next-text: Recent work
+button-next-link: /portfolio
+---
+
+<div class="main-area-content constrain">
+
+	<div class="content-section js-accordion" data-accordion-prefix-classes="accordion">
+
+		<div class="js-accordion__panel">
+			<h2 class="js-accordion__header">Sections on this page</h2>
+			<ul>
+				<li><a href="#colors">Colors</a>
+					<ul>
+						<li><a href="#primary-colors">Primary</a></li>
+						<li><a href="#supporting-colors">Supporting</a></li>
+						<li><a href="#neutral-colors">Neutral</a></li>
+					</ul>
+				</li>
+				<li><a href="#type">Typography</a></li>
+				<li><a href="#grid">Grid</a></li>
+				<li><a href="#headers">Headers</a></li>
+				<li><a href="#buttons">Buttons</a></li>
+				<li><a href="#tags">Tags</a></li>
+				<li><a href="#toc">Table of contents</a></li>
+				<!-- <li><a href="#article-title">Article title</a></li> -->
+				<li><a href="#feature-title">Feature title</a></li>
+				<li><a href="#feature-list">Feature list</a></li>
+				<li><a href="#image-caption">Image + caption</a></li>
+			</ul>
+		</div>
+
+		<div id="colors" class="sg-section use-sans collapse">
+
+			<h3 class="sg-header">Colors</h3>
+
+			<div id="primary-colors" class="sg-rows">
+				<h4>Primary</h4>
+				<div class="multi-layout-2">
+					<div class="sg-color col col-1">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-1">
+							<div id="color-1" style="background:#f0bbb7;"></div>
+						</div>
+						<p>#f0bbb7</p>
+						<p>240, 187, 183</p>
+					</div>
+					<div class="sg-color col col-2">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-2">
+							<div id="color-2" style="background:#d9554c;"></div>
+						</div>
+						<p>#d9554c</p>
+						<p>217, 85, 76</p>
+					</div>
+					<div class="sg-color col col-3">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-3">
+							<div id="color-3" style="background:#cf4d6f;"></div>
+						</div>
+						<p>#cf4d6f</p>
+						<p>207, 77, 111</p>
+					</div>
+				</div>
+				<div class="multi-layout-2">
+					<div class="sg-color col col-1">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-4">
+							<div id="color-4" style="background:#7f2a4d;"></div>
+						</div>
+						<p>#7f2a4d</p>
+						<p>127, 42, 77</p>
+					</div>
+					<div class="sg-color col col-2">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-5">
+							<div id="color-5" style="background:#402125;"></div>
+						</div>
+						<p>#402125</p>
+						<p>64, 33, 37</p>
+					</div>
+					<div class="sg-color col col-3">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-6">
+							<div id="color-6" style="background:#220b17;"></div>
+						</div>
+						<p>#220b17</p>
+						<p>34, 11, 23</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="supporting-colors" class="sg-rows">
+				<h4>Supporting</h4>
+				<div class="multi-layout-2">
+					<div class="sg-color col col-1">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-7">
+							<div id="color-7" style="background:#f7b239;"></div>
+						</div>
+						<p>#f7b239</p>
+						<p>247, 178, 57</p>
+					</div>
+					<div class="sg-color col col-2">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-8">
+							<div id="color-8" style="background:#75bd59;"></div>
+						</div>
+						<p>#75bd59</p>
+						<p>117, 189, 89</p>
+					</div>
+					<div class="sg-color col col-3">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-9">
+							<div id="color-9" style="background:#146da9;"></div>
+						</div>
+						<p>#146da9</p>
+						<p>20, 109, 169</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="neutral-colors" class="sg-rows">
+				<h4>Neutral</h4>
+				<div class="multi-layout-2">
+					<div class="sg-color col col-1">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-10">
+							<div class="pop-color" id="color-10" style="background:#fcfcfc;"></div>
+						</div>
+						<p>#fcfcfc</p>
+						<p>252, 252, 252</p>
+					</div>
+					<div class="sg-color col col-2">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-11">
+							<div id="color-11" style="background:#ece9e9;"></div>
+						</div>
+						<p>#ece9e9</p>
+						<p>236, 233, 233</p>
+					</div>
+					<div class="sg-color col col-3">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-12">
+							<div id="color-12" style="background:#d9d3d3;"></div>
+						</div>
+						<p>#d9d3d3</p>
+						<p>217, 211, 211</p>
+					</div>
+				</div>
+				<div class="multi-layout-2">
+					<div class="sg-color col col-1">
+						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-13">
+							<div id="color-13" style="background:#111;"></div>
+						</div>
+						<p>#111111;</p>
+						<p>17, 17, 17</p>
+					</div>
+				</div>
+			</div>
+
+		</div> <!-- colors -->
+
+		<div id="type" class="sg-section">
+			<h3 class="sg-header">Typography</h3>
+			<h4>Sans-serif</h4>
+			<div class="sg-component use-sans">
+				<p>Montserrat Regular</p>
+				<p><b>Montserrat Bold</b></p>
+			</div>
+			<h4>Serif</h4>
+			<div class="sg-component">
+				<p>Neuton Regular</p>
+				<p><b>Neuton Bold</b></p>
+				<p><i>Neuton Regular Italic</i></p>
+			</div>
+		</div>
+
+		<div id="grid" class="grid sg-section">
+			<h3 class="sg-header">Grid</h3>
+			<h4>Single</h4>
+			<div>
+				<div class="col">
+				</div>
+			</div>
+			<h4>Double</h4>
+			<div class="multi-layout">
+				<div class="col col-1">
+				</div>
+				<div class="col col-2">
+				</div>
+			</div>
+			<h4>Triple</h4>
+			<div class="multi-layout-2">
+				<div class="col col-1">
+				</div>
+				<div class="col col-2">
+				</div>
+				<div class="col col-3">
+				</div>
+			</div>
+		</div>
+
+		<div id="headers" class="sg-section">
+			<h3 class="sg-header">Headers</h3>
+			<h4>Primary</h4>
+			<div class="sg-component">
+				<h2>We are a way for the cosmos to know itself</h2>
+			</div>
+			<h4>Secondary</h4>
+			<div class="sg-component">
+				<h3>Extraordinary claims require extraordinary evidence</h3>
+			</div>
+			<h4>Tertiary</h4>
+			<div class="sg-component">
+				<h4>Somewhere, something incredible is waiting to be known</h4>
+			</div>
+		</div>
+
+		<div id="buttons" class="sg-section">
+			<h3 class="sg-header">Buttons</h3>
+			<h4>Standard</h4>
+			<div class="sg-component">
+				<a href="#nowhere" class="button">Follow Hubble<span class="button-arrow">&#10142;</span></a>
+			</div>
+			<h4>Fattie</h4>
+			<div class="sg-component">
+				<a href="#nowhere" class="button button-fat-guy">Pale blue dot<span class="button-arrow">&#10142;</span></a>
+			</div>
+			<h4>Full width</h4>
+			<div class="sg-component">
+				<a href="#nowhere" class="button button-fat-guy button-fw">Odds of intelligent life<span class="button-arrow">&#10142;</span></a>
+			</div>
+			<h4>Minimal</h4>
+			<div class="sg-component">
+				<a href="#nowhere" class="button-light">The best images of deep space</a>
+			</div>
+		</div>
+
+		<div id="tags" class="sg-section">
+			<h3 class="sg-header">Tags</h3>
+			<div class="tags" style="margin: 0;">
+				<ul>
+					<li>Callisto</li>
+					<li>Earth</li>
+					<li>Europa</li>
+					<li>Ganymede</li>
+					<li>Io</li>
+					<li>Jupiter</li>
+					<li>Mars</li>
+					<li>Mercury</li>
+					<li>Moon</li>
+					<li>Neptune</li>
+					<li>Oberon</li>
+					<li>Pluto</li>
+					<li>Rhea</li>
+					<li>Saturn</li>
+					<li>Titan</li>
+					<li>Titania</li>
+					<li>Triton</li>
+					<li>Uranus</li>
+					<li>Venus</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="toc" class="sg-section">
+			<h3 class="sg-header sg-block">Table of contents</h3>
+			<div class="js-accordion__panel">
+				<h2 class="js-accordion__header">Sections on this page</h2>
+				<ul>
+					<li><a href="#nowhere">Contact</a></li>
+					<li><a href="#nowhere">E.T the Extra Terrestrial</a></li>
+					<li><a href="#nowhere">Star Wars</a>
+						<ul>
+							<li><a href="#nowhere">A New Hope</a></li>
+							<li><a href="#nowhere">The Empire Strikes Back</a></li>
+							<li><a href="#nowhere">Return of the Jedi</a></li>
+						</ul>
+					</li>
+					<li><a href="#nowhere">Enemy Mine</a></li>
+					<li><a href="#nowhere">Galaxy Quest</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- <div id="article-title" class="sg-section">
+			<h3 class="sg-header">Article title</h3>
+			<div class="writing-intro">
+				<h1 class="writing-title" style="margin-top: 0;">Are we alone in the universe?</h1>
+				<p class="writing-sub">March 14, 2021</p>
+			</div>
+		</div> -->
+
+		<div id="feature-title" class="sg-section">
+			<h3 class="sg-header sg-block">Feature title</h3>
+			<div class="bg-overlap">
+				<div id="content" class="title-area" style="opacity: 1; padding: 0; margin: 0;">
+					<div class="title-area-wrapper">
+						<div class="title-area-content constrain">
+							<h2 class="sub-header portfolio-header">Space and time</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="feature-list" class="sg-section">
+			<h3 class="sg-header sg-block">Feature list</h3>
+			<div id="considerations" class="productivity" style="margin: 0; left: 0; right: 0; width: auto; border: 1px solid #c3bebe;">
+				<h2 class="productivity-header constrain">Amazing facts about space</h2>
+				<div class="constrain multi-layout">
+					<div class="col col-1 stack">
+						<ul class="important-updates fa-ul">
+							<li><i class="fa-li fa fa-check"></i>99% of our solar system&#8217;s mass <a href="http://www.bbc.co.uk/science/space/solarsystem/sun_and_planets/sun">is the sun</a></li>
+							<li><i class="fa-li fa fa-check"></i>Apollo astronauts&#8217; moon footprints will likely stay there for <a href="http://www.space.com/14740-footprints-moon.html">over 100 million years</a></li>
+							<li><i class="fa-li fa fa-check"></i>There is an <a href="http://www.livescience.com/56634-how-many-stars-are-in-the-universe.html">uncountable number of stars</a> in the known universe</li>
+						</ul>
+					</div>
+					<div class="col col-2">
+						<ul class="important-updates fa-ul">
+							<li><i class="fa-li fa fa-check"></i><a href="https://en.wikipedia.org/wiki/Neutron_star">Neutron stars</a> can spin at a rate of 600 rotations per second</li>
+							<li><i class="fa-li fa fa-check"></i>The largest asteroid ever recorded is a <a href="http://solarsystem.nasa.gov/planets/ceres">mammoth piece of space rock named Ceres</a></li>
+							<li><i class="fa-li fa fa-check"></i>More of the <a href="http://zebu.uoregon.edu/disted/ph162/l4.html">sun&#8217;s energy</a> hits Earth every hour than it uses in a year</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="image-caption" class="sg-section">
+			<h3 class="sg-header sg-block">Image + caption</h3>
+			<div class="image-group image-group-fw">
+				<img class="image-modal" data-featherlight="images/carina-nebula.jpg" src="images/carina-nebula.jpg" alt="Hubble image of towering hydrogen clouds in the Carina nebula">
+				<p class="caption">Towering molecular clouds on the edge of the Carina nebula (<a href="https://unsplash.com/@nasa?photo=-hI5dX2ObAs">image by NASA</a> via <a href="https://unsplash.com">Unsplash</a>)</p>
+			</div>
+		</div>
+
+	</div> <!-- content-section -->
+
+</div> <!-- main-area-content -->
