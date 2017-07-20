@@ -7,7 +7,7 @@ window.addEventListener('load', function() {
 // Tooltip settings
 $('.tooltip').tooltipster({
 	animationDuration: [250, 100],
-	delay: [50, 100],
+	delay: [50, 10000000],
 	distance: 0,
 	interactive: true
 });
