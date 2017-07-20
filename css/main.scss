@@ -10,7 +10,7 @@ body {min-height: 100%; display: flex; flex-direction: column; background: #fcfc
 img {max-width: 100%;}
 a:focus {transition: none !important;}
 h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content, .results {font-family: 'Montserrat', sans-serif; font-weight: normal;}
-.display-none {display: none;}
+.hide-and-dont-read {display: none !important;}
 .full-width {width: 100%;}
 .clearfix {clear: both;}
 .constrain {max-width: 75rem; margin: auto; padding-left: 2.5rem; padding-right: 2.5rem;}
