@@ -117,7 +117,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
 .home-intro-wrapper {background: #402125;}
-.quick-bio {font-family: Neuton, serif; font-size: 4.2rem; color: #ece9e9; padding: 2.8rem 0 6rem; text-shadow: none; line-height: 1.35;}
+.quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: #ece9e9; padding: 3.3rem 0 6rem; text-shadow: none; line-height: 1.35;}
 .quick-bio p {margin: 0 auto 2rem;}
 .quick-bio a {color: #ece9e9; text-decoration: none; background: #983b35; background: linear-gradient(to bottom, transparent 0, transparent 88%, #d9554c 88%, #d9554c 100%); transition: all .2s ease; text-shadow: 2px 2px 0 #402125, -2px -2px 0 #402125, 2px -2px 0 #402125, -2px 2px 0 #402125, -2px 0 0 #402125, 2px 0 0 #402125;}
 .quick-bio a:hover, .quick-bio a:focus {color: inherit;}
@@ -250,7 +250,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 @media (min-width: 80em) {
 	html {font-size: 68.5%;}
 	.constrain {max-width: 80rem;}
-	.quick-bio {font-size: 4.2rem;}
+	.quick-bio {font-size: 4.8rem;}
 	.title-area {padding-top: 8rem; margin-top: -8rem;}
 	.title-area::before {opacity: 0;}
 }
