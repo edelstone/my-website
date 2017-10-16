@@ -1,0 +1,48 @@
+/* Montserrat */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v11-latin-regular.woff2') format('woff2'),
+       url('../fonts/montserrat-v11-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('../fonts/montserrat-v11-latin-700.woff2') format('woff2'),
+       url('../fonts/montserrat-v11-latin-700.woff') format('woff');
+}
+
+/* Neuton */
+
+@font-face {
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Neuton Regular'), local('Neuton-Regular'),
+       url('../fonts/neuton-v10-latin-regular.woff2') format('woff2'),
+       url('../fonts/neuton-v10-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Neuton';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Neuton Italic'), local('Neuton-Italic'),
+       url('../fonts/neuton-v10-latin-italic.woff2') format('woff2'),
+       url('../fonts/neuton-v10-latin-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Neuton Bold'), local('Neuton-Bold'),
+       url('../fonts/neuton-v10-latin-700.woff2') format('woff2'),
+       url('../fonts/neuton-v10-latin-700.woff') format('woff');
+}

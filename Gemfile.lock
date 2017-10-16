@@ -207,8 +207,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-livereload
-  rb-fsevent (= 0.9.8)
-  tzinfo-data
 
 BUNDLED WITH
    1.15.1
