@@ -11,11 +11,9 @@ $maroon: #402125;
 $dark-brown: #220b17;
 $black: #111;
 
-/* media queries */
+/* devices */
 
 @mixin breakpoint($point, $value: "") {
-
-  /* devices */
 
   @if $point == 'large' {
     @media only screen and (min-width: 80em) { @content; }
@@ -30,14 +28,6 @@ $black: #111;
     @media only screen and (max-width: 20em) { @content; }
   }
 
-  /* custom */
-
-  @else if $point == 'max-width' {
-    @media only screen and (max-width: $value) { @content; }
-  }
-  @else if $point == 'min-width' {
-    @media only screen and (min-width: $value) { @content; }
-  }
 }
 
 /* functions */
