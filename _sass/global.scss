@@ -158,7 +158,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {position: absolute; le
 /* Banded Sections */
 .main-area .stacked-content {padding: 0;}
 .home-intro-wrapper {background: $maroon;}
-.quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: tint($maroon, 90%); padding: 3.3rem 0 6rem; text-shadow: none; line-height: 1.25;}
+.quick-bio {font-family: Neuton, serif; font-size: 4.6rem; color: tint($maroon, 90%); padding: 3.3rem 0 6rem; text-shadow: none; line-height: 1.32;}
 .quick-bio p {margin: 0 auto 2rem;}
 .quick-bio a {color: tint($maroon, 90%); text-decoration: none; background: shade($orange, 30%); background: linear-gradient(to bottom, transparent 0, transparent 88%, $orange 88%, $orange 100%); transition: all .2s ease; text-shadow: 2px 2px 0 $maroon, -2px -2px 0 $maroon, 2px -2px 0 $maroon, -2px 2px 0 $maroon, -2px 0 0 $maroon, 2px 0 0 $maroon;}
 .quick-bio a:hover, .quick-bio a:focus {color: inherit;}
