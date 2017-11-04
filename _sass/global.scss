@@ -1113,7 +1113,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	color: $black;
 	font-size: 2rem;
 	outline: none;
-	background: rgba(255, 255, 255, 0.8);
+	background: transparentize($white, .2);
+  border-radius: 0;
 }
 
 .featherlight, .featherlight .featherlight-content {
