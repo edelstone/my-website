@@ -1,8 +1,8 @@
-# [<img src="http://michaeledelstone.com/images/favicon.png" width="25px" />](http://michaeledelstone.com) &nbsp;[My Website and Portfolio](http://michaeledelstone.com)
+# [<img src="https://michaeledelstone.com/images/favicon.png" width="25px" />](https://michaeledelstone.com) &nbsp;[My Website and Portfolio](https://michaeledelstone.com)
 
-This is the source code for [michaeledelstone.com](http://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best teams around.
+This is the source code for [michaeledelstone.com](https://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best teams around.
 
-**[There's a style guide too, if you're interested](http://michaeledelstone.com/styleguide).**
+**[There's a style guide too, if you're interested](https://michaeledelstone.com/styleguide).**
 
 ## Goals
 
