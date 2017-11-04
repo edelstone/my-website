@@ -9,12 +9,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
     <link rel="apple-touch-icon-precomposed" href="/images/touch.png">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
-    {% capture important %}
-      {% include important.css %}
-    {% endcapture %}
-    <style>
-      {{ important | scssify }}
-    </style>
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
 
   <body>
