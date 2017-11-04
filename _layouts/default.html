@@ -9,7 +9,12 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
     <link rel="apple-touch-icon-precomposed" href="/images/touch.png">
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
-    <link rel="stylesheet" href="/css/main.css">
+    {% capture main %}
+      {% include main.css %}
+    {% endcapture %}
+    <style>
+      {{ main | scssify }}
+    </style>
   </head>
 
   <body>
@@ -87,11 +92,10 @@
   	</div>
   </footer>
 
-  <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.1/featherlight.min.js"></script>
-  <script src="/js/tooltipster.bundle.min.js"></script>
+  <script src="/js/jquery-3.2.1.js"></script>
+  <script src="/js/fastclick.js"></script>
+  <script src="/js/featherlight.js"></script>
+  <script src="/js/tooltipster.js"></script>
   <script src="/js/accessible-accordion.js"></script>
   <script src="/js/main.js"></script>
   <script>
