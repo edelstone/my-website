@@ -237,8 +237,8 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 .main-area a {
 	color: $black;
-	background: tint($orange, 60%);
-	background: linear-gradient(to bottom, transparent 0, transparent 83%, tint($orange, 60%) 83%, tint($orange, 60%) 100%);
+	background: tint($orange, 50%);
+	background: linear-gradient(to bottom, transparent 0, transparent 83%, tint($orange, 50%) 83%, tint($orange, 50%) 100%);
 	text-decoration: none;
 }
 
@@ -285,10 +285,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 }
 
 .main-area hr {
-	margin: -0.8rem 0 0;
+	margin: -1rem 0 0;
 	border: none;
 	background: $pink;
-	height: 5px;
+	height: 7px;
 	max-width: 5rem;
 }
 
@@ -678,8 +678,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .main-area .productivity a {
-	background: tint($maroon, 70%);
-	background: linear-gradient(to bottom, transparent 0, transparent 83%, tint($maroon, 70%) 83%, tint($maroon, 70%) 100%);
+	background: tint($maroon, 60%);
+	background: linear-gradient(to bottom, transparent 0, transparent 83%, tint($maroon, 60%) 83%, tint($maroon, 60%) 100%);
 }
 
 .main-area .productivity a:hover, .main-area .productivity a:focus {
@@ -780,15 +780,17 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .choices .button-prev:hover, .choices .button-prev:focus {
-	box-shadow: 0px 6px shade($pink, 30%);
+	box-shadow: 0px 6px shade($pink, 30%), -6px 0 $pink, -6px 6px shade($pink, 30%);
 	background: $pink;
 	text-shadow: 1px 1px 0 shade($pink, 30%);
+  left: 6px;
 }
 
 .choices .button-next:hover, .choices .button-next:focus {
-	box-shadow: 0 6px shade($orange, 30%);
+	box-shadow: 0 6px shade($orange, 30%), 6px 0 $orange, 6px 6px shade($orange, 30%);
 	background: $orange;
 	text-shadow: 1px 1px 0 shade($orange, 30%);
+  left: -6px;
 }
 
 .choices a:active {
@@ -1251,9 +1253,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	}
 	.constrain {
 		max-width: 80rem;
-	}
-	.quick-bio {
-		font-size: 4.8rem;
 	}
 	.title-area {
 		padding-top: 8rem;
