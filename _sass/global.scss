@@ -16,7 +16,7 @@ $black: #111;
 @mixin breakpoint($point, $value: "") {
 
   @if $point == 'large' {
-    @media only screen and (min-width: 80em) { @content; }
+    @media only screen and (min-width: 60em) { @content; }
   }
   @else if $point == 'medium' {
     @media only screen and (max-width: 50em) { @content; }
@@ -59,7 +59,7 @@ $black: #111;
 }
 
 html {
-	font-size: 62.5%;
+	font-size: 68.5%;
 	line-height: 1.4;
 	font-family: 'Neuton', serif;
 	font-weight: normal;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 }
 
 .constrain {
-	max-width: 75rem;
+	max-width: 80rem;
 	margin: auto;
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
@@ -1247,12 +1247,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 /* Responsive enhancements */
 
 @include breakpoint('large') {
-	html {
-		font-size: 68.5%;
-	}
-	.constrain {
-		max-width: 80rem;
-	}
 	.title-area {
 		padding-top: 8rem;
 		margin-top: -8rem;
@@ -1286,7 +1280,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 @include breakpoint('small') {
 	html {
-		font-size: 58.5%;
+		font-size: 62.5%;
 	}
 	.multi-layout, .multi-layout-2 {
 		display: block;
@@ -1395,11 +1389,5 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	}
 	.footer .btt {
 		line-height: initial;
-	}
-}
-
-@include breakpoint('extra-small') {
-	html {
-		font-size: 48.5%;
 	}
 }
