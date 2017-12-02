@@ -101,7 +101,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 }
 
 .constrain {
-	max-width: 80rem;
+	max-width: 85rem;
 	margin: auto;
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
@@ -117,7 +117,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 }
 
 .limited-content {
-	margin-bottom: 12rem;
+	margin-bottom: 8rem;
 }
 
 .signature {
@@ -1247,6 +1247,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 /* Responsive enhancements */
 
 @include breakpoint('large') {
+  html {
+		font-size: 72.5%;
+	}
 	.title-area {
 		padding-top: 8rem;
 		margin-top: -8rem;
