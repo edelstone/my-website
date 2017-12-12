@@ -65,6 +65,12 @@ html {
 	font-weight: normal;
 	height: 100%;
 	background: $dark-brown;
+  @include breakpoint('large') {
+  	font-size: 72.5%;
+  }
+  @include breakpoint('medium') {
+  	font-size: 65.5%;
+  }
 }
 
 body {
@@ -857,6 +863,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 .project {
 	margin: 4rem auto 7rem;
+
+  img {
+    background: shade($white, 5%);
+    padding: 1.5rem;
+  }
 }
 
 .project .project-header {
@@ -883,6 +894,10 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	padding-top: 0;
 	margin-top: 0;
 	opacity: 0;
+  @include breakpoint('large') {
+  	padding-top: 8rem;
+  	margin-top: -8rem;
+  }
 }
 
 .title-area.float-up {
@@ -897,6 +912,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	height: 100%;
 	background: tint($maroon, 10%);
 	opacity: 0.5;
+  @include breakpoint('large') {
+  	opacity: 0;
+  }
 }
 
 .title-area-1 {
@@ -1246,23 +1264,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 /* Responsive enhancements */
 
-@include breakpoint('large') {
-  html {
-		font-size: 72.5%;
-	}
-	.title-area {
-		padding-top: 8rem;
-		margin-top: -8rem;
-	}
-	.title-area::before {
-		opacity: 0;
-	}
-}
-
 @include breakpoint('medium') {
-  html {
-    font-size: 65.5%;
-  }
 	.footer .btt {
 		position: relative;
 		right: 0;
@@ -1317,9 +1319,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	.title-area-content {
 		padding-top: 3.5rem;
 		padding-bottom: 3.5rem;
-	}
-	.project .project-brief {
-		margin-bottom: 3rem;
 	}
 	.main-area-content {
 		padding-top: 2.8rem;
