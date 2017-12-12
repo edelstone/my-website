@@ -252,6 +252,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	color: shade($orange, 10%);
 }
 
+.main-area a.image-link {
+  background: none;
+}
+
 .main-area p, .main-area ul, .main-area ol {
 	margin-top: 0;
 	margin-bottom: 1.5rem;
@@ -866,12 +870,22 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
   img {
     background: shade($white, 5%);
-    padding: 1.5rem;
+    padding: 1rem;
+  }
+
+  .image-link:hover {
+
+    img {
+      background: shade($white, 8%);
+    }
   }
 }
 
 .project .project-header {
 	font-size: 2.2rem;
+  @include breakpoint('small') {
+    margin-top: -1rem;
+  }
 }
 
 .project .project-brief {
