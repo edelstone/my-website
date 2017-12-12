@@ -1260,6 +1260,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 @include breakpoint('medium') {
+  html {
+    font-size: 65.5%;
+  }
 	.footer .btt {
 		position: relative;
 		right: 0;
