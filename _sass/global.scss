@@ -248,11 +248,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 		margin: -0.2rem 0.5rem -0.2rem -0.5rem;
 		font-size: 1.5rem;
 	}
-}
 
-.intro nav a:hover, .intro nav a:focus {
-	background: tint($maroon, 10%);
-	color: $white;
+  &:hover, &:focus {
+    color: $white;
+  }
 }
 
 .main-area-content {
