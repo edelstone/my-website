@@ -7,7 +7,6 @@ This is the source code for [michaeledelstone.com](https://michaeledelstone.com)
 ## TODO
 
 - [ ] Add new portfolio content (BrickFTP, Action Verb, etc.)
-- [ ] Move media query rules up to their respective parents
 
 ## Goals
 
