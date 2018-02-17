@@ -1,0 +1,114 @@
+svg.brickftp-mockup {
+
+  $global_fadein: 0.5s;
+  $file_offset: 0.25s;
+  $transfer_time: 1s;
+  $thumbnail_fadein: 0.5s;
+  $checkmark_fadein: 1s;
+
+  height: auto;
+  max-width: 100%;
+
+  #Page-1 {
+    will-change: transform, opacity;
+  }
+  
+  &.animate {
+
+    // first set up the animations to use per-element
+
+    #Page-1 { // entire browser window
+      animation: $global_fadein ease fade-up both;
+      transform-origin: 50% 50%;
+    }
+
+    #Filled_Icons #Group { // file thumbnails
+      animation: $thumbnail_fadein ease fade-drop both;
+    }
+
+    #Rectangle-4 { // filename/upload bars
+      animation: $transfer_time linear scale-left both;
+      transform-origin: 7.5%;
+    }
+
+    #check-2 path { // checkmarks
+      animation: $checkmark_fadein ease fade-drop both;
+    }
+
+    #secure #Scene { // security icon
+      animation: $global_fadein ease-out fade-up both;
+    }
+
+    // then set delays accordingly
+
+    #file-file1 {
+      #Filled_Icons #Group, #Rectangle-4 {
+        animation-delay: $global_fadein;
+      }
+      #check-2 path {
+        animation-delay: $global_fadein + $transfer_time * 0.8;
+      }
+    }
+    #file-file2 {
+      #Filled_Icons #Group, #Rectangle-4 {
+        animation-delay: $global_fadein + $file_offset;
+      }
+      #check-2 path {
+        animation-delay: $global_fadein + $file_offset + $transfer_time * 0.8;
+      }
+    }
+    #file-file3 {
+      #Filled_Icons #Group, #Rectangle-4 {
+        animation-delay: $global_fadein + $file_offset * 2;
+      }
+      #check-2 path {
+        animation-delay: $global_fadein + $file_offset * 2 + $transfer_time * 0.8;
+      }
+    }
+    #file-file4 {
+      #Filled_Icons #Group, #Rectangle-4 {
+        animation-delay: $global_fadein + $file_offset * 3;
+      }
+      #check-2 path {
+        animation-delay: $global_fadein + $file_offset * 3 + $transfer_time * 0.8;
+      }
+    }
+    #secure #Scene {
+      animation-delay: $global_fadein + $file_offset * 4 + $transfer_time;
+    }
+  }
+}
+
+
+// animation types
+
+@keyframes fade-up {
+	0% {
+    transform: scale(0.9);
+		opacity:0;
+	}
+	100% {
+    transform: scale(1);
+		opacity:1;
+	}
+}
+
+@keyframes fade-drop {
+  0% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes scale-left {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
