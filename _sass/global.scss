@@ -978,7 +978,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
     border: 1px solid transparent;
     display: block;
     @include breakpoint('small') {
-      background: shade($white, 4%);
+      background: tint($maroon, 95%);
+      border: 1px solid tint($maroon, 90%);
       padding: 1rem;
     }
   }
@@ -986,16 +987,17 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
   .image-link:hover, .image-link:focus {
 
     img {
-      background: shade($white, 4%);
-      border-color: shade($white, 6%);
+      background: tint($maroon, 95%);
+      border: 1px solid tint($maroon, 90%);
     }
   }
 }
 
 .project .project-header {
 	font-size: 2.2rem;
+  margin: 0.5rem auto 1.2rem;
   @include breakpoint('small') {
-    margin-top: -1rem;
+    margin-top: -0.5rem;
   }
 }
 
