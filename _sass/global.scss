@@ -377,6 +377,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 .main-area .portrait img {
 	display: block;
+  border-radius: 3px;
 }
 
 .main-area .image-group {
@@ -814,8 +815,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	padding: 6.5rem 0 3.5rem;
 	background: $purple;
 	background: radial-gradient($purple, shade($purple, 20%));
-	color: tint($maroon, 90%);
-	text-shadow: 1px 1px 0 $maroon;
+	color: tint($purple, 90%);
+	text-shadow: 1px 1px 0 shade($purple, 50%);
   @include breakpoint('small') {
   	padding: 5rem 0 2rem;
   }
@@ -867,6 +868,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .choices .button-prev {
+  border-top-right-radius: 3px;
   @include breakpoint('small') {
     border-top: none;
     border-bottom: 1px solid $maroon;
@@ -874,6 +876,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .choices .button-next {
+  border-top-left-radius: 3px;
   @include breakpoint('small') {
     border-top: 1px solid tint($maroon, 20%);
   }
@@ -966,43 +969,115 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 /* Projects */
 
+.portfolio {
+
+  .project-wrapper {
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 4rem;
+
+    &-1 {
+      background: $purple;
+      background: linear-gradient(to bottom right, $purple, shade($purple, 10%));
+    }
+    &-2 {
+      background: shade($orange, 10%);
+      background: linear-gradient(to bottom right, shade($orange, 10%), shade($orange, 20%));
+    }
+    &-3 {
+      background: shade($pink, 10%);
+      background: linear-gradient(to bottom right, shade($pink, 10%), shade($pink, 20%));
+    }
+    &-4 {
+      background: $maroon;
+      background: linear-gradient(to bottom right, tint($maroon, 10%), $maroon);
+    }
+
+    &:hover, &:focus {
+      box-shadow: 0 4px 10px transparentize($black, .75);
+
+      .button {
+        background: transparentize($white, 0.92);
+        background: repeating-linear-gradient(45deg, transparentize($white, .75), transparentize($white, .75) 1px, transparent 1px, transparent 4px);
+        color: $white;
+      }
+
+      .project-brickftp-app {
+        background-position-y: -85%;
+      }
+      .project-txst-cms {
+        background-position-y: -25%;
+      }
+      .project-brickftp-website {
+        background-position-y: -12%;
+      }
+      .project-txst-homepage {
+        background-position-y: -20%;
+      }
+      .project-txst-brand {
+        background-position-y: -75%;
+      }
+      .project-pcf-website {
+        background-position-y: -15%;
+      }
+    }
+
+    .project {
+      color: transparentize($white, .05);
+      padding: 2.5rem 3rem 3rem;
+      transition: all .2s cubic-bezier(0.17, 1.26, 0.68, 1.51);
+
+      &-content {
+        max-width: 480px;
+      }
+
+      &-header {
+        color: transparentize($white, .05);
+        font-size: 2.2rem;
+        margin-bottom: 1.2rem;
+        word-spacing: 1px;
+      }
+
+      &-brief {
+        margin-bottom: 2.4rem;
+      }
+
+      &-button {
+        background: transparent;
+        text-shadow: 1px 1px 0 transparentize($black, .7);
+        box-shadow: none;
+        margin: 0;
+        padding-bottom: 1.1rem;
+        background: transparentize($white, 0.92);
+        background: repeating-linear-gradient(45deg, transparentize($white, .85), transparentize($white, .85) 1px, transparent 1px, transparent 4px);
+        color: transparentize($white, .05);
+      }
+
+      &-brickftp-app {
+        background: url(/images/mockup-txst-standard.png) 520px -100%/500px no-repeat;
+      }
+      &-txst-cms {
+        background: url(/images/mockup-txst-standard.png) 480px -40%/550px no-repeat;
+      }
+      &-brickftp-website {
+        background: url(/images/mockup-brickftp-homepage.png) 520px -20%/670px no-repeat;
+      }
+      &-txst-homepage {
+        background: url(/images/mockup-txst-homepage.png) 400px -30%/700px no-repeat;
+      }
+      &-txst-brand {
+        background: url(/images/mockup-txst-styleguide.png) 510px -105%/510px no-repeat;
+      }
+      &-pcf-website {
+        background: url(/images/mockup-pcf-website.png) 530px -30%/725px no-repeat;
+      }
+    }
+  }
+}
+
 .main-area .project-page {
 	padding-top: 0;
 	padding-bottom: 3rem;
-}
-
-.project {
-	margin: 4rem auto 7rem;
-
-  img {
-    border: 1px solid transparent;
-    display: block;
-    @include breakpoint('small') {
-      background: tint($maroon, 95%);
-      border: 1px solid tint($maroon, 90%);
-      padding: 1rem;
-    }
-  }
-
-  .image-link:hover, .image-link:focus {
-
-    img {
-      background: tint($maroon, 95%);
-      border: 1px solid tint($maroon, 90%);
-    }
-  }
-}
-
-.project .project-header {
-	font-size: 2.2rem;
-  margin: 0.5rem auto 1.2rem;
-  @include breakpoint('small') {
-    margin-top: -0.5rem;
-  }
-}
-
-.project .project-brief {
-	margin-bottom: 2.5rem;
 }
 
 .title-area * {
@@ -1337,6 +1412,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	color: $black;
 	padding: 0;
 	font-size: 1.2rem;
+  border-radius: 3px;
 }
 
 .tooltipster-sidetip .tooltipster-content a {
