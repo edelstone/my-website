@@ -1054,11 +1054,14 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       justify-content: center;
       flex-direction: column;
       text-align: center;
-      background: transparentize($white, .15);
+      background: transparentize($white, .3);
 
       h3 {
         font-size: 2.2rem;
         word-spacing: 1px;
+        margin: 0 auto;
+        background: $white;
+        padding: .2rem 1rem;
       }
     }
 
