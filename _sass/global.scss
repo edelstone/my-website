@@ -997,6 +997,10 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       background: $maroon;
       background: linear-gradient(to bottom right, tint($maroon, 10%), $maroon);
     }
+    &-5 {
+      background: shade($blue, 20%);
+      background: linear-gradient(to bottom right, shade($blue, 20%), shade($blue, 30%));
+    }
 
     &:hover, &:focus {
       box-shadow: 0 4px 10px transparentize($black, .75);
