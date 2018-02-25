@@ -1060,8 +1060,13 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         font-size: 2.2rem;
         word-spacing: 1px;
         margin: 0 auto;
-        background: $white;
-        padding: .2rem 1rem;
+
+        span {
+          background: $white;
+          padding: .2rem 0.6rem;
+          -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+        }
       }
     }
 
