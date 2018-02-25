@@ -1003,7 +1003,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
       .button {
         background: transparentize($white, 0.92);
-        background: repeating-linear-gradient(45deg, transparentize($white, .75), transparentize($white, .75) 1px, transparent 1px, transparent 4px);
+        background: repeating-linear-gradient(45deg, transparentize($white, .7), transparentize($white, .7) 1px, transparent 1px, transparent 4px);
         color: $white;
       }
 
@@ -1033,7 +1033,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         box-shadow: none;
 
         .button {
-          background: repeating-linear-gradient(45deg, transparentize($white, .85), transparentize($white, .85) 1px, transparent 1px, transparent 4px);
+          background: repeating-linear-gradient(45deg, transparentize($white, .8), transparentize($white, .8) 1px, transparent 1px, transparent 4px);
           color: transparentize($white, .05);
         }
 
@@ -1098,7 +1098,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         margin: 0;
         padding-bottom: 1.1rem;
         background: transparentize($white, 0.92);
-        background: repeating-linear-gradient(45deg, transparentize($white, .85), transparentize($white, .85) 1px, transparent 1px, transparent 4px);
+        background: repeating-linear-gradient(45deg, transparentize($white, .8), transparentize($white, .8) 1px, transparent 1px, transparent 4px);
         color: transparentize($white, .05);
       }
 
