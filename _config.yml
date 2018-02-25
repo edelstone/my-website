@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Michael Edelstone
 email: michael.edelstone@gmail.com
-description: I'm a pretty happy designer with a deep interest in content and code. I like dogs, national parks, and making useful things with talented people.
+description: I’m a pretty happy designer focusing on digital products and brands. I like dogs, national parks, and making useful things with talented people.
 url: "https://michaeledelstone.com"
 
 # Build settings
@@ -24,7 +24,7 @@ livereload: true
 sass:
   sass_dir: _sass
   style: compressed
-  
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
