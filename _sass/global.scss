@@ -97,7 +97,7 @@ a:focus {
 	transition: none !important;
 }
 
-h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content, .results {
+h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content, .results, .coming-soon {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 }
@@ -975,6 +975,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
     display: block;
     border-radius: 3px;
     margin-bottom: 4rem;
+    position: relative;
 
     &-1 {
       background: $purple;
@@ -1003,7 +1004,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       }
 
       .project-brickftp-app {
-        background-position-y: -85%;
+        background-position-y: -10%;
       }
       .project-txst-cms {
         background-position-y: -25%;
@@ -1022,13 +1023,49 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       }
     }
 
+    &.no-effects {
+
+      &:hover, &:focus {
+        box-shadow: none;
+
+        .button {
+          background: repeating-linear-gradient(45deg, transparentize($white, .85), transparentize($white, .85) 1px, transparent 1px, transparent 4px);
+          color: transparentize($white, .05);
+        }
+
+        .project-brickftp-app {
+          background-position-y: -20%;
+        }
+      }
+    }
+
+    .coming-soon {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      top: 0;
+      left: 0;
+      padding: 3rem;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      background: transparentize($white, .15);
+    }
+
     .project {
       color: transparentize($white, .05);
       padding: 2.5rem 3rem 3rem;
       transition: all .2s cubic-bezier(0.17, 1.26, 0.68, 1.51);
+      @include breakpoint('medium') {
+      	background: none !important;
+      }
 
       &-content {
         max-width: 480px;
+        @include breakpoint('medium') {
+        	max-width: 100%;
+        }
       }
 
       &-header {
@@ -1054,7 +1091,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       }
 
       &-brickftp-app {
-        background: url(/images/mockup-txst-standard.png) 520px -100%/500px no-repeat;
+        background: url(/images/mockup-brickftp-app.png) 525px -20%/720px no-repeat;
       }
       &-txst-cms {
         background: url(/images/mockup-txst-standard.png) 480px -40%/550px no-repeat;
