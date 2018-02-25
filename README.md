@@ -4,10 +4,6 @@ This is the source code for [michaeledelstone.com](https://michaeledelstone.com)
 
 **[There's a style guide too, if you're interested](https://michaeledelstone.com/styleguide).**
 
-## TODO
-
-- [ ] Add new portfolio content (BrickFTP, Action Verb, etc.)
-
 ## Goals
 
 * Explain who I am and what I'm all about, humbly and transparently
