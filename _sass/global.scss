@@ -106,6 +106,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	display: none !important;
 }
 
+.not-really-a-link {
+  cursor: not-allowed;
+}
+
 .full-width {
 	width: 100%;
 }
@@ -1033,7 +1037,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
           color: transparentize($white, .05);
         }
 
-        .project-brickftp-app {
+        .project-brickftp-app, .project-brickftp-website {
           background-position-y: -20%;
         }
       }
@@ -1051,6 +1055,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       flex-direction: column;
       text-align: center;
       background: transparentize($white, .15);
+
+      h3 {
+        font-size: 2.2rem;
+        word-spacing: 1px;
+      }
     }
 
     .project {
