@@ -717,7 +717,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .home-intro-wrapper {
-	background: $maroon;
+	background: shade($maroon, 0%);
 }
 
 .quick-bio {
