@@ -712,8 +712,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	right: 50%;
 	margin: 0 -50vw;
 	padding: 5.5rem 0 5rem;
-	border-top: 1px solid tint($maroon, 70%);
-	border-bottom: 1px solid tint($maroon, 70%);
   @include breakpoint('small') {
   	padding-bottom: 4rem;
   }
@@ -981,7 +979,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         background-position-y: -20%;
       }
       .project-txst-brand {
-        background-position-y: -75%;
+        background-position-y: -90%;
       }
       .project-pcf-website {
         background-position-y: -15%;
@@ -1048,9 +1046,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
       &-header {
         color: transparentize($white, .05);
-        font-size: 2.2rem;
+        font-size: 3.2rem;
         margin-bottom: 1.2rem;
-        word-spacing: 1px;
+				line-height: 1.25;
       }
 
       &-brief {
@@ -1081,7 +1079,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         background: url(/images/mockup-txst-homepage.png) 400px -30%/700px no-repeat;
       }
       &-txst-brand {
-        background: url(/images/mockup-txst-styleguide.png) 510px -105%/510px no-repeat;
+        background: url(/images/mockup-txst-styleguide.png) 510px -115%/510px no-repeat;
       }
       &-pcf-website {
         background: url(/images/mockup-pcf-website.png) 530px -30%/725px no-repeat;
