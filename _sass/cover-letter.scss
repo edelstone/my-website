@@ -44,6 +44,7 @@
   .lil-seller {
     text-align: center;
     font-size: 1.4rem;
+    margin-bottom: 4rem;
   }
 
   .reasons-im-a-fit {
@@ -64,6 +65,10 @@
 
     li {
       margin-bottom: 1.2rem;
+    }
+
+    .quick-list li {
+      margin-bottom: 0.5rem;
     }
 
     .testimonials {
