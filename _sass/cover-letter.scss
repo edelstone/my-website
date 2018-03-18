@@ -1,0 +1,47 @@
+.codepen-please-hire-me-i-am-very-good {
+
+  .match-made-in-heaven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto 1rem;
+    background: tint($maroon, 95%);
+    max-width: 450px;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px tint($black, 75%);
+
+    .michael {
+      max-width: 100px;
+
+      img {
+        border-radius: 50%;
+        display: block;
+      }
+    }
+
+    .plus {
+      font-size: 2rem;
+      margin: 0 1.8rem 0 2rem;
+    }
+
+    .codepen-logo {
+      svg {
+        max-width: 200px;
+        height: 40px;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+
+  .lil-seller {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .productivity {
+    padding-bottom: 6rem;
+    border: none;
+  }
+}

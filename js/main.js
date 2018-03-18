@@ -21,19 +21,6 @@ $.featherlight.defaults.closeOnClick = 'anywhere';
 $('.js-accordion').accordion();
 
 
-// Get and display page load time
-// https://codepad.co/snippet/585338
-var beforeload = (new Date()).getTime();
-
-function getPageLoadTime(){
-	var afterload = (new Date()).getTime();
-	seconds = ((afterload-beforeload) / 1000).toFixed(2);
-	$(".load-time").text('This page loaded in ' + seconds + ' seconds');
-}
-
-window.onload = getPageLoadTime;
-
-
 // Smooth scroll to anchors
 // http://stackoverflow.com/questions/7717527
 var $root = $('html, body');
