@@ -513,8 +513,8 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 a.offscreen {
 	position: absolute;
-	left: -1000px;
-	top: -1000px;
+	left: -999px;
+	top: -999px;
 	width: 1px;
 	height: 1px;
 	text-align: left;
