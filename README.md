@@ -28,7 +28,7 @@ Many thanks to the digital community for these bad boys:
 * [Accessible Accordion](https://a11y.nicolas-hoffmann.net/accordion/)
 * [FastClick](http://ftlabs.github.io/fastclick/)
 * [Featherlight](http://noelboss.github.io/featherlight/)
-* [Font Awesome](http://fontawesome.io/)
+* [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [jQuery](https://jquery.com/)
 * [Normalize.css](https://necolas.github.io/normalize.css/)
