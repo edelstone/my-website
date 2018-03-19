@@ -89,6 +89,8 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .button-arrow.button-arrow-reverse {
 	transform: rotate(180deg);
 	display: inline-block;
+	top: 0.2rem;
+	position: relative;
 }
 
 .limited-content {
@@ -443,19 +445,15 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 .main-area .important-updates .fa-li {
 	font-size: 1.8rem;
-	top: 0.8rem;
+	top: 0.4rem;
 	left: -4rem;
 	color: $purple;
 }
 
-.main-area .fa-inline {
-	font-size: 1.8rem;
-	margin: -0.7rem;
-	bottom: 0.1rem
-}
-
-.main-area .fa-heart.fa-stack-1x {
-	color: $red;
+.main-area .fa-layers {
+	.fa-heart:first-child {
+		color: $red;
+	}
 }
 
 .main-area .more-homes {
@@ -466,6 +464,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 .main-area .more-homes.contact-group {
 	text-align: left;
 	margin-top: 0;
+
+	ul {
+		margin-left: -0.7rem;
+	}
 }
 
 .main-area .more-homes a {
@@ -479,42 +481,32 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 }
 
 .more-homes li {
-	display: inline;
-	margin-right: 0.5rem;
+	display: inline-block;
 }
 
-.more-homes .fa-inner {
-	color: $white;
+.more-homes {
+	.svg-inline--fa:nth-child(2) {
+		color: $white;
+	}
 }
 
-.more-homes .fa-outer {
+.more-homes .fa-layers {
+	margin: 0 -0.2rem;
+}
+
+.more-homes .fa-circle {
 	transition: all .1s ease-out;
+	transform: scale(0.95);
 }
 
-.more-homes a:hover .fa-outer, .more-homes a:focus .fa-outer {
-	transform: scale(1.1);
+.more-homes a:hover .fa-circle, .more-homes a:focus .fa-circle {
+	transform: scale(1.05);
 	color: $black;
 }
 
 .main-area .job {
 	padding-left: 1.8rem;
 	border-left: 1rem solid tint($maroon, 90%);
-}
-
-.main-area .hire-me {
-	padding-bottom: 4rem;
-}
-
-.main-area .hire-me p, .main-area .hire-me img {
-	margin-bottom: 2rem;
-}
-
-.main-area .larger-text-header {
-	font-size: 2.4rem;
-}
-
-.hire-me hr {
-	margin: 3.5rem 0 3rem 0;
 }
 
 /* Accessibility */
@@ -1398,12 +1390,12 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	margin: 0;
 }
 
-.tt-thumb i {
+.tt-thumb svg {
 	color: $white;
-	right: 1.3rem;
+	right: 1.2rem;
 	position: relative;
 	text-align: center;
-	width: 4rem;
+	width: 4rem !important;
 }
 
 .tooltipster-sidetip .tooltipster-box {
