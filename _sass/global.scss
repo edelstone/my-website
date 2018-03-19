@@ -181,15 +181,15 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	font-size: 6.4rem;
 	line-height: 1.1;
 	font-weight: bold;
-	text-shadow: .4rem .4rem $dark-brown;
-	text-shadow: none;
 	position: relative;
 	left: 0;
 	margin: 0;
 	margin-left: -0.3rem;
   @include breakpoint('small') {
-  	font-size: 4.8rem;
-  	font-size: 11vw;
+  	font-size: 4.2rem;
+  }
+	@include breakpoint('extra-small') {
+  	font-size: 3.6rem;
   }
 }
 
@@ -199,7 +199,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	margin-top: 1.2rem;
 	margin-left: -1.2rem;
   @include breakpoint('small') {
-  	margin-left: -0.8rem;
+  	margin-left: -0.6rem;
   }
 }
 
@@ -212,8 +212,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	padding: 0.6rem 1.2rem;
 	display: inline-block;
   @include breakpoint('small') {
-		margin: -0.2rem 0.5rem -0.2rem -0.5rem;
-		font-size: 1.5rem;
+		padding: 0.4rem 0.6rem;
+	}
+	@include breakpoint('extra-small') {
+		font-size: 1.3rem;
 	}
 
   &:hover, &:focus {
@@ -505,9 +507,12 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	color: $black;
 }
 
-.main-area .job {
-	padding-left: 1.8rem;
-	border-left: 1rem solid tint($maroon, 90%);
+.main-area .contact-info .contact-group {
+	display: inline-block;
+	margin-bottom: 2rem;
+	@include breakpoint('small') {
+		margin-bottom: 0;
+	}
 }
 
 /* Accessibility */
@@ -577,12 +582,13 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .footer .load-time {
-  display: inline-block;
-	margin-bottom: 1.2rem;
+  display: inline;
   margin-right: 0.5rem;
 }
 
 .footer .about-site {
+	margin-top: 1.2rem;
+
   @include breakpoint('small') {
     margin-bottom: 3.5rem;
   }
