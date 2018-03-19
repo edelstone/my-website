@@ -75,6 +75,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	clear: both;
 }
 
+.emoji {
+	margin-left: 0.5rem;
+}
+
 .constrain {
 	max-width: 85rem;
 	margin: auto;
@@ -303,10 +307,6 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	max-width: 5rem;
 }
 
-.main-area .emoji {
-	margin-left: 0.5rem;
-}
-
 .main-area .sub-header {
 	margin-top: 0;
 }
@@ -528,9 +528,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	width: 320px;
 	height: auto;
 	overflow: visible;
-	color: $maroon;
+	color: $white;
 	text-decoration: none;
-	background-color: $yellow;
+	background-color: $purple;
 	text-align: center;
 	padding: 1.5rem;
 	font-size: 1.8rem;
