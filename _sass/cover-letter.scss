@@ -6,8 +6,7 @@
     align-items: center;
     margin: 3rem auto 1rem;
     background: tint($maroon, 95%);
-    max-width: 450px;
-    padding: 2rem;
+    padding: 3rem 2rem;
     border-radius: 3px;
     box-shadow: 0 1px 3px tint($black, 75%);
     @include breakpoint ('small') {
@@ -41,12 +40,6 @@
     }
   }
 
-  .lil-seller {
-    text-align: center;
-    font-size: 1.4rem;
-    margin-bottom: 4rem;
-  }
-
   .reasons-im-a-fit {
     margin-bottom: 5rem;
 
@@ -56,10 +49,6 @@
       text-transform: none;
       letter-spacing: 0;
       line-height: 1.25;
-    }
-
-    .emoji {
-      margin-left: 1rem;
     }
 
     li {
@@ -119,12 +108,6 @@
       text-transform: none;
       letter-spacing: 0;
       line-height: 1.25;
-    }
-
-    .fa-heart {
-      color: $red;
-      font-size: 90%;
-      margin-right: 0.2rem;
     }
 
     ul li {

@@ -274,18 +274,17 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 .main-area h2 {
 	font-weight: bold;
-	text-transform: uppercase;
-	font-size: 2rem;
-	letter-spacing: 1px;
+	font-size: 3.2rem;
 	margin-top: 2rem;
 	margin-bottom: 1.5rem;
+	line-height: 1.25;
 }
 
 .main-area h3 {
 	margin: 0;
 	font-weight: bold;
 	margin-bottom: 1.5rem;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	color: $purple;
 }
 
@@ -300,6 +299,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	background: $pink;
 	height: 7px;
 	max-width: 5rem;
+}
+
+.main-area .emoji {
+	margin-left: 0.5rem;
 }
 
 .main-area .sub-header {
@@ -453,6 +456,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	font-size: 1.8rem;
 	margin: -0.7rem;
 	bottom: 0.1rem
+}
+
+.main-area .fa-heart.fa-stack-1x {
+	color: $red;
 }
 
 .main-area .more-homes {
@@ -616,6 +623,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 .multi-layout, .multi-layout-2 {
 	display: flex;
+	align-items: center;
   @include breakpoint('small') {
 		display: block;
   }
@@ -783,11 +791,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 .main-area .homes h2 {
 	margin-top: 0;
-	background: $purple;
-	display: inline-block;
-	position: relative;
-	padding: 0.3rem 0.8rem;
-	left: -0.8rem;
 }
 
 .main-area .homes a {
@@ -1153,8 +1156,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .title-area-content {
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	padding-top: 3.8rem;
+	padding-bottom: 3.8rem;
   @include breakpoint('small') {
 		padding-top: 3.5rem;
 		padding-bottom: 3.5rem;
@@ -1162,13 +1165,12 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .title-area .portfolio-header {
-	font-size: 2.6rem;
+	font-size: 3.2rem;
 	margin: 0;
 	color: tint($maroon, 80%);
 	text-shadow: 2px 2px 0px tint($maroon, 10%);
 	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	line-height: 1.25;
 }
 
 .title-area .url {
@@ -1298,7 +1300,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 .accordion button {
 	border: none;
 	font-weight: bold;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	line-height: 1.4;
 	color: $purple;
 	padding: 0;
