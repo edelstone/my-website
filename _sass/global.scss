@@ -53,7 +53,7 @@ a:focus {
 	transition: none !important;
 }
 
-h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content, .results, .coming-soon, .lil-seller {
+h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content, .results, .coming-soon {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 }
@@ -377,10 +377,6 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	padding-top: 0.7rem;
 }
 
-.main-area .contact-group p {
-	margin-top: -0.5rem;
-}
-
 .main-area .button {
 	display: inline-block;
 	position: relative;
@@ -469,6 +465,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 .main-area .more-homes.contact-group {
 	text-align: left;
+	margin-top: 0;
 }
 
 .main-area .more-homes a {
@@ -496,7 +493,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 .more-homes a:hover .fa-outer, .more-homes a:focus .fa-outer {
 	transform: scale(1.1);
-	color: $pink;
+	color: $black;
 }
 
 .main-area .job {
@@ -599,9 +596,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .footer .btt {
-  position: relative;
-  top: 0.2rem;
-
   a {
   	background: tint($maroon, 10%);
   	padding: 1.2rem 1.75rem;
@@ -710,6 +704,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 .quick-bio a:hover, .quick-bio a:focus {
 	color: inherit;
+	background: shade($pink, 30%);
+	background: linear-gradient(to bottom, transparent 0, transparent 88%, $pink 88%, $pink 100%)
 }
 
 .main-area .productivity, .main-area .image-overflow {
@@ -881,12 +877,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 /* Writing */
 
 .main-area .writing-title {
-	font-size: 3.2rem;
-	text-transform: none;
-	letter-spacing: 0;
-	font-weight: normal;
-	color: shade($orange, 10%);
-	line-height: 1.25;
+	color: $orange;
 	margin: 3rem 0 0;
 }
 
@@ -923,9 +914,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 .main-area .icon h3 {
 	color: $black;
 	margin-top: 1.8rem;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	font-weight: normal;
 }
 
@@ -1156,11 +1145,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .title-area-content {
-	padding-top: 3.8rem;
-	padding-bottom: 3.8rem;
+	padding-top: 3.6rem;
+	padding-bottom: 4rem;
   @include breakpoint('small') {
-		padding-top: 3.5rem;
-		padding-bottom: 3.5rem;
+		padding-top: 3.2rem;
+		padding-bottom: 3.6rem;
 	}
 }
 

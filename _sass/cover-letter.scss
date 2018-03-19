@@ -30,7 +30,7 @@
       }
     }
 
-    .codepen-logo {
+    .codepen {
       max-width: 220px;
 
       svg {
@@ -45,10 +45,6 @@
 
     h2 {
       color: $orange;
-      font-size: 3.2rem;
-      text-transform: none;
-      letter-spacing: 0;
-      line-height: 1.25;
     }
 
     li {
@@ -95,23 +91,20 @@
         }
       }
     }
-  }
 
-  .stats {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding-top: 4.5rem;
+    .stats {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      padding-top: 4.5rem;
 
-    .productivity-header {
-      margin-bottom: 3.5rem;
-      font-size: 3.2rem;
-      text-transform: none;
-      letter-spacing: 0;
-      line-height: 1.25;
-    }
+      .productivity-header {
+        color: $black;
+        margin-bottom: 3.5rem;
+      }
 
-    ul li {
-      margin-bottom: 1.8rem;
+      ul li {
+        margin-bottom: 1.8rem;
+      }
     }
   }
 }
