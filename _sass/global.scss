@@ -453,7 +453,7 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 }
 
 .main-area .fa-layers {
-	.fa-heart:first-child {
+	.fa-heart:nth-child(2) {
 		color: $red;
 	}
 }
