@@ -792,6 +792,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	color: tint($maroon, 90%);
 	background: shade($orange, 30%);
 	background: linear-gradient(to bottom, transparent 0, transparent 83%, $orange 83%, $orange 100%);
+
+	&:hover, &:focus {
+		background: shade($pink, 30%);
+		background: linear-gradient(to bottom, transparent 0, transparent 83%, $pink 83%, $pink 100%);
+	}
 }
 
 .main-area .thanks {
