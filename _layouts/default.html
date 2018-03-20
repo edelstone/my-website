@@ -44,7 +44,8 @@
 
   </header>
 
-  <section class="bg-overlap {{ page.portfolio-header }}">
+  {% if page.portfolio-title %}
+  <section class="bg-overlap">
   	<div class="title-area {{ page.title-area-class }}">
   		<div class="title-area-wrapper">
   			<div class="title-area-content constrain">
@@ -53,13 +54,15 @@
   		</div>
   	</div>
   </section>
+  {% endif %}
 
   <section id="content" class="main-area">
     {{ content }}
   </section>
 
   <footer class="footer">
-    <div class="choices {{ page.footer-choices }}">
+    {% if page.button-prev-text %}
+    <div class="choices">
   		<div class="multi-layout collapse">
   			<div class="col col-1">
   				<a class="button-prev" href="{{ page.button-prev-link }}">{{ page.button-prev-text }}</a>
@@ -69,6 +72,7 @@
   			</div>
   		</div>
   	</div>
+    {% endif %}
   	<div class="footer-content constrain">
   		<div class="footer-message">
         <div class="load-wrapper">
