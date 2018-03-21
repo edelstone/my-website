@@ -964,16 +964,16 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         background-position-y: -25%;
       }
       .project-brickftp-website {
-        background-position-y: -12%;
+        background-position-y: -15%;
       }
       .project-txst-homepage {
         background-position-y: -20%;
       }
       .project-txst-brand {
-        background-position-y: -90%;
+        background-position-y: -110%;
       }
       .project-pcf-website {
-        background-position-y: -15%;
+        background-position-y: -20%;
       }
     }
 
@@ -1022,7 +1022,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
     .project {
       color: transparentize($white, .05);
-      padding: 2.5rem 3rem 3rem;
+      padding: 3.5rem 3rem 4rem;
       transition: all .2s cubic-bezier(0.17, 1.26, 0.68, 1.51);
       @include breakpoint('medium') {
       	background: none !important;
@@ -1064,16 +1064,16 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         background: url(/images/mockup-txst-standard.png) 480px -40%/550px no-repeat;
       }
       &-brickftp-website {
-        background: url(/images/mockup-brickftp-homepage.png) 520px -20%/670px no-repeat;
+        background: url(/images/mockup-brickftp-homepage.png) 520px -25%/670px no-repeat;
       }
       &-txst-homepage {
         background: url(/images/mockup-txst-homepage.png) 400px -30%/700px no-repeat;
       }
       &-txst-brand {
-        background: url(/images/mockup-txst-styleguide.png) 510px -115%/510px no-repeat;
+        background: url(/images/mockup-txst-styleguide.png) 510px -135%/550px no-repeat;
       }
       &-pcf-website {
-        background: url(/images/mockup-pcf-website.png) 530px -30%/725px no-repeat;
+        background: url(/images/mockup-pcf-website.png) 530px -40%/725px no-repeat;
       }
     }
   }
