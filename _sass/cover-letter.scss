@@ -56,40 +56,7 @@
     }
 
     .testimonials {
-      padding: 0;
-      text-align: center;
-      margin-top: 3rem;
-
-      .card {
-        padding: 3rem 2rem;
-        background: tint($maroon, 95%);
-        border-radius: 3px;
-        box-shadow: 0 1px 3px tint($black, 75%);
-        font-size: 2rem;
-
-        img {
-          border-radius: 50%;
-          max-width: 110px;
-          display: block;
-          margin: auto;
-        }
-
-        h3 {
-          margin-top: 0.5rem;
-          margin-bottom: 0;
-          font-size: 2.4rem;
-        }
-
-        h4 {
-          margin-top: 0;
-          font-size: 1.2rem;
-        }
-
-        p {
-          line-height: 1.25;
-          margin-bottom: 0;
-        }
-      }
+      margin-top: 3.2rem;
     }
 
     .stats {

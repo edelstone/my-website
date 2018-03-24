@@ -1274,6 +1274,19 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	height: 8rem;
 }
 
+.sg-section .title-area {
+	 opacity: 1;
+	 padding: 0;
+	 margin: 0;
+}
+
+.sg-section .productivity {
+	margin: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+}
+
 .color-modal .featherlight-content {
 	height: 75%;
 	min-width: 90%;
@@ -1281,6 +1294,96 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 .color-modal .featherlight-inner {
 	min-height: 100%;
+}
+
+#color-1 {
+	background: tint($orange, 60%);
+}
+
+#color-2 {
+	background: $orange;
+}
+
+#color-3 {
+	background: $pink;
+}
+
+#color-4 {
+	background: $purple;
+}
+
+#color-5 {
+	background: $maroon;
+}
+
+#color-6 {
+	background: $dark-brown;
+}
+
+#color-7 {
+	background: $yellow;
+}
+
+#color-8 {
+	background: $green;
+}
+
+#color-9 {
+	background: $blue;
+}
+
+#color-10 {
+	background: $white;
+}
+
+#color-11 {
+	background: tint($maroon, 90%);
+}
+
+#color-12 {
+	background: tint($maroon, 80%);
+}
+
+#color-13 {
+	background: $black;
+}
+
+/* Cards */
+
+.cards {
+	padding: 0;
+	text-align: center;
+
+	.card {
+		padding: 3rem 2rem;
+		background: tint($maroon, 95%);
+		border-radius: 3px;
+		box-shadow: 0 1px 3px tint($black, 75%);
+		font-size: 2rem;
+
+		img {
+			border-radius: 50%;
+			max-width: 110px;
+			display: block;
+			margin: auto;
+		}
+
+		h3 {
+			margin-top: 0.7rem;
+			margin-bottom: 0.3rem;
+			line-height: 1.25;
+		}
+
+		h4 {
+			margin-top: 0;
+			font-size: 1.2rem;
+		}
+
+		p {
+			line-height: 1.25;
+			margin-bottom: 0;
+		}
+	}
 }
 
 /* Accordion */
