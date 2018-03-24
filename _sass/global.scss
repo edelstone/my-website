@@ -680,8 +680,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	line-height: 1.32;
   text-shadow: 1px 1px 0px shade($dark-brown, 20%);
   @include breakpoint ('small') {
-    padding: 2.5rem 0 4.5rem;
-    font-size: 3.6rem;
+    padding: 1rem 0 2.5rem;
+    font-size: 3.2rem;
+		line-height: 1.25;
   }
 }
 
