@@ -18,6 +18,19 @@ email: michael.edelstone@gmail.com
 description: I’m a pretty happy designer focusing on digital products and brands. I like dogs, national parks, and making useful things with talented people.
 url: "https://michaeledelstone.com"
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      buttons: "yes"
+      button-prev-text: "About me"
+      button-prev-link: "/about"
+      button-next-text: "Recent work"
+      button-next-link: "/portfolio"
+
 # Build settings
 markdown: kramdown
 livereload: true
