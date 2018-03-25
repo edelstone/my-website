@@ -975,6 +975,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       .project-pcf-website {
         background-position-y: -20%;
       }
+			.project-sg {
+        background-position-y: -40%;
+      }
     }
 
     &.no-effects {
@@ -1024,6 +1027,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       color: transparentize($white, .05);
       padding: 3.5rem 3rem 4rem;
       transition: all .2s cubic-bezier(0.17, 1.26, 0.68, 1.51);
+			border-bottom-right-radius: 3px;
       @include breakpoint('medium') {
       	background: none !important;
       }
@@ -1061,7 +1065,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         background: url(/images/mockup-brickftp-app.png) 525px -20%/720px no-repeat;
       }
       &-txst-cms {
-        background: url(/images/mockup-txst-standard.png) 480px -40%/550px no-repeat;
+        background: url(/images/mockup-txst-standard.png) 480px -40%/570px no-repeat;
       }
       &-brickftp-website {
         background: url(/images/mockup-brickftp-homepage.png) 520px -25%/670px no-repeat;
@@ -1074,6 +1078,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       }
       &-pcf-website {
         background: url(/images/mockup-pcf-website.png) 530px -40%/725px no-repeat;
+      }
+			&-sg {
+        background: url(/images/cosmos.png) 530px -70%/450px no-repeat;
       }
     }
   }

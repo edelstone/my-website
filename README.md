@@ -14,7 +14,7 @@ This is the source code for [michaeledelstone.com](https://michaeledelstone.com)
 
 * Responsive and future-thinking
 * Unique, fun, professional
-* Semantic markup and stylesheets, with minimal scripting
+* Semantic, valid markup and stylesheets, with minimal scripting
 * Universal and accessible design
 * Interesting and honest content
 * Animated feel with thoughtful colors, textures, and type
