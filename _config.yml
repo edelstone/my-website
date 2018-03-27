@@ -31,6 +31,9 @@ defaults:
       button-next-text: "Recent work"
       button-next-link: "/portfolio"
 
+gems:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
 livereload: true
