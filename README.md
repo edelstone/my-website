@@ -1,4 +1,4 @@
-# [<img src="https://michaeledelstone.com/favicon.ico" width="25px" />](https://michaeledelstone.com) &nbsp;[My Website and Portfolio](https://michaeledelstone.com)
+# [<img src="https://michaeledelstone.com/favicon.ico?v=kPxym2MxM2" width="25px" />](https://michaeledelstone.com) &nbsp;[My Website and Portfolio](https://michaeledelstone.com)
 
 This is the source code for [michaeledelstone.com](https://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best teams around.
 
