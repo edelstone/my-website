@@ -6,12 +6,12 @@
 
 ::-moz-selection {
 	text-shadow: none;
-	background: tint($orange, 60%);
+	background: $yellow;
 }
 
 ::selection {
 	text-shadow: none;
-	background: tint($orange, 60%);
+	background: $yellow;
 }
 
 html {
@@ -49,10 +49,6 @@ svg {
   height: 100%;
 }
 
-a:focus {
-	transition: none !important;
-}
-
 h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content, .results, .coming-soon {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
@@ -60,14 +56,6 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 .not-really-a-link {
   cursor: not-allowed;
-}
-
-.full-width {
-	width: 100%;
-}
-
-.clearfix {
-	clear: both;
 }
 
 .emoji {
@@ -1202,7 +1190,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	margin-left: -50vw;
 	left: 50%;
 	position: relative;
-	border-bottom: 1px solid tint($maroon, 90%);
   @include breakpoint('small') {
   	padding: 4rem 0 1.5rem;
   }
