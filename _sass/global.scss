@@ -54,6 +54,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 	font-weight: normal;
 }
 
+a:focus {
+	transition: none !important;
+}
+
 .not-really-a-link {
   cursor: not-allowed;
 }
