@@ -33,10 +33,13 @@
     .company-logo {
       max-width: 220px;
 
+      &-small {
+        max-width: 150px;
+      }
+
       svg {
         height: 45px;
         display: block;
-        border-radius: 5px;
       }
     }
   }
@@ -52,12 +55,29 @@
       margin-bottom: 1.2rem;
     }
 
+    .inline {
+      display: inline;
+    }
+
+    .faux-link {
+    	color: $black;
+    	background: tint($orange, 50%);
+    	background: linear-gradient(to bottom, transparent 0, transparent 83%, tint($orange, 50%) 83%, tint($orange, 50%) 100%);
+    	text-decoration: none;
+
+      &:hover, &:focus {
+    	  color: shade($orange, 10%);
+        cursor: pointer;
+      }
+    }
+
     .quick-list li {
       margin-bottom: 0.5rem;
     }
 
     .testimonials {
       margin-top: 3.2rem;
+      margin-bottom: 3.2rem;
     }
 
     .stats {
