@@ -42,7 +42,3 @@ I am thankful to these incredible designers for inspiration and strategic ideas:
 * [Klare Frank](http://klare.io/)
 * [Tyler Gaw](https://tylergaw.com/)
 * [Jason Santa Maria](http://jasonsantamaria.com/)
-
-## Using my code
-
-Have at it. Please clone and use for any purpose, or create an issue/pull request if you'd like to contribute.
