@@ -21,7 +21,7 @@ This is the source code for [michaeledelstone.com](https://michaeledelstone.com)
 
 ## How it's built
 
-I developed the site without frameworks or a content management system. It's all hand-coded HTML and CSS, with a handful of scripts and plugins I borrowed from various open source projects. It's generated using Jekyll, hosted on GitHub Pages, and CDN'd/encrypted/optimized via Cloudfare.
+I developed the site without frameworks or a content management system. It's all hand-coded HTML and CSS, with a handful of scripts and plugins I borrowed from various open source projects. It's generated using Jekyll and CDN'd/encrypted/optimized via Cloudfare.
 
 Many thanks to the digital community for these bad boys:
 
