@@ -37,6 +37,12 @@
         max-width: 150px;
       }
 
+      &-square {
+        max-width: 110px;
+        display: flex;
+        align-items: center;
+      }
+
       svg {
         height: 45px;
         border-radius: 3px;
