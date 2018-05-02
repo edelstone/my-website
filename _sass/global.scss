@@ -1057,7 +1057,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       &-header {
         color: transparentize($white, .05);
         font-size: 3.2rem;
-        margin-bottom: 1.2rem;
+        margin-top: 0;
+				margin-bottom: 1.2rem;
 				line-height: 1.25;
       }
 
