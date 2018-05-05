@@ -106,13 +106,11 @@ a:focus {
 	display: block;
 	padding: 1.1rem 0 0.9rem;
 	transition: all 0.2s ease-out;
-	box-shadow: 0 -1.9rem $dark-brown inset;
 }
 
 .signature a:hover, .signature a:focus {
 	background: $purple;
 	color: $white;
-	box-shadow: 0 -1.9rem shade($purple, 10%) inset;
 }
 
 .signature .my-name {
@@ -123,12 +121,7 @@ a:focus {
 	display: inline-block;
 	position: relative;
 	bottom: 0;
-	transition: background .25s ease-out, transform 0.08s ease-out, bottom 0.08s ease-out;
-	border-radius: 1px;
-}
-
-.signature a:hover .sig-letter, .signature a:focus .sig-letter {
-	background: shade($purple, 10%);
+	transition: transform 0.08s ease-out, bottom 0.08s ease-out;
 }
 
 .signature a:hover .sig-letter:nth-child(4n+1), .signature a:focus .sig-letter:nth-child(4n+1) {
