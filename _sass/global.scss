@@ -1467,7 +1467,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	color: $black;
 	font-size: 2rem;
 	outline: none;
-	background: transparentize($white, .2);
+	background: transparentize($white, .6);
   border-radius: 0;
   cursor: default;
 }
