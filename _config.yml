@@ -36,7 +36,6 @@ gems:
 
 # Build settings
 markdown: kramdown
-livereload: true
 sass:
   sass_dir: _sass
   style: compressed
