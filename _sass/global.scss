@@ -1464,13 +1464,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 .featherlight .featherlight-close-icon {
 	line-height: 28px;
 	width: 28px;
-	color: $black;
+	color: $dark-brown;
 	font-size: 2rem;
-	outline: none;
 	background: transparentize($white, .4);
   border-radius: 0;
   cursor: default;
-	font-weight: bold;
 }
 
 .featherlight, .featherlight .featherlight-content {
