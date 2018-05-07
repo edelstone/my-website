@@ -15,8 +15,8 @@ $('.tooltip').tooltipster({
 
 // Featherlight settings
 $.extend($.featherlight.defaults, {
-  openSpeed: 100,
-  closeSpeed: 100,
+  openSpeed: 200,
+  closeSpeed: 200,
 	closeOnClick: 'anywhere',
 	closeIcon: '&#10006;'
 });
