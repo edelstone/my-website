@@ -13,6 +13,15 @@ $('.tooltip').tooltipster({
 });
 
 
+// Featherlight settings
+$.extend($.featherlight.defaults, {
+  openSpeed: 200,
+  closeSpeed: 200,
+	closeOnClick: 'anywhere',
+	closeIcon: '&#10006;'
+});
+
+
 // Initialize accordion
 $('.js-accordion').accordion();
 
