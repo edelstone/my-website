@@ -22,6 +22,13 @@ $.extend($.featherlight.defaults, {
 });
 
 
+// Make enter key trigger click on faux links
+$(document).on('keyup', '.faux-link',function(e){
+    if(e.which==13 || e.which==32)
+        $(this).click()
+});
+
+
 // Initialize accordion
 $('.js-accordion').accordion();
 
