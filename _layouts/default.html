@@ -13,6 +13,9 @@
     {% include favicons.html %}
     {% include og-metadata.html %}
     <link rel="stylesheet" href="/css/main.css">
+    {% if page.print %}
+    <link rel="stylesheet" href="/css/print.css">
+    {% endif %}
   </head>
 
   <body>

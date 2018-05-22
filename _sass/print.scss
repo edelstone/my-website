@@ -1,0 +1,83 @@
+@media print {
+
+  @page {
+    size: Letter;
+    margin: 18mm 22mm;
+  }
+
+  html {
+    font-size: 60%;
+  }
+
+  .constrain {
+    max-width: 100%;
+  }
+
+  .main-area .much-text {
+    padding: 0;
+  }
+
+  .main-area a {
+    text-decoration: underline;
+    background: none;
+
+    &:hover, &:focus {
+      color: $black;
+    }
+  }
+
+  .hire-me .reasons-im-a-fit .faux-link {
+    background: none;
+
+    &:hover, &:focus {
+      color: $black;
+    }
+  }
+
+  .header, .hire-me .match-made-in-heaven, .emoji, .what-others-are-saying, .check-me-out-elsewhere, .footer {
+    display: none;
+  }
+
+  .hire-me .reasons-im-a-fit .stats {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    background: $white;
+  }
+
+  .hire-me .reasons-im-a-fit .stats ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .main-area .much-text .first-header {
+    margin-top: 0;
+  }
+
+  .hire-me .reasons-im-a-fit h2, .main-area .important-updates .fa-li, .main-area .fa-layers .fa-heart:nth-child(2) {
+    color: $black;
+  }
+
+  .hire-me .reasons-im-a-fit .stats .productivity-header {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .productivity-header.constrain, .multi-layout.constrain {
+    padding: 0;
+    display: block;
+  }
+
+  .multi-layout .col {
+    width: 100%;
+    margin: 0;
+  }
+
+  .main-area .important-updates {
+    margin-left: 4.5rem;
+    margin-bottom: 0;
+  }
+
+}
