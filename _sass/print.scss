@@ -9,8 +9,18 @@
     font-size: 58.5%;
   }
 
+  html, body {
+    background: #fff !important;
+  }
+
   .constrain {
     max-width: 100%;
+  }
+
+  .intro-wrapper {
+    background: none;
+    box-shadow: none;
+    color: $black;
   }
 
   .main-area .much-text {
@@ -34,7 +44,7 @@
     }
   }
 
-  .header, .hire-me .match-made-in-heaven, .emoji, .what-others-are-saying, .check-me-out-elsewhere, .footer {
+  nav, .signature, .hire-me .match-made-in-heaven, .emoji, .what-others-are-saying, .check-me-out-elsewhere, .footer {
     display: none;
   }
 
@@ -51,10 +61,6 @@
     margin-bottom: 0.5rem;
   }
 
-  .main-area .much-text .first-header {
-    margin-top: 0;
-  }
-
   .hire-me .reasons-im-a-fit h2, .main-area .important-updates .fa-li, .main-area .fa-layers .fa-heart:nth-child(2) {
     color: $black;
   }
@@ -65,7 +71,7 @@
     text-align: left;
   }
 
-  .productivity-header.constrain, .multi-layout.constrain {
+  .constrain {
     padding: 0;
     display: block;
   }
@@ -76,7 +82,7 @@
   }
 
   .main-area .important-updates {
-    margin-left: 4.5rem;
+    margin-left: 5rem;
     margin-bottom: 0;
   }
 
