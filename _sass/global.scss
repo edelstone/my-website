@@ -1476,12 +1476,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .featherlight .featherlight-content {
-	border-bottom: none;
+	border: 0.5rem solid $white;
 	padding: 0;
 }
 
 .featherlight .featherlight-inner {
-	border: 0.5rem solid $white;
 }
 
 /* Tooltips */
