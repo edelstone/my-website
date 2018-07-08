@@ -71,6 +71,14 @@ a:focus {
 	margin: auto;
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
+	@include breakpoint('small') {
+		padding-left: 2rem;
+		padding-right: 2rem;
+  }
+	@include breakpoint('extra-small') {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+  }
 }
 
 .button-arrow {
@@ -1411,6 +1419,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	color: $purple;
 	padding: 0;
 	background: transparent;
+	text-align: left;
 }
 
 .accordion__panel {

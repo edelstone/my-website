@@ -25,8 +25,12 @@ header: Style guide
 				<li><a href="#toc">Table of contents</a></li>
 				<li><a href="#feature-title">Feature title</a></li>
 				<li><a href="#feature-list">Feature list</a></li>
-				<li><a href="#portfolio">Portfolio piece</a>
-				<li><a href="#cards">Cards</a></li>
+				<li><a href="#cards">Cards</a>
+					<ul>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#testimonials">Testimonials</a></li>
+					</ul>
+				</li>
 				<li><a href="#image-caption">Image + caption</a></li>
 			</ul>
 		</div>
@@ -317,44 +321,49 @@ header: Style guide
 			</div>
 		</div>
 
-		<div id="portfolio" class="sg-section portfolio">
-			<h3 class="sg-header sg-block">Portfolio piece</h3>
-			<a href="http://www.imdb.com/title/tt0081846/" class="project-wrapper project-wrapper-1">
-				<div class="project project-sg">
-					<div class="project-content">
-						<h3 class="project-header">Cosmos</h3>
-						<p class="project-brief">An awe-inspiring cosmic journey to the edge of the Universe and back aboard the spaceship of the imagination.</p>
-						<div class="button project-button">View project<span class="button-arrow">&#10142;</span></div>
-					</div>
-				</div>
-			</a>
-		</div>
-
 		<div id="cards" class="sg-section">
+
 			<h3 class="sg-header sg-block">Cards</h3>
-			<div class="constrain multi-layout-2 cards">
-				<div class="col col-1">
-					<div class="card">
-						<img src="/images/sagan.jpg" alt="Carl Sagan">
-						<h3>Carl Sagan</h3>
-						<h4>Astronomer</h4>
-						<p>“For small creatures such as we the vastness is bearable only through love.”</p>
+
+			<div id="portfolio" class="sg-rows portfolio">
+				<h4>Portfolio</h4>
+				<a href="http://www.imdb.com/title/tt0081846/" class="project-wrapper project-wrapper-1">
+					<div class="project project-sg">
+						<div class="project-content">
+							<h3 class="project-header">Cosmos</h3>
+							<p class="project-brief">An awe-inspiring cosmic journey to the edge of the Universe and back aboard the spaceship of the imagination.</p>
+							<div class="button project-button">View project<span class="button-arrow">&#10142;</span></div>
+						</div>
 					</div>
-				</div>
-				<div class="col col-2">
+				</a>
+			</div>
+
+			<div id="testimonials" class="sg-rows">
+				<h4>Testimonials</h4>
+				<div class="constrain multi-layout-2 cards">
+					<div class="col col-1">
 						<div class="card">
-						<img src="/images/hawking.jpg" alt="Stephen Hawking">
-						<h3>Stephen Hawking</h3>
-						<h4>Cosmologist</h4>
-						<p>“The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.”</p>
+							<img src="/images/sagan.jpg" alt="Carl Sagan">
+							<h3>Carl Sagan</h3>
+							<h4>Astronomer</h4>
+							<p>“For small creatures such as we the vastness is bearable only through love.”</p>
+						</div>
 					</div>
-				</div>
-				<div class="col col-3">
-					<div class="card">
-						<img src="/images/greene.jpg" alt="Brian Greene">
-						<h3>Brian Greene</h3>
-						<h4>Physicist</h4>
-						<p>“No matter how hard you try to teach your cat general relativity, you’re going to fail.”</p>
+					<div class="col col-2">
+							<div class="card">
+							<img src="/images/hawking.jpg" alt="Stephen Hawking">
+							<h3>Stephen Hawking</h3>
+							<h4>Cosmologist</h4>
+							<p>“The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.”</p>
+						</div>
+					</div>
+					<div class="col col-3">
+						<div class="card">
+							<img src="/images/greene.jpg" alt="Brian Greene">
+							<h3>Brian Greene</h3>
+							<h4>Physicist</h4>
+							<p>“No matter how hard you try to teach your cat general relativity, you’re going to fail.”</p>
+						</div>
 					</div>
 				</div>
 			</div>

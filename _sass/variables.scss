@@ -24,7 +24,7 @@ $black: #111;
     @media only screen and (max-width: 50em) { @content; }
   }
   @else if $point == 'small' {
-    @media only screen and (max-width: 35.5em) { @content; }
+    @media only screen and (max-width: 40em) { @content; }
   }
   @else if $point == 'extra-small' {
     @media only screen and (max-width: 20em) { @content; }
