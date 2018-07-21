@@ -472,6 +472,7 @@ a:focus {
 .more-homes ul {
 	list-style-type: none;
 	padding: 0 !important;
+	margin-bottom: 0;
 }
 
 .more-homes li {
@@ -705,7 +706,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	left: 50%;
 	right: 50%;
 	margin: 0 -50vw;
-	padding: 5.5rem 0 5rem;
+	padding: 5.5rem 0;
   @include breakpoint('small') {
   	padding-bottom: 4rem;
   }
@@ -761,7 +762,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 .main-area .skills {
 	margin-top: 4.5rem;
 	margin-bottom: -6rem;
-	border-bottom: none;
 }
 
 .main-area .homes {
