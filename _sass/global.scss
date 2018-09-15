@@ -11,7 +11,11 @@
 
 ::selection {
 	text-shadow: none;
-	background: $yellow;
+	background: tint($yellow, 50%);
+}
+
+*:focus {
+	outline: 5px solid transparentize($blue, .4);
 }
 
 html {
@@ -376,27 +380,28 @@ a:focus {
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	padding: 1.1rem 2.1rem 1rem;
+	padding: 1.2rem 2.4rem calc(1.2rem + 3px);
 	background: $orange;
 	color: $near-white;
-	box-shadow: 0 5px shade($orange, 30%);
+	box-shadow: inset 0 -5px transparentize($near-black, .7);
 	font-size: 1.6rem;
 	border-radius: 3px;
 	text-shadow: 1px 1px 0 shade($orange, 30%);
 	margin: 0 1.5rem 1rem 0;
-}
 
-.main-area .button:hover, .main-area .button:focus {
-	background: $orange;
-	color: $near-white;
-	border-color: shade($orange, 10%);
-	box-shadow: 0 5px shade($orange, 30%), 0 8px 10px -5px $maroon;
-}
+	&:hover,
+	&:focus {
+		background: $orange;
+		color: $near-white;
+		border-color: shade($orange, 10%);
+		box-shadow: inset 0 -5px transparentize($near-black, .7), 0 8px 10px -10px $maroon;
+	}
 
-.main-area .button:active {
-	box-shadow: 0 5px shade($orange, 30%);
-	background: shade($orange, 10%);
-	background: linear-gradient(to bottom right, shade($orange, 10%), $orange);
+	&:active {
+		box-shadow: inset 0 -5px transparentize($near-black, .7);
+		background: shade($orange, 10%);
+		background: linear-gradient(to bottom right, shade($orange, 10%), $orange);
+	}
 }
 
 .main-area .button-fat-guy {
@@ -1478,6 +1483,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	background: transparentize($near-black, .5);
   border-radius: 0;
   cursor: default;
+	top: 5px;
+	right: 5px;
 }
 
 .featherlight, .featherlight .featherlight-content {
