@@ -973,8 +973,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       box-shadow: 0 4px 10px transparentize($near-black, .75);
 
       .button {
-        background: transparentize($near-white, 0.92);
-        background: repeating-linear-gradient(45deg, transparentize($near-white, .7), transparentize($near-white, .7) 1px, transparent 1px, transparent 4px);
+        background: transparentize($near-white, 0.88);
         color: $near-white;
       }
 
@@ -1073,13 +1072,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       }
 
       &-button {
-        background: transparent;
         text-shadow: 1px 1px 0 transparentize($near-black, .7);
         box-shadow: none;
         margin: 0;
-        padding-bottom: 1.1rem;
+        padding-bottom: 1.2rem;
         background: transparentize($near-white, 0.92);
-        background: repeating-linear-gradient(45deg, transparentize($near-white, .8), transparentize($near-white, .8) 1px, transparent 1px, transparent 4px);
         color: transparentize($near-white, .05);
       }
 
