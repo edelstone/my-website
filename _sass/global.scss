@@ -36,8 +36,8 @@ body {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
-	background: $white;
-	color: $black;
+	background: $near-white;
+	color: $near-black;
 }
 
 img {
@@ -118,7 +118,7 @@ a:focus {
 
 .signature a:hover, .signature a:focus {
 	background: $purple;
-	color: $white;
+	color: $near-white;
 }
 
 .signature .my-name {
@@ -156,7 +156,7 @@ a:focus {
 
 .intro-wrapper {
 	background: $maroon;
-	color: $white;
+	color: $near-white;
 	box-shadow: 0 0.5rem tint($maroon, 10%);
 }
 
@@ -207,7 +207,7 @@ a:focus {
 	}
 
   &:hover, &:focus {
-    color: $white;
+    color: $near-white;
   }
 }
 
@@ -229,7 +229,7 @@ a:focus {
 }
 
 .main-area a {
-	color: $black;
+	color: $near-black;
 	background: tint($orange, 50%);
 	background: linear-gradient(to bottom, transparent 0, transparent 83%, tint($orange, 50%) 83%, tint($orange, 50%) 100%);
 	text-decoration: none;
@@ -378,7 +378,7 @@ a:focus {
 	text-decoration: none;
 	padding: 1.1rem 2.1rem 1rem;
 	background: $orange;
-	color: $white;
+	color: $near-white;
 	box-shadow: 0 5px shade($orange, 30%);
 	font-size: 1.6rem;
 	border-radius: 3px;
@@ -388,7 +388,7 @@ a:focus {
 
 .main-area .button:hover, .main-area .button:focus {
 	background: $orange;
-	color: $white;
+	color: $near-white;
 	border-color: shade($orange, 10%);
 	box-shadow: 0 5px shade($orange, 30%), 0 8px 10px -5px $maroon;
 }
@@ -481,7 +481,7 @@ a:focus {
 
 .more-homes {
 	.svg-inline--fa:nth-child(2) {
-		color: $white;
+		color: $near-white;
 	}
 }
 
@@ -496,7 +496,7 @@ a:focus {
 
 .more-homes a:hover .fa-circle, .more-homes a:focus .fa-circle {
 	transform: scale(1.05);
-	color: $black;
+	color: $near-black;
 }
 
 .main-area .contact-info .contact-group {
@@ -526,7 +526,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	width: 320px;
 	height: auto;
 	overflow: visible;
-	color: $white;
+	color: $near-white;
 	text-decoration: none;
 	background-color: $purple;
 	text-align: center;
@@ -555,7 +555,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .footer a:hover, .footer a:focus {
-	color: $white;
+	color: $near-white;
 }
 
 .footer-content {
@@ -599,7 +599,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
     }
 
     &:hover, &:focus {
-      color: $white;
+      color: $near-white;
     }
   }
 }
@@ -815,7 +815,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .choices a:hover, .choices a:focus {
-	color: $white;
+	color: $near-white;
 	bottom: 6px;
 	z-index: 9999;
 }
@@ -927,7 +927,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .main-area .icon h3 {
-	color: $black;
+	color: $near-black;
 	margin-top: 1.8rem;
 	font-size: 1.8rem;
 	font-weight: normal;
@@ -965,12 +965,12 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
     }
 
     &:hover, &:focus {
-      box-shadow: 0 4px 10px transparentize($black, .75);
+      box-shadow: 0 4px 10px transparentize($near-black, .75);
 
       .button {
-        background: transparentize($white, 0.92);
-        background: repeating-linear-gradient(45deg, transparentize($white, .7), transparentize($white, .7) 1px, transparent 1px, transparent 4px);
-        color: $white;
+        background: transparentize($near-white, 0.92);
+        background: repeating-linear-gradient(45deg, transparentize($near-white, .7), transparentize($near-white, .7) 1px, transparent 1px, transparent 4px);
+        color: $near-white;
       }
 
       .project-brickftp-app {
@@ -1002,8 +1002,8 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         box-shadow: none;
 
         .button {
-          background: repeating-linear-gradient(45deg, transparentize($white, .8), transparentize($white, .8) 1px, transparent 1px, transparent 4px);
-          color: transparentize($white, .05);
+          background: repeating-linear-gradient(45deg, transparentize($near-white, .8), transparentize($near-white, .8) 1px, transparent 1px, transparent 4px);
+          color: transparentize($near-white, .05);
         }
 
         .project-brickftp-app, .project-brickftp-website {
@@ -1023,14 +1023,14 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       justify-content: center;
       flex-direction: column;
       text-align: center;
-      background: transparentize($white, .3);
+      background: transparentize($near-white, .3);
 
       h3 {
         margin: 0;
-				color: $white;
+				color: $near-white;
 
         span {
-          background: $black;
+          background: $near-black;
           padding: 0.3rem 1rem 0.6rem;
           -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
@@ -1040,7 +1040,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
     }
 
     .project {
-      color: transparentize($white, .05);
+      color: transparentize($near-white, .05);
       padding: 3.5rem 3rem 4rem;
       transition: all .2s cubic-bezier(0.17, 1.26, 0.68, 1.51);
 			border-bottom-right-radius: 3px;
@@ -1056,7 +1056,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
       }
 
       &-header {
-        color: transparentize($white, .05);
+        color: transparentize($near-white, .05);
         font-size: 3.2rem;
         margin-top: 0;
 				margin-bottom: 1.2rem;
@@ -1069,13 +1069,13 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
       &-button {
         background: transparent;
-        text-shadow: 1px 1px 0 transparentize($black, .7);
+        text-shadow: 1px 1px 0 transparentize($near-black, .7);
         box-shadow: none;
         margin: 0;
         padding-bottom: 1.1rem;
-        background: transparentize($white, 0.92);
-        background: repeating-linear-gradient(45deg, transparentize($white, .8), transparentize($white, .8) 1px, transparent 1px, transparent 4px);
-        color: transparentize($white, .05);
+        background: transparentize($near-white, 0.92);
+        background: repeating-linear-gradient(45deg, transparentize($near-white, .8), transparentize($near-white, .8) 1px, transparent 1px, transparent 4px);
+        color: transparentize($near-white, .05);
       }
 
       &-brickftp-app {
@@ -1293,7 +1293,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 .sg-section.grid .col {
 	background: tint($maroon, 80%);
-	border: 1px solid tint($black, 65%);
+	border: 1px solid tint($near-black, 65%);
 	height: 8rem;
 }
 
@@ -1356,7 +1356,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 #color-10 {
-	background: $white;
+	background: $near-white;
 }
 
 #color-11 {
@@ -1368,7 +1368,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 #color-13 {
-	background: $black;
+	background: $near-black;
 }
 
 /* Cards */
@@ -1381,7 +1381,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 		padding: 3rem 2rem;
 		background: tint($maroon, 95%);
 		border-radius: 3px;
-		box-shadow: 0 1px 3px tint($black, 75%);
+		box-shadow: 0 1px 3px tint($near-black, 75%);
 		font-size: 2rem;
 
 		img {
@@ -1473,9 +1473,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 .featherlight .featherlight-close-icon {
 	height: 4rem;
 	width: 4rem;
-	color: $white;
+	color: $near-white;
 	font-size: 2.5rem;
-	background: transparentize($black, .5);
+	background: transparentize($near-black, .5);
   border-radius: 0;
   cursor: default;
 }
@@ -1485,7 +1485,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .featherlight .featherlight-content {
-	border: 0.5rem solid $white;
+	border: 0.5rem solid $near-white;
 	padding: 0;
 }
 
@@ -1519,7 +1519,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .tt-thumb svg {
-	color: $white;
+	color: $near-white;
 	right: 1.2rem;
 	position: relative;
 	text-align: center;
@@ -1533,22 +1533,22 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .tooltipster-sidetip .tooltipster-content {
-	color: $black;
+	color: $near-black;
 	padding: 0;
 	font-size: 1.2rem;
   border-radius: 3px;
 }
 
 .tooltipster-sidetip .tooltipster-content a {
-	background: $white;
-	color: $black;
+	background: $near-white;
+	color: $near-black;
 	text-decoration: none;
 	display: block;
 	padding: 1.5rem 2rem 1.5rem 2.8rem;
 }
 
 .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {
-	border-top-color: $white;
+	border-top-color: $near-white;
 }
 
 .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {
@@ -1556,11 +1556,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {
-	border-bottom-color: $white;
+	border-bottom-color: $near-white;
 }
 
 .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {
-	border-left-color: $white;
+	border-left-color: $near-white;
 }
 
 // Brand colors, so I don't bother with variables.

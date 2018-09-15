@@ -8,7 +8,7 @@
     background: tint($maroon, 95%);
     padding: 3rem 2rem;
     border-radius: 3px;
-    box-shadow: 0 1px 3px tint($black, 75%);
+    box-shadow: 0 1px 3px tint($near-black, 75%);
     @include breakpoint ('small') {
       flex-direction: column;
     }
@@ -66,7 +66,7 @@
     }
 
     .faux-link {
-    	color: $black;
+    	color: $near-black;
     	background: tint($orange, 50%);
     	background: linear-gradient(to bottom, transparent 0, transparent 83%, tint($orange, 50%) 83%, tint($orange, 50%) 100%);
     	text-decoration: none;
@@ -92,7 +92,7 @@
       padding-top: 4.5rem;
 
       .productivity-header {
-        color: $black;
+        color: $near-black;
         margin-bottom: 3.5rem;
       }
 

@@ -10,7 +10,7 @@
   }
 
   html, body {
-    background: $pure-white !important;
+    background: $white !important;
   }
 
   .constrain {
@@ -20,7 +20,7 @@
   .intro-wrapper {
     background: none;
     box-shadow: none;
-    color: $black;
+    color: $near-black;
   }
 
   .main-area .much-text {
@@ -32,7 +32,7 @@
     background: none;
 
     &:hover, &:focus {
-      color: $black;
+      color: $near-black;
     }
   }
 
@@ -40,7 +40,7 @@
     background: none;
 
     &:hover, &:focus {
-      color: $black;
+      color: $near-black;
     }
   }
 
@@ -54,7 +54,7 @@
     left: 0;
     right: 0;
     width: auto;
-    background: $white;
+    background: $near-white;
   }
 
   .hire-me .reasons-im-a-fit .stats ul li {
@@ -62,7 +62,7 @@
   }
 
   .hire-me .reasons-im-a-fit h2, .main-area .important-updates .fa-li, .main-area .fa-layers .fa-heart:nth-child(2) {
-    color: $black;
+    color: $near-black;
   }
 
   .hire-me .reasons-im-a-fit .stats .productivity-header {
