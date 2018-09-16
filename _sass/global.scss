@@ -398,7 +398,7 @@ a:focus {
 		background: $orange;
 		color: $near-white;
 		border-color: shade($orange, 10%);
-		box-shadow: inset 0 -5px transparentize($near-black, .7), 0 8px 10px -10px $maroon;
+		box-shadow: inset 0 -5px transparentize($near-black, .7), 0 3px 10px -5px $maroon;
 	}
 
 	&:active {
@@ -406,23 +406,12 @@ a:focus {
 		background: shade($orange, 10%);
 		background: linear-gradient(to bottom right, shade($orange, 10%), $orange);
 	}
-}
 
-.main-area .button-fat-guy {
-	font-size: 2rem;
-	padding: 2rem 4rem;
-	margin: 1.5rem auto;
-}
-
-.main-area .button-fw {
-	width: 100%;
-	text-align: center;
-}
-
-.main-area .button-light {
-	font-size: 1.6rem;
-	display: inline-block;
-	background: linear-gradient(to bottom, transparent 0, transparent 80%, tint($orange, 60%) 80%, tint($orange, 60%) 100%);
+	&-light {
+		font-size: 1.6rem;
+		display: inline-block;
+		background: linear-gradient(to bottom, transparent 0, transparent 80%, tint($orange, 60%) 80%, tint($orange, 60%) 100%);
+	}
 }
 
 .main-area .much-text h2, .main-area .much-text h3 {
