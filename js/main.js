@@ -24,7 +24,7 @@ $.extend($.featherlight.defaults, {
 // Make enter key trigger click on faux links
 $(document).on('keyup', '.faux-link',function(e){
     if(e.which==13 || e.which==32)
-        $(this).click()
+        $(this).click();
 });
 
 
@@ -53,7 +53,7 @@ $('a').click(function() {
     var style = e.currentStyle || window.getComputedStyle(e, false),
     bi = style.backgroundImage.slice(4, -1).replace(/["|']/g, "");
     var img = new Image();
-    img.onload = function() { e.classList.add('float-up'); }
+    img.onload = function() { e.classList.add('float-up'); };
     img.src = bi;
   });
 })(document.querySelectorAll('.title-area'));
