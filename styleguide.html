@@ -11,16 +11,15 @@ header: Style guide
 			<h2 class="js-accordion__header">Sections on this page</h2>
 			<ul>
 				<li><a href="#colors">Colors</a></li>
-				<li><a href="#type">Typography</a></li>
-				<li><a href="#grid">Grid</a></li>
+				<li><a href="#typography">Typography</a></li>
+				<li><a href="#layout">Layout</a></li>
 				<li><a href="#headers">Headers</a></li>
 				<li><a href="#buttons">Buttons</a></li>
 				<li><a href="#tags">Tags</a></li>
-				<li><a href="#toc">Table of contents</a></li>
-				<li><a href="#feature-title">Feature title</a></li>
-				<li><a href="#feature-list">Feature list</a></li>
+				<li><a href="#table-of-contents">Table of contents</a></li>
+				<li><a href="#features">Features</a></li>
 				<li><a href="#cards">Cards</a></li>
-				<li><a href="#image-caption">Image + caption</a></li>
+				<li><a href="#images">Images</a></li>
 			</ul>
 		</div>
 
@@ -78,8 +77,8 @@ header: Style guide
 				</div>
 			</div>
 
-			<div id="supporting-colors" class="sg-rows">
-				<h4>Supporting</h4>
+			<div id="secondary-colors" class="sg-rows">
+				<h4>Secondary</h4>
 				<div class="multi-layout-2">
 					<div class="sg-color col col-1">
 						<div class="image-modal" data-featherlight-variant="color-modal" data-featherlight="#color-7">
@@ -143,7 +142,7 @@ header: Style guide
 
 		</div> <!-- colors -->
 
-		<div id="type" class="sg-section">
+		<div id="typography" class="sg-section">
 			<h3 class="sg-header">Typography</h3>
 			<h4>Sans-serif</h4>
 			<div class="sg-component use-sans">
@@ -158,8 +157,8 @@ header: Style guide
 			</div>
 		</div>
 
-		<div id="grid" class="grid sg-section">
-			<h3 class="sg-header">Grid</h3>
+		<div id="layout" class="grid sg-section">
+			<h3 class="sg-header">Layout</h3>
 			<h4>Single</h4>
 			<div>
 				<div class="col">
@@ -254,7 +253,7 @@ header: Style guide
 			</div>
 		</div>
 
-		<div id="toc" class="sg-section">
+		<div id="table-of-contents" class="sg-section">
 			<h3 class="sg-header sg-block">Table of contents</h3>
 			<div class="js-accordion__panel">
 				<h2 class="js-accordion__header">Sections on this page</h2>
@@ -274,40 +273,46 @@ header: Style guide
 			</div>
 		</div>
 
-		<div id="feature-title" class="sg-section">
-			<h3 class="sg-header sg-block">Feature title</h3>
-			<div class="bg-overlap">
-				<div class="title-area">
-					<div class="title-area-wrapper">
-						<div class="title-area-content constrain">
-							<h2 class="sub-header portfolio-header">Space and time</h2>
+		<div id="features" class="sg-section">
+
+			<h3 class="sg-header sg-block">Features</h3>
+
+			<div id="feature-header" class="sg-rows">
+				<h4>Header</h4>
+				<div class="bg-overlap">
+					<div class="title-area">
+						<div class="title-area-wrapper">
+							<div class="title-area-content constrain">
+								<h2 class="sub-header portfolio-header">Space and time</h2>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div id="feature-list" class="sg-section">
-			<h3 class="sg-header sg-block">Feature list</h3>
-			<div id="considerations" class="productivity">
-				<h2 class="productivity-header constrain">Amazing facts about space</h2>
-				<div class="constrain multi-layout">
-					<div class="col col-1 stack">
-						<ul class="important-updates fa-ul">
-							<li><span class="fa-li"><i class="far fa-check"></i></span>99% of our solar system&#8217;s mass <a href="http://www.bbc.co.uk/science/space/solarsystem/sun_and_planets/sun">is the sun</a></li>
-							<li><span class="fa-li"><i class="far fa-check"></i></span>Apollo astronauts&#8217; moon footprints will likely stay there for <a href="http://www.space.com/14740-footprints-moon.html">over 100 million years</a></li>
-							<li><span class="fa-li"><i class="far fa-check"></i></span>There is an <a href="http://www.livescience.com/56634-how-many-stars-are-in-the-universe.html">uncountable number of stars</a> in the known universe</li>
-						</ul>
-					</div>
-					<div class="col col-2">
-						<ul class="important-updates fa-ul">
-							<li><span class="fa-li"><i class="far fa-check"></i></span><a href="https://en.wikipedia.org/wiki/Neutron_star">Neutron stars</a> can spin at a rate of 600 rotations per second</li>
-							<li><span class="fa-li"><i class="far fa-check"></i></span>The largest asteroid ever recorded is a <a href="http://solarsystem.nasa.gov/planets/ceres">mammoth piece of space rock named Ceres</a></li>
-							<li><span class="fa-li"><i class="far fa-check"></i></span>More of the <a href="http://zebu.uoregon.edu/disted/ph162/l4.html">sun&#8217;s energy</a> hits Earth every hour than it uses in a year</li>
-						</ul>
+			<div id="feature-list" class="sg-rows">
+				<h4>List</h4>
+				<div class="productivity">
+					<h2 class="productivity-header constrain">Amazing facts about space</h2>
+					<div class="constrain multi-layout">
+						<div class="col col-1 stack">
+							<ul class="important-updates fa-ul">
+								<li><span class="fa-li"><i class="far fa-check"></i></span>99% of our solar system&#8217;s mass <a href="http://www.bbc.co.uk/science/space/solarsystem/sun_and_planets/sun">is the sun</a></li>
+								<li><span class="fa-li"><i class="far fa-check"></i></span>Apollo astronauts&#8217; moon footprints will likely stay there for <a href="http://www.space.com/14740-footprints-moon.html">over 100 million years</a></li>
+								<li><span class="fa-li"><i class="far fa-check"></i></span>There is an <a href="http://www.livescience.com/56634-how-many-stars-are-in-the-universe.html">uncountable number of stars</a> in the known universe</li>
+							</ul>
+						</div>
+						<div class="col col-2">
+							<ul class="important-updates fa-ul">
+								<li><span class="fa-li"><i class="far fa-check"></i></span><a href="https://en.wikipedia.org/wiki/Neutron_star">Neutron stars</a> can spin at a rate of 600 rotations per second</li>
+								<li><span class="fa-li"><i class="far fa-check"></i></span>The largest asteroid ever recorded is a <a href="http://solarsystem.nasa.gov/planets/ceres">mammoth piece of space rock named Ceres</a></li>
+								<li><span class="fa-li"><i class="far fa-check"></i></span>More of the <a href="http://zebu.uoregon.edu/disted/ph162/l4.html">sun&#8217;s energy</a> hits Earth every hour than it uses in a year</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
+
 		</div>
 
 		<div id="cards" class="sg-section">
@@ -358,8 +363,8 @@ header: Style guide
 			</div>
 		</div>
 
-		<div id="image-caption" class="sg-section">
-			<h3 class="sg-header sg-block">Image + caption</h3>
+		<div id="images" class="sg-section">
+			<h3 class="sg-header sg-block">Images</h3>
 			<div class="image-group image-group-fw">
 				<img class="image-modal" data-featherlight="/images/carina-nebula.jpg" src="/images/carina-nebula.jpg" alt="Hubble image of towering hydrogen clouds in the Carina nebula">
 				<p class="caption">Towering molecular clouds on the edge of the Carina nebula (<a href="https://unsplash.com/photos/-hI5dX2ObAs">image by NASA</a> via <a href="https://unsplash.com">Unsplash</a>)</p>
