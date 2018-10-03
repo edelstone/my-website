@@ -33,7 +33,7 @@ $('.js-accordion').accordion();
 
 
 // Smooth scroll to anchors
-// http://stackoverflow.com/questions/7717527
+// https://stackoverflow.com/questions/7717527
 var $root = $('html, body');
 $('a').click(function() {
     var href = $.attr(this, 'href');
@@ -47,7 +47,7 @@ $('a').click(function() {
 
 
 // Add opacity class after loading banner background image
-// http://stackoverflow.com/questions/42706152
+// https://stackoverflow.com/questions/42706152
 (function(el){
   el.forEach(function(e) {
     var style = e.currentStyle || window.getComputedStyle(e, false),

@@ -26,13 +26,13 @@ I developed the site without frameworks or a content management system. It's all
 Many thanks to the digital community for these bad boys:
 
 * [Accessible Accordion](https://a11y.nicolas-hoffmann.net/accordion/)
-* [FastClick](http://ftlabs.github.io/fastclick/)
-* [Featherlight](http://noelboss.github.io/featherlight/)
+* [FastClick](https://ftlabs.github.io/fastclick/)
+* [Featherlight](https://noelboss.github.io/featherlight/)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [jQuery](https://jquery.com/)
 * [Normalize.css](https://necolas.github.io/normalize.css/)
-* [Tooltipster](http://iamceege.github.io/tooltipster/)
+* [Tooltipster](https://iamceege.github.io/tooltipster/)
 
 ## Inspiration
 
