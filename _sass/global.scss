@@ -399,8 +399,8 @@ a:focus {
 	text-shadow: 1px 1px 0 shade($orange, 30%);
 	margin: 0 1.5rem 1rem 0;
 
-	&:hover,
-	&:focus {
+	&:focus,
+	&:hover {
 		background: $orange;
 		color: $near-white;
 		border-color: shade($orange, 10%);
@@ -417,6 +417,18 @@ a:focus {
 		font-size: 1.6rem;
 		display: inline-block;
 		background: linear-gradient(to bottom, transparent 0, transparent 80%, tint($orange, 60%) 80%, tint($orange, 60%) 100%);
+	}
+
+	&-disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+
+		&:active,
+		&:focus,
+		&:hover {
+			background: $orange;
+			box-shadow: inset 0 -5px transparentize($near-black, .7);
+		}
 	}
 }
 
@@ -1501,6 +1513,16 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	display: none;
 }
 
+.no-live-site .tooltipster-arrow {
+	display: none;
+}
+
+.tooltip-disabled {
+	background: $near-black;
+	color: $white;
+	padding: 0.6rem 1.2rem;
+}
+
 .tt-thumb {
 	position: relative;
 	right: 0;
@@ -1550,12 +1572,12 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	padding: 1.5rem 2rem 1.5rem 2.8rem;
 }
 
-.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {
-	border-top-color: $near-white;
-}
-
 .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {
 	border-right-color: transparent;
+}
+
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {
+	border-top-color: $near-white;
 }
 
 .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {

@@ -12,6 +12,13 @@ $('.tooltip').tooltipster({
 	interactive: true
 });
 
+$('.tooltip-alt').tooltipster({
+	animationDuration: [250, 100],
+	delay: [50, 100],
+	distance: 0,
+	side: 'right'
+});
+
 
 // Featherlight settings
 $.extend($.featherlight.defaults, {
