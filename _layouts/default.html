@@ -52,7 +52,7 @@
   </header>
 
   {% if page.portfolio %}
-  <section class="bg-overlap">
+  <header class="bg-overlap">
   	<div class="title-area {{ page.title-area }}">
   		<div class="title-area-wrapper">
   			<div class="title-area-content constrain">
@@ -60,12 +60,12 @@
   			</div>
   		</div>
   	</div>
-  </section>
+  </header>
   {% endif %}
 
-  <section id="content" class="main-area">
+  <main id="content" class="main-area">
     {{ content }}
-  </section>
+  </main>
 
   <footer class="footer">
     {% if page.buttons %}
