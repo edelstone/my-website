@@ -7,17 +7,15 @@
 ::-moz-selection {
 	text-shadow: none;
 	background: tint($yellow, 50%);
-	color: $near-black;
 }
 
 ::selection {
 	text-shadow: none;
 	background: tint($yellow, 50%);
-	color: $near-black;
 }
 
 :focus {
-	outline: 5px solid transparentize($blue, .4);
+	outline: 5px solid transparentize($blue, .5);
 }
 
 :focus:not(:focus-visible) {
