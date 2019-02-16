@@ -953,10 +953,17 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 .portfolio {
 
+	.multi-layout .col {
+		max-width: calc(50% - 1.5rem);
+	  @include breakpoint('small') {
+			max-width: 100%;
+		}
+	}
+
   .project-wrapper {
     display: block;
     border-radius: 3px;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     position: relative;
 
     &-1 {
@@ -988,7 +995,10 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         color: $near-white;
       }
 
-      .project-brickftp-app {
+      .project-tints-and-shades{
+				background-position-y: -50%;
+			}
+			.project-brickftp-app {
         background-position-y: -15%;
       }
       .project-txst-cms {
@@ -1091,7 +1101,10 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         color: transparentize($near-white, .05);
       }
 
-      &-brickftp-app {
+      &-tints-and-shades {
+				background: url(/images/mockup-tints-and-shades.png) 545px -60%/480px no-repeat;
+			}
+			&-brickftp-app {
         background: url(/images/mockup-brickftp-app.png) 525px -20%/780px no-repeat;
       }
       &-txst-cms {
