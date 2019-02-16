@@ -9,7 +9,7 @@
     <title>{{ page.title }} | Michael Edelstone</title>
     <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     {% include favicons.html %}
     {% include og-metadata.html %}
     <link rel="stylesheet" href="/css/main.css">
@@ -29,7 +29,7 @@
   </head>
 
   {% if page.no-live-demo == true %}
-    <body class="no-live-demo">
+    <body class="no-live-site">
   {% else %}
     <body>
   {% endif %}
