@@ -16,7 +16,7 @@ defaults:
       button-next-text: "Recent work"
       button-next-link: "/portfolio"
 
-gems:
+plugins:
   - jekyll-sitemap
 
 # Build settings
