@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
     {% include favicons.html %}
-    {% include og-metadata.html %}
+    {% include meta.html %}
     <link rel="stylesheet" href="/css/main.css">
     {% if page.print %}
     <link rel="stylesheet" href="/css/print.css">
@@ -29,7 +29,7 @@
   </head>
 
   {% if page.no-live-demo == true %}
-    <body class="no-live-site">
+    <body class="no-live-demo">
   {% else %}
     <body>
   {% endif %}
