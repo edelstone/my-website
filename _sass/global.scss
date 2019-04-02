@@ -106,6 +106,10 @@ a:focus {
 	margin: 0 0.2rem;
 }
 
+.heart {
+	animation: 1s infinite beat;
+}
+
 .constrain {
 	max-width: 85rem;
 	margin: auto;
@@ -1668,4 +1672,16 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 		transform: translateY(0);
 		opacity: 1;
 	}
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
