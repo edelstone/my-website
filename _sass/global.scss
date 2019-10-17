@@ -79,10 +79,13 @@ p, ul {
   -ms-hyphenate-limit-zone: 8%;
 
   hyphens: auto;
-  hyphenate-limit-chars: 6 3 3;
+	/* The below rules make CSS 3 validator fail 😞 */
+  /*
+	hyphenate-limit-chars: 6 3 3;
   hyphenate-limit-lines: 2;
   hyphenate-limit-last: always;
   hyphenate-limit-zone: 8%;
+	*/
 }
 
 h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content, .results, .coming-soon {
