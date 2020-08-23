@@ -2,7 +2,7 @@
 
 This is the source code for [michaeledelstone.com](https://michaeledelstone.com). It's a fun little playground intended to showcase my design abilities and reach the best teams around.
 
-**[There's a style guide too, if you're interested](https://michaeledelstone.com/styleguide).**
+**[There's a style guide, if you're interested](https://michaeledelstone.com/styleguide).**
 
 ## Goals
 
@@ -33,12 +33,3 @@ Many thanks to the digital community for these bad boys:
 * [jQuery](https://jquery.com/)
 * [Normalize.css](https://necolas.github.io/normalize.css/)
 * [Tooltipster](https://iamceege.github.io/tooltipster/)
-
-## Inspiration
-
-I am thankful to these incredible designers for inspiration and strategic ideas:
-
-* [Oliver Pattison](https://olivermak.es/)
-* [Klare Frank](http://klare.io/)
-* [Tyler Gaw](https://tylergaw.com/)
-* [Jason Santa Maria](http://jasonsantamaria.com/)
