@@ -92,6 +92,13 @@ p, ul {
 	*/
 }
 
+.no-hyphens p, .no-hyphens ul {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
 h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .tags, .caption, .choices, .use-sans, .offscreen, .writing-sub, .tooltipster-content, .results, .coming-soon {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;

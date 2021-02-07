@@ -31,7 +31,11 @@
     }
 
     .company-logo {
+      width: 220px;
       max-width: 220px;
+      background: #220b17;
+      padding: 1.1rem 1.5rem 0.9rem 1.5rem;
+      border-radius: 5px;
 
       img {
         display: flex;
