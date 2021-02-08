@@ -23,10 +23,11 @@
     }
 
     .plus {
-      font-size: 2rem;
-      margin: 0 2rem;
+      font-size: 6rem;
+      margin: -1.4rem 2rem 0;
+      line-height: 0.8;
       @include breakpoint ('small') {
-        margin: 2rem 0;
+        margin: 0 0 2rem;
       }
     }
 
