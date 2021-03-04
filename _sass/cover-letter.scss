@@ -32,18 +32,14 @@
     }
 
     .company-logo {
+      background: rgb(23, 21, 68);
+      padding: 1.1rem 1.8rem 0.9rem 2rem;
+      border-radius: 8px;
+
       img {
+        width: 160px;
         display: flex;
         align-items: center;
-        width: 200px;
-      }
-
-      &-small {
-        max-width: 150px;
-      }
-
-      &-square {
-        max-width: 110px;
       }
     }
   }
