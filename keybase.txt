@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/edelstone
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://michaeledelstone.com
+  * I am edelstone (https://keybase.io/edelstone) on keybase.
+  * I have a public key with fingerprint 0104 3093 4604 67D1 C139  029B 35DE AF82 6054 EA63
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014c0036ac54d8c60398f0087cb432d7490a12b28f8436562f49dac4621679a3430a",
+      "fingerprint": "01043093460467d1c139029b35deaf826054ea63",
+      "host": "keybase.io",
+      "key_id": "35deaf826054ea63",
+      "kid": "01014c0036ac54d8c60398f0087cb432d7490a12b28f8436562f49dac4621679a3430a",
+      "uid": "c2e19a0947cf9a5bf6b479e16b01c619",
+      "username": "edelstone"
+    },
+    "service": {
+      "hostname": "michaeledelstone.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1618671041,
+  "expire_in": 157680000,
+  "prev": "901cd73d58e025e7658308372f48de7c8af1796feedd57e2e8ce0e20949230f1",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIvAnicrZJbSBRRGMd3q7XcWrqDXQgZk4g0zpnLmTlr9VBuD0ZqQRBWbDNnzuwO
+rjvr7uxqWRDde6geLIsKWoOICsSgIMvcDDMkKreiIigse+iCoUbRhaIzdnnqsfNy
+OB+/73/+35+vyzfa5XVPbshi94yKz+7bnemka+Pmj50NnGbpmzh/A1dNRy4a0WnC
+DlabOufnAARQJAAISCWSqCsEAQErBgCKTDRR4HVZxECFvMYrhiIKSEK8IWJdJSLi
+IZKxKogCULkizjCjIRqPxc2o/UuW1bEgIiAiWYcEChjwWBMknaqGwiMgiVRFAmsM
+Wwmng5nT1ARdaFqsxh7BEXv/4P+z7+SIHOEpxCrAokwMrEqagTRRxhQiDUCCIHbA
+BI1H1RrKaKrTSMK2opTbWsSxcsok1EnWGeU3UmOSsEojf8mFxKphIrG4ZVvEijAi
+bNuxhN9RsDfFnJY6qgV/iwU1M6qzQFlHisYTphXl/JCRxDYddYiggmQWMSziaH3M
+jNOg6RCSjBTAjvMPTTFJzNzrsqBLCgW8RGUkKQJQBJlloehUJopqQBkjg1Jdl2TK
+U4VQQHmWA+YFYEDOGa82anF+gdlUQ0wyYYaiqp2Ms9lvXF8/xuX2unI8o5xFc3lz
+J/1Zv+bCca6rnmnPy7IrGiee22cmS1a+XtfXNbXiya1Zx++v/rK44/y72i2NvuGm
+9NOS0KmWcnt/Ycy6sMOLxy+qOtRLZmfaG80Xd9rK8+90VmV2Pzn9Fr6qWH7ke9mi
+khxfJKcYjMushYMN8HDv8/Cbl9ObLtYXv18a6HkzmnzIlubtLaZXPAV5qyvD5sWD
+N7vLtvRdDpyJ9+68O/xpiXDs0q6mltJbVYFng+l77csm/CidtW3B2VOevDWx8MOv
+zf75lfKUtkxk+8DDBwddM3clT2bn5HdIs+cNdN8OHC3Yf6CrtSfdOtb3rb/THQvV
+nniUfLy4513/hLrBPUPXZq4ZGl51bsPc5lR+7vBPUUJBow==
+=GIfl
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/edelstone
+
+==================================================================
