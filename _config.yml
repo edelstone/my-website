@@ -16,6 +16,11 @@ defaults:
       button-next-text: "Recent work"
       button-next-link: "/portfolio"
 
+collections:
+  my_collection:
+    output: true
+    permalink: /:collection/:name/
+
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
