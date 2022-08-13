@@ -51,7 +51,6 @@
   				<h1>{{ page.header }}</h1>
   				<nav>
   					<a href="/about">About</a>
-  					<a href="/portfolio">Work</a>
   					<a href="/contact">Contact</a>
   				</nav>
 
@@ -78,18 +77,6 @@
   </main>
 
   <footer class="footer">
-    {% if page.buttons %}
-    <div class="choices">
-  		<div class="multi-layout collapse">
-  			<div class="col col-1">
-  				<a class="button-prev" href="{{ page.button-prev-link }}">{{ page.button-prev-text }}</a>
-  			</div>
-  			<div class="col col-2">
-  				<a class="button-next" href="{{ page.button-next-link }}">{{ page.button-next-text }}</a>
-  			</div>
-  		</div>
-  	</div>
-    {% endif %}
   	<div class="footer-content constrain">
   		<div class="footer-message">
         <div class="load-wrapper">
