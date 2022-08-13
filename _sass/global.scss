@@ -87,7 +87,7 @@ a:focus {
 }
 
 .constrain {
-	max-width: 85rem;
+	max-width: 90rem;
 	margin: auto;
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
@@ -581,13 +581,13 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .footer-content {
-	padding-top: 4.5rem;
-	padding-bottom: 4.2rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	font-size: 1.4rem;
 	color: tint($maroon, 80%);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   @include breakpoint('small') {
   	font-size: 1.6rem;
     display: block;
@@ -601,7 +601,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .footer .about-site {
-	margin-top: 1.2rem;
+	margin-top: 1.5rem;
 
   @include breakpoint('small') {
     margin-bottom: 3.5rem;
