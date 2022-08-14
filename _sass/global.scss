@@ -357,7 +357,7 @@ a:focus {
 
 .main-area .portrait img {
 	display: block;
-  border-radius: 3px;
+  border-radius: 40px;
 	@include breakpoint('small') {
 		border-radius: 0;
 	}
