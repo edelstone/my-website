@@ -581,17 +581,18 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 }
 
 .footer-content {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 	font-size: 1.4rem;
 	color: tint($maroon, 80%);
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   @include breakpoint('small') {
   	font-size: 1.6rem;
-    display: block;
+	flex-direction: column;
     text-align: center;
+	gap: 4rem;
   }
 }
 
@@ -623,6 +624,9 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
     &:hover, &:focus {
       color: $near-white;
     }
+  }
+  @include breakpoint('small') {
+	width: 100%;
   }
 }
 
