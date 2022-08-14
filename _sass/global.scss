@@ -183,6 +183,10 @@ a:focus {
 .intro-content {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
+	@include breakpoint('small') {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
 }
 
 .intro h1, .writing-header {
