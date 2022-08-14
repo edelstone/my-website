@@ -607,10 +607,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 
 .footer .about-site {
 	margin-top: 1.5rem;
-
-  @include breakpoint('small') {
-    margin-bottom: 3.5rem;
-  }
 }
 
 .footer .btt {
@@ -1143,7 +1139,7 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
         background: url(/images/mockup-pcf-website.png) 530px -40%/725px no-repeat;
       }
 			&-sg {
-        background: url(/images/cosmos.png) 530px -70%/450px no-repeat;
+        background: url(/images/cosmos.png) 600px -70%/450px no-repeat;
       }
     }
   }
