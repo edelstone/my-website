@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: michaeledelstone.com
-Token: 4c8de7712c4bb2c1fee0b3033b96fc216a42e184a9ddee417d0751f9aaec5fe8
