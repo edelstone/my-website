@@ -26,6 +26,7 @@
     {% if page.print %}
     <link rel="stylesheet" href="/css/print.css">
     {% endif %}
+    <script> </script> <!-- Empty script tag fixes Chromimum bug where transitions fire on page load: https://bugs.chromium.org/p/chromium/issues/detail?id=1404365 -->
   </head>
 
   {% if page.no-live-demo == true %}
