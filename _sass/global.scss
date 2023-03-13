@@ -79,12 +79,16 @@ a:focus {
 }
 
 .inline-icon {
-	margin: 0 0.2rem;
-	top: 0.4rem;
+	bottom: 0.2rem;
 }
 
 .heart {
+	font-size: 1rem;
 	animation: 1s infinite beat;
+
+	.fa-stack-1x {
+		font-size: 1.7rem;
+	}
 }
 
 .constrain {
@@ -466,7 +470,7 @@ a:focus {
 	color: $purple;
 }
 
-.main-area .fa-layers {
+.main-area .fa-stack {
 	.fa-heart:nth-child(2) {
 		color: $red;
 	}
@@ -508,7 +512,7 @@ a:focus {
 	}
 }
 
-.more-homes .fa-layers {
+.more-homes .fa-stack {
 	margin: 0 -0.2rem;
 }
 
