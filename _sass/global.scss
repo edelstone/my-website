@@ -75,7 +75,7 @@ a:focus {
 }
 
 .emoji {
-	margin-left: 0.5rem;
+	margin-left: 1rem;
 }
 
 .inline-icon {
@@ -504,12 +504,6 @@ a:focus {
 
 .more-homes li {
 	display: inline-block;
-}
-
-.more-homes {
-	.svg-inline--fa:nth-child(2) {
-		color: $near-white;
-	}
 }
 
 .more-homes .fa-stack {

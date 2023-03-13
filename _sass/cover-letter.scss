@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     margin: 3rem auto 1rem;
     background: tint($maroon, 95%);
     padding: 3rem 2rem;
@@ -14,27 +15,20 @@
     }
 
     .michael {
-      max-width: 110px;
+      max-width: 90px;
 
       img {
         border-radius: 50%;
-        display: block;
+        display: flex;
       }
-    }
-
-    .plus {
-      font-size: 6rem;
-      margin: -1.4rem 2rem 0;
-      line-height: 0.8;
-      @include breakpoint ('small') {
-        margin: 0 0 2rem;
-      }
-    }
+    } 
 
     .company-logo {
 
       img {
-        width: 240px;
+        display: flex;
+        width: 260px;
+        border-radius: 3px;
       }
     }
   }
