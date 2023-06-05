@@ -1,9 +1,3 @@
-// Remove 300ms tapping delay on mobile
-window.addEventListener('load', function() {
-	FastClick.attach(document.body);
-}, false);
-
-
 // Tooltip settings
 $('.tooltip').tooltipster({
 	animationDuration: [250, 100],
