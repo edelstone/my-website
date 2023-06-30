@@ -7,11 +7,13 @@
 ::-moz-selection {
 	text-shadow: none;
 	background: tint($yellow, 50%);
+	color: $near-black;
 }
 
 ::selection {
 	text-shadow: none;
 	background: tint($yellow, 50%);
+	color: $near-black;
 }
 
 /* Hiding focus styles while things change in the universe
