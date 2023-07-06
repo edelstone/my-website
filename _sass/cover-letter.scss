@@ -8,7 +8,7 @@
     margin: 3rem auto 1rem;
     background: tint($maroon, 95%);
     padding: 3rem 2rem;
-    border-bottom: 5px solid tint($maroon, 70%);
+    border-bottom: 5px solid tint($near-black, 80%);
 
     @include breakpoint ('small') {
       flex-direction: column;
@@ -67,7 +67,7 @@
     .notable-work-example {
       margin-bottom: 2.5rem;
       padding: 2rem 2.5rem 1.5rem;
-      border-bottom: 5px solid tint($maroon, 70%);
+      border-bottom: 5px solid tint($near-black, 80%);
       background: tint($maroon, 95%);
 
       h3 {
