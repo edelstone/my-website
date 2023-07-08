@@ -79,6 +79,12 @@
       .inline-logo {
         max-height: 2.5rem;
       }
+
+      .external-link {
+        top: 0.2rem;
+        left: 0.8rem;
+        position: relative;
+      }
     }
 
     .faux-link {
@@ -101,6 +107,12 @@
     .testimonials {
       margin-top: 3.2rem;
       margin-bottom: 3.2rem;
+
+      .card {
+        border-bottom: 5px solid tint($near-black, 80%);
+        box-shadow: none;
+        border-radius: 0;
+      }
     }
 
     .stats {
