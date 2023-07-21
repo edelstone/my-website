@@ -12,3 +12,4 @@ Many thanks to the digital community for these bad boys:
 * [Google Fonts](https://fonts.google.com/)
 * [jQuery](https://jquery.com/)
 * [Normalize.css](https://necolas.github.io/normalize.css/)
+* [Tooltipster](https://calebjacob.github.io/tooltipster/)
