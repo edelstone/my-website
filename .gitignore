@@ -2,4 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 .close.html
+.housing-cloud.html
 .home-search.html
