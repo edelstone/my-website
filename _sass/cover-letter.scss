@@ -31,6 +31,14 @@
         width: 240px;
         max-width: 100%;
       }
+
+      &-alt {
+        img {
+          max-height: 110px;
+          border-radius: 3px;
+          width: auto;
+        }
+      }
     }
   }
 
