@@ -713,13 +713,11 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	color: tint($maroon, 90%);
 	text-decoration: none;
 	background: shade($orange, 30%);
-	background: linear-gradient(to bottom, transparent 0, transparent 82%, $orange 82%, $orange 100%);
+	background: linear-gradient(to bottom, transparent 0, transparent 83%, $orange 83%, $orange 100%);
 }
 
 .quick-bio a:hover, .quick-bio a:focus {
-	color: inherit;
-	background: shade($pink, 30%);
-	background: linear-gradient(to bottom, transparent 0, transparent 82%, $pink 82%, $pink 100%)
+	color: $white;
 }
 
 .main-area .productivity, .main-area .image-overflow {
