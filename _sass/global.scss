@@ -16,18 +16,6 @@
 	color: $near-black;
 }
 
-/* Hiding focus styles while things change in the universe
-
-:focus {
-	outline: 5px solid transparentize($blue, .5);
-}
-
-:focus:not(:focus-visible) {
-	outline: none;
-}
-
-*/
-
 html {
 	font-size: 68.5%;
 	line-height: 1.4;
@@ -70,6 +58,10 @@ h1, h2, h3, h4, button, .signature, .intro, .footer, .button, .button-light, .ta
 
 a:focus {
 	transition: none !important;
+}
+
+iframe {
+	max-width: 100%;
 }
 
 .not-really-a-link {
@@ -954,190 +946,153 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	font-weight: normal;
 }
 
-/* Projects */
+/* Portfolio */
 
 .portfolio {
 
-	.multi-layout .col {
-		max-width: calc(50% - 1.5rem);
-	  @include breakpoint('small') {
-			max-width: 100%;
+	.portfolio-section {
+
+		&-header {
+			margin: 0 0 2rem;
 		}
-	}
 
-  .project-wrapper {
-    display: block;
-    border-radius: 3px;
-    margin-bottom: 3rem;
-    position: relative;
-
-    &-1 {
-      background: $purple;
-      background: linear-gradient(to bottom right, $purple, shade($purple, 10%));
-    }
-    &-2 {
-      background: shade($orange, 10%);
-      background: linear-gradient(to bottom right, shade($orange, 10%), shade($orange, 20%));
-    }
-    &-3 {
-      background: shade($pink, 10%);
-      background: linear-gradient(to bottom right, shade($pink, 10%), shade($pink, 20%));
-    }
-    &-4 {
-      background: $maroon;
-      background: linear-gradient(to bottom right, tint($maroon, 10%), $maroon);
-    }
-    &-5 {
-      background: shade($blue, 20%);
-      background: linear-gradient(to bottom right, shade($blue, 20%), shade($blue, 30%));
-    }
-
-    &:hover, &:focus {
-      box-shadow: 0 4px 10px transparentize($near-black, .75);
-
-      .button {
-        background: transparentize($near-white, 0.88);
-        color: $near-white;
-      }
-
-      .project-tints-and-shades {
-				background-position-y: -50%;
-			}
-			.project-material-palettes {
-				background-position-y: 0%;
-			}
-			.project-brickftp-app {
-        background-position-y: -15%;
-      }
-      .project-txst-cms {
-        background-position-y: -25%;
-      }
-      .project-brickftp-website {
-        background-position-y: -15%;
-      }
-      .project-txst-homepage {
-        background-position-y: -20%;
-      }
-      .project-txst-brand {
-        background-position-y: -110%;
-      }
-      .project-pcf-website {
-        background-position-y: -25%;
-      }
-			.project-sg {
-        background-position-y: -40%;
-      }
-    }
-
-    &.no-effects {
-
-      &:hover, &:focus {
-        box-shadow: none;
-
-        .button {
-          background: repeating-linear-gradient(45deg, transparentize($near-white, .8), transparentize($near-white, .8) 1px, transparent 1px, transparent 4px);
-          color: transparentize($near-white, .05);
-        }
-
-        .project-brickftp-app, .project-brickftp-website {
-          background-position-y: -20%;
-        }
-      }
-    }
-
-    .coming-soon {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      top: 0;
-      left: 0;
-      padding: 3rem;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-      background: transparentize($near-white, .3);
-
-      h3 {
-        margin: 0;
-				color: $near-white;
-
-        span {
-          background: $near-black;
-          padding: 0.3rem 1rem 0.6rem;
-          -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
-					border-radius: 3px;
-        }
-      }
-    }
-
-    .project {
-      color: transparentize($near-white, .05);
-      padding: 3.5rem 3rem 4rem;
-      transition: all .2s cubic-bezier(0.17, 1.26, 0.68, 1.51);
+		.project {
+			color: transparentize($near-white, .05);
+			padding: 3.5rem 3rem 4rem;
+			transition: all .2s cubic-bezier(0.17, 1.26, 0.68, 1.51);
 			border-bottom-right-radius: 3px;
-      @include breakpoint('medium') {
-      	background: none !important;
-      }
+			@include breakpoint('medium') {
+				background: none !important;
+			}
 
-      &-content {
-        max-width: 480px;
-        @include breakpoint('medium') {
-        	max-width: 100%;
-        }
-      }
+			&-content {
+				max-width: 480px;
+				@include breakpoint('medium') {
+					max-width: 100%;
+				}
+			}
 
-      &-header {
-        color: transparentize($near-white, .05);
-        font-size: 3.2rem;
-        margin-top: 0;
+			&-header {
+				color: transparentize($near-white, .05);
+				font-size: 3.2rem;
+				margin-top: 0;
 				margin-bottom: 1.2rem;
 				line-height: 1.25;
-      }
+			}
 
-      &-brief {
-        margin-bottom: 2.4rem;
-      }
+			&-brief {
+				margin-bottom: 2.4rem;
+			}
 
-      &-button {
-        text-shadow: 1px 1px 0 transparentize($near-black, .7);
-        box-shadow: none;
-        margin: 0;
-        padding-bottom: 1.2rem;
-        background: transparentize($near-white, 0.92);
-        color: transparentize($near-white, .05);
-      }
+			&-button {
+				text-shadow: 1px 1px 0 transparentize($near-black, .7);
+				box-shadow: none;
+				margin: 0;
+				padding-bottom: 1.2rem;
+				background: transparentize($near-white, 0.92);
+				color: transparentize($near-white, .05);
+			}
 
-      &-tints-and-shades {
-				background: url(/images/mockup-tint-shade.png) 545px -60%/480px no-repeat;
+			&-gtreasury {
+				background: url(/images/mockup-gtreasury.png) 525px -15%/750px no-repeat;
+			}
+			&-balto {
+				background: url(/images/mockup-balto.png) 510px -20%/575px no-repeat;
+			}
+			&-kuali {
+				background: url(/images/mockup-kuali.png) 545px -15%/575px no-repeat;
+			}
+			&-brickftp {
+				background: url(/images/mockup-brickftp.png) 550px -10%/420px no-repeat;
+			}
+			&-txst-brand {
+				background: url(/images/mockup-txst-brand.png) 515px -145%/550px no-repeat;
+			}
+			&-txst-cms {
+				background: url(/images/mockup-txst-cms.png) 470px -30%/640px no-repeat;
+			}
+			&-txst-homepage {
+				background: url(/images/mockup-txst-homepage.png) 400px -30%/700px no-repeat;
+			}
+			&-tints-and-shades {
+				background: url(/images/mockup-tints-and-shades.png) 530px -25%/710px no-repeat;
 			}
 			&-material-palettes {
-				background: url(/images/mockup-material-palettes.png) 520px -10%/690px no-repeat;
+				background: url(/images/mockup-material-palettes.png) 545px -35%/470px no-repeat;
 			}
-			&-brickftp-app {
-        background: url(/images/mockup-brickftp-app.png) 525px -20%/780px no-repeat;
-      }
-      &-txst-cms {
-        background: url(/images/mockup-txst-standard.png) 480px -40%/570px no-repeat;
-      }
-      &-brickftp-website {
-        background: url(/images/mockup-brickftp-homepage.png) 520px -25%/670px no-repeat;
-      }
-      &-txst-homepage {
-        background: url(/images/mockup-txst-homepage.png) 400px -30%/700px no-repeat;
-      }
-      &-txst-brand {
-        background: url(/images/mockup-txst-styleguide.png) 510px -135%/550px no-repeat;
-      }
-      &-pcf-website {
-        background: url(/images/mockup-pcf-website.png) 530px -40%/725px no-repeat;
-      }
 			&-sg {
-        background: url(/images/cosmos.png) 600px -70%/450px no-repeat;
-      }
-    }
-  }
+				background: url(/images/cosmos.png) 540px -70%/470px no-repeat;
+			}
+
+			&-wrapper {
+				display: block;
+				border-radius: 3px;
+				margin-bottom: 3rem;
+				position: relative;
+
+				&:hover, &:focus {
+					box-shadow: 0 4px 10px transparentize($near-black, .75);
+
+					.button {
+						background: transparentize($near-white, 0.88);
+						color: $near-white;
+					}
+
+					.project-gtreasury {
+						background-position-y: -10%;
+					}
+					.project-balto {
+						background-position-y: -15%;
+					}
+					.project-kuali {
+						background-position-y: -10%;
+					}
+					.project-brickftp {
+						background-position-y: -8%;
+					}
+					.project-txst-brand {
+						background-position-y: -110%;
+					}
+					.project-txst-cms {
+						background-position-y: -20%;
+					}
+					.project-txst-homepage {
+						background-position-y: -20%;
+					}
+					.project-tints-and-shades {
+						background-position-y: -18%;
+					}
+					.project-material-palettes {
+						background-position-y: -25%;
+					}
+					.project-sg {
+						background-position-y: -50%;
+					}
+				}
+
+				&-1 {
+					background: $purple;
+					background: linear-gradient(to right, $purple, shade($purple, 20%));
+				}
+				&-2 {
+					background: shade($orange, 10%);
+					background: linear-gradient(to right, shade($orange, 10%), shade($orange, 30%));
+				}
+				&-3 {
+					background: shade($pink, 10%);
+					background: linear-gradient(to right, shade($pink, 10%), shade($pink, 30%));
+				}
+				&-4 {
+					background: tint($maroon, 10%);
+					background: linear-gradient(to right, tint($maroon, 10%), shade($maroon, 10%));
+				}
+				&-5 {
+					background: shade($blue, 20%);
+					background: linear-gradient(to right, shade($blue, 20%), shade($blue, 40%));
+				}
+			}
+		}
+	}
 }
 
 .main-area .project-page {
@@ -1279,7 +1234,27 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 	text-align: center;
 }
 
-/* Style Guide */
+.slimmed-down-case-study {
+	padding-top: 2rem;
+
+	.tags {
+		margin-bottom: 1.6rem;
+	}
+
+	h3 {
+		margin-top: 2rem;
+	}
+
+	img, iframe {
+		margin-bottom: 1rem;
+	}
+
+	.primary-shot {
+		margin-bottom: -1rem;
+	}
+}
+
+/* Styleguide */
 
 .sg-section {
 	margin: 3rem auto 5rem;
@@ -1534,112 +1509,6 @@ a.offscreen:focus, a.offscreen:active, a.offscreen:hover {
 .featherlight .featherlight-content {
 	border: 0.5rem solid $near-white;
 	padding: 0;
-}
-
-/* Tooltips */
-
-.tooltip-content {
-	display: none;
-}
-
-.tooltip-disabled {
-	background: $near-black;
-	color: $white;
-	padding: 1rem 1.5rem;
-}
-
-.tt-thumb {
-	position: relative;
-	right: 0;
-	font-size: 4.2rem;
-	display: inline-block;
-	margin-right: 1.3rem;
-}
-
-.tt-content {
-	display: inline-block;
-}
-
-.tt-handle {
-	margin: 0 0 0.3rem;
-}
-
-.tt-info {
-	margin: 0;
-}
-
-.tt-thumb svg {
-	color: $near-white;
-	right: 1.2rem;
-	position: relative;
-	text-align: center;
-	width: 4rem !important;
-}
-
-.tooltipster-sidetip .tooltipster-box {
-	border: none;
-	background: transparent;
-	border-radius: 0;
-}
-
-.tooltipster-sidetip .tooltipster-content {
-	color: $near-black;
-	padding: 0;
-	font-size: 1.2rem;
-  border-radius: 3px;
-}
-
-.tooltipster-sidetip .tooltipster-content a {
-	background: $near-white;
-	color: $near-black;
-	text-decoration: none;
-	display: block;
-	padding: 1.5rem 2rem 1.5rem 2.8rem;
-}
-
-.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {
-	border-right-color: transparent;
-}
-
-.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {
-	border-top-color: $near-white;
-}
-
-.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {
-	border-bottom-color: $near-white;
-}
-
-.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border, .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {
-	border-left-color: $near-white;
-}
-
-.no-live-demo .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border, .no-live-demo .tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {
-	border-top-color: $near-black;
-}
-
-.no-live-demo .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border, .no-live-demo .tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {
-	border-bottom-color: $near-black;
-}
-
-.no-live-demo .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border, .no-live-demo .tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {
-	border-left-color: $near-black;
-}
-
-.no-live-demo .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border, .no-live-demo .tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {
-	border-right-color: $near-black;
-}
-
-// Brand colors, so I don't bother with variables.
-#tooltip-github a {
-	box-shadow: inset 7rem 0 #333;
-}
-
-#tooltip-pinboard a {
-	box-shadow: inset 7rem 0 #0000e6;
-}
-
-#tooltip-lastfm a {
-	box-shadow: inset 7rem 0 #d51007;
 }
 
 /* Animations */
