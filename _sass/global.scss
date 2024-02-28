@@ -357,6 +357,9 @@ iframe {
 .main-area .portrait img {
 	display: block;
 	border-radius: 3px;
+	@include breakpoint('small') {
+  	border-radius: 0;
+  }
 }
 
 .main-area .image-group {
